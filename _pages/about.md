@@ -40,9 +40,11 @@ and how the brain regulates the balance between **flexible control-dependent and
 Increasingly, our work has 
 come to focus on how these mechanisms contribute to higher cognitive functions and human intelligence, such as the 
 control of memory, planning, and abstract reasoning[<sup>221,</sup>](http://www.pni.princeton.edu/ncc/PDFs/Canonical%20Reps/Frankland%20et%20al%20(Cog%20Sci%202019).pdf)[<sup>238,</sup>](https://webapps.pni.princeton.edu/ncc/PDFs/Locus%20Coeruleus/Agrawal%20et%20al%20(Psych%20Review%202021).pdf)[<sup>239,</sup>](http://www.pni.princeton.edu/ncc/PDFs/Atten-Ctl-WM%20&%20PFC-DA/Modeling%20&%20Theory/Beukers%20et%20al%20(TICS%202021).pdf)[<sup>253</sup>](http://www.pni.princeton.edu/ncc/PDFs/Atten-Ctl-WM%20&%20PFC-DA/Modeling%20&%20Theory/Ho%20et%20al%20(Nature%202022).pdf)
-including ways in which the human brain achieves the flexibility of **symbolic forms of computation**[<sup>115,</sup>](http://www.pni.princeton.edu/ncc/PDFs/Atten-Ctl-WM%20&%20PFC-DA/Modeling%20&%20Theory/Rougier%20et%20al%20(PNAS%2005).pdf)[<sup>173,</sup>](http://www.pni.princeton.edu/ncc/PDFs/Atten-Ctl-WM%20&%20PFC-DA/Modeling%20&%20Theory/Kriete%20et%20al.%20(PNAS%2013).pdf)[<sup>252,</sup>](http://www.pni.princeton.edu/ncc/PDFs/Canonical%20Reps/Webb%20et%20al%20(ICLR%202021).pdf)[<sup>258</sup>](http://www.pni.princeton.edu/ncc/PDFs/Canonical%20Reps/Segert%20&%20Cohen%20(TMLR%202022).pdf)
+including ways in which the human brain achieves the flexibility of **symbolic forms of computation**[<sup>115,</sup>](http://www.pni.princeton.edu/ncc/PDFs/Atten-Ctl-WM%20&%20PFC-DA/Modeling%20&%20Theory/Rougier%20et%20al%20(PNAS%2005).pdf)[<sup>173,</sup>](http://www.pni.princeton.edu/ncc/PDFs/Atten-Ctl-WM%20&%20PFC-DA/Modeling%20&%20Theory/Kriete%20et%20al.%20(PNAS%2013).pdf)[<sup>252,</sup>](https://arxiv.org/abs/2012.14601)[<sup>258</sup>](http://arxiv.org/abs/2106.07369)
 while preserving the efficiency of  computation in **neural networks**, and how this can be used to inform research 
-in **machine learning and artificial intelligence**.[<sup>256,</sup>](http://www.pni.princeton.edu/ncc/PDFs/Canonical%20Reps/Kumar%20et%20al%20(NeurIPS%202023).pdf)[<sup>261,</sup>](http://www.pni.princeton.edu/ncc/PDFs/Canonical%20Reps/Mondal%20et%20al%20(ICLR%202023).pdf)[<sup>X</sup>](https://arxiv.org/abs/2007.10527)
+in **machine learning and artificial intelligence**.[<sup>256,</sup>](https://arxiv.org/abs/2205.11558)[<sup>264,
+</sup>](https://arxiv.org/pdf/2303.02260)[<sup>265,
+</sup>](http://arxiv.org/abs/2304.09979)[<sup>X</sup>](https://arxiv.org/abs/2007.10527)
 
 ## Empirical and methodological contributions  
 The theoretical work summarized above has served as the foundation for a number of empirical and methodological 
