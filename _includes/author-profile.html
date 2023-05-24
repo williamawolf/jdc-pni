@@ -34,13 +34,13 @@
       {% if author.email %}
         <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].email_label | default: "Email" }}</a></li>
       {% endif %}
+      {% if author.nccl %}
+        <li><a href="https://sites.google.com/view/ncclab/"><i class="fas fa-fw fa-link"
+               aria-hidden="true"> </i> NCC Lab </a></li>
+      {% endif %}
       {% if author.pni %}
         <li><a href="https://pni.princeton.edu/"><i class="fas fa-fw fa-link"
                aria-hidden="true"> </i> PNI </a></li>
-      {% endif %}
-      {% if author.nccl %}
-        <li><a href="https://ncclab.princeton.edu/"><i class="fas fa-fw fa-link"
-               aria-hidden="true"> </i> NCC Lab </a></li>
       {% endif %}
       {% if author.modeci %}
         <li><a href="https://modeci.org/"><i class="fas fa-fw fa-link"
