@@ -16,7 +16,7 @@ My work lies at the points of contact between neuroscience, psychology, computer
 psychiatry, and involves collaborations with investigators in each of these fields. I also have considerable 
 experience in the coordination and administration of scientific research, as one of the two founding Co-Directors 
 of the Princeton Neuroscience Institute, leading multi-institutional projects (NIMH Conte Center; Templeton Center 
-Grant; NSF Convergence Accelerator grant; PNI-Intel Labs collaboration), and a number open source software 
+Grant; NSF Convergence Accelerator grant; PNI-Intel Labs collaboration), and a number of open source software 
 development projects.
 
 *[Note: links below are to reprints and numbers correspond to entries under Publications in [CV](/cv/)]*
