@@ -1,0 +1,2839 @@
+@article{altabaa2024abstractors,
+  title={Abstractors: Transformer modules for symbolic message passing and relational reasoning},
+  author={Altabaa, A. and Webb, T. and Cohen, J. D. and Lafferty, J.},
+  journal={ICLR 2024: Proceedings of the International Conference on Learning Representations},
+  year={2024},
+  url={https://arxiv.org/abs/2304.00195}
+}
+
+@article{giallanza2024integrated,
+  title={An integrated model of semantics and control},
+  author={Giallanza, T. and Campbell, D. and Cohen, J. D. and Rogers, T. T.},
+  journal={Psychological Review},
+  year={in press},
+  url={https://osf.io/preprints/psyarxiv/jq7ta}
+}
+
+@article{masis2024learning,
+  title={Learning expectations shape initial cognitive control allocation},
+  author={Masís, J. and Musslick, S. and Cohen, J. D.},
+  journal={Cogsci 2024: Proceedings of the Annual Meeting of the Cognitive Science Society},
+  volume={46},
+  year={2024},
+  url={https://escholarship.org/uc/item/6xd2r257}
+}
+
+@article{petri2024information,
+  title={An information-theoretic approach to reward rate optimization in the tradeoff between controlled and automatic processing in neural network architectures},
+  author={Petri, G. and Musslick, S. and Cohen, J. D.},
+  journal={eLife},
+  year={in press},
+  url={https://doi.org/10.1101/2023.09.18.558214}
+}
+
+@article{webb2024relational,
+  title={The relational bottleneck as an inductive bias for efficient abstraction},
+  author={Webb, T. W. and Frankland, S. M. and Altabaa, A. and Segert, S. and Krishnamurthy, K. and Campbell, D. and Russin, J. and Giallanza, T. and Dulberg, Z. and O’Reilly, R. and Lafferty, J. and Cohen, J. D.},
+  journal={Trends in Cognitive Science},
+  year={in press},
+  url={https://arxiv.org/abs/2309.06629}
+}
+
+@article{agrawal2023stress,
+  title={Stress, intertemporal choice, and mitigation behavior during the COVID-19 pandemic},
+  author={Agrawal, M. and Peterson, J. C. and Cohen, J. D. and Griffiths, T. L.},
+  journal={Journal of Experimental Psychology: General},
+  year={2023},
+  url={https://dx.doi.org/10.1037/xge0001417}
+}
+
+@article{beukers2023working,
+  title={When working memory may just be working, not memory},
+  author={Beukers, A. O. and Hamin, M. and Norman, K. and Cohen, J. D.},
+  journal={Psychological Review},
+  year={2023},
+  url={https://pubmed.ncbi.nlm.nih.gov/37956060/}
+}
+
+@article{bornstein2023associative,
+  title={Associative memory retrieval modulates upcoming perceptual decisions},
+  author={Bornstein, A. M. and Aly, M. and Feng, S. F. and Turk-Browne, N. B. and Norman, K. A. and Cohen, J. D.},
+  journal={Cognitive, Affective and Behavioral Neuroscience},
+  year={2023},
+  url={https://pubmed.ncbi.nlm.nih.gov/37316611/}
+}
+
+@article{bustamante2023effort,
+  title={Effort Foraging Task reveals positive correlation between individual differences in the cost of cognitive and physical effort in humans},
+  author={Bustamante, L. A. and Oshinowo, T. and Lee, J. and Tong, E. and Burton, A. R. and Shenav, A. S. and Daw, N. and Cohen, J. D.},
+  journal={Proceedings of the National Academy of Sciences, USA},
+  year={2023},
+  url={https://pubmed.ncbi.nlm.nih.gov/38064507/}
+}
+
+@article{dulberg2023having,
+  title={Having multiple selves helps learning agents explore and adapt in complex changing worlds},
+  author={Dulberg, Z. and Dubey, R. and Berwian, I. M. and Cohen, J. D.},
+  journal={Proceedings of the National Academy of Sciences, USA},
+  volume={120},
+  number={28},
+  pages={e2221180120},
+  year={2023},
+  url={https://www.pnas.org/doi/10.1073/pnas.2221180120}
+}
+
+@article{gleeson2023integrating,
+  title={Integrating model development across computational neuroscience, cognitive science and machine learning},
+  author={Gleeson, P. and Crook, S. and Turner, D. and Mantel, K. and Raunak, M. and Cohen, J. D.},
+  journal={Neuron},
+  volume={111},
+  number={10},
+  pages={1526--1530},
+  year={2023},
+  url={https://www.sciencedirect.com/science/article/pii/S0896627323002611?via%3Dihub}
+}
+
+@article{ho2023rational,
+  title={Rational simplification and rigidity in human planning},
+  author={Ho, M. and Cohen, J. D. and Griffiths, T. L.},
+  journal={Psychological Science},
+  volume={34},
+  number={11},
+  pages={1281-1292},
+  year={2023},
+  url={https://pubmed.ncbi.nlm.nih.gov/37878525/}
+}
+
+@article{kumar2023disentangling,
+  title={Disentangling abstraction from statistical pattern matching in human and machine learning},
+  author={Kumar, S. and Dasgupta, I. and Marjieh, R. and Daw, N. D. and Cohen, J. D. and Griffiths, T. L.},
+  journal={PLOS Computational Biology},
+  volume={19},
+  number={8},
+  year={2023},
+  url={https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011316}
+}
+
+@article{masis2023choose,
+  title={When to choose: Information seeking in the speed-accuracy tradeoff},
+  author={Masís, J. and Melnikoff, D. and Barrett, L. and Cohen, J. D.},
+  journal={Cogsci 2023: Proceedings of the Annual Meeting of the Cognitive Science Society},
+  volume={45},
+  year={2023},
+  url={https://escholarship.org/uc/item/46j4g3p4#main}
+}
+
+@article{mondal2023determinantal,
+  title={Determinantal Point Process Attention Over Grid Codes Supports Extrapolation},
+  author={Mondal, S. S. and Frankland, S. M. and Webb, T. W. and Cohen, J. D.},
+  journal={eLife},
+  year={2023},
+  url={http://arxiv.org/abs/2305.18417}
+}
+
+@article{mondal2023learning,
+  title={Learning to reason over visual objects},
+  author={Mondal, S. S. and Webb, T. W. and Cohen, J. D.},
+  journal={ICLR 2023: Proceedings of the International Conference on Learning Representations},
+  year={2023},
+  url={https://arxiv.org/abs/2303.02260}
+}
+
+@article{mondal2023systematic,
+  title={Systematic visual reasoning through object-centric relational abstraction},
+  author={Mondal, S. S. and Webb, T. W. and Cohen, J. D.},
+  journal={ICLR 2023: Proceedings of the International Conference on Learning Representations},
+  year={2023},
+  url={https://arxiv.org/abs/2306.02500}
+}
+
+@article{rier2023test,
+  title={Test-Retest reliability of the human connectome: An OPM-MEG study},
+  author={Rier, L. and Michelmann, S. and Ritz, H. and Shah, V. and Hill, R. M. and Osborne, J. and Doyle, C. and Holmes, N. and Bowtell, R. and Brookes, M. J. and Norman, KA. and Hasson, U. and Cohen, J. D. and Boto, E.},
+  journal={Imaging Neuroscience},
+  volume={1},
+  pages={1--20},
+  year={2023},
+  url={https://zenodo.org/records/7525341}
+}
+
+@article{ritz2023continuous,
+  title={Continuous and discrete transitions during task-switching},
+  author={Ritz, H. and Wolf, W. and Cohen, J. D.},
+  journal={CogSci 2023: Proceedings of the Annual Meeting of the Cognitive Science Society},
+  volume={45},
+  year={2023},
+  url={https://escholarship.org/uc/item/9kq1p2rt}
+}
+
+@article{segert2023beyond,
+  title={Beyond transformers for function learning},
+  author={Segert, S. and Cohen, J. D.},
+  journal={CogSci 2023: Proceedings of the Annual Meeting of the Cognitive Science Society},
+  volume={45},
+  year={2023},
+  url={https://escholarship.org/uc/item/4wg2h9g1#main}
+}
+
+@article{ho2022people,
+  title={People construct simple representations to plan},
+  author={Ho, M. and Abel, D. and Correa, C. G. and Littman, M. L. and Cohen, J. D. and Griffiths, T. L.},
+  journal={Nature},
+  volume={606},
+  number={7912},
+  pages={129--136},
+  year={2022},
+  url={https://rdcu.be/cNVkp}
+}
+
+@article{iordan2022context,
+  title={Context matters: Recovering human semantic structure from machine learning analysis of large-scale text corpora},
+  author={Iordan, C. and Giallanza, T. and Ellis, C. T. and Beckage, N. M. and Cohen, J. D.},
+  journal={Cognitive Science},
+  volume={46},
+  number={2},
+  pages={e13085},
+  year={2022},
+  url={https://onlinelibrary.wiley.com/doi/full/10.1111/cogs.13085}
+}
+
+@article{kane2022rat,
+  title={Rat anterior cingulate cortex continuously signals decision variables in a patch foraging task},
+  author={Kane, G. A. and James, M. H. and Shenhav, A. and Daw, N. D. and Cohen, J. D. and Aston-Jones, G.},
+  journal={Journal of Neuroscience},
+  volume={42},
+  number={29},
+  pages={5730--5744},
+  year={2022},
+  url={https://doi.org/10.1523/JNEUROSCI.1940-21.2022}
+}
+
+@article{kumar2022using,
+  title={Using natural language and program abstractions to instill human inductive biases in machines},
+  author={Kumar, S. and Correa, C. G. and Dasgupta, I. and Marjieh, R. and Hu, M. Y. and Hawkins, R. D. and Daw, N. D. and Cohen, J. D. and Narasimhan, K. and Griffiths, T. L.},
+  journal={Advances in Neural Information Processing Systems},
+  year={2022},
+  url={https://arxiv.org/abs/2205.11558}
+}
+
+@article{musslick2022sweetpea,
+  title={SweetPea: A standard language for factorial experimental design},
+  author={Musslick, S. and Cherkaev, A. and Draut, B. and Butt, A. and Srikumar, V. and Flatt, M. and Cohen, J. D.},
+  journal={Behavioral Methods in Research},
+  volume={54},
+  number={2},
+  pages={805--829},
+  year={2022},
+  url={https://doi.org/10.3758/s13428-021-01598-2}
+}
+
+@article{segert2022maximum,
+  title={Maximum entropy function learning},
+  author={Segert, S. and Cohen, J. D.},
+  journal={CogSci 2022: Proceedings of the Annual Meeting of the Cognitive Science Society},
+  volume={44},
+  year={2022},
+  url={https://escholarship.org/uc/item/2tb2f84r}
+}
+
+@article{segert2022selfsupervised,
+  title={A Self-Supervised Framework for Function Learning and Extrapolation},
+  author={Segert, S. and Cohen, J. D.},
+  journal={Transactions on Machine Learning Research},
+  year={2022},
+  url={https://openreview.net/pdf?id=ILPFasEaHA}
+}
+
+@article{vesely2022distill,
+  title={Distill: Domain-specific compilation for cognitive models},
+  author={Vesely, J. and Pothukuchi, Raghav and Gupta, S. and Ketaki, J. and Cohen, J. D. and Bhattacharjee, A.},
+  journal={2022 IEEE/ACM International Symposium on Code Generation and Optimization (CGO)},
+  pages={301--312},
+  year={2022},
+  url={https://doi.org/10.1109/cgo53902.2022.9741278}
+}
+
+@article{wallace2022rtcloud,
+  title={RT-Cloud: A cloud-based software framework to simplify and standardize real-time fMRI},
+  author={Wallace, G. and Polcyn, S. and Brooks, P. P. and Mennen, A. and Zhao, K. and Scotti, P. S. and Michelmann, S. and Li, K. and TurkBrowne, N. B. and Cohen, J. D. and Norman, K. A.},
+  journal={NeuroImage},
+  volume={257},
+  year={2022},
+  pages={119295},
+  url={https://doi.org/10.1016/j.neuroimage.2022.119295}
+}
+
+@article{agrawal2021temporal,
+  title={The temporal dynamics of opportunity costs: A normative account of cognitive fatigue and boredom},
+  author={Agrawal, M. and Mattar, M. and Daw, N. D. and Cohen, J. D.},
+  journal={Psychological Review},
+  volume={129},
+  number={3},
+  pages={564},
+  year={2021},
+  url={https://doi.org/10.1037/rev0000309}
+}
+
+@article{beukers2021activity,
+  title={Is activity silent working memory simply episodic memory?},
+  author={Beukers, A. O. and Buschman, T. J. and Cohen, J. D. and Norman, K. A.},
+  journal={Trends in Cognitive Sciences},
+  volume={25},
+  number={4},
+  pages={284--293},
+  year={2021},
+  url={https://doi.org/10.1016/j.tics.2021.01.003}
+}
+
+@article{bustamante2021learning,
+  title={Learning to overexert cognitive control in a Stroop task},
+  author={Bustamante, L. and Lieder, F. and Musslick, S. and Shenhav, A. and Cohen, J. D.},
+  journal={Cognitive, Affective and Behavioral Neuroscience},
+  volume={21},
+  number={3},
+  pages={453--471},
+  year={2021},
+  url={https://link.springer.com/article/10.3758/s13415-020-00845-x}
+}
+
+@article{dulberg2021modeling,
+  title={Modeling the development of counting with memory-augmented neural networks},
+  author={Dulberg, Z. and Webb, T. and Cohen, J. D.},
+  journal={CogSci 2020: Proceedings of the Annual Meeting of the Cognitive Science Society},
+  volume={43},
+  year={2021},
+  url={https://arxiv.org/abs/2105.10577}
+}
+
+@article{eldar2021pupillary,
+  title={A pupillary index of susceptibility to decision biases},
+  author={Eldar, E. and Felso, V. and Cohen, J. D. and Niv, Y.},
+  journal={Nature Human Behaviour},
+  volume={5},
+  pages={653--662},
+  year={2021},
+  url={https://doi.org/10.1038/s41562-020-01006-3}
+}
+
+@article{kumar2021brainiak,
+  title={BrainIAK: The Brain Imaging Analysis Kit},
+  author={Kumar, M. and Anderson, M. and Antony, J. and Baldassano, C. and Brooks, P. B. and Cai, M. B. and others},
+  journal={Aperture Neuro},
+  year={2021},
+  url={https://doi.org/10.52294/31bb5b68-2184-411b-8c00-a1dacb61e1da}
+}
+
+@article{kumar2021metalearning,
+  title={Meta-learning of structured task distributions in humans and machines},
+  author={Kumar, S. and Dasgupta, I. and Cohen, J. D. and Daw, N. D. and Griffiths, T. L.},
+  journal={ICLR 2021: Proceedings of the International Conference on Learning Representations},
+  year={2021},
+  url={https://openreview.net/forum?id=--gvHfE3Xf5}
+}
+
+@article{masis2021value,
+  title={The value of learning and cognitive control allocation},
+  author={Masis, J. and Musslick, S. and Cohen, J. D.},
+  journal={CogSci 2021: Proceedings of the Annual Meeting of the Cognitive Science Society},
+  volume={43},
+  year={2021},
+  url={https://escholarship.org/uc/item/7w0223v0}
+}
+
+@article{mennen2021cloudbased,
+  title={Cloud-based fMRI neurofeedback to reduce the negative attentional bias in depression: a proof-of-concept study},
+  author={Mennen, A. C. and Turk-Browne, N. B. and Wallace, G. and Seok, D. and Jaganjac, A. and Stock, J. and Sheline, Y. I.},
+  journal={Biological Psychiatry: Cognitive Neuroscience and Neuroimaging},
+  volume={6},
+  number={4},
+  pages={490--497},
+  year={2021},
+  url={https://www.researchgate.net/publication/346510051_Cloud-based_fMRI_neurofeedback_to_reduce_the_negative_attentional_bias_in_depression_a_proof-of-concept_study}
+}
+
+@article{momennejad2021rational,
+  title={Rational use of episodic and working memory: A normative account of prospective memory},
+  author={Momennejad, I. and Lewis-Peacock, J. and Norman, K. A. and Cohen, J. D. and Singh, S. and Lewis, R. L.},
+  journal={Neuropsychologia},
+  volume={158},
+  pages={107657},
+  year={2021},
+  url={https://doi.org/10.1016/j.neuropsychologia.2020.107657}
+}
+
+@article{musslick2021rationalizing,
+  title={Rationalizing constraints on the capacity for cognitive control},
+  author={Musslick, S. and Cohen, J. D.},
+  journal={Trends in Cognitive Sciences},
+  volume={25},
+  number={9},
+  pages={757--775},
+  year={2021},
+  url={https://www.sciencedirect.com/science/article/pii/S1364661321001480?via%3Dihub}
+}
+
+@article{petri2021topological,
+  title={Topological limits to parallel processing capability of network architectures},
+  author={Petri, G. and Musslick, S. and Dey, B. and Özcimder, K. and Ahmed, N. K. and Willke, T. L. and Cohen, J. D.},
+  journal={Nature Physics},
+  volume={17},
+  number={5},
+  pages={646--651},
+  year={2021},
+  url={https://doi.org/10.1038/s41567-021-01170-x}
+}
+
+@article{pratcarrabin2021human,
+  title={Human inference in changing environments with temporal structure},
+  author={Prat-Carrabin, A. and Wilson, R. C. and Cohen, J. D. and da Silveira, R. A.},
+  journal={Psychological Review},
+  volume={128},
+  number={5},
+  pages={879--912},
+  year={2021},
+  url={https://doi.org/10.1037/rev0000276}
+}
+
+@article{webb2021emergent,
+  title={Emergent symbols through binding in external memory},
+  author={Webb, T. W. and Sinha, I. and Cohen, J. D.},
+  journal={ICLR 2021: Proceedings of the International Conference on Learning Representations},
+  year={2021},
+  url={https://doi.org/10.48550/arXiv.2012.14601}
+}
+
+@article{cohen2020measuring,
+  title={Measuring Time Preferences},
+  author={Cohen, J. D. and Ericson, K. M. and Laibson, D. and White, J. M.},
+  journal={Journal of Economic Literature},
+  volume={58},
+  number={2},
+  pages={299--347},
+  year={2020},
+  url={https://doi.org/10.1257/jel.20191074}
+}
+
+@article{ellis2020facilitating,
+  title={Facilitating open-science with realistic fMRI simulation: Validation and application},
+  author={Ellis, C. T. and Baldassano, C. and Schapiro, A. and Cai, M. B. and Cohen, J. D.},
+  journal={PeerJ},
+  volume={8},
+  pages={e8564},
+  year={2020},
+  url={https://peerj.com/articles/8564/}
+}
+
+@article{frankland2020determinantal,
+  title={Determinantal point processes for memory and structured inference},
+  author={Frankland, S. M. and Cohen, J. D.},
+  journal={CogSci 2020: Proceedings of the Annual Meeting of the Cognitive Science Society},
+  volume={42},
+  year={2020},
+  url={https://cognitivesciencesociety.org/cogsci20/papers/0812/index.html}
+}
+
+@article{ho2020efficiency,
+  title={The Efficiency of human cognition reflects planned information processing},
+  author={Ho, M. K. and Abel, D. and Cohen, J. D. and Littman, M. L. and Griffiths, T. L.},
+  journal={Proceedings of the 34th AAAI Conference on Artificial Intelligence},
+  year={2020},
+  url={https://arxiv.org/abs/2002.05769}
+}
+
+@article{mosleh2020globalization,
+  title={Globalization and the Rise and Fall of Cognitive Control},
+  author={Mosleh, M. and Kyker, K. and Cohen, J. D. and Rand, D. G.},
+  journal={Nature Communications},
+  volume={11},
+  pages={3099},
+  year={2020},
+  url={https://doi.org/10.1038/s41467-020-16850-0}
+}
+
+@article{rosendahl2020novel,
+  title={A novel quantum approach to the dynamics of decision making},
+  author={Rosendahl, M. and Bizyaeva, A. and Cohen, J. D.},
+  journal={CogSci 2020: Proceedings of the Annual Meeting of the Cognitive Science Society},
+  volume={42},
+  year={2020},
+  url={https://cognitivesciencesociety.org/cogsci20/papers/0508/0508.pdf}
+}
+
+@article{segert2020relaxed,
+  title={Relaxed graph matching for analogical reasoning},
+  author={Segert, S. and Tepper, M. and Turek, J. and Cohen, J. D.},
+  journal={ICLR 2020: Proceedings of the International Conference on Learning Representations, Workshop on Bridging AI and Cognitive Science},
+  year={2020},
+  url={https://baicsworkshop.github.io/pdf/BAICS_4.pdf}
+}
+
+@article{webb2020learning,
+  title={Learning representations that support extrapolation},
+  author={Webb, T. W. and Dulberg, Z. and Frankland, S. M. and Petrov, A. A. and O’Reilly, R. C. and Cohen, J. D.},
+  journal={ICML 2020: Proceedings of the International Conference on Machine Learning},
+  volume={119},
+  year={2020},
+  url={https://arxiv.org/abs/2007.05059}
+}
+
+@article{ellis2019feasibility,
+  title={Feasibility of topological data analysis for event-based fMRI},
+  author={Ellis, C. T. and Lesnick, M. and Henselman-Petrusek, G. and Keller, B. and Cohen, J. D.},
+  journal={Network Neuroscience},
+  pages={1--12},
+  year={2019},
+  url={https://pubmed.ncbi.nlm.nih.gov/31410374/}
+}
+
+@article{frankland2019extracting,
+  title={Extracting and utilizing abstract, structured representations for analogy},
+  author={Frankland, S. M. and Webb, T. W. and Petrov, A. A. and O’Reilly, R. C. and Cohen, J. D.},
+  journal={CogSci 2019: Proceedings of the Annual Meeting of the Cognitive Science Society},
+  volume={41},
+  year={2019},
+  url={https://www.alexpetrov.com/pub/cogsci19/}
+}
+
+@article{hoskin2019refresh,
+  title={Refresh my memory: Episodic memory reinstatements intrude on working memory maintenance},
+  author={Hoskin, A. N. and Bornstein, A. M. and Norman, K. A. and Cohen, J. D.},
+  journal={Cognitive, Affective, & Behavioral Neuroscience},
+  volume={19},
+  pages={338--354},
+  year={2019},
+  url={https://doi.org/10.3758/s13415-018-00674-z}
+}
+
+@article{kane2019rats,
+  title={Rats exhibit similar biases in foraging and intertemporal choice tasks},
+  author={Kane, G. A. and Bornstein, A. M. and Shenhav, A. and Wilson, R. C. and Daw, N. D. and Cohen, J. D.},
+  journal={eLife},
+  volume={8},
+  pages={e48429},
+  year={2019},
+  url={http://www.biorxiv.org/content/10.1101/497321v1}
+}
+
+@article{musslick2019stability,
+  title={Stability-flexibility dilemma in cognitive control: A dynamical system perspective},
+  author={Musslick, S. and Bizyaeva, A. and Aragon, S. and Leonard, N. and Cohen, J. D.},
+  journal={CogSci 2019: Proceedings of the Annual Meeting of the Cognitive Science Society},
+  volume={41},
+  year={2019},
+  url={https://par.nsf.gov/biblio/10125021}
+}
+
+@article{musslick2019mechanistic,
+  title={A mechanistic account of constraints on control-dependent processing: Shared representation, conflict and persistence},
+  author={Musslick, S. and Cohen, J. D.},
+  journal={CogSci 2019: Proceedings of the Annual Meeting of the Cognitive Science Society},
+  volume={41},
+  year={2019},
+  url={https://collaborate.princeton.edu/en/publications/a-mechanistic-account-of-constraints-on-control-dependent-process}
+}
+
+@article{musslick2019decomposing,
+  title={Decomposing individual differences in cognitive control: A model-based approach},
+  author={Musslick, S. and Cohen, J. D. and Shenhav, A.},
+  journal={CogSci 2019: Proceedings of the Annual Meeting of the Cognitive Science Society},
+  volume={41},
+  year={2019},
+  url={https://static1.squarespace.com/static/56e19a6d04426223be32a8b9/t/5ce835e653450ad74d48ee0c/1558722022988/Musslick_5_9.pdf}
+}
+
+@article{poldrack2019importance,
+  title={The importance of standards for sharing computational models and data},
+  author={Poldrack, R. and Feingold, F. and Frank, M. and Gleeson, P. and de Hollander, G. and Huys, Q. J. M. and ... Cohen, J. D.},
+  journal={Computational Brain & Behavior},
+  volume={2},
+  pages={229--232},
+  year={2019},
+  url={https://link.springer.com/article/10.1007/s42113-019-00062-x}
+}
+
+@article{spitzer2019asymmetric,
+  title={Asymmetric switch costs as a function of task strength},
+  author={Spitzer, M. and Musslick, S. and Shvartsman, M. and Shenhav, A. and Cohen, J. D.},
+  journal={CogSci 2019: Proceedings of the Annual Meeting of the Cognitive Science Society},
+  volume={41},
+  year={2019},
+  url={https://static1.squarespace.com/static/56e19a6d04426223be32a8b9/t/5ce835a64e17b62b88216749/1558721958757/Spitzer_5_9.pdf}
+}
+
+@article{wilson2019eightyfive,
+  title={The eighty-five percent rule for optimal learning},
+  author={Wilson, R. C. and Shenhav, A. and Straccia, M. and Cohen, J. D.},
+  journal={Nature Communications},
+  volume={10},
+  pages={4646},
+  year={2019},
+  url={https://www.nature.com/articles/s41467-019-12552-4}
+}
+
+@article{iordan2018feature,
+  title={Feature ratings and empirical dimension-specific similarity explain distinct aspects of semantic similarity judgments},
+  author={Iordan, M. C. and Ellis, C. T. and Lesnick, M. and Osherson, D. N. and Cohen, J. D.},
+  journal={CogSci 2018: Proceedings of the Annual Meeting of the Cognitive Science Society},
+  volume={40},
+  year={2018},
+  url={https://collaborate.princeton.edu/en/publications/feature-ratings-and-empirical-dimension-specific-similarity-expla}
+}
+
+@article{musslick2018estimating,
+  title={Estimating the costs of cognitive control from task performance: Theoretical validation and potential pitfalls},
+  author={Musslick, S. and Cohen, J. D. and Shenhav, A.},
+  journal={CogSci 2018: Proceedings of the Annual Meeting of the Cognitive Science Society},
+  volume={40},
+  year={2018},
+  url={https://collaborate.princeton.edu/en/publications/estimating-the-costs-of-cognitive-control-from-task-performance-t}
+}
+
+@article{musslick2018constraints,
+  title={Constraints associated with cognitive control and the stability-flexibility dilemma},
+  author={Musslick, S. and Jang, S. J. and Shvartsman, M. and Shenhav, A. and Cohen, J. D.},
+  journal={CogSci 2018: Proceedings of the Annual Meeting of the Cognitive Science Society},
+  volume={40},
+  year={2018},
+  url={https://www.researchgate.net/publication/325324409_Constraints_associated_with_cognitive_control_and_the_stability-flexibility_dilemma}
+}
+
+@article{sagiv2018efficiency,
+  title={Efficiency of learning vs. processing: Towards a normative theory of multitasking},
+  author={Sagiv, Y. and Musslick, S. and Niv, Y. and Cohen, J. D.},
+  journal={CogSci 2018: Proceedings of the Annual Meeting of the Cognitive Science Society},
+  volume={40},
+  year={2018},
+  url={http://arxiv.org/abs/2007.03124}
+}
+
+@article{shenhav2018dissociable,
+  title={Dissociable neural mechanisms track evidence accumulation for selection of attention versus action},
+  author={Shenhav, A. and Straccia, M. A. and Musslick, S. and Cohen, J. D. and Botvinick, M. M.},
+  journal={Nature Communications},
+  volume={9},
+  number={1},
+  pages={2485},
+  year={2018},
+  url={https://www.nature.com/articles/s41467-018-04841-1}
+}
+
+@article{alon2017graph,
+  title={A graph-theoretic approach to multitasking},
+  author={Alon, N. and Reichman, D. and Shinkar, I. and Wagner, T. and Musslick, S. and Cohen, J. D. and Griffiths, T. and Dey, B. and Ozcimder, K.},
+  journal={Advances in Neural Information Processing Systems},
+  volume={30},
+  pages={2097--2106},
+  year={2017},
+  url={https://arxiv.org/abs/1611.02400}
+}
+
+@article{ballard2017more,
+  title={More is meaningful: the magnitude effect in intertemporal choice depends on self-control},
+  author={Ballard, I. C. and Kim, B. and Liatsis, A. and Aydogan, G. and Cohen, J. D. and McClure, S. M.},
+  journal={Psychological Science},
+  year={2017},
+  doi={10.1177/0956797617711455},
+  url={https://pubmed.ncbi.nlm.nih.gov/28858559/}
+}
+
+@article{bejjanki2017noise,
+  title={Noise correlations in the human brain and their impact on pattern classification},
+  author={Bejjanki, V. R. and daSilveira, R. A. and Cohen, J. D. and Turk-Browne, N. B.},
+  journal={PLoS computational biology},
+  volume={13},
+  number={8},
+  pages={e1005674},
+  year={2017},
+  url={https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005674}
+}
+
+@article{cohen2017computational,
+  title={Computational Approaches to fMRI Analysis},
+  author={Cohen, J. D. and Daw, N. and Engelhardt, B. and Hasson, U. and Li, K. and Niv, Y. and Norman, K. A. and Pillow, J. and Ramadge, P. and Turk-Browne, N. B. and Willke, T. L.},
+  journal={Nature Neuroscience},
+  volume={20},
+  number={3},
+  pages={304--313},
+  year={2017},
+  url={https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5457304/}
+}
+
+@article{kane2017mechanisms,
+  title={Mechanisms of overharvesting in patch foraging},
+  author={Kane, G. and Bornstein, A. and Daw, N. D. and Cohen, J. D. and Wilson, R. C. and Shenhav, A.},
+  journal={CogSci 2017: Proceedings of the Annual Meeting of the Cognitive Science Society},
+  volume={39},
+  year={2017},
+  url={http://aaron.bornstein.org/cv/pubs/2017_kbswdc_cs.pdf}
+}
+
+@article{kane2017increased,
+  title={Increased locus coeruleus tonic activity causes disengagement from a patch foraging task},
+  author={Kane, G. A. and Vazey, E. M. and Wilson, R. C. and Shenhav, A. and Daw, N. D. and Aston-Jones, G. and Cohen, J. D.},
+  journal={Cognitive, Affective, \& Behavior Neuroscience},
+  volume={17},
+  number={6},
+  pages={1073--1083},
+  year={2017},
+  url={https://pubmed.ncbi.nlm.nih.gov/28900892/}
+}
+
+@article{krueger2017strategies,
+  title={Strategies for exploration in the domain of losses},
+  author={Krueger, P. M. and Wilson, R. C. and Cohen, J. D.},
+  journal={Judgment and Decision Making},
+  volume={12},
+  number={2},
+  pages={104--117},
+  year={2017},
+  url={https://psycnet.apa.org/record/2017-17480-002}
+}
+
+@article{krueger2017evidence,
+  title={Evidence accumulation detected in BOLD signal using slow perceptual decision making},
+  author={Krueger, P. M. and van Vugt, M. K. and Simen, P. and Nystrom, L. and Holmes, P. and Cohen, J. D.},
+  journal={Journal of Neuroscience Methods},
+  volume={281},
+  pages={1--12},
+  year={2017},
+  url={https://pubmed.ncbi.nlm.nih.gov/28131862/}
+}
+
+@article{musslick2017multitasking,
+  title={Multitasking capability versus learning efficiency in neural network architectures},
+  author={Musslick, S. and Saxe, A. M. and Ozcimder, K. and Dey, B. and Henselman, G. and Cohen, J. D.},
+  journal={CogSci 2017: Proceedings of the Annual Meeting of the Cognitive Science Society},
+  volume={39},
+  year={2017},
+  url={https://www.researchgate.net/publication/317019423_Multitasking_Capability_Versus_Learning_Efficiency_in_Neural_Network_Architectures}
+}
+
+@article{ozcimder2017formal,
+  title={A formal approach to modeling the cost of cognitive control},
+  author={Ozcimder, K. and Dey, B. and Musslick, S. and Petri, G. and Ahmed, N. and Willke, T. L. and Cohen, J. D.},
+  journal={CogSci 2017: Proceedings of the Annual Meeting of the Cognitive Science Society},
+  volume={39},
+  year={2017},
+  url={https://arxiv.org/abs/1706.00085}
+}
+
+@article{rand2017cyclical,
+  title={Cyclical population dynamics of automatic versus controlled processing: An evolutionary pendulum},
+  author={Rand, D. G. and Tomlin, D. and Bear, A. and Ludvig, E. and Cohen, J. D.},
+  journal={Psychological Review},
+  volume={124},
+  number={5},
+  pages={626--642},
+  year={2017},
+  url={https://pubmed.ncbi.nlm.nih.gov/28703606/}
+}
+
+@article{shenhav2017toward,
+  title={Toward a rational and mechanistic account of mental effort},
+  author={Shenhav, A. and Musslick, S. and Lieder, F. and Kool, W. and Griffiths, T. L. and Cohen, J. D. and Botvinick, M. M.},
+  journal={Annual Review of Neuroscience},
+  volume={40},
+  pages={99--124},
+  year={2017},
+  url={https://pubmed.ncbi.nlm.nih.gov/28375769/}
+}
+
+@article{srivastava2017martingale,
+  title={A Martingale Analysis of First Passage Times of Time-Independent Wiener Diffusion Models},
+  author={Srivastava, V. and Feng, S. F. and Cohen, J. D. and Leonard, A. E. and Shenhav, A.},
+  journal={Journal of Mathematical Psychology},
+  volume={77},
+  pages={94--110},
+  year={2017},
+  url={https://pubmed.ncbi.nlm.nih.gov/28630524/}
+}
+
+@article{tomlin2017integration,
+  title={The integration of social influence and reward: Computational approaches and neural evidence},
+  author={Tomlin, D. and Nedic, A. and Prentice, D. A. and Holmes, P. and Cohen, J. D.},
+  journal={Cognitive, Affective and Behavioral Neuroscience},
+  volume={17},
+  number={4},
+  pages={784--808},
+  year={2017},
+  url={https://link.springer.com/article/10.3758/s13415-017-0512-1}
+}
+
+@article{eldar2016forest,
+  title={Do you see the forest or the tree? Neural gain and breadth versus focus in perceptual processing},
+  author={Eldar, E. and Niv, Y. and Cohen, J. D.},
+  journal={Psychological Science},
+  volume={27},
+  number={12},
+  pages={1632--1643},
+  year={2016},
+  url={https://pubmed.ncbi.nlm.nih.gov/28195019/}
+}
+
+@article{geana2016boredom,
+  title={Boredom, Information-Seeking and Exploration},
+  author={Geana, A. and Wilson, R. C. and Daw, N. and Cohen, J. D.},
+  journal={CogSci 2016: Proceedings of the Annual Meeting of the Cognitive Science Society},
+  volume={38},
+  year={2016},
+  url={https://www.princeton.edu/~ndaw/gwdc16.pdf}
+}
+
+@article{geana2016information,
+  title={Information-Seeking, Learning and the Marginal Value Theorem: A Normative Approach to Adaptive Exploration},
+  author={Geana, A. and Wilson, R. C. and Daw, N. and Cohen, J. D.},
+  journal={CogSci 2016: Proceedings of the Annual Meeting of the Cognitive Science Society},
+  volume={38},
+  year={2016},
+  url={https://collaborate.princeton.edu/en/publications/information-seeking-learning-and-the-marginal-value-theorem-a-nor}
+}
+
+@article{lewispeacock2016neural,
+  title={Neural evidence of the strategic choice between working memory and episodic memory in prospective remembering},
+  author={Lewis-Peacock, J. A. and Cohen, J. D. and Norman, K. A.},
+  journal={Neuropsychologia},
+  volume={93},
+  pages={280--288},
+  year={2016},
+  url={https://www.sciencedirect.com/science/article/pii/S0028393216304055}
+}
+
+@article{musslick2016controlled,
+  title={Controlled vs. automatic processing: A graph-theoretic approach to the analysis of serial vs. parallel processing in neural network architectures},
+  author={Musslick, S. and Dey, B. and Ozcimder, K. and Patwary, M. M. A. and Willke, T. L. and Cohen, J. D.},
+  journal={CogSci 2016: Proceedings of the Annual Meeting of the Cognitive Science Society},
+  volume={38},
+  year={2016},
+  url={https://www.researchgate.net/profile/Theodore-Willke/publication/301202504_Controlled_vs_Automatic_Processing_A_Graph-Theoretic_Approach_to_the_Analysis_of_Serial_vs_Parallel_Processing_in_Neural_Network_Architectures/links/578670e308ae36ad40a692d0/Controlled-vs-Automatic-Processing-A-Graph-Theoretic-Approach-to-the-Analysis-of-Serial-vs-Parallel-Processing-in-Neural-Network-Architectures.pdf}
+}
+
+@article{shenhav2016dorsal,
+  title={Dorsal Anterior Cingulate Cortex and the Expected Value of Control},
+  author={Shenhav, A. and Cohen, J. D. and Botvinick, M. M.},
+  journal={Nature Neuroscience},
+  volume={19},
+  pages={1286--1291},
+  year={2016},
+  url={https://www.nature.com/articles/nn.4384}
+}
+
+@article{shenhav2016dorsal,
+  title={Dorsal anterior cingulate and ventromedial prefrontal cortex have inverse roles in both foraging and economic choice},
+  author={Shenhav, S. and Straccia, M. A. and Botvinick, M. M. and Cohen, J. D.},
+  journal={Cognitive, Affective and Behavioral Neuroscience},
+  volume={16},
+  number={6},
+  pages={1127--1139},
+  year={2016},
+  url={https://link.springer.com/article/10.3758/s13415-016-0458-8}
+}
+
+@article{warren2016catecholamine,
+  title={Catecholamine-mediated increases in gain enhance the precision of cortical representations},
+  author={Warren, C. and Eldar, E. and Van den Brink, R. and Tona, K.-D. and van der Wee, N. and Giltay, E. and van Noorden, M. and Bosch, J. and Wilson, R. and Cohen, J. D. and Nieuwenhuis, S.},
+  journal={Journal of Neuroscience},
+  volume={36},
+  number={21},
+  pages={5699--5708},
+  year={2016},
+  url={https://www.jneurosci.org/content/36/21/5699.short}
+}
+
+@article{debettencourt2015closed,
+  title={Closed-loop training of attention with real-time brain imaging},
+  author={deBettencourt, M. T. and Cohen, J. D. and Lee, R. F. and Norman, K. A. and Turk-Browne, N. B.},
+  journal={Nature Neuroscience},
+  volume={18},
+  number={3},
+  pages={470--474},
+  year={2015},
+  url={https://www.nature.com/articles/nn.3940}
+}
+
+@article{ericson2015money,
+  title={Money earlier or later? Simple heuristics explain intertemporal choices about money better than delay discounting},
+  author={Ericson, K. M. and White, J. M. and Laibson, D. and Cohen, J. D.},
+  journal={Psychological Science},
+  volume={26},
+  number={6},
+  pages={826--833},
+  year={2015},
+  url={https://pubmed.ncbi.nlm.nih.gov/25911124/}
+}
+
+@article{field2015attentional,
+  title={Attentional modulation of brain responses to primary appetitive and aversive stimuli},
+  author={Field, B. A. and Buck, C. L. and McClure, S. M. and Nystrom, L. E. and Kahneman, D. and Cohen, J. D.},
+  journal={PLoS ONE},
+  volume={10},
+  number={7},
+  pages={e0130880},
+  year={2015},
+  url={https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0130880}
+}
+
+@article{schnyer2015neurocognitive,
+  title={Neurocognitive therapeutics: From concept to application in the treatment of negative attention bias},
+  author={Schnyer, D. M. and Beevers, C. G. and deBettencourt, M. T. and Sherman, S. M. and Cohen, J. D. and Norman, K. A. and Turk-Browne, N. B.},
+  journal={The Biology of Mood \& Anxiety},
+  volume={5},
+  pages={1--4},
+  year={2015},
+  url={https://biolmoodanxietydisord.biomedcentral.com/articles/10.1186/s13587-015-0016-y}
+}
+
+@article{shvartsman2015theory,
+  title={A theory of decision making under dynamically changing context},
+  author={Shvartsman, M. and Srivastava, V. and Cohen, J. D.},
+  journal={Proceedings of Advances in Neural Information Processing Systems},
+  volume={28},
+  year={2015},
+  url={https://proceedings.neurips.cc/paper/2015/file/4e8412ad48562e3c9934f45c3e144d48-Paper.pdf}
+}
+
+@article{tomlin2015evolution,
+  title={The evolution and devolution of cognitive control: The costs of deliberation in a competitive world},
+  author={Tomlin, D. and Rand, D. G. and Ludvig, E. A. and Cohen, J. D.},
+  journal={Scientific Reports},
+  volume={5},
+  number={11002},
+  year={2015},
+  url={https://pubmed.ncbi.nlm.nih.gov/26078086/}
+}
+
+@article{toupo2015evolutionary,
+  title={Evolutionary game dynamics of controlled and automatic decision-making},
+  author={Toupo, D. F. and Strogatz, S. H. and Cohen, J. D. and Rand, D. G.},
+  journal={Chaos: An Interdisciplinary Journal of Nonlinear Science},
+  volume={25},
+  number={7},
+  pages={073120},
+  year={2015},
+  url={https://aip.scitation.org/doi/full/10.1063/1.4927488}
+}
+
+@article{wang2015full,
+  title={Full correlation matrix analysis (FCMA): An unbiased method for task-related functional connectivity},
+  author={Wang, Y. and Li, K. and Cohen, J. D. and Turk-Browne, N. B.},
+  journal={Journal of Neuroscience Methods},
+  volume={251},
+  pages={108--119},
+  year={2015},
+  url={https://www.sciencedirect.com/science/article/pii/S0165027015001910}
+}
+
+@article{botvinick2014computational,
+  title={The computational and neural basis of cognitive control: Charted territory and new frontiers},
+  author={Botvinick, M. M. and Cohen, J. D.},
+  journal={Cognitive Science},
+  volume={38},
+  pages={1249--1285},
+  year={2014},
+  url={https://onlinelibrary.wiley.com/doi/full/10.1111/cogs.12126}
+}
+
+@article{cohen2014optimality,
+  title={Optimality and some of its discontents},
+  author={Cohen, J. D. and Holmes, P.},
+  journal={Topics in Cognitive Science},
+  volume={6},
+  pages={258--278},
+  year={2014},
+  url={https://onlinelibrary.wiley.com/doi/full/10.1111/tops.12084}
+}
+
+@article{feng2014multitasking,
+  title={Multitasking vs. multiplexing: Toward a normative account of limitations in the simultaneous execution of control-demanding behaviors},
+  author={Feng, S. F. and Schwemmer, M. and Gershman, S. J. and Cohen, J. D.},
+  journal={Cognitive, Affective and Behavioral Neuroscience},
+  volume={14},
+  number={1},
+  pages={129--146},
+  year={2014},
+  url={https://link.springer.com/article/10.3758/s13415-013-0236-9}
+}
+
+@article{shenhav2014anterior,
+  title={Anterior cingulate engagement in a foraging context reflects choice difficulty rather than foraging value},
+  author={Shenhav, A. and Straccia, M. A. and Cohen, J. D. and Botvinick, M. M.},
+  journal={Nature Neuroscience},
+  volume={17},
+  pages={1249--1254},
+  year={2014},
+  url={https://www.nature.com/articles/nn.3771}
+}
+
+@article{van2014lateralized,
+  title={Lateralized readiness potentials reveal properties of a neural mechanism for implementing a decision threshold},
+  author={van Vugt, M. K. and Simen, P. and Nystrom, L. E. and Holmes, P. J. and Cohen, J. D.},
+  journal={PLOS ONE},
+  volume={9},
+  number={3},
+  pages={e90943},
+  year={2014},
+  url={https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0090943}
+}
+
+@article{wilson2014humans,
+  title={Humans use directed and random exploration to solve the explore-exploit dilemma},
+  author={Wilson, R. C. and Geana, A. and White, J. M. and Ludvig, E. A. and Cohen, J. D.},
+  journal={Journal of Experimental Psychology: General},
+  volume={143},
+  number={6},
+  pages={2074},
+  year={2014},
+  url={https://psycnet.apa.org/record/2014-44776-001}
+}
+
+@article{eldar2013effects,
+  title={The effects of neural gain on attention and learning},
+  author={Eldar, E. and Cohen, J. D. and Niv, Y.},
+  journal={Nature Neuroscience},
+  volume={16},
+  pages={1146--1153},
+  year={2013},
+  url={https://www.nature.com/articles/nn.3428}
+}
+
+@article{eppinger2013reduced,
+  title={Reduced sensitivity to immediate reward during decision-making in older than younger adults},
+  author={Eppinger, B. and Nystrom, L. E. and Cohen, J. D.},
+  journal={PLOS ONE},
+  volume={7},
+  number={5},
+  pages={e36953},
+  year={2013},
+  url={https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0036953}
+}
+
+@article{eppinger2013reduced2,
+  title={Reduced striatal responses to reward prediction errors in older compared to younger adults},
+  author={Eppinger, B. and Schuck, N. W. and Nystrom, L. E. and Cohen, J. D.},
+  journal={Journal of Neuroscience},
+  volume={33},
+  number={24},
+  pages={9905--9912},
+  year={2013},
+  url={https://www.jneurosci.org/content/33/24/9905.short}
+}
+
+@article{kriete2013indirection,
+  title={Indirection and symbol-like processing in the prefrontal cortex and basal ganglia},
+  author={Kriete, T. and Noelle, D. C. and Cohen, J. D. and O’Reilly, R. C.},
+  journal={Proceedings of the National Academy of Sciences, USA},
+  volume={110},
+  number={41},
+  pages={16390--16395},
+  year={2013},
+  url={https://www.pnas.org/doi/abs/10.1073/pnas.1303547110?cookieSet=1}
+}
+
+@article{richard2013persistence,
+  title={Persistence, diagnostic specificity and genetic liability for context-processing deficits in schizophrenia},
+  author={Richard, A. E. and Carter, C. S. and Cohen, J. D. and Cho, R. Y.},
+  journal={Schizophrenia Research},
+  volume={147},
+  number={1},
+  pages={75--80},
+  year={2013},
+  url={https://www.sciencedirect.com/science/article/abs/pii/S0920996413001126}
+}
+
+@article{shenhav2013expected,
+  title={The expected value of control: An integrative theory of anterior cingulate cortex function},
+  author={Shenhav, A. and Botvinick, M. M. and Cohen, J. D.},
+  journal={Neuron},
+  volume={79},
+  pages={217--240},
+  year={2013},
+  url={https://www.sciencedirect.com/science/article/pii/S0896627313006077}
+}
+
+@article{todd2013confounds,
+  title={Confounds in multivariate pattern analysis: Theory and rule representation case study},
+  author={Todd, M. T. and Nystrom, L. E. and Cohen, J. D.},
+  journal={Neuroimage},
+  volume={77},
+  pages={157--165},
+  year={2013},
+  url={https://www.sciencedirect.com/science/article/pii/S1053811913002887}
+}
+
+@article{tomlin2013neural,
+  title={The neural substrates of social influence on decision making},
+  author={Tomlin, D. and Nedic, A. and Prentice, D. A. and Holmes, P. and Cohen, J. D.},
+  journal={PLOS ONE},
+  volume={8},
+  number={1},
+  pages={e52630},
+  year={2013},
+  url={https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0052630}
+}
+
+@article{dardenne2012role,
+  title={The role of prefrontal cortex and the midbrain dopamine system in working memory updating},
+  author={D'Ardenne, K. and Eshel, N. and Luka, J. and Lenartowicz, A. and Nystrom, L. E. and Cohen, J. D.},
+  journal={Proceedings of the National Academy of Sciences, USA},
+  volume={109},
+  number={49},
+  year={2012},
+  url={https://www.pnas.org/doi/abs/10.1073/pnas.1116727109}
+}
+
+@article{nedic2012decision,
+  title={A decision task in a social context: Human experiments, models, and analyses of behavioral data},
+  author={Nedic, A. and Tomlin, D. and Holmes, P. and Prentice, D. A. and Cohen, J. D.},
+  journal={Proceedings of the IEEE},
+  volume={100},
+  number={3},
+  pages={713--733},
+  year={2012},
+  url={https://ieeexplore.ieee.org/abstract/document/6069518}
+}
+
+@article{reynolds2012function,
+  title={The function and organization of lateral prefrontal cortex: A test of competing hypotheses},
+  author={Reynolds, J. R. and O'Reilly, R. C. and Cohen, J. D. and Braver, T. S.},
+  journal={PLOS ONE},
+  volume={7},
+  number={2},
+  pages={e30284},
+  year={2012},
+  url={https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0030284}
+}
+
+@article{vanvugt2012eeg,
+  title={EEG oscillations reveal neural correlates of evidence accumulation},
+  author={van Vugt, M. K. and Simen, P. and Nystrom, L. E. and Holmes, P. and Cohen, J. D.},
+  journal={Frontiers in Decision Neuroscience},
+  volume={6},
+  pages={106},
+  year={2012},
+  url={https://www.frontiersin.org/articles/10.3389/fnins.2012.00106/full}
+}
+
+@article{balci2011optimal,
+  title={Optimal temporal risk assessment},
+  author={Balci, F. and Freestone, D. and Simen, P. and deSouza, L. and Cohen, J. D. and Holmes, P.},
+  journal={Frontiers in Integrative Neuroscience},
+  volume={5},
+  number={56},
+  pages={1--15},
+  year={2011},
+  url={https://www.frontiersin.org/articles/10.3389/fnint.2011.00056/full}
+}
+
+@article{balci2011acquisition,
+  title={Acquisition of decision making criteria: Reward rate ultimately beats accuracy},
+  author={Balci, F. and Simen, P. and Niyogi, R. and Saxe, A. and Hughes, J. A. and Holmes, P. and Cohen, J. D.},
+  journal={Attention, Perception, \& Psychophysics},
+  volume={73},
+  pages={640--657},
+  year={2011},
+  url={https://link.springer.com/article/10.3758/s13414-010-0049-7}
+}
+
+@article{carter2011cognitive,
+  title={Cognitive Neuroscience Treatment Research to Improve Cognition in Schizophrenia II: Developing imaging biomarkers to enhance treatment development for schizophrenia and related disorders},
+  author={Carter, C. S. and Barch, D. M. and Bullmore, E. and Breiling, J. and Buchanan, R. W. and Butler, P. and Cohen, J. D. and Geyer, M. and Gollub, R. and Green, M. F. and Jaeger, J. and Krystal, J. H. and Moore, H. and Nuechterlein, K. and Robbins, T. and Silverstein, S. and Smith, E. E. and Strauss, M. and Wykes, T.},
+  journal={Biological Psychiatry},
+  volume={70},
+  number={1},
+  pages={7--12},
+  year={2011},
+  url={https://www.sciencedirect.com/science/article/pii/S0006322311002071}
+}
+
+@article{forster2011parametric,
+  title={Parametric manipulation of the conflict signal and control-state adaptation},
+  author={Forster, S. E. and Carter, C. S. and Cohen, J. D. and Cho, R. Y.},
+  journal={Journal of Cognitive Neuroscience},
+  volume={23},
+  number={4},
+  pages={923--935},
+  year={2011},
+  url={https://direct.mit.edu/jocn/article/23/4/923/5064/Parametric-Manipulation-of-the-Conflict-Signal-and}
+}
+
+@article{lenartowicz2011no,
+  title={No-go trials can modulate switch cost by interfering with effects of task preparation},
+  author={Lenartowicz, A. and Yeung, N. and Cohen, J. D.},
+  journal={Psychological Research},
+  volume={75},
+  pages={66--76},
+  year={2011},
+  url={https://link.springer.com/article/10.1007/s00426-010-0286-3}
+}
+
+@article{simen2011model,
+  title={A model of interval timing by neural integration},
+  author={Simen, P. and Balci, F. and DeSouza, L. and Cohen, J. D. and Holmes, P.},
+  journal={Journal of Neuroscience},
+  volume={31},
+  pages={9238--9253},
+  year={2011},
+  url={https://www.jneurosci.org/content/31/25/9238.short}
+}
+
+@article{bogacz2010humans,
+  title={Do humans produce the speed-accuracy tradeoff that maximizes reward rate?},
+  author={Bogacz, R. and Hu, P. T. and Holmes, P. and Cohen, J. D.},
+  journal={Quarterly Journal of Experimental Psychology},
+  volume={63},
+  number={5},
+  pages={863--891},
+  year={2010},
+  url={https://psycnet.apa.org/record/2010-08456-005}
+}
+
+@article{gershman2010learning,
+  title={Learning to selectively attend},
+  author={Gershman, S. J. and Cohen, J. D. and Niv, Y.},
+  journal={CogSci 2010: Proceedings of the Annual Meeting of the Cognitive Science Society},
+  volume={32},
+  year={2010},
+  url={https://gershmanlab.com/pubs/GershmanCohenNiv10.pdf}
+}
+
+@article{gilzenrat2010pupil,
+  title={Pupil Diameter Tracks Changes in Control State Predicted by the Adaptive Gain Theory of Locus Coeruleus Function},
+  author={Gilzenrat, M. S. and Nieuwenhuis, S. and Cohen, J. D.},
+  journal={Cognitive, Affective and Behavioral Neuroscience},
+  volume={10},
+  number={2},
+  pages={252--269},
+  year={2010},
+  url={https://link.springer.com/article/10.3758/CABN.10.2.252}
+}
+
+@article{lenartowicz2010updating,
+  title={Updating of context in working memory: An event related potential study},
+  author={Lenartowicz, A. and Escobedo-Quiroz, R. and Cohen, J. D.},
+  journal={Cognitive, Affective and Behavioral Neuroscience},
+  volume={10},
+  number={2},
+  pages={298--315},
+  year={2010},
+  url={https://link.springer.com/article/10.3758/CABN.10.2.298}
+}
+
+@article{schurger2010reproducibility,
+  title={Reproducibility of activity characterizes conscious from non-conscious neural representations},
+  author={Schurger, A. and Pereira, F. and Treisman, A. and Cohen, J. D.},
+  journal={Science},
+  volume={327},
+  number={5961},
+  pages={97--99},
+  year={2010},
+  url={https://www.science.org/doi/full/10.1126/science.1180029}
+}
+
+@article{wonglin2010optimal,
+  title={Optimal performance in a countermanding saccade task},
+  author={Wong-Lin, K. F. and Eckhoff, P. and Holmes, P. and Cohen, J. D.},
+  journal={Brain Research},
+  volume={1318},
+  pages={178--187},
+  year={2010},
+  url={https://www.sciencedirect.com/science/article/pii/S0006899309026523}
+}
+
+@article{barch2009selecting,
+  title={Selecting paradigms from cognitive neuroscience for translation into use in clinical trials: Proceedings of the third CNTRICS meeting},
+  author={Barch, D. M. and Carter, C. S. and Arnsten, A. and Buchanan, R. W. and Cohen, J. D. and Geyer, M. and ... and Heinssen, R.},
+  journal={Schizophrenia Bulletin},
+  volume={35},
+  pages={109--114},
+  year={2009},
+  url={https://academic.oup.com/schizophreniabulletin/article/35/1/109/1933522}
+}
+
+@article{cho2009generalized,
+  title={Generalized signaling for control: Evidence from post-conflict and post-error performance adjustments},
+  author={Cho, R. Y. and Orr, J. M. and Cohen, J. D. and Carter, C. S.},
+  journal={Journal of Experimental Psychology: Human Perception and Performance},
+  volume={35},
+  pages={1161--1177},
+  year={2009},
+  url={https://psycnet.apa.org/record/2009-11357-012?doi=1}
+}
+
+@article{daubechies2009independent,
+  title={Independent component analysis for brain fMRI does NOT select for independence},
+  author={Daubechies, I. and Roussos, E. and Takerkart, S. and Benharrosh, M. and Golden, C. and D’Ardenne, K. and ... and Haxby, J.},
+  journal={Proceedings of the National Academy of Sciences, USA},
+  volume={106},
+  pages={10415--10422},
+  year={2009},
+  url={https://www.pnas.org/doi/abs/10.1073/pnas.0903525106}
+}
+
+@article{gao2009sequential,
+  title={Sequential effects in two-choice reaction time tasks: Decomposition and synthesis of mechanisms},
+  author={Gao, J. and Wong-Lin, K. F. and Holmes, P. and Simen, P. and Cohen, J. D.},
+  journal={Neural Computation},
+  volume={21},
+  pages={2407--2436},
+  year={2009},
+  url={https://direct.mit.edu/neco/article/21/9/2407/7474/Sequential-Effects-in-Two-Choice-Reaction-Time}
+}
+
+@article{simen2009explicit,
+  title={Explicit melioration by a neural diffusion model},
+  author={Simen, P. and Cohen, J. D.},
+  journal={Brain Research},
+  volume={1299},
+  pages={95--117},
+  year={2009},
+  url={https://www.sciencedirect.com/science/article/pii/S0006899309013900}
+}
+
+@article{simen2009reward,
+  title={Reward rate optimization in two-alternative decision making: Empirical tests of theoretical predictions},
+  author={Simen, P. and Contreras-Ros, D. and Buck, C. and Hu, P. and Holmes, P. and Cohen, J. D.},
+  journal={Journal of Experimental Psychology: Human Perception and Performance},
+  volume={35},
+  pages={1865--1897},
+  year={2009},
+  url={https://psycnet.apa.org/record/2009-22869-017?doi=1}
+}
+
+@article{yu2009dynamics,
+  title={Dynamics of attentional selection under conflict: Toward a rational Bayesian account},
+  author={Yu, A. J. and Dayan, P. and Cohen, J. D.},
+  journal={Journal of Experimental Psychology: Human Perception and Performance},
+  volume={35},
+  number={3},
+  pages={700--717},
+  year={2009},
+  url={https://pubmed.ncbi.nlm.nih.gov/19485686/}
+}
+
+@article{carter2008identifying,
+  title={Identifying cognitive mechanisms targeted for treatment development in schizophrenia: An overview of the first meeting of the Cognitive Neuroscience Treatment Research to Improve Cognition in Schizophrenia (CNTRICS) initiative},
+  author={Carter, C. S. and Barch, D. M. and Buchanan, R. W. and Bullmore, E. and Krystal, J. H. and Cohen, J. D. and ... and Heinssen, R.},
+  journal={Biological Psychiatry},
+  volume={64},
+  number={1},
+  pages={4--10},
+  year={2008},
+  url={https://www.sciencedirect.com/science/article/pii/S0006322308003648}
+}
+
+@article{dardenne2008bold,
+  title={BOLD responses in the dopaminergic ventral tegmental area during a classical conditioning task},
+  author={D’Ardenne, K. and McClure, S. M. and Nystrom, L. E. and Cohen, J. D.},
+  journal={Science},
+  volume={319},
+  number={5867},
+  pages={1264--1267},
+  year={2008},
+  url={https://www.science.org/doi/full/10.1126/science.1150605}
+}
+
+@article{fales2008altered,
+  title={Altered emotional interference processing in affective and cognitive-control brain circuitry in major depression},
+  author={Fales, C. L. and Barch, D. M. and Rundle, M. M. and Mintun, M. A. and Snyder, A. X. and Cohen, J. D. and ... and Sheline, Y. I.},
+  journal={Biological Psychiatry},
+  volume={63},
+  number={4},
+  pages={377--384},
+  year={2008},
+  url={https://www.sciencedirect.com/science/article/pii/S0006322307005653}
+}
+
+@article{greene2008pushing,
+  title={Pushing moral buttons: The interaction between personal force and intention in moral judgment},
+  author={Greene, J. D. and Cushman, F. A. and Stewart, L. E. and Lowenberg, K. and Nystrom, L. E. and Cohen, J. D.},
+  journal={Cognition},
+  volume={111},
+  pages={364--371},
+  year={2008},
+  url={https://www.sciencedirect.com/science/article/pii/S0010027709000420}
+}
+
+@article{greene2008cognitive,
+  title={Cognitive load selectively interferes with utilitarian moral judgment},
+  author={Greene, J. D. and Morelli, S. A. and Lowenberg, K. and Nystrom, L. E. and Cohen, J. D.},
+  journal={Cognition},
+  volume={107},
+  pages={1144--1154},
+  year={2008},
+  url={https://pubmed.ncbi.nlm.nih.gov/18158145/}
+}
+
+@article{kroger2008distinct,
+  title={Distinct neural substrates for deductive and mathematical processing},
+  author={Kroger, J. K. and Nystrom, L. E. and Cohen, J. D. and Johnson-Laird, P. N.},
+  journal={Brain Research},
+  volume={1243},
+  pages={83--103},
+  year={2008},
+  url={https://pubmed.ncbi.nlm.nih.gov/18760263/}
+}
+
+@article{liu2008neural,
+  title={A neural network model of the Eriksen task: Reduction, analysis, and data fitting},
+  author={Liu, Y. and Holmes, P. and Cohen, J. D.},
+  journal={Neural Computation},
+  volume={20},
+  number={2},
+  pages={345--373},
+  year={2008},
+  url={https://pubmed.ncbi.nlm.nih.gov/18045022/}
+}
+
+@article{loewenstein2008neuroeconomics,
+  title={Neuroeconomics},
+  author={Loewenstein, G. and Rick, S. and Cohen, J. D.},
+  journal={Annual Review of Psychology},
+  volume={59},
+  pages={18.1--18.26},
+  year={2008},
+  url={https://pubmed.ncbi.nlm.nih.gov/17883335/}
+}
+
+@article{nuechterlein2008matrics,
+  title={The MATRICS Consensus Cognitive Battery: Part 1. Test selection, reliability, and validity},
+  author={Nuechterlein, K. H. and Green, M. F. and Kern, R. S. and Baade, L. E. and Barch, D. and Cohen, J. D. and ... and Marder, S. R.},
+  journal={American Journal of Psychiatry},
+  volume={165},
+  number={2},
+  pages={203--213},
+  year={2008},
+  url={https://ajp.psychiatryonline.org/doi/full/10.1176/appi.ajp.2007.07010042}
+}
+
+@article{pochon2008functional,
+  title={Functional imaging of decision conflict},
+  author={Pochon, J.-P. and Riis, J. and Sanfey, A. and Nystrom, L. and Cohen, J. D.},
+  journal={Journal of Neuroscience},
+  volume={28},
+  number={13},
+  pages={3468--3473},
+  year={2008},
+  url={https://www.jneurosci.org/content/28/13/3468.short}
+}
+
+@article{schurger2008distinct,
+  title={Distinct and independent correlates of attention and awareness in a hemianopic patient},
+  author={Schurger, A. and Cowey, A. and Cohen, J. D. and Treisman, A. and Tallon-Baudry, C.},
+  journal={Neuropsychologia},
+  volume={46},
+  number={8},
+  pages={2189--2197},
+  year={2008},
+  url={https://www.sciencedirect.com/science/article/pii/S0028393208000833}
+}
+
+@article{shea-brown2008optimization,
+  title={Optimization of decision making in multilayer networks: The role of Locus Coeruleus},
+  author={Shea-Brown, E. T. and Gilzenrat, M. S. and Cohen, J. D.},
+  journal={Neural Computation},
+  volume={20},
+  pages={2863--2894},
+  year={2008},
+  url={https://direct.mit.edu/neco/article/20/12/2863/7374/Optimization-of-Decision-Making-in-Multilayer}
+}
+
+@article{todd2008learning,
+  title={Learning to use working memory in partially observable environments through dopaminergic reinforcement},
+  author={Todd, M. and Niv, Y. and Cohen, J. D.},
+  journal={Advances in Neural Information Processing Systems},
+  volume={20},
+  pages={1689--1696},
+  year={2008},
+  url={https://dl.acm.org/doi/abs/10.5555/2981780.2981991}
+}
+
+@article{vandenbos2008value,
+  title={The value of victory: social origins of the winner's curse in common value auctions},
+  author={van den Bos, W. and Li, J. and Lau, T. and Maskin, E. and Cohen, J. D. and Montague, P. R. and McClure, S. M.},
+  journal={Judgment and Decision Making},
+  volume={3},
+  number={7},
+  pages={483--492},
+  year={2008},
+  url={https://www.cambridge.org/core/journals/judgment-and-decision-making/article/value-of-victory-social-origins-of-the-winners-curse-in-common-value-auctions/5DDB727F9F2E599C7BA90106F5AAC3C0}
+}
+
+@article{yu2008sequential,
+  title={Sequential effects: Superstition or rational behavior?},
+  author={Yu, A. and Cohen, J. D.},
+  journal={Advances in Neural Information Processing Systems},
+  volume={21},
+  pages={1873--1880},
+  year={2008},
+  url={https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4580342/}
+}
+
+@article{bogacz2007shortterm,
+  title={Short-term memory traces for action bias in human reinforcement learning},
+  author={Bogacz, R. and McClure, S. M. and Li, J. and Cohen, J. D. and Montague, P. R.},
+  journal={Brain Research},
+  volume={1153},
+  pages={111--121},
+  year={2007},
+  url={https://www.sciencedirect.com/science/article/pii/S000689930700666X}
+}
+
+@article{cohen2007stayorgo,
+  title={Should I stay or should I go? How the human brain manages the tradeoff between exploitation and exploration},
+  author={Cohen, J. D. and McClure, S. M. and Yu, A. J.},
+  journal={Philosophical Transactions of the Royal Society of London Series B (Biological Sciences)},
+  volume={362},
+  number={1481},
+  pages={933--942},
+  year={2007},
+  url={https://royalsocietypublishing.org/doi/full/10.1098/rstb.2007.2098}
+}
+
+@article{harris2007regions,
+  title={Regions of MPFC differentially tuned to social and non-social affective evaluation},
+  author={Harris, L. T. and McClure, S. M. and van den Bos, W. and Cohen, J. D. and Fiske, S. T.},
+  journal={Cognitive, Affective and Behavioral Neuroscience},
+  volume={7},
+  number={4},
+  pages={309--316},
+  year={2007},
+  url={https://link.springer.com/article/10.3758/CABN.7.4.309}
+}
+
+@article{mcclure2007time,
+  title={Time discounting for primary rewards},
+  author={McClure, S. M. and Ericson, K. M. and Laibson, D. I. and Loewenstein, G. and Cohen, J. D.},
+  journal={Journal of Neuroscience},
+  volume={27},
+  number={21},
+  pages={5796--5804},
+  year={2007},
+  url={https://www.jneurosci.org/content/27/21/5796}
+}
+
+@article{vandenbos2007dissociating,
+  title={Dissociating affective evaluation and social cognitive processes in the ventral medial prefrontal cortex},
+  author={van den Bos, W. and McClure, S. M. and Harris, L. T. and Fiske, S. T. and Cohen, J. D.},
+  journal={Cognitive, Affective and Behavioral Neuroscience},
+  volume={7},
+  number={4},
+  pages={337--346},
+  year={2007},
+  url={https://pubmed.ncbi.nlm.nih.gov/18189007/}
+}
+
+@article{yeung2007theta,
+  title={Theta phase resetting and the error-related negativity},
+  author={Yeung, N. and Bogacz, R. and Holroyd, C. B. and Nieuwenhuis, S. and Cohen, J. D.},
+  journal={Psychophysiology},
+  volume={44},
+  pages={39--49},
+  year={2007},
+  url={https://onlinelibrary.wiley.com/doi/full/10.1111/j.1469-8986.2006.00482.x}
+}
+
+@article{bishop2006comt,
+  title={COMT genotype influences prefrontal response to emotional distraction},
+  author={Bishop, S. J. and Cohen, J. D. and Fossella, J. and Casey, B. J. and Farah, M. J.},
+  journal={Cognitive, Affective and Behavioral Neuroscience},
+  volume={6},
+  number={1},
+  pages={62--70},
+  year={2006},
+  url={https://link.springer.com/article/10.3758/CABN.6.1.62}
+}
+
+@article{bogacz2006physics,
+  title={The physics of optimal decision making: A formal analysis of models of performance in two-alternative forced choice tasks},
+  author={Bogacz, R. and Brown, E. T. and Moehlis, J. and Holmes, P. and Cohen, J. D.},
+  journal={Psychological Review},
+  volume={113},
+  number={4},
+  pages={700--765},
+  year={2006},
+  url={https://psycnet.apa.org/record/2006-12689-002?doi=1}
+}
+
+@article{montague2006imaging,
+  title={Imaging valuation models in human choice},
+  author={Montague, P. R. and King-Casas, B. and Cohen, J. D.},
+  journal={Annual Review of Neuroscience},
+  volume={29},
+  pages={417--448},
+  year={2006},
+  url={https://www.annualreviews.org/doi/abs/10.1146/annurev.neuro.29.051605.112903}
+}
+
+@article{nitschke2006altering,
+  title={Altering expectancy dampens neural response to aversive taste in primary taste cortex},
+  author={Nitschke, J. B. and Dixon, G. E. and Sarinopoulos, I. and Short, S. J. and Cohen, J. D. and Smith, E. E. and Davidson, R. J.},
+  journal={Nature Neuroscience},
+  volume={9},
+  number={3},
+  pages={435--442},
+  year={2006},
+  url={https://www.nature.com/articles/nn1645}
+}
+
+@article{pizzagalli2006resting,
+  title={Resting anterior cingulate activity and abnormal responses to errors in subjects with elevated depressive symptoms: A 128-channel EEG study},
+  author={Pizzagalli, D. A. and Peccoralo, L. A. and Davidson, R. J. and Cohen, D.},
+  journal={Human Brain Mapping},
+  volume={27},
+  pages={185--201},
+  year={2006},
+  url={https://onlinelibrary.wiley.com/doi/full/10.1002/hbm.20172}
+}
+
+@article{sanfey2006neuroeconomics,
+  title={Neuroeconomics: cross-currents in research on decision-making},
+  author={Sanfey, A. G. and Loewenstein, G. and McClure, S. M. and Cohen, J. D.},
+  journal={Trends in Cognitive Sciences},
+  volume={10},
+  number={3},
+  pages={108--116},
+  year={2006},
+  url={https://www.sciencedirect.com/science/article/pii/S1364661306000271}
+}
+
+@article{simen2006rapid,
+  title={Rapid decision threshold modulation by reward rate in a neural network},
+  author={Simen, P. and Cohen, J. D. and Holmes, P.},
+  journal={Neural Networks},
+  volume={19},
+  pages={1013--1026},
+  year={2006},
+  url={https://www.sciencedirect.com/science/article/pii/S0893608006001626}
+}
+
+@article{yeung2006impact,
+  title={The impact of cognitive deficits on conflict monitoring: Predictable dissociations between the ERN and N2},
+  author={Yeung, N. and Cohen, J. D.},
+  journal={Psychological Science},
+  volume={17},
+  number={2},
+  pages={164--171},
+  year={2006},
+  url={https://psycnet.apa.org/record/2006-02115-012}
+}
+
+@article{yeung2006between,
+  title={Between-task competition and cognitive control in task switching},
+  author={Yeung, N. and Nystrom, L. E. and Aronson, J. A. and Cohen, J. D.},
+  journal={Journal of Neuroscience},
+  volume={26},
+  number={5},
+  pages={1429--1438},
+  year={2006},
+  url={https://www.jneurosci.org/content/26/5/1429}
+}
+
+@article{aston-jones2005adaptive,
+  title={Adaptive gain and the role of the locus coeruleus-norepinephrine system in optimal performance},
+  author={Aston-Jones, G. and Cohen, J. D.},
+  journal={Journal of Comparative Neurology},
+  volume={493},
+  number={1},
+  pages={99--110},
+  year={2005},
+  url={https://onlinelibrary.wiley.com/doi/full/10.1002/cne.20723}
+}
+
+@article{aston-jones2005integrative,
+  title={An integrative theory of locus coeruleus-norepinephrine function: Adaptive gain and optimal performance},
+  author={Aston-Jones, G. and Cohen, J. D.},
+  journal={Annual Review of Neuroscience},
+  volume={28},
+  pages={403--450},
+  year={2005},
+  url={https://www.annualreviews.org/doi/abs/10.1146/annurev.neuro.28.061604.135709}
+}
+
+@article{brown2005simple,
+  title={Simple neural networks that optimize decisions},
+  author={Brown, E. T. and Gao, J. and Holmes, P. and Bogacz, R. and Gilzenrat, M. and Cohen, J. D.},
+  journal={International Journal of Bifurcation \& Chaos},
+  volume={15},
+  number={3},
+  pages={803--826},
+  year={2005},
+  url={https://www.worldscientific.com/doi/abs/10.1142/S0218127405012478}
+}
+
+@article{cohen2005vulcanization,
+  title={The vulcanization of the human brain: A neural perspective on interactions between cognition and emotion},
+  author={Cohen, J. D.},
+  journal={Journal of Economic Perspectives},
+  volume={19},
+  number={4},
+  pages={3--24},
+  year={2005},
+  url={https://www.aeaweb.org/articles?id=10.1257/089533005775196750}
+}
+
+@article{holmes2005optimal,
+  title={Optimal decisions: From neural spikes, through stochastic differential equations, to behavior},
+  author={Holmes, P. and Brown, E. and Moehlis, J. and Bogacz, R. and Gao, J. and Aston-Jones, G. and Clayton, E. and Rajkowski, J. and Cohen, J. D.},
+  journal={IEICE Transactions on Fundamentals of Electronics, Communications and Computer Sciences},
+  volume={88},
+  number={10},
+  pages={2496--2503},
+  year={2005},
+  url={https://www.researchgate.net/publication/31011977_Optimal_Decisions_From_Neural_Spikes_through_Stochastic_Differential_Equations_to_Behavior}
+}
+
+@article{holroyd2005mechanism,
+  title={A mechanism for error detection in speeded response time tasks},
+  author={Holroyd, C. B. and Yeung, N. and Coles, M. G. H. and Cohen, J. D.},
+  journal={Journal of Experimental Psychology: General},
+  volume={134},
+  number={2},
+  pages={163--191},
+  year={2005},
+  url={https://psycnet.apa.org/record/2005-04168-003?doi=1}
+}
+
+@article{kerns2005decreased,
+  title={Decreased conflict- and error-related activity in the anterior cingulate cortex in subjects with schizophrenia},
+  author={Kerns, J. G. and Cohen, J. D. and MacDonald III, A. W. and Johnson, M. K. and Stenger, V. A. and Aizenstein, H. and Carter, C. S.},
+  journal={American Journal of Psychiatry},
+  volume={162},
+  number={10},
+  pages={1833--1839},
+  year={2005},
+  url={https://ajp.psychiatryonline.org/doi/full/10.1176/appi.ajp.162.10.1833}
+}
+
+@article{macdonald2005specificity,
+  title={Specificity of prefrontal dysfunction and context processing deficits to schizophrenia in never-medicated patients with first-episode psychosis},
+  author={MacDonald III, A. and Carter, C. S. and Kerns, J. and Ursu, S. and Barch, D. M. and Holmes, A. and Stenger, V. A. and Cohen, J. D.},
+  journal={American Journal of Psychiatry},
+  volume={162},
+  pages={475--484},
+  year={2005},
+  url={https://ajp.psychiatryonline.org/doi/full/10.1176/appi.ajp.162.3.475}
+}
+
+@article{mcclure2005exploration,
+  title={An exploration-exploitation model based on norepinephrine and dopamine activity},
+  author={McClure, S. and Gilzenrat, M. and Cohen, J.},
+  journal={Advances in Neural Information Processing Systems},
+  volume={18},
+  pages={867--874},
+  year={2005},
+  url={https://collaborate.princeton.edu/en/publications/an-exploration-exploitation-model-based-on-norepinepherine-and-do}
+}
+
+@article{nieuwenhuis2005decision,
+  title={Decision making, the P3, and the locus coeruleus-norepinephrine system},
+  author={Nieuwenhuis, S. and Aston-Jones, G. and Cohen, J. D.},
+  journal={Psychological Bulletin},
+  volume={131},
+  number={4},
+  pages={510--532},
+  year={2005},
+  url={https://psycnet.apa.org/record/2005-08334-002}
+}
+
+@article{nieuwenhuis2005role,
+  title={The role of the locus coeruleus in mediating the attentional blink: A neurocomputational theory},
+  author={Nieuwenhuis, S. and Gilzenrat, M. S. and Holmes, B. D. and Cohen, J. D.},
+  journal={Journal of Experimental Psychology: General},
+  volume={134},
+  pages={291--307},
+  year={2005},
+  url={https://psycnet.apa.org/record/2005-09704-001}
+}
+
+@article{polyn2005category,
+  title={Category-specific cortical activity precedes retrieval during memory search},
+  author={Polyn, S. M. and Natu, V. S. and Cohen, J. D. and Norman, K. A.},
+  journal={Science},
+  volume={310},
+  number={5756},
+  pages={1963--1966},
+  year={2005},
+  url={https://www.science.org/doi/full/10.1126/science.1117645}
+}
+
+@article{rougier2005prefrontal,
+  title={Prefrontal cortex and the flexibility of cognitive control: Rules without symbols},
+  author={Rougier, N. P. and Noelle, D. C. and Braver, T. S. and Cohen, J. D. and O’Reilly, R. C.},
+  journal={Proceedings of the National Academy of Sciences, USA},
+  volume={102},
+  number={20},
+  pages={7338--7343},
+  year={2005},
+  url={https://www.pnas.org/doi/abs/10.1073/pnas.0502455102}
+}
+
+@article{yeung2005erp,
+  title={ERP correlates of feedback and reward processing in the presence and absence of response choice},
+  author={Yeung, N. and Holroyd, C. B. and Cohen, J. D.},
+  journal={Cerebral Cortex},
+  volume={15},
+  pages={535--544},
+  year={2005},
+  url={https://academic.oup.com/cercor/article/15/5/535/442121}
+}
+
+@article{bogacz2004parameterization,
+  title={Parameterization of connectionist models},
+  author={Bogacz, R. and Cohen, J. D.},
+  journal={Behavioral Research Methods, Instruments \& Computers},
+  volume={36},
+  number={4},
+  pages={732--741},
+  year={2004},
+  url={https://link.springer.com/article/10.3758/BF03206554}
+}
+
+@article{botvinick2004conflict,
+  title={Conflict monitoring and anterior cingulate cortex: An update},
+  author={Botvinick, M. M. and Cohen, J. D. and Carter, C. S.},
+  journal={Trends in Cognitive Sciences},
+  volume={8},
+  number={12},
+  pages={539--546},
+  year={2004},
+  url={https://www.sciencedirect.com/science/article/pii/S1364661304002657}
+}
+
+@article{clayton2004phasic,
+  title={Phasic activation of monkey locus coeruleus neurons by simple decisions in a forced choice task},
+  author={Clayton, E. C. and Rajkowski, J. and Cohen, J. D. and Aston-Jones, G.},
+  journal={Journal of Neuroscience},
+  volume={24},
+  number={44},
+  pages={9914--9920},
+  year={2004},
+  url={https://www.jneurosci.org/content/24/44/9914.short}
+}
+
+@article{green2004approaching,
+  title={Approaching a consensus cognitive battery for clinical trials in schizophrenia: The NIMH-MATRICS conference to select cognitive domains and test criteria},
+  author={Green, M. F. and Nuechterlein, K. H. and Gold, J. M. and Barch, D. M. and Cohen, J. D. and Essock, S. and ... and Marder, S. R.},
+  journal={Biological Psychiatry},
+  volume={56},
+  number={5},
+  pages={301--307},
+  year={2004},
+  url={https://www.sciencedirect.com/science/article/pii/S0006322304007012}
+}
+
+@article{greene2004for,
+  title={For the law, neuroscience changes nothing and everything},
+  author={Greene, J. D. and Cohen, J. D.},
+  journal={Philosophical Transactions of the Royal Society of London Series B},
+  volume={359},
+  number={1451},
+  pages={1775--1785},
+  year={2004},
+  url={https://pubmed.ncbi.nlm.nih.gov/15590618/}
+}
+
+@article{greene2004neural,
+  title={The neural bases of cognitive conflict and control in moral judgment},
+  author={Greene, J. D. and Nystrom, L. E. and Engell, A. D. and Darley, J. M. and Cohen, J. D.},
+  journal={Neuron},
+  volume={44},
+  number={2},
+  pages={389--400},
+  year={2004},
+  url={https://pubmed.ncbi.nlm.nih.gov/15473975/}
+}
+
+@article{holroyd2004context,
+  title={Context dependence of the event-related brain potential associated with reward and punishment},
+  author={Holroyd, C. B. and Larsen, J. T. and Cohen, J. D.},
+  journal={Psychophysiology},
+  volume={41},
+  number={2},
+  pages={245--253},
+  year={2004},
+  url={https://pubmed.ncbi.nlm.nih.gov/15032989/}
+}
+
+@article{holroyd2004dorsal,
+  title={Dorsal anterior cingulate cortex shows fMRI response to internal and external error signals},
+  author={Holroyd, C. B. and Nieuwenhuis, S. and Yeung, N. and Nystrom, L. E. and Mars, R. B. and Coles, M. G. H. and Cohen, J. D.},
+  journal={Nature Neuroscience},
+  volume={7},
+  number={5},
+  pages={497--498},
+  year={2004},
+  url={https://www.nature.com/articles/nn1238}
+}
+
+@article{kerns2004anterior,
+  title={Anterior cingulate conflict monitoring and adjustments in control},
+  author={Kerns, J. G. and Cohen, J. D. and MacDonald III, A. W. and Cho, R. Y. and Stenger, V. A. and Carter, C. S.},
+  journal={Science},
+  volume={303},
+  pages={1023--1026},
+  year={2004},
+  url={https://pubmed.ncbi.nlm.nih.gov/14963333/}
+}
+
+@article{kerns2004prefrontal,
+  title={Prefrontal cortex guides context-appropriate responding during language production},
+  author={Kerns, J. G. and Cohen, J. D. and Stenger, V. A. and Carter, C. S.},
+  journal={Neuron},
+  volume={43},
+  number={2},
+  pages={283--291},
+  year={2004},
+  url={https://www.sciencedirect.com/science/article/pii/S0896627304004192}
+}
+
+@article{mcclure2004separate,
+  title={Separate neural systems value immediate and delayed monetary rewards},
+  author={McClure, S. M. and Laibson, D. I. and Loewenstein, G. and Cohen, J. D.},
+  journal={Science},
+  volume={306},
+  pages={503--507},
+  year={2004},
+  url={https://www.science.org/doi/full/10.1126/science.1100907}
+}
+
+@article{montague2004computational,
+  title={Computational roles for dopamine in behavioral control},
+  author={Montague, P. R. and Hyman, S. E. and Cohen, J. D.},
+  journal={Nature},
+  volume={431},
+  number={7010},
+  pages={760--767},
+  year={2004},
+  url={https://www.nature.com/articles/nature03015}
+}
+
+@article{nieuwenhuis2004stimulus,
+  title={Stimulus modality, perceptual overlap, and the Go/No-Go N2},
+  author={Nieuwenhuis, S. and Yeung, N. and Cohen, J. D.},
+  journal={Psychophysiology},
+  volume={41},
+  pages={157--160},
+  year={2004},
+  url={https://onlinelibrary.wiley.com/doi/full/10.1046/j.1469-8986.2003.00128.x}
+}
+
+@article{nieuwenhuis2004sensitivity,
+  title={Sensitivity of electrophysiological activity from medial frontal cortex to utilitarian and performance feedback},
+  author={Nieuwenhuis, S. and Yeung, N. and Holroyd, C. B. and Schurger, A. and Cohen, J. D.},
+  journal={Cerebral Cortex},
+  volume={14},
+  pages={741--747},
+  year={2004},
+  url={https://academic.oup.com/cercor/article/14/7/741/375871}
+}
+
+@article{rilling2004neural,
+  title={The neural correlates of theory of mind within interpersonal interactions},
+  author={Rilling, J. K. and Sanfey, A. G. and Aronson, J. A. and Nystrom, L. E. and Cohen, J. D.},
+  journal={Neuroimage},
+  volume={22},
+  number={4},
+  pages={1694--1703},
+  year={2004},
+  url={https://www.sciencedirect.com/science/article/pii/S1053811904002241}
+}
+
+@article{rilling2004opposing,
+  title={Opposing BOLD responses to reciprocated and unreciprocated altruism in putative reward pathways},
+  author={Rilling, J. K. and Sanfey, A. G. and Aronson, J. A. and Nystrom, L. E. and Cohen, J. D.},
+  journal={NeuroReport},
+  volume={15},
+  number={16},
+  pages={2539--2243},
+  year={2004},
+  url={https://journals.lww.com/neuroreport/Fulltext/2004/11150/Opposing_BOLD_responses_to_reciprocated_and.22.aspx}
+}
+
+@article{wager2004placebo,
+  title={Placebo-induced changes in fMRI in the anticipation and experience of pain},
+  author={Wager, T. D. and Rilling, J. K. and Smith, E. E. and Sokolik, A. and Casey, K. L. and Davidson, R. J. and Kosslyn, S. K. and Rose, R. M. and Cohen, J. D.},
+  journal={Science},
+  volume={303},
+  pages={1162--1167},
+  year={2004},
+  url={https://www.science.org/doi/full/10.1126/science.1093065}
+}
+
+@article{yeung2004detection,
+  title={Detection of synchronized oscillations in the electroencephalogram: An evaluation of methods},
+  author={Yeung, N. and Bogacz, R. and Holroyd, C. and Cohen, J. D.},
+  journal={Psychophysiology},
+  volume={41},
+  pages={822--832},
+  year={2004},
+  url={https://onlinelibrary.wiley.com/doi/full/10.1111/j.1469-8986.2004.00239.x}
+}
+
+@article{yeung2004neural,
+  title={The neural basis of error detection: conflict monitoring and the error-related negativity},
+  author={Yeung, N. and Botvinick, M. M. and Cohen, J. D.},
+  journal={Psychological Review},
+  volume={111},
+  number={4},
+  pages={931--959},
+  year={2004},
+  url={https://psycnet.apa.org/record/2004-19012-005}
+}
+
+@article{barch2003context,
+  title={Context-processing deficits in schizophrenia: Diagnostic specificity, 4-week course, and relationships to clinical symptoms},
+  author={Barch, D. M. and Carter, C. S. and MacDonald, A. and Braver, T. S. and Cohen, J. D.},
+  journal={Journal of Abnormal Psychology},
+  volume={112},
+  pages={132--143},
+  year={2003},
+  url={https://psycnet.apa.org/record/2003-01662-014}
+}
+
+@article{condray2003automatic,
+  title={Automatic activation of the semantic network in schizophrenia: N400 elicited by a brief inter-stimulus interval},
+  author={Condray, R. and Siegle, G. J. and Cohen, J. D. and van Kammen, D. P. and Steinhauer, S. R.},
+  journal={Biological Psychiatry},
+  volume={54},
+  number={11},
+  pages={1134--1148},
+  year={2003},
+  url={https://www.sciencedirect.com/science/article/pii/S0006322303006991}
+}
+
+@article{holroyd2003errors,
+  title={Errors in reward prediction are reflected in the event-related brain potential},
+  author={Holroyd, C. B. and Nieuwenhuis, S. and Yeung, N. and Cohen, J. D.},
+  journal={NeuroReport},
+  volume={14},
+  number={18},
+  pages={2481--2484},
+  year={2003},
+  url={https://journals.lww.com/neuroreport/Fulltext/2003/12190/Errors_in_reward_prediction_are_reflected_in_the.37.aspx}
+}
+
+@article{perlstein2003prefrontal,
+  title={Prefrontal cortex dysfunction mediates deficits in working memory and prepotent responding in schizophrenia},
+  author={Perlstein, W. M. and Dixit, N. K. and Carter, C. S. and Noll, D. C. and Cohen, J. D.},
+  journal={Biological Psychiatry},
+  volume={53},
+  number={1},
+  pages={25--38},
+  year={2003},
+  url={https://pubmed.ncbi.nlm.nih.gov/12513942/}
+}
+
+@article{sanfey2003neural,
+  title={The neural basis of economic decision-making in the ultimatum game},
+  author={Sanfey, A. G. and Rilling, J. K. and Aronson, J. A. and Nystrom, L. E. and Cohen, J. D.},
+  journal={Science},
+  volume={300},
+  pages={1755--1757},
+  year={2003},
+  url={https://www.science.org/doi/full/10.1126/science.1082976}
+}
+
+@article{cho2002mechanisms,
+  title={Mechanisms underlying performance dependencies on stimulus history in a two-alternative forced choice task},
+  author={Cho, R. Y. and Nystrom, L. E. and Brown, E. and Jones, A. D. and Braver, T. S. and Holmes, P. and Cohen, J. D.},
+  journal={Cognitive, Affective and Behavioral Neuroscience},
+  volume={2},
+  number={4},
+  pages={283--299},
+  year={2002},
+  url={https://link.springer.com/article/10.3758/CABN.2.4.283}
+}
+
+@article{cohen2002computational,
+  title={Computational perspectives on dopamine function in prefrontal cortex},
+  author={Cohen, J. D. and Braver, T. S. and Brown, J. W.},
+  journal={Current Opinion in Neurobiology},
+  volume={12},
+  pages={223--229},
+  year={2002},
+  url={https://www.sciencedirect.com/science/article/pii/S0959438802003148}
+}
+
+@article{davidson2002neural,
+  title={Neural and behavioral substrates of mood and mood regulation},
+  author={Davidson, R. J. and Lewis, D. A. and Alloy, L. and Amaral, D. and Bush, G. and Cohen, J. D. and ... and Peterson, B.},
+  journal={Biological Psychiatry},
+  volume={52},
+  number={6},
+  pages={478--502},
+  year={2002},
+  url={https://www.sciencedirect.com/science/article/pii/S0006322302014580}
+}
+
+@article{fissell2002fiswidgets,
+  title={Fiswidgets: A graphical computing environment for neuroimaging analysis},
+  author={Fissell, K. and Tseytlin, E. and Cunningham, D. and Karthickeyan, I. and Carter, C. S. and Schneider, W. and Cohen, J. D.},
+  journal={Neuroinformatics},
+  volume={1},
+  pages={111--125},
+  year={2002},
+  url={https://link.springer.com/article/10.1385/NI:1:1:111}
+}
+
+@article{gilzenrat2002simplified,
+  title={Simplified dynamics in a model of noradrenergic modulation of cognitive performance},
+  author={Gilzenrat, M. S. and Holmes, B. D. and Holmes, P. J. and Rajkowski, J. and Aston-Jones, G. and Cohen, J. D.},
+  journal={Neural Networks},
+  volume={15},
+  pages={647--663},
+  year={2002},
+  url={https://www.sciencedirect.com/science/article/pii/S0893608002000552}
+}
+
+@article{graziano2002how,
+  title={How the brain represents the body},
+  author={Graziano, M. and Cohen, J. D. and Botvinick, M. M.},
+  journal={Attention and Performance XIX: Common Mechanisms in Perception and Action},
+  pages={136--157},
+  year={2002},
+  url={https://web.math.princeton.edu/~sswang/autism/graziano_botvininck03.pdf}
+}
+
+@article{jones2002computational,
+  title={A computational model of anterior cingulate function in speeded response tasks: Effects of frequency, sequence and conflict},
+  author={Jones, A. D. and Cho, R. and Nystrom, L. E. and Cohen, J. D. and Braver, T. S.},
+  journal={Cognitive, Affective and Behavioral Neuroscience},
+  volume={2},
+  number={4},
+  pages={300--317},
+  year={2002},
+  url={https://link.springer.com/article/10.3758/CABN.2.4.300}
+}
+
+@article{montague2002hyperscanning,
+  title={Hyperscanning: Simultaneous fMRI during linked social interactions},
+  author={Montague, P. R. and Berns, G. S. and Cohen, J. D. and McClure, S. M. and Pagnoni, G. and Dhamala, M. and ... and Fisher, R. E.},
+  journal={NeuroImage},
+  volume={16},
+  number={4},
+  pages={1159--1164},
+  year={2002},
+  url={https://pubmed.ncbi.nlm.nih.gov/12202103/}
+}
+
+@article{oreilly2002prefrontal,
+  title={Prefrontal cortex in dynamic categorization tasks: Representational organization and neuromodulatory control},
+  author={O'Reilly, R. C. and Noelle, D. C. and Braver, T. S. and Cohen, J. D.},
+  journal={Cerebral Cortex},
+  volume={12},
+  pages={246--257},
+  year={2002},
+  url={https://academic.oup.com/cercor/article/12/3/246/278120}
+}
+
+@article{barch2001selective,
+  title={Selective deficits in prefrontal cortex function in medication-na{\"i}ve patients with schizophrenia},
+  author={Barch, D. M. and Carter, C. S. and Braver, T. S. and Sabb, F. W. and MacDonald, A. and Noll, D. C. and Cohen, J. D.},
+  journal={Archives of General Psychiatry},
+  volume={58},
+  pages={280--288},
+  year={2001},
+  url={https://jamanetwork.com/journals/jamapsychiatry/article-abstract/481734}
+}
+
+@article{botvinick2001conflict,
+  title={Conflict monitoring and cognitive control},
+  author={Botvinick, M. M. and Braver, T. S. and Carter, C. S. and Barch, D. M. and Cohen, J. D.},
+  journal={Psychological Review},
+  volume={108},
+  number={3},
+  pages={624--652},
+  year={2001},
+  url={https://psycnet.apa.org/record/2001-07628-005}
+}
+
+@article{braver2001context,
+  title={Context processing in older adults: Evidence for a theory relating cognitive control to neurobiology in healthy aging},
+  author={Braver, T. S. and Barch, D. M. and Keys, B. A. and Carter, C. S. and Cohen, J. D. and Kaye, J. A. and ... and Reed, B.},
+  journal={Journal of Experimental Psychology: General},
+  volume={130},
+  pages={746--763},
+  year={2001},
+  url={https://psycnet.apa.org/record/2001-05320-009}
+}
+
+@article{braver2001working,
+  title={Working memory, cognitive control, and the prefrontal cortex: Computational and empirical studies},
+  author={Braver, T. S. and Cohen, J. D.},
+  journal={Cognitive Processing},
+  volume={2},
+  pages={25--55},
+  year={2001},
+  url={https://bpb-us-w2.wpmucdn.com/sites.wustl.edu/dist/1/1008/files/2017/10/2001CogProc25-55-2hvgefy.pdf}
+}
+
+@article{greene2001fmri,
+  title={An fMRI investigation of emotional engagement in moral judgment},
+  author={Greene, J. D. and Sommerville, R. B. and Nystrom, L. E. and Darley, J. M. and Cohen, J. D.},
+  journal={Science},
+  volume={293},
+  pages={2105--2108},
+  year={2001},
+  url={https://www.science.org/doi/full/10.1126/science.1062872}
+}
+
+@article{miller2001integrative,
+  title={An integrative theory of prefrontal cortex function},
+  author={Miller, E. K. and Cohen, J. D.},
+  journal={Annual Review of Neuroscience},
+  volume={24},
+  pages={167--202},
+  year={2001},
+  url={https://www.annualreviews.org/doi/abs/10.1146/annurev.neuro.24.1.167}
+}
+
+@article{ohbm2001neuroimaging,
+  title={Neuroimaging databases},
+  author={Organization of Human Brain Mapping, Governing Council},
+  journal={Science},
+  volume={292},
+  pages={1673--1676},
+  year={2001},
+  url={https://www.science.org/doi/full/10.1126/science.1061041}
+}
+
+@article{perlstein2001relation,
+  title={Relation of prefrontal cortex dysfunction to working memory and symptoms in schizophrenia},
+  author={Perlstein, W. M. and Carter, C. S. and Noll, D. C. and Cohen, J. D.},
+  journal={American Journal of Psychiatry},
+  volume={158},
+  pages={1105--1113},
+  year={2001},
+  url={https://ajp.psychiatryonline.org/doi/full/10.1176/appi.ajp.158.7.1105}
+}
+
+@article{usher2001neural,
+  title={Neural mechanism for the magical number 4: Competitive interactions and non-linear oscillations},
+  author={Usher, M. and Haarmann, H. and Cohen, J. D. and Horn, D.},
+  journal={Behavioral and Brain Sciences},
+  volume={24},
+  pages={151},
+  year={2001},
+  url={https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/neural-mechanism-for-the-magical-number-4-competitive-interactions-and-nonlinear-oscillation/3C2898F832DAF8F836728B6A3698890E}
+}
+
+@article{vanveen2001anterior,
+  title={Anterior cingulate cortex, conflict monitoring, and levels of processing},
+  author={van Veen, V. and Cohen, J. D. and Botvinick, M. M. and Stenger, V. A. and Carter, C. S.},
+  journal={Neuroimage},
+  volume={14},
+  pages={1302--1308},
+  year={2001},
+  url={https://www.sciencedirect.com/science/article/pii/S1053811901909231}
+}
+
+@article{braver2000control,
+  title={On the control of control: The role of dopamine in regulating prefrontal function and working memory},
+  author={Braver, T. S. and Cohen, J. D.},
+  journal={Attention and Performance XVIII: Control of Cognitive Processes},
+  pages={713--737},
+  year={2000},
+  url={https://profiles.wustl.edu/en/publications/on-the-control-of-control-the-role-of-dopamine-in-regulating-pref}
+}
+
+@article{carter2000parsing,
+  title={Parsing executive processes: Strategic vs. evaluative functions of the anterior cingulate cortex},
+  author={Carter, C. S. and Macdonald, A. M. and Botvinick, M. and Ross, L. L. and Stenger, V. A. and Noll, D. and Cohen, J. D.},
+  journal={Proceedings of the National Academy of Sciences, USA},
+  volume={97},
+  number={4},
+  pages={1944--1948},
+  year={2000},
+  url={https://www.pnas.org/doi/abs/10.1073/pnas.97.4.1944}
+}
+
+@article{macdonald2000dissociating,
+  title={Dissociating the role of dorsolateral prefrontal cortex and anterior cingulate cortex in cognitive control},
+  author={MacDonald III, A. W. and Cohen, J. D. and Stenger, V. A. and Carter, C. S.},
+  journal={Science},
+  volume={288},
+  pages={1835--1837},
+  year={2000},
+  url={https://www.science.org/doi/full/10.1126/science.288.5472.1835}
+}
+
+@article{nystrom2000working,
+  title={Working memory for letters, shapes and locations: fMRI evidence against stimulus-based regional organization of human prefrontal cortex},
+  author={Nystrom, L. E. and Braver, T. S. and Sabb, F. W. and Delgado, M. R. and Noll, D. C. and Cohen, J. D.},
+  journal={Neuroimage},
+  volume={11},
+  pages={424--446},
+  year={2000},
+  url={https://www.sciencedirect.com/science/article/pii/S105381190090572X}
+}
+
+@article{aston1999role,
+  title={Role of locus coeruleus in attention and behavioral flexibility},
+  author={Aston-Jones, G. and Rajkowski, J. and Cohen, J.},
+  journal={Biological Psychiatry},
+  volume={46},
+  pages={1309--1320},
+  year={1999},
+  url={https://www.sciencedirect.com/science/article/pii/S0006322399001407}
+}
+
+@article{barch1999overt,
+  title={Overt verbal responding during fMRI scanning: Empirical investigations of problems and potential solutions},
+  author={Barch, D. M. and Carter, C. S. and Braver, T. S. and Sabb, F. W. and Noll, D. C. and Cohen, J. D.},
+  journal={Neuroimage},
+  volume={10},
+  number={6},
+  pages={642--657},
+  year={1999},
+  url={https://www.sciencedirect.com/science/article/pii/S1053811999905001}
+}
+
+@article{barch1999benefits,
+  title={The "benefits" of distractibility: Mechanisms underlying increased Stroop effects in schizophrenia},
+  author={Barch, D. M. and Carter, C. S. and Hachten, P. C. and Cohen, J. D.},
+  journal={Schizophrenia Bulletin},
+  volume={24},
+  number={4},
+  pages={749--762},
+  year={1999},
+  url={https://academic.oup.com/schizophreniabulletin/article/25/4/749/1939774}
+}
+
+@article{barch1999increased,
+  title={Increased Stroop facilitation effects in schizophrenia are not due to increased automatic spreading activation},
+  author={Barch, D. M. and Carter, C. S. and Perlstein, W. M. and Baird, J. and Cohen, J. D. and Schooler, N.},
+  journal={Schizophrenia Research},
+  volume={39},
+  number={1},
+  pages={51--64},
+  year={1999},
+  url={https://www.sciencedirect.com/science/article/pii/S0920996499000250}
+}
+
+@article{botvinick1999conflict,
+  title={Conflict monitoring versus selection-for-action in anterior cingulate cortex},
+  author={Botvinick, M. M. and Nystrom, L. and Fissell, K. and Carter, C. S. and Cohen, J. D.},
+  journal={Nature},
+  volume={402},
+  number={6758},
+  pages={179--181},
+  year={1999},
+  url={https://www.nature.com/articles/46035}
+}
+
+@article{braver1999cognition,
+  title={Cognition and control in schizophrenia: A computational model of dopamine and prefrontal function},
+  author={Braver, T. S. and Barch, D. M. and Cohen, J. D.},
+  journal={Biological Psychiatry},
+  volume={46},
+  number={3},
+  pages={312--328},
+  year={1999},
+  url={https://www.sciencedirect.com/science/article/pii/S000632239900116X}
+}
+
+@article{cohen1999context,
+  title={Context-processing deficits in schizophrenia: converging evidence from three theoretically motivated cognitive tasks},
+  author={Cohen, J. D. and Barch, D. M. and Carter, C. S. and Servan-Schreiber, D.},
+  journal={Journal of Abnormal Psychology},
+  volume={108},
+  pages={120--133},
+  year={1999},
+  url={https://psycnet.apa.org/record/1999-00603-011}
+}
+
+@article{condray1999modulation,
+  title={Modulation of language processing in schizophrenia: Effects of context and haloperidol on the event-related potential},
+  author={Condray, R. and Steinhauer, S. R. and Cohen, J. D. and van Kammen, D. P. and Kasparek, A.},
+  journal={Biological Psychiatry},
+  volume={45},
+  number={10},
+  pages={1336--1355},
+  year={1999},
+  url={https://www.sciencedirect.com/science/article/pii/S0006322398003175}
+}
+
+@article{usher1999role,
+  title={The role of locus coeruleus in the regulation of cognitive performance},
+  author={Usher, M. and Cohen, J. D. and Servan-Schreiber, D. and Rajkowski, J. and Kubiak, P. and Aston-Jones, G.},
+  journal={Science},
+  volume={283},
+  pages={549--554},
+  year={1999},
+  url={https://www.science.org/doi/full/10.1126/science.283.5401.549}
+}
+
+@article{botvinick1998rubber,
+  title={Rubber hands 'feel' touch that eyes see},
+  author={Botvinick, M. M. and Cohen, J. D.},
+  journal={Nature},
+  volume={391},
+  pages={756},
+  year={1998},
+  url={https://www.nature.com/articles/35784}
+}
+
+@article{carter1998anterior,
+  title={Anterior cingulate cortex, error detection and the on-line monitoring of performance},
+  author={Carter, C. S. and Braver, T. S. and Barch, D. M. and Botvinick, M. M. and Noll, D. C. and Cohen, J. D.},
+  journal={Science},
+  volume={280},
+  pages={747--749},
+  year={1998},
+  url={https://pubmed.ncbi.nlm.nih.gov/9563953/}
+}
+
+@article{carter1998functional,
+  title={Functional hypofrontality and working memory dysfunction in schizophrenia},
+  author={Carter, C. S. and Perlstein, W. and Ganguli, R. and Brar, J. and Mintun, M. and Cohen, J. D.},
+  journal={American Journal of Psychiatry},
+  volume={155},
+  number={9},
+  pages={1285--1287},
+  year={1998},
+  url={https://ajp.psychiatryonline.org/doi/full/10.1176/ajp.155.9.1285}
+}
+
+@article{casey1998reproducibility,
+  title={Reproducibility of fMRI results across four institutions using a spatial working memory task},
+  author={Casey, B. J. and Cohen, J. D. and O'Craven, K. and Davidson, R. J. and Irwin, W. and Nelson, C. A. and ... and Turski, P. A.},
+  journal={Neuroimage},
+  volume={8},
+  number={3},
+  pages={249--261},
+  year={1998},
+  url={https://www.sciencedirect.com/science/article/pii/S1053811998903603}
+}
+
+@article{cohen1998pdp,
+  title={A PDP approach to set size effects within the Stroop task: Reply to Kanne, Balota, Spieler, and Faust (1998)},
+  author={Cohen, J. D. and Usher, M. and McClelland, J. L.},
+  journal={Psychological Review},
+  volume={105},
+  number={1},
+  pages={188--194},
+  year={1998},
+  url={https://psycnet.apa.org/record/1997-42747-009}
+}
+
+@article{servan1998dopamine1,
+  title={Dopamine and the mechanisms of cognition. Part I: A neural network model predicting dopamine effects on selective attention},
+  author={Servan-Schreiber, D. and Bruno, R. and Carter, C. and Cohen, J. D.},
+  journal={Biological Psychiatry},
+  volume={43},
+  pages={713--722},
+  year={1998},
+  url={https://www.sciencedirect.com/science/article/pii/S0006322397004484}
+}
+
+@article{servan1998dopamine2,
+  title={Dopamine and the mechanisms of cognition. Part II: D-Amphetamine effects in human subjects performing a selective attention task},
+  author={Servan-Schreiber, D. and Carter, C. and Bruno, R. and Cohen, J. D.},
+  journal={Biological Psychiatry},
+  volume={43},
+  pages={723--729},
+  year={1998},
+  url={https://www.sciencedirect.com/science/article/pii/S0006322397004496}
+}
+
+@article{servan1998selective,
+  title={Selective pharmacological activation of limbic structures in human volunteers: A positron emission tomography study},
+  author={Servan-Schreiber, D. and Perlstein, W. M. and Cohen, J. D. and Mintun, M.},
+  journal={The Journal of Neuropsychiatry and Clinical Neurosciences},
+  volume={10},
+  pages={148--159},
+  year={1998},
+  url={https://neuro.psychiatryonline.org/doi/full/10.1176/jnp.10.2.148}
+}
+
+@article{armony1997computational,
+  title={Computational modeling of emotion: Explorations through the anatomy and physiology of fear conditioning},
+  author={Armony, J. L. and Servan-Schreiber, D. and Cohen, J. D. and LeDoux, J. E.},
+  journal={Trends in Cognitive Sciences},
+  volume={1},
+  pages={28--34},
+  year={1997},
+  url={https://pubmed.ncbi.nlm.nih.gov/21223850/}
+}
+
+@article{armony1997stimulus,
+  title={Stimulus generalization of fear responses: Effects of auditory cortex lesions in a computational model and in rats},
+  author={Armony, J. L. and Servan-Schreiber, D. and Romanski, L. M. and Cohen, J. D. and LeDoux, J. E.},
+  journal={Cerebral Cortex},
+  volume={7},
+  pages={157--165},
+  year={1997},
+  url={https://psycnet.apa.org/record/1997-05543-001}
+}
+
+@article{barch1997dissociating,
+  title={Dissociating working memory from task difficulty in human prefrontal cortex},
+  author={Barch, D. M. and Braver, T. S. and Nystrom, L. E. and Forman, S. D. and Noll, D. C. and Cohen, J. D.},
+  journal={Neuropsychologia},
+  volume={35},
+  pages={1373--1380},
+  year={1997},
+  url={https://pubmed.ncbi.nlm.nih.gov/9347483/}
+}
+
+@article{berns1997brain,
+  title={Brain regions responsive to novelty in the absence of awareness},
+  author={Berns, G. S. and Cohen, J. D. and Mintun, M. A.},
+  journal={Science},
+  volume={276},
+  pages={1272--1275},
+  year={1997},
+  url={https://www.science.org/doi/full/10.1126/science.276.5316.1272}
+}
+
+@article{braver1997parametric,
+  title={A parametric study of prefrontal cortex involvement in human working memory},
+  author={Braver, T. S. and Cohen, J. D. and Jonides, J. and Smith, E. E. and Noll, D. C.},
+  journal={NeuroImage},
+  volume={5},
+  number={1},
+  pages={49--62},
+  year={1997},
+  url={https://www.sciencedirect.com/science/article/pii/S1053811996902475}
+}
+
+@article{carter1997anterior,
+  title={Anterior cingulate gyrus dysfunction and selective attention dysfunction in schizophrenia: An 15OH20 PET study during Stroop task performance},
+  author={Carter, C. S. and Mintun, M. and Nichols, T. and Cohen, J. D.},
+  journal={American Journal of Psychiatry},
+  volume={154},
+  pages={1670--1675},
+  year={1997},
+  url={https://ajp.psychiatryonline.org/doi/full/10.1176/ajp.154.12.1670}
+}
+
+@article{casey1997developmental,
+  title={A developmental functional MRI study of prefrontal activation during performance of a Go-No-Go task},
+  author={Casey, B. J. and Trainor, R. J. and Orendi, J. L. and Schubert, A. B. and Nystrom, L. E. and Giedd, J. and Castellanos, X. and Haxby, J. and Noll, D. C. and Cohen, J. D. and Forman, S. D. and Dahl, R. E. and Rapoport, J. L.},
+  journal={Journal of Cognitive Neuroscience},
+  volume={9},
+  pages={835--847},
+  year={1997},
+  url={https://direct.mit.edu/jocn/article/9/6/835/3403/A-Developmental-Functional-MRI-Study-of-Prefrontal}
+}
+
+@article{cohen1997temporal,
+  title={Temporal dynamics of brain activation during a working memory task},
+  author={Cohen, J. D. and Perlstein, W. M. and Braver, T. S. and Nystrom, L. E. and Noll, D. C. and Jonides, J. and Smith, E. E.},
+  journal={Nature},
+  volume={386},
+  pages={604--608},
+  year={1997},
+  url={https://www.nature.com/articles/386604a0}
+}
+
+@article{genovese1997estimating,
+  title={Estimating test-retest reliability in functional MR imaging I: Statistical methodology},
+  author={Genovese, C. R. and Noll, D. C. and Cohen, J. D. and Eddy, W. F.},
+  journal={Magnetic Resonance in Medicine},
+  volume={38},
+  pages={497--507},
+  year={1997},
+  url={https://onlinelibrary.wiley.com/doi/abs/10.1002/mrm.1910380319}
+}
+
+@article{goddard1997online,
+  title={Online analysis of functional MRI datasets on parallel platforms},
+  author={Goddard, N. and Hood, G. and Cohen, J. D. and Eddy, W. F. and Genovese, C. R. and Noll, D. C.},
+  journal={Journal of Supercomputing},
+  volume={11},
+  pages={295--318},
+  year={1997},
+  url={https://link.springer.com/article/10.1023/A:1007964009986}
+}
+
+@article{macwhinney1997psyscope,
+  title={The PsyScope experiment-building system},
+  author={MacWhinney, B. and Cohen, J. and Provost, J.},
+  journal={Spatial Vision},
+  volume={11},
+  pages={99--101},
+  year={1997},
+  url={https://europepmc.org/article/med/9304758}
+}
+
+@article{noll1997estimating,
+  title={Estimating test-retest reliability in functional MR imaging II: Application to motor and cognitive activation studies},
+  author={Noll, D. C. and Genovese, C. R. and Nystrom, L. and Vazquez, A. and Forman, S. D. and Eddy, W. F. and Cohen, J. D.},
+  journal={Magnetic Resonance in Medicine},
+  volume={38},
+  pages={508--517},
+  year={1997},
+  url={https://onlinelibrary.wiley.com/doi/abs/10.1002/mrm.1910380320}
+}
+
+@article{barch1996semantic,
+  title={Semantic priming in schizophrenia: An examination of spreading activation using word pronunciation and multiple SOAs},
+  author={Barch, D. and Cohen, J. D. and Servan-Schreiber, D. and Steingard, S. and Steinhauer, S. and van Kammen, D.},
+  journal={Journal of Abnormal Psychology},
+  volume={105},
+  pages={592--601},
+  year={1996},
+  url={https://pubmed.ncbi.nlm.nih.gov/8952192/}
+}
+
+@article{cohen1996computational,
+  title={A computational approach to prefrontal cortex, cognitive control, and schizophrenia: Recent developments and current challenges},
+  author={Cohen, J. D. and Braver, T. S. and O'Reilly, R. C.},
+  journal={Philosophical Transactions of the Royal Society of London Series B (Biological Sciences)},
+  volume={351},
+  number={1346},
+  pages={1515--1527},
+  year={1996},
+  url={https://royalsocietypublishing.org/doi/abs/10.1098/rstb.1996.0138}
+}
+
+@article{servan1996schizophrenic,
+  title={Schizophrenic deficits in the processing of context: A test of a theoretical model},
+  author={Servan-Schreiber, D. and Cohen, J. D. and Steingard, S.},
+  journal={Archives of General Psychiatry},
+  volume={53},
+  pages={1105--1112},
+  year={1996},
+  url={https://jamanetwork.com/journals/jamapsychiatry/article-abstract/497698}
+}
+
+@article{armony1995anatomically,
+  title={An anatomically-constrained neural network model of fear conditioning},
+  author={Armony, J. L. and Servan-Schreiber, D. and Cohen, J. D. and LeDoux, J. E.},
+  journal={Behavioral Neuroscience},
+  volume={109},
+  number={2},
+  pages={246--256},
+  year={1995},
+  url={https://psycnet.apa.org/record/1995-28155-001}
+}
+
+@article{braver1995computational,
+  title={A computational model of prefrontal cortex function},
+  author={Braver, T. S. and Cohen, J. D. and Servan-Schreiber, D.},
+  journal={Advances in Neural Information Processing Systems},
+  volume={7},
+  pages={141--149},
+  year={1995},
+  url={https://dl.acm.org/doi/abs/10.5555/2998687.2998705}
+}
+
+@article{carter1995interference,
+  title={Interference and facilitation effects during selective attention: An [150]-H20 PET study of Stroop task performance},
+  author={Carter, C. S. and Mintun, M. and Cohen, J. D.},
+  journal={NeuroImage},
+  volume={2},
+  pages={264--272},
+  year={1995},
+  url={https://pubmed.ncbi.nlm.nih.gov/9343611/}
+}
+
+@article{casey1995activation,
+  title={Activation of prefrontal cortex in children during a non-spatial working memory task with functional MRI},
+  author={Casey, B. J. and Cohen, J. D. and Jezzard, P. and Turner, R. and Noll, D. C. and Trainor, R. and Giedd, J. and Pannier, L. and Kaysen, D. and Rapoport, J. L.},
+  journal={NeuroImage},
+  volume={2},
+  pages={221--229},
+  year={1995},
+  url={https://pubmed.ncbi.nlm.nih.gov/9343606/}
+}
+
+@article{forman1995improved,
+  title={Improved assessment of significant activation in functional magnetic resonance imaging (fMRI): Use of a cluster-size threshold},
+  author={Forman, S. D. and Cohen, J. D. and Fitzgerald, M. and Eddy, W. F. and Mintun, M. A. and Noll, D. C.},
+  journal={Magnetic Resonance in Medicine},
+  volume={33},
+  pages={636--647},
+  year={1995},
+  url={https://onlinelibrary.wiley.com/doi/abs/10.1002/mrm.1910330508}
+}
+
+@article{noll1995spiral,
+  title={Spiral k-space MR imaging of cortical activation},
+  author={Noll, D. C. and Cohen, J. D. and Meyer, C. H. and Schneider, W.},
+  journal={Journal of Magnetic Resonance Imaging},
+  volume={45},
+  pages={49--56},
+  year={1995},
+  url={https://onlinelibrary.wiley.com/doi/abs/10.1002/jmri.1880050112}
+}
+
+@article{cohen1994activation,
+  title={Activation of prefrontal cortex in a non-spatial working memory task with functional MRI},
+  author={Cohen, J. D. and Forman, S. D. and Braver, T. S. and Casey, B. J. and Servan-Schreiber, D. and Noll, D. C.},
+  journal={Human Brain Mapping},
+  volume={1},
+  pages={293--304},
+  year={1994},
+  url={https://onlinelibrary.wiley.com/doi/abs/10.1002/hbm.460010407}
+}
+
+@article{cohen1994progress,
+  title={Progress in the use of interactive models for understanding attention and performance},
+  author={Cohen, J. D. and Huston, T. A.},
+  journal={Attention and Performance XV: Conscious and Nonconscious Information Processing},
+  pages={453--476},
+  year={1994},
+  url={https://psycnet.apa.org/record/1994-98352-018}
+}
+
+@article{cohen1994mechanisms,
+  title={Mechanisms of spatial attention: The relation of macrostructure to microstructure in parietal neglect},
+  author={Cohen, J. D. and Romero, R. D. and Servan-Schreiber, D. and Farah, M. J.},
+  journal={Journal of Cognitive Neuroscience},
+  volume={6},
+  number={4},
+  pages={377--387},
+  year={1994},
+  url={https://direct.mit.edu/jocn/article/6/4/377/3128/Mechanisms-of-Spatial-Attention-The-Relation-of}
+}
+
+@article{cohen1993psyscope,
+  title={PsyScope: A new graphic interactive environment for designing psychology experiments},
+  author={Cohen, J. D. and MacWhinney, B. and Flatt, M. and Provost, J.},
+  journal={Behavioral Research Methods, Instruments \& Computers},
+  volume={25},
+  number={2},
+  pages={257--271},
+  year={1993},
+  url={https://cir.nii.ac.jp/crid/1573105974099321728}
+}
+
+@article{cohen1993fmri,
+  title={Functional Magnetic Resonance Imaging: Overview and methods for psychological research},
+  author={Cohen, J. D. and Noll, D. C. and Schneider, W.},
+  journal={Behavioral Research Methods, Instruments \& Computers},
+  volume={25},
+  number={2},
+  pages={101--113},
+  year={1993},
+  url={https://link.springer.com/article/10.3758/BF03204483}
+}
+
+@article{cohen1993dopamine,
+  title={A theory of dopamine function and its role in cognitive deficits in schizophrenia},
+  author={Cohen, J. D. and Servan-Schreiber, D.},
+  journal={Schizophrenia Bulletin},
+  volume={19},
+  number={1},
+  pages={85--104},
+  year={1993},
+  url={https://academic.oup.com/schizophreniabulletin/article/19/1/85/1895784}
+}
+
+@article{forman1993frontal,
+  title={Frontal eye fields: Inhibition through competition},
+  author={Forman, S. D. and Cohen, J. D. and Johnson, M. H.},
+  journal={Behavioral and Brain Sciences},
+  volume={6},
+  pages={578},
+  year={1993},
+  url={https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/frontal-eye-fields-inhibition-through-competition/C904DB0715E247CABA44C4743EFD5BC7}
+}
+
+@article{schneider1993functional,
+  title={Functional topographic mapping of the cortical ribbon in human vision with conventional MRI scanners},
+  author={Schneider, W. and Noll, D. C. and Cohen, J. D.},
+  journal={Nature},
+  volume={365},
+  pages={150--153},
+  year={1993},
+  url={https://www.nature.com/articles/365150a0}
+}
+
+@article{cohen1992context,
+  title={Context, cortex and dopamine: A connectionist approach to behavior and biology in schizophrenia},
+  author={Cohen, J. D. and Servan-Schreiber, D.},
+  journal={Psychological Review},
+  volume={99},
+  pages={45--77},
+  year={1992},
+  url={https://psycnet.apa.org/record/1992-16573-001}
+}
+
+@article{cohen1992parallel,
+  title={A parallel distributed processing approach to automaticity},
+  author={Cohen, J. D. and Servan-Schreiber, D. and McClelland, J. L.},
+  journal={American Journal of Psychology},
+  volume={105},
+  pages={239--269},
+  year={1992},
+  url={https://www.jstor.org/stable/1423029}
+}
+
+@article{servan1991models,
+  title={Models of neuromodulation and information processing deficits in schizophrenia},
+  author={Servan-Schreiber, D. and Cohen, J. D.},
+  journal={Revue Internationale de Psychopathologie},
+  volume={1},
+  pages={113--134},
+  year={1991}
+}
+
+@article{servan1991network,
+  title={Network models of neuromodulation and information processing deficits in schizophrenia},
+  author={Servan-Schreiber, D. and Cohen, J. D.},
+  journal={CogSci 1991: Proceedings of the Annual Meeting of the Cognitive Science Society},
+  volume={13},
+  year={1991},
+  url={https://www.taylorfrancis.com/chapters/edit/10.4324/9781315807249-39/models-neuromodulation-information-processing-deficits-schizophrenia-david-servan-schreiber-jonathan-cohen}
+}
+
+@article{cohen1990control,
+  title={On the control of automatic processes: A parallel distributed processing model of the Stroop effect},
+  author={Cohen, J. D. and Dunbar, K. and McClelland, J. L.},
+  journal={Psychological Review},
+  volume={97},
+  number={3},
+  pages={332--361},
+  year={1990},
+  url={https://psycnet.apa.org/record/1990-27437-001}
+}
+
+@article{servan1990network,
+  title={A network model of catecholamine effects: Gain, signal-to-noise ratio, and behavior},
+  author={Servan-Schreiber, D. and Printz, H. and Cohen, J. D.},
+  journal={Science},
+  volume={249},
+  pages={892--895},
+  year={1990},
+  url={https://www.science.org/doi/abs/10.1126/science.2392679}
+}
+
+@article{servan1989effect,
+  title={The effect of catecholamines on performance: From unit to system behavior},
+  author={Servan-Schreiber, D. and Printz, H. and Cohen, J. D.},
+  journal={Advances in Neural Information Processing Systems},
+  volume={2},
+  year={1989},
+  url={https://proceedings.neurips.cc/paper/1989/hash/6f3ef77ac0e3619e98159e9b6febf557-Abstract.html}
+}
+
+@article{cohen1987efficacy,
+  title={The efficacy of piquindone, a new atypical neuroleptic, in the treatment of the positive and the negative symptoms of schizophrenia},
+  author={Cohen, J. D. and Van Putten, T. and Marder, S. and Berger, P. A. and Stahl, S. M.},
+  journal={Journal of Clinical Psychopharmacology},
+  volume={7},
+  number={5},
+  pages={324--329},
+  year={1987},
+  url={https://journals.lww.com/psychopharmacology/Abstract/1987/10000/BRIEF_REPORTS_The_Efficacy_of_Piquindone,_a_New.6.aspx}
+}
+
+@article{cohen1987treatment,
+  title={Treatment of the symptoms of schizophrenia with piquindone, a new atypical neuroleptic},
+  author={Cohen, J. D. and Van Putten, T. and Marder, S. and Stahl, S. M.},
+  journal={Psychopharmacology Bulletin},
+  volume={23},
+  number={3},
+  pages={514--518},
+  year={1987},
+  url={https://books.google.com/books?hl=en&lr=&id=krRJmzbbZ5UC&oi=fnd&pg=PA514&dq=Cohen+JD,+Van+Putten+T,+Marder+S,+Berger+PA+%26+Stahl+SM+(1987).+Treatment+of+the+symptoms+of+schizophrenia+with+piquindone,+a+new+atypical+neuroleptic.+Psychopharmacology+Bulletin,+23(3),+514-518.&ots=I_cr42q2hI&sig=7zbmaqu_d5KJtDSFiQcjqJBYlRg#v=onepage&q&f=false}
+}
+
+
+
+
+
+
+
