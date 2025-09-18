@@ -1,0 +1,2485 @@
+%% Preamble
+
+\documentclass[10 pt]{article}
+
+\usepackage{graphicx} % Required for inserting images
+%\usepackage{geometry} % Required for margins, called later
+\usepackage{fancyhdr} % Required for header
+\usepackage{hyperref} % Required for hyperlinking within document
+\usepackage{xcolor} % Required for font colors
+\usepackage{parskip} % Required for line spacing
+
+%\usepackage[backend=biber]{biblatex} % Required for loading bibliography, sorting entries
+\usepackage[backend=biber, sorting=ydnt, maxbibnames=99, maxcitenames=3, ]{biblatex}
+% Required for loading bibliography, sortingentries
+% Load bibliography
+%\bibliography{jdc_refs}
+%\bibliographystyle{biblatex} % Use the BibTex style for formatting the bibliography
+\addbibresource{jdc_refs.bib} % The filename of the bibliography
+
+% Hyperlink globals
+\hypersetup{colorlinks=true, %colors hyperlinks, disables border
+            breaklinks=false, % prevents links from breaking across multiple lines
+            linkcolor=gray, % set color for internal hyperlinks
+            urlcolor=gray, % set color for url links
+            citecolor=gray} % set color for citation links
+\urlstyle{same} % keep url text formatting same as normal text
+
+
+
+% Set margins
+\usepackage[left=1in,
+            right=1in,
+            top=0.75in,
+            bottom=0.75in]{geometry}
+
+% Header
+\pagestyle{fancy} % Allows use of fancyhr package
+\fancyhf{} % Clear header and footer of defaults
+
+\fancyhead[L]{\textit{Jonathan D. Cohen}} % Left header
+\fancyhead[R]{\textit{Curriculum Vitae}} % Right header
+\fancyfoot[C]{\thepage} % Center footer
+\fancyfoot[R]{\hyperref[secTOC]{\textit{Table of Contents}}} %Right footer
+
+\renewcommand{\headrulewidth}{0pt} % Remove header line
+
+\setlength{\parindent}{0pt}
+
+
+
+\begin{document}
+
+\thispagestyle{empty} %Suppress global headers and footers on page 1
+
+%% Page 1 Heading
+    \begin{center}
+{\fontsize{15pt}{16 pt}\selectfont \textbf{Jonathan D. Cohen}}
+
+{\fontsize{14pt}{16 pt}\selectfont \textit{\textbf{Curriculum Vitae}}}
+
+\emph{(hyperlinks are in \textcolor{gray}{gray})}
+    \bigskip
+
+% TABLE OF CONTENTS
+\section*{Table of Contents} \label{secTOC}
+    \end{center}
+    \medskip
+
+\hyperref[secSUMMARY]{SUMMARY}
+    \medskip
+
+\hyperref[secBIOGRAPHICAL]{BIOGRAPHICAL}
+    \medskip
+
+\hyperref[secAaP]{APPOINTMENTS and POSITIONS}
+    \medskip
+
+\hyperref[secHaA]{HONORS and AWARDS}
+    \medskip
+
+\hyperref[secPUBLICATIONS]{PUBLICATIONS}
+
+\hyperref[secPUBLICATIONS1]{\hspace{0.4in} 1. Peer-Reviewed Articles }
+
+\hyperref[secPUBLICATIONS2]{\hspace{0.4in} 2. Invited Reviews, Commentary, Chapters, Edited Volumes \& Technical
+Reports}
+
+\hyperref[secPUBLICATIONS3]{\hspace{0.4in} 3. Books}
+
+\hyperref[secPUBLICATIONS4]{\hspace{0.4in} 4. Published Abstracts}
+
+\hyperref[secPUBLICATIONS5]{\hspace{0.4in} 5. Manuscripts Under Review / In Preparation}
+    \medskip
+
+
+\hyperref[secTEACHING]{TEACHING}
+
+\hyperref[secTEACHING1]{\hspace{0.4in} 1. Courses}
+
+\hyperref[secTEACHING2]{\hspace{0.4in} 2. Tutorials and Workshops}
+
+\hyperref[secTEACHING3]{\hspace{0.4in} 3. Trainees}
+    \medskip
+
+\hyperref[secRAPA]{RESEARCH AND PROFESSIONAL ACTIVITIES}
+
+\hyperref[secRAPA1]{\hspace{0.4in} 1. Grants}
+
+\hyperref[secRAPA2]{\hspace{0.4in} 2. Invited Lectureships}
+
+\hyperref[secRAPA3]{\hspace{0.4in} 3. Other research-related activities:}
+
+\hyperref[secPaL]{\hspace{1in} Patents and Licenses}
+
+\hyperref[secABaC]{\hspace{1in} Advisory Boards and Councils}
+
+\hyperref[secEB]{\hspace{1in} Editorial Boards}
+
+\hyperref[secGR]{\hspace{1in} Grant Review}
+
+\hyperref[secCO]{\hspace{1in} Conference Organization}
+
+\hyperref[secMiPO]{\hspace{1in} Membership in Professional Organizations}
+
+\hyperref[secSD]{\hspace{1in} Software Development}
+
+    \newpage
+
+
+%%% SUMMARY
+    \begin{center}
+\section*{SUMMARY} \label{secSUMMARY}
+    \end{center}
+
+I am a cognitive neuroscientist, with over three decades of research experience in computational and mathematical modeling as well as empirical studies of human brain function and behavior, focusing on the neural mechanisms responsible for cognitive control and human intelligence, and how our growing understanding of these can be brought to bear in the design of computational architectures with more human-like cognitive capabilities. My work lies at the points of contact between neuroscience, psychology, computer science and mathematics, as well as behavioral economics and psychiatry, and involves collaborations with investigators in each of these fields. I also have considerable experience in the coordination and administration of scientific research, as one of the two founding Co-Directors of the \href{https://pni.princeton.edu}{Princeton Neuroscience Institute}, leading multi-institutional projects (NIHM Conte Center; Templeton Center Grant; NSF Convergence Accelerator grant; PNI-Intel Labs collaboration), and a number of open source \hyperref[secSD]{software development projects}.
+
+\textit{\textbf{Theoretical contributions.}} Some of the contributions that have emerged from the theoretical work of my colleagues and I are: the first computationally-explicit models of how cognitive control may be implemented in the brain \cite{cohen1990control} and the role of prefrontal cortex in control \cite{miller2001integrative}; the role of dopaminergic function in the gating and updating of information in prefrontal cortex \cite{servan-schreiber1990network}\cite{nystrom2000working}, noradrenergic regulation of the explore/exploit tradeoff \cite{usher1999role}\cite{aston-jones2005integrative}\cite{cohen2007stayorgo}, and the interaction of these modulatory systems in adaptive regulation of exploration in reinforcement learning \cite{mcclure2005exploration}; how these mechanisms may be disturbed in psychiatric disorders \cite{cohen1992context}\cite{cohen1999context}\cite{macdonald2005specificity}; the role of anterior cingulate cortex in performance monitoring \cite{botvinick2001conflict}\cite{yeung2004neural}\cite{shenhav2014anterior} and the optimal allocation of control \cite{shenhav2013expected}\cite{shenhav2017toward}; mathematical analysis of optimal control of simple decision making processes \cite{bogacz2006physics}\cite{simen2009reward}; normative approaches to understanding capacity constraints associated with working memory \cite{usher2001neural}\cite{todd2008learning} and cognitive control \cite{feng2014multitasking}\cite{musslick2021rationalizing}\cite{rand2017cyclical}; and how the brain regulates the balance between flexible control-dependent and efficient automatic processing \cite{sagiv2018efficiency}. Increasingly, our work has come to focus on how these mechanisms contribute to higher cognitive functions and human intelligence, such as the control of memory, planning, and abstract reasoning \cite{frankland2019extracting}\cite{agrawal2021temporal}\cite{beukers2021activity}\cite{ho2022people}, including ways in which the human brain achieves the flexibility of symbolic forms of computation \cite{rougier2005prefrontal}\cite{kriete2013indirection}\cite{webb2021emergent}\cite{segert2022maximum} while preserving the efficiency of computation in neural networks, and how this can be used to inform research in machine learning and artificial intelligence \cite{kumar2022using}\cite{gleeson2023integrating}\cite{altabaa2024abstractors}.
+
+\textit{\textbf{Empirical and methodological contributions.}} The theoretical work summarized above has served as the foundation for a number of empirical and methodological contributions. Empirical contributions include: the first demonstrations in humans of sustained activity in PFC associated with working memory performance \cite{cohen1994activation}\cite{cohen1997temporal}; the distinction between the roles of dorsolateral PFC (in the regulatory functions of control) and anterior cingulate cortex (monitoring and evaluative functions of control \cite{carter1998anterior}\cite{botvinick1999conflict}\cite{macdonald2000dissociating}\cite{kerns2004anterior}; and the role of the locus coeruleus / norepinephrine system in regulating the explore-exploit tradeoff \cite{gilzenrat2010pupil}\cite{kane2017increased}. We have also made influential contributions to advances in quantitative methods in cognitive neuroscience, including: the introduction of cluster size correction into the analysis of fMRI data \cite{casey1998reproducibility}; the use of fMRI to directly study midbrain neuromodulatory nuclei \cite{dardenne2008bold}; the design of systems for realtime fMRI analysis \cite{forman1995improved}\cite{wallace2022rtcloud} and closed-loop feedback designs \cite{debettencourt2015closed}\cite{mennen2021cloudbased}; and whole brain, full correlation analysis of fMRI data and its use in realtime analysis \cite{wang2015full}. Finally, I have lead or co-lead several large software development projects, including: \href{https://en.wikipedia.org/wiki/PsyScope}{PsyScope} \cite{cohen1993psyscope}, the first graphical environment for the design and execution of cognitive behavioral experiments; \href{http://BrainIAK.org}{BrainIAK} \cite{kumar2021brainiak}\cite{wallace2022rtcloud} (in collaboration with Intel Labs), an open-source, python-based toolbox for the implementation and optimization of advanced methods of brain image analysis; \href{https://psyneuln.deptcpanel.princeton.edu/}{PsyNeuLink}, an open-source, python-based environment for the design and exchange of computational models of brain and cognitive function; \href{https://sites.google.com/view/sweetpea-ai/}{SweetPea} \cite{musslick2022sweetpea}, a framework for specifying empirical experimental designs and machine learning training environments using factorial structure, and generating maximally unbiased sampling of trials; and a \href{https://modeci.github.io/Website/}{model description format} \cite{gleeson2023integrating} for expressing models of brain and cognitive function as computational graphs in machine readable form for exchange across modeling environments.
+
+    \newpage
+
+
+%%% BIOGRAPHICAL
+    \begin{center}
+\section*{BIOGRAPHICAL} \label{secBIOGRAPHICAL}
+    \end{center}
+    \vspace{0.25in}
+
+\textbf{Business Address:} \hspace{0.2in} Princeton Neuroscience Institute \hspace{0.2in} \textbf{Birth Date:} 10/5/55
+
+
+\hspace{1.53in} Princeton University \hspace{0.93in} \textbf{Birth Place:} New York City
+
+\hspace{1.53in} Princeton, New Jersey 08544 \hspace{0.43in} \textbf{Citizenship:} U.S.A.
+    \smallskip
+
+\textbf{Business Phone:} \hspace{0.31in} (609) 258-2696 (voice)
+    \smallskip
+
+\textbf{Email:} \hspace{1in} jdc@princeton.edu
+
+\textbf{Home page:} \hspace{0.62in} \href{https://jdc.princeton.edu}{https://jdc.princeton.edu}
+    \vspace{0.8in}
+
+% EDUCATION and TRAINING
+    \begin{center}
+{\fontsize{15pt}{16 pt}\selectfont \textbf{EDUCATION and TRAINING}}
+    \end{center}
+    \vspace{0.25in}
+
+{\fontsize{12pt}{16 pt}\selectfont \textbf{UNDERGRADUATE:}}
+    \smallskip
+
+1973-77 Yale University \hspace{1.7in} B.A., 1977 Biology and Philosophy
+    \vspace{0.2in}
+
+{\fontsize{12pt}{16 pt}\selectfont \textbf{GRADUATE:}}
+    \smallskip
+
+1979-83 University of Pennsylvania  \hspace{1.02in} M.D., 1983 Medicine
+
+1987-90 Carnegie Mellon University \hspace{0.99in} Ph.D., 1990 Cognitive Psychology
+    \vspace{0.2in}
+
+{\fontsize{12pt}{16 pt}\selectfont \textbf{POST-GRADUATE:}}
+    \smallskip
+
+1983-89 Internship in General Medicine, Neurology and Psychiatry
+
+\hspace{0.46in} Residency in Psychiatry
+
+\hspace{0.46in} Stanford University School of Medicine
+    \smallskip
+
+1985-87 NIMH Research Training Fellowship
+
+\hspace{0.46in} Department of Psychiatry and Behavioral Sciences
+
+
+\hspace{0.46in} Stanford University School of Medicine
+
+    \newpage
+
+
+%%% APPOINTMENTS and POSITIONS
+    \begin{center}
+\section*{APPOINTMENTS and POSITIONS} \label{secAaP}
+    \end{center}
+    \vspace{0.2in}
+
+{\fontsize{13pt}{16 pt}\selectfont \textbf{ACADEMIC:}}
+    \smallskip
+
+1989- \hspace{0.4in} Assistant to Full Professor of Psychiatry
+
+2005 \hspace{0.44in} Western Psychiatric Institute and Clinic
+
+\hspace{0.77in} University of Pittsburgh
+    \smallskip
+
+1990-98 \hspace{0.27in} Assistant to Associate Professor of Psychology
+
+\hspace{0.78in} Carnegie Mellon University
+    \smallskip
+
+1992- \hspace{0.41in} Director, Clinical Cognitive Neuroscience Laboratory
+
+present \hspace{0.29in} University of Pittsburgh
+    \smallskip
+
+1998- \hspace{0.41in} Professor of Psychology, Princeton University
+
+2005
+    \smallskip
+
+1999- \hspace{0.41in} Founding Director, Center for the Study of Brain, Mind and Behavior
+
+2007 \hspace{0.46in} Princeton University
+    \smallskip
+
+2000- \hspace{0.41in} Director, Program in Neuroscience
+
+2008 \hspace{0.46in} Princeton University
+    \smallskip
+
+2005- \hspace{0.41in} Eugene Higgins Professor of Psychology, Princeton University
+
+2012
+    \smallskip
+
+2005- \hspace{0.41in} Founding Co-Director, Princeton Neuroscience Institute
+
+2022
+    \smallskip
+
+2007- \hspace{0.41in} Director, Scully Center for the Neuroscience of Mind and Behavior
+
+present
+    \smallskip
+
+2012- \hspace{0.41in} Robert Bendheim and Lynn Bendheim Thoman Professor in Neuroscience
+
+present \hspace{0.3in} Princeton University
+    \smallskip
+
+2023- \hspace{0.41in} Director, Graduate Certificate Program in Statistics and Machine Learning
+
+present \hspace{0.3in} Princeton University
+
+\newpage
+
+
+%%% HONORS and AWARDS
+    \begin{center}
+\section*{HONORS and AWARDS} \label{secHaA}
+    \end{center}
+    \vspace{.2in}
+
+B.A. Cum Laude \hspace{4.5in} 1977
+
+Distinction in the Biology Major
+
+Distinction in the Philosophy Major
+
+Yale University
+    \smallskip
+
+Miller Foundation Prize for Research in Psychiatry \hspace{2.44in} 1986
+
+Department of Psychiatry and Behavioral Sciences
+
+Stanford University School of Medicine
+    \smallskip
+
+Annual Resident Research Award \hspace{3.5in} 1986
+
+Northern California Psychiatric Society
+    \smallskip
+
+Joseph Zubin Memorial Fund Award for Research in Psychopathology \hspace{1.28in} 1993
+    \smallskip
+
+Kempf Fund Award for Research Development in \hspace{2.55in} 2000
+
+Psychobiological Psychiatry, American Psychiatric Association
+    \smallskip
+
+James McKeen Cattell Fund Sabbatical Fellowship Award \hspace{2.02in} 2003
+    \smallskip
+
+Eugene Higgins Chaired Professorship, Princeton University \hspace{1.91in} 2005
+    \smallskip
+
+Salmon Award Lecturer, New York Academy of Medicine \hspace{2.07in} 2006
+    \smallskip
+
+Fellow, Association for Psychological Science \hspace{2.84in} 2007
+    \smallskip
+
+Edward J. Sachar Award, Columbia University School of Medicine \hspace{1.52in} 2007
+    \smallskip
+
+American Psychological Association Distinguished Scientific Contribution Award \hspace{0.65in} 2010
+    \smallskip
+
+Fellow, American Association for the Advancement of Science \hspace{1.81in} 2012
+    \smallskip
+
+William James Fellow Award, Association for Psychological Science \hspace{1.45in} 2018
+    \smallskip
+
+Fellow, Cognitive Science Society \hspace{3.54in} 2019
+    \smallskip
+
+Vannevar Bush Faculty Fellowship, \hspace{3.42in} 2021
+
+Office of the Under Secretary of Defense for Research \& Engineering
+    \smallskip
+
+Member, American Academy of the Arts \& Sciences \hspace{2.37in} 2022
+    \smallskip
+
+Lifetime Achievement Award, Society for Experimental and Cognitive Science, \hspace{0.77in} 2022
+
+Division 3 of the American Psychological Association
+
+\newpage
+
+
+%%% PUBLICATIONS
+
+    \begin{center}
+\section*{PUBLICATIONS} \label{secPUBLICATIONS}
+    \end{center}
+
+\subsection*{1. Peer-Reviewed Articles and Competitively-Reviewed Conference Papers} \label{secPUBLICATIONS1}
+
+\nocite{*} % Read in all citations in jdc_refs.bib
+\printbibliography[heading = none] % Print full bibliography
+    \medskip
+
+\subsection*{2. Invited Reviews, Commentary, Chapters, Edited Volumes, Technical Reports} \label{secPUBLICATIONS2}
+    \smallskip
+
+Musslick, S., Cohen, J. D., \& Goschke, T. (2024). Meta-control. In Reference Module in Neuroscience and Biobehavioral Psychology. Elsevier. https://doi.org/10.1016/B978-0-12-820480-1.00058-9
+
+Baru C, Pozmantier M, Altintas I, Baek S, Cohen J, Condon L, Fanti G, Foster I, Jackson E, Lall U, Landman B, Li H, Marin C, Lopez BM, Metaxas D, Olsen B, Page G, Shang J, Turkan Y, \& Zhang P (2021). Enabling AI Innovation via Data and Model Sharing: An Overview of the NSF Convergence Accelerator Track D. AI Magazine.
+
+Cohen JD (2017). Cognitive Control: Core Constructs and Current Considerations. In Egner T (Ed.), The Wiley Handbook of Cognitive Control. John Wiley \& Sons, Chichester, West Sussex, UK.
+
+Cohen JD, Dey B, Griffiths T, Musslick S, Ozcimder K, Reichman D, Shinkar I \& Wagner T (2016). A graph-theoretic approach to multitasking. arXiv:1611.02400.
+
+Cohen JD (2016). Functional MRI (fMRI): A window into the working brain. In Kagel J \& Roth A (Eds.), Handbook of Experimental Economics.
+
+Wang Y, Anderson M, Cohen JD, Heinecke A, Li K, Satish N, Sundaram N, Turk-Browne NB \& Willke T (2015). Optimizing full correlation matrix analysis of fMRI data on Intel Xeon Phi coprocessors. SC ’15, November 15-20, 2015. Austin, TX. https://dl.acm.org/doi/10.1145/2807591.2807631.
+
+Keung W, Osherson D \& Cohen JD (2015). Influence of cognitive control on semantic representation. https://www.biorxiv.org/content/10.1101/067553v1.
+
+O’Reilly RC, Petrov AA, Cohen JD, Lebiere CJ, Herd SA, Kriete T \& Symons J (2013). How limited systematicity emerges: A computational cognitive neuroscience approach. In The architecture of cognition: Rethinking fodor and Pylyshyn's systematicity challenge.
+
+McGuire JT, Cohen JD \& Botvinick MM (2013). In Pashler H. Encyclopedia of the Mind. Thousand Oaks, CA: Sage Publications. Mental Effort.
+
+Hyman SE \& Cohen JD (2012). Disorders of mood and anxiety. In Kandel ER, Schwartz JH \& Jessell TM (Eds.), Principles of Neural Science V . New York: McGraw-Hill.
+
+Hyman SE \& Cohen JD (2012). Disorders of thought and volition: Schizophrenia. In Kandel ER, Schwartz JH \& Jessell TM (Eds.), Principles of Neural Science V . New York: McGraw-Hill.
+
+Yeung N, Cohen JD \& Botvinick MM (2011). Errors of interpretation and modeling: A reply to Grinband et al.. NeuroImage, 57(2): 316-319.
+
+Holmes, P., Eckhoff P, Wong-Lin K, Bogacz R, Zacksenhouse M \& Cohen JD (2010). The physics of decision making: stochastic differential equations as models for neural dynamics and evidence accumulation in cortical circuits. In XVIth International Congress on Mathematical Physics (pp. 123-142).
+
+Simen P, Holmes P, \& Cohen JD. (2008). On the neural implementation of optimal decisions. In Morsella E, Bargh JA \& Gollwitzer PM (eds.), Oxford Handbook of Human Action, (pp. 534-549). Oxford University Press: Oxford, UK.
+
+Keysers C, Boyd R, Cohen J, Donald M, Güth W, Johnson E, Kurzban R, Schooler L, Schooler J, Spelke E \& Trommershäuser J (2008). Explicit and implicit strategies in decision making. In Engel C and Singer W (Eds.), Strüngmann Forum Report: Better than Conscious? Decision Making, the Human Mind, and Implications. Cambridge, MA: MIT Press. Pp. 225-258.
+
+Cohen JD \& Insel TR (2008). Cognitive neuroscience and schizophrenia: Translational research in need of a translator. Biological Psychiatry, 64(1): 2-3.
+
+McClure SM, Botvinick MM, Yeung N, Greene JD \& Cohen JD (2007). Conflict monitoring in cognition-emotion competition. In Gross JJ (Ed.), Handbook of Emotion Regulation. New York: Guilford Press.
+
+Aston-Jones GS, Iba M, Clayton E, Rajkowski J \& Cohen J (2007). The locus coeruleus and regulation of behavioral flexibility and attention: Clinical implications. In Ordway GA, Schwartz MA and Frazer A (Eds.), Brain Norepinephrine: Neurobiology and Therapeutics. Cambridge University Press: Cambridge, UK. Pp. 196-235.
+
+Holroyd CB, Yeung N, Coles MGH \& Cohen JD (2006). Internalizing representations of correct behavior from feedback. Princeton Technical Report: 06-02.
+
+Holmes PJ, Bogacz R, Cohen JD \& Gold JI (2005). Letter to the Editor, in response to Hunter PW (2004), Connections, context, and community: Abraham Wald and the sequential probability ratio test. Mathematical Intelligencer, 27(1), 4-5.
+
+Cohen JD \& Aston-Jones G (2005). Cognitive neuroscience: Decision amid uncertainty. Nature, 436(7050), 471-2.
+
+Sanfey AG \& Cohen JD (2004). Is knowing always feeling? Proc Natl Acad Sci U S A, 101(48), 16709-10.
+
+Holmes P, Brown E, Moehlis J, Bogacz R, Gao J, Hu P, Aston-Jones G, Clayton E, Rajkowski J \& Cohen JD (2004). Optimal decisions: From neural spikes, through stochastic differential equations, to behavior. Proceedings of the International Symposium on Nonlinear Theory and its Applications. NOLTA2004.
+
+Cohen JD, Aston-Jones G \& Gilzenrat MS (2004). A systems-level perspective on attention and cognitive control: Guided activation, adaptive gating, conflict monitoring, and exploitation vs. exploration. In Posner MI (Ed.), Cognitive Neuroscience of Attention. New York: Guilford Press. Pp. 71-90.
+
+Carter CS, Kerns JG \& Cohen JD (2004). Cognitive neuroscience: Bridging thinking and feeling to the brain, and its implications for psychiatry. In: Neurobiology of Mental Illness, Charney DS \& Nestler EJ (Eds.), Oxford University Press: Oxford.
+
+Botvinick M, Braver TS, Yeung N, Carter CS \& Cohen JD (2004). Conflict monitoring: Computational and empirical studies. In Posner MI (Ed.), Cognitive Neuroscience of Attention. New York: Guilford
+Press.
+
+Paus T, Haxby JV \& Cohen JD (2003). Special Issue. Neuroimage.
+
+Nieuwenhuis S, Yeung N \& Cohen JD (2003). A computational simulation of electrophysiological markers of anterior cingulate function in a go/nogo task. CSBMB. 03.1, Princeton NJ: Princeton University.
+
+Cohen J D \& Servan-Schreiber D (2002). Context, cortex and schizophrenia: A connectionist approach to behavior and biology in schizophrenia. In: Cognitive Modeling, Polk TA \& Seifert CM (Eds.). MIT Press: Cambridge.
+
+Cohen JD \& Blum KI (2002). Overview: Reward and decision. Introduction to special issue. Neuron, 36(2), 193-198.
+
+Cohen, JD (2002). Inhibition and control. In The Dana Guide To Brain Health, Bloom FE, Beal MF, \& Kupfer DJ (Eds). New York: Free Press. Pp.185-189.
+
+Cohen JD (2002). Neural network models of prefrontal cortex and cognitive control. In Grafman J (Ed.), Handbook of Neuropsychology, 2nd Edition, Vol. 7: The Frontal Lobes. Elsevier: New York, pp.195-213.
+
+Bogacz R \& Cohen JD (2002). Parameterization of connectionist models. CSBMB.Conte.02.1, Princeton NJ: Princeton University.
+
+Aston-Jones G, Rajkowski J \& Cohen JD (2002). Role of the locus coeruleus-norepinephrine system in attention and behavioral flexibility. In: Catecholamine Research: From Molecular Insights to
+Clinical Medicine, Nagatsu T, Nabeshima T McCarty R \& Goldstein D (Eds.). Kluwer Academic/Plenum Publishing: New York, pp. 357-361.
+
+Cohen JD \& Tong F (2001). The face of controversy: Modular vs. distributed representations in the brain. Science, 293, 2405-2407.
+
+Cohen JD, Botvinick MM \& Carter CS (2000). Anterior cingulate and prefrontal cortex: who’s in control? Nature Neuroscience. 3(5): 421-423.
+
+Cohen JD (2000), Special Issue: Functional topography of prefrontal cortex. NeuroImage, 11, 378-379.
+
+Aston-Jones G, Rajkowski J \& Cohen J (2000). Locus coeruleus and regulation of behavioral flexibility and attention. In Progress in Brain Research.
+
+Carter CS, Botvinick MM \& Cohen JD. (1999) The contribution of the anterior cingulate cortex to executive processes in cognition. Reviews in the Neurosciences, 10, 49-57.
+
+Usher M \& Cohen JD (1999). Short term memory and selection processes in a frontal-lobe model. In Heinke D, Humphries GW \& Olsen A (Eds.), Connectionist Models in Cognitive Neuroscience. Springer-Verlag.
+
+O'Reilly RC, Braver TS \& Cohen JD (1999). A biologically-based neural network model of working memory. In Shah P \& Miyake A (Eds.), Models of Working Memory. Cambridge University Press. Pages 375-411.
+
+Braver TS \& Cohen JD (1999). Dopamine, cognitive control, and schizophrenia: The gating model. In Reggia J, Ruppin E \& Glanzman D (Eds.), Disorders of Brain, Behavior and Cognition: The Neurocomputational Perspective. Elsevier.
+
+Braver TS \& Cohen JD (1999). Dopamine, cognitive control, and schizophrenia: The gating model. Progress in Brain Research, 121, 327-349.
+
+Braver TS, Barch DM, \& Cohen JD (1999). Mechanisms of cognitive control: Active memory, inhibition, and the prefrontal cortex. Technical Report PDP.CNS.99.1, Pittsburgh PA: Carnegie Mellon University.
+
+Botvinick MM, Braver TS, Carter CS, Barch DM \& Cohen JD (1998). Toward a non-homuncular account of control: Cognitive neuroscientific evidence for conflict monitoring. Technical Report PDP.CNS.98.1, Pittsburgh PA: Carnegie Mellon University.
+
+Aston-Jones G, Rajkowski J, Kubiak P, Ivanova S, Usher M \& Cohen JD (1998). Neuromodulation and cognitive performance: Recent studies of noradrenergic locus coeruleus neurons in behaving monkeys. In Goldstein D, Eisenhofer G \& McCarty R (Eds.), Catecholamines: Bridging Basic Science with Clinical Medicine (Advances in Pharmacology, Vol. 42). New York: Academic Press, pp. 755-759.
+
+Cohen JD \& Smith EE (1997). Response to Owen AM, Tuning in to the temporal dynamics of brain activation using functional magnetic resonance imaging (fMRI). Trends in Cognitive Sciences, 1, 125.
+
+Cohen JD \& Schooler JW (1997). Science and sentience: Some questions regarding the scientific investigation of consciousness. In Cohen JD \& Schooler JW (Eds.), Scientific Approaches to Consciousness: 25th Carnegie Symposium on Cognition. New Jersey: Lawrence Erlbaum Associates.
+
+Cohen JD, Dunbar KO, Barch DM \& Braver TS (1997). Reply to Schooler et al: Issues concerning relative speed of processing hypotheses, schizophrenic performance deficits, and prefrontal function in the Stroop task. Journal of Experimental Psychology: General, 126, 37-41.
+
+Cohen JD (1997). Dimensions of consciousness: A commentary on Kinsbourne and Hobson. In Cohen JD \& Schooler JW (Eds.), Scientific Approaches to Consciousness: 25th Carnegie Symposium on Cognition. New Jersey: Lawrence Erlbaum Associates.
+
+Cohen JD (1997). Brain Terrain. Nature, 389, 142.
+
+Servan-Schreiber D \& Cohen JD (1996). Dopamine, frontal cortex, and schizophrenia: Model and data. In Reggia JA, Ruppin E \& Berndt RS (Eds.), Neural Modeling of Brain and Cognitive Disorders. Singapore: World Scientific Publishing Co.
+
+Keshavan MS \& Cohen JD (1996). Magnetic resonance spectroscopy and functional MRI. In Lewis S \& Higgins N (Eds.), Brain Imaging in Psychiatry. Oxford, UK: Blackwell Science, Ltd.
+
+Cohen JD \& O’Reilly RC (1996). A preliminary theory of the interactions between prefrontal cortex and hippocampus that contribute to planning and prospective memory. In Brandimonte M, Einstein GO \& McDaniel MA (Eds.), Prospective Memory: Theory and Applications. Hillsdale, NJ: Erlbaum. Pages 267-295.
+
+Casey BJ, Cohen JD, Noll D, Schneider W, Giedd J \& Rapoport JL (1996). Functional magnetic resonance imaging: Studies of Cognition. In Bigler ED (Ed.) Handbook of Human Brain Function, Neuroimaging II: Clinical Applications. New York: Plenum Press.
+
+Usher M, Cohen JD, Servan-Schreiber D, Rajkowski J, Kubiak P \& Aston-Jones G (1995). A computational model of locus coeruleus function and its influence on cognitive performance. Technical Report PDP.CNS.95.1, Pittsburgh PA: Carnegie Mellon University.
+
+Cohen JD, Romero R, Servan-Schreiber D \& Farah MJ (1993). Disengaging from the disengage function: The relation of macrostructure to microstructure in parietal attentional deficits. Technical Report PDP.CNS.93.2, Pittsburgh PA: Carnegie Mellon University.
+
+Cohen JD, Forman SD, Braver TS, Casey BJ, Servan-Schreiber D \& Noll DC (1993). Activation of prefrontal cortex in a non-spatial working memory task with functional MRI. Technical Report PDP.CNS.93.3, Pittsburgh PA: Carnegie Mellon University.
+
+Cohen JD, Servan-Schreiber D, Targ E \& Spiegel D (1992). The fabric of thought disorder: A cognitive neuroscience approach to disturbances in the processing of context in schizophrenia. In Stein D \& Young J (Eds.), Cognitive Science and Clinical Disorders. NY: Academic Press.
+
+Servan-Schreiber D \& Cohen JD (1992). Issue Editors, Neural network models in Psychiatry. Psychiatric Annals, 22(3).
+
+Servan-Schreiber D \& Cohen JD (1992). A neural network model of catecholaminergic modulation of behavior. Psychiatric Annals, 22(3), 125-130.
+
+Cohen JD \& Servan-Schreiber D (1992). Introduction to neural networks in psychiatry. Psychiatric Annals, 22(3), 113-118.
+
+Baars BJ, Cohen JD, Bower GH \& Berry JW (1992). Some caveats on testing the Freudian slip hypothesis: Problems in systematic replication. In Baars BJ (Ed.), Experimental slips and human error, Exploring the architecture of volition. New York: Plenum Press.
+    \smallskip
+
+
+%Books
+\subsection*{3. Books} \label{secPUBLICATIONS3}
+
+Cohen JD \& Schooler JW (1997). Editors, Scientific Approaches to Consciousness: 25th Carnegie Symposium on Cognition. New Jersey: Lawrence Erlbaum Associates. \href{https://www.taylorfrancis.com/books/edit/10.4324/9781315806563/scientific-approaches-consciousness-jonathan-cohen-jonathan-schooler}{[Preview pdf]}
+    \smallskip
+
+
+%Published Abstracts
+\subsection*{4. Published Abstracts } \label{secPUBLICATIONS4}
+
+Campbell D, Kumar S, Giallanza T, Cohen JD \& Griffiths TL (2024). Human-like geometric abstraction in large pre-trained neural networks. International Conference on Learning and Representation (ICLR) 2024, Workshop on Representational Alignment. https://openreview.net/forum?id=h15aZUyxjw.
+
+Bustamante L, Grunevski S, Solis J, Lee J, Daw D, Cohen J, Barch D \& Konova A (2024). Reduced food craving induction response associated with behavioral apathy and cognitive function symptoms of major depression. Society for Research on Psychopathology Annual Meeting.
+
+Giallanza, T., Campbell, D., \& Cohen, J. D. (2023). Adapting to a changing environment with controlled retrieval of episodic memories. Fourth Annual Symposium on the Mathematics of Neuroscience.
+
+Campbell, D., Kumar, S., Giallanza, T., Cohen, J.D., Griffiths, T.L. (2023). Unraveling geometric reasoning: A neural network model of regularity biases. International Symposium on the Mathematics of Neuroscience (spotlight talk).
+
+Bustamante LA, Fahey MP, Solis J, Oshinowo T, Tong E, Lee JR, Burton AR, Grahek I, Shenhav A, Barch DM, Daw ND, Konova AB \& Cohen JD (2023). Anxiety in major depression associated with increased willingness to exert cognitive, but not physical effort. Society for Biological Psychiatry.
+
+Bustamante L, Bogdanov M, Solis J, Oshinowo T, Sheldon S, Devine S, Lee J, Tong E, Burton A, Grahek I, Fahey MP, Konova A, Otto R, Barch D, Shenhav A, Cohen J, Daw N (2023). Quantifying individual differences in cognitive and physical effort cost with the Effort Foraging Task; applications in large online, clinical depression, and transcranial direct stimulation studies. International conference on Motivational and Cognitive Control.
+
+Jongkees, B. J., Musslick, S., \& Cohen, J. D. (2022). A mechanistic account of the stability-flexibility trade-off. The NVP Spring Conference on Cognition, Brain, and Behaviour of the Dutch Psychonomic Society.
+
+Jongkees, B. J., Musslick, S., \& Cohen, J. D. (2022). A mechanistic account of the stability-flexibility trade-off. The 22nd Conference of the European Society for Cognitive Psychology (ESCOP).
+
+Kumar S, Dasgupta I, Cohen JD, Daw N \& Griffiths T (2020). Meta-Learning of compositional taskdistributions in humans and machines. MetaLearn 2020, NeurIPS Workshop.
+
+Dulberg Z and Cohen JD (2020). Learning canonical transformations. BabyMind 2020, NeurIPS Workshop.
+
+Willke TL, Yoo SBM, Capotă M, Musslick S, Hayden BY \& Cohen JD (2019). A Comparison of non-human primate and deep reinforcement learning agent performance in a virtual pursuit-avoidance task. RLDM 2019: Proceedings of the Multi-disciplinary Conference on Reinforcement Learning and Decision Making. https://www.biorxiv.org/content/10.1101/567545v2.
+
+Henselman-Petrusek G, Segert S, Keller B, Tepper M, Cohen JD (2019). Geometry of Shared Representations. CCN 2019: Proceedings of the Annual Conference on Cognitive Computational Neuroscience. https://doi.org/10.32470/CCN.2019.1418-0.
+
+Ebitz B, Cohen JD, Buschman T, MooreT \& Hayden B (2019). Exploration via disrupted sensorimotor control dynamics Computational and Systems Neuroscience (CoSyNe).
+
+Beukers A, Norman KA \& Cohen JD (2019). Working with episodic memory: The n-back task. CCN 2019: Proceedings of the Annual Conference on Cognitive Computational Neuroscience.
+
+Agrawal M, Mattar MG, Daw ND \& Cohen JD (2019). Rational arbitration of hippocampal replay. CCN 2019: Proceedings of the Annual Conference on Cognitive Computational Neuroscience.
+
+Wilson RC \& Cohen JD (2018). Deep exploration explains the tradeoff between directed and random exploration. Society for Neuroscience Abstracts.
+
+Shvartsman M, Sundaram N, Aoi M, Charles A, Willke T \& Cohen JD (2018). Matrix-normal models for fMRI analysis. AISTATS.
+
+Shvartsman M, Charles A, Cohen JD, Aoi M, Sundaram N \& Wilke T (2018). Matrix-normal models for fMRI analysis. Computational and Systems Neuroscience (CoSyNe).
+
+Novick A, Musslick S, Iordan M \& Cohen JD (2018). Why we struggle to multitask: Converging evidence from computational modeling, human behavior, and neuroimaging. Society for Neuroscience Abstracts.
+
+Musslick S, Cohen JD \& Shenhav A (2018). Estimating the costs of cognitive control: Theoretical validation and potential pitfalls. Society for Neuroscience Abstracts.
+
+Kane G, James M, Shenhav A, Wilson RC, Daw N, Aston-Jones G \& Cohen JD (2018). Does the anterior cingulate contribute to foraging decisions? Computational and Systems Neuroscience (CoSyNe).
+
+Iordan MC, Ritvo VJH, Norman KA, Turk-Browne NB \& Cohen JD (2018). Using closed loop real-time fMRI neurofeedback to induce neural plasticity and influence perceptual similarity. Society for Neuroscience Abstracts.
+
+Bustamante LA, Lieder F, Musslick S, Shenhav A \& Cohen JD (2018). Learning to overexert cognitive control in the Stroop task. CCN 2018: Proceedings of the Annual Conference on Cognitive
+Computational Neuroscience.
+
+Bustamante LA, Burton AR, Baker AL, Shenhav AL, Daw ND \& Cohen JD (2018). The cost of cognitive control and the balance of random versus directed exploration. Society for Neuroscience Abstracts.
+
+Suo DC, Hutchinson JB, deBettencourt M, Mennen A, Wang Y, Willke T, Turk-Browne NB, Norman KA, Cohen JD \& Li K (2017). Real-time fMRI analysis in the cloud. Society for Neuroscience Abstracts.
+
+Novick AS, Bornstein AM, Norman KA \& Cohen JD (2017). Drift diffusion modeling of interactions between episodic and working memory. Society for Neuroscience Abstracts.
+
+Musslick S, Jang SG, Panichello M, Bustamante L, Shenhav A \& Cohen JD (2017). Constraints associated with cognitive control and the stability-flexibility dilemma. Society for Neuroscience Abstracts.
+
+Iordan MC,Ritvo VJH, Norman KA, Turk-Browne NB \& Cohen JD (2017). Inducing neural plasticity and perceptual similarity via real-time fMRI neurofeedback. Society for Neuroscience Abstracts.
+
+Ebitz RB, Cohen JD \& Buschman (2017). Mechanisms for generating flexibility in a changing world. Society for Neuroscience Abstracts.
+
+Cohen JD, Lesnick M, Keller B, Baldassano C, Schapiro A \& Ellis C (2017) . Using realistic, synthetic fMRI data to validate Topological Data Analysis as a tool for fMRI. Society for Neuroscience Abstracts.
+
+Cherkaev A, Musslick S, Cohen JD, Srikumar V \& Flatt M (2017). SweetPea: A Language for Designing Experiments. The 45th Symposium on Principles of Programming Languages (POPL).
+
+Capota M, Willke TL, Norman KA, Cohen JD \& Turk-Browne NB (2017). Brain imaging analysis kit: Advanced fMRI analysis at scale. Society for Neuroscience Abstracts.
+
+Wang Y, Keller B, Capota M, Anderson MJ, Sundaram N, Cohen JD \& Li K, Turk-Browne NB \& Willke TL (2016). Real-time full correlation matrix analysis of fMRI data. BigD237: 2016 IEEE International Conference on Big Data.
+
+Wilson RC \& Cohen JD (2016). Systems Neuroscience (CoSyNe). A unifying theory of explore-exploit decisions. Computational and
+
+Wang S, Cohen JD \& Wilson RC (2016). Blink different! Blink rate reflects individual differences in directed exploration. Computational and Systems Neuroscience (CoSyNe).
+
+Novick AS, Bornstein AM, Norman KA \& Cohen JD (2016). Blast from the past: Episodic memory supports working memory maintenance. Society for Neuroscience Abstracts.
+
+Musslick S, Dey B, Özcimder K, Patwary M, Krieger P, Willke TL \& Cohen JD (2016). Multitasking capacity versus efficiency of representation in neural network architectures. Nanosymposium. Society for Neuroscience Abstracts.
+
+Momennejad I, Tomov, M, Norman KA \& Cohen JD (2016). The strategic allocation of working memory and episodic memory in prospective remembering: A neural network model. Society for Neuroscience Abstracts.
+
+Lositsky O, Wilson RC, Shvartsman M \& Cohen JD (2016). Adaptive task representations in context-based decision making. Society for Neuroscience Abstracts.
+
+Cohen JD, Dey B, Griffiths T, Musslick S, Ozcimder K, Reichman D, Shinkar I and Wagner T (2016). A graph-theoretic approach to multitasking. arXiv:1611.02400.
+
+Wang Y, Anderson M, Cohen JD, Heinecke A, Li K, Satish N, Sundaram N, Turk-Browne NB \& Willke T (2015). Full correlation matrix analysis of fMRI data on Intel® Xeon Phi™ coprocessors. In Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis (p. 23). ACM.
+
+Novick AS, Bornstein AM, Norman KA \& Cohen JD (2015). Refresh my memory: Context information from episodic memory affects working memory maintenance. Society for Neuroscience Abstracts.
+
+Lositsky O, Wilson RC, Shvartsman M \& Cohen JD (2015). A drift diffusion model of proactive and reactive control in a context-dependent two-alternative forced choice task. RLDM 2015: Proceedings of the Multi-disciplinary Conference on Reinforcement Learning and Decision Making.
+
+Krueger P, Wilson RC \& Cohen JD (2015). Strategies for exploration in the domain of losses. Computational and Systems Neuroscience (CoSyNe).
+
+Keung W, Osherson D \& Cohen JD (2015). Influence of cognitive control on semantic representation. https://www.biorxiv.org/content/10.1101/067553v1.
+
+Keung W, Osherson D \& Cohen JD (2015). Influence of cognitive control on semantic representation: seeing things under a different light. Computational and Systems Neuroscience (CoSyNe).
+
+Kane GA, Vazey EM, Wilson RC, Shenhav A, Daw N, Aston-Jones G \& Cohen JD (2015). Examining the Role of the Locus Coeruleus in Foraging and Exploration. Society for Neuroscience Abstracts.
+
+Wilson RC \& Cohen JD (2014). Humans tradeoff information seeking and randomness in explore-exploit decisions. Society for Neuroscience Abstracts.
+
+Momennejad I, Cohen JD \& Norman KA (2014). Imagine the future! How does episodic simulation enhance prospective memory? Society for Neuroscience Abstracts.
+
+Geana A, Wilson RC \& Cohen JD (2014). Risk, ambiguity and decision horizon in human exploration: A Wheel of Fortune task. Society for Neuroscience Abstracts.
+
+Wilson RC, White JM \& Cohen JD (2013). The role of adaptive decision noise in exploration. Society for Neuroscience Abstracts.
+
+Shenhav A, Botvinick MM \& Cohen JD (2013). Decision costs may explain dACC activity in a “foraging” context. Society for Neuroscience Abstracts.
+
+Wang Y, Li K, Charikar M, Cohen JD \& Turk-Browne NB (2013). What you find depends on how you look: Category selectivity in frontal cortex revealed by whole-brain correlation analysis. Journal of Vision Sciences.
+
+deBettencourt MT, Lee RF, Cohen JD, Norman KA \& Turk-Browne NB (2013). Externalizing internal states with real-time neurofeedback to train visual attention. Journal of Vision Sciences.
+
+Tomlin D, Nedic A, Wilson RC, Holmes P \& Cohen JD (2012). Group foraging task reveals separable influences of individual experience and social information. Society for Neuroscience Abstracts.
+
+Eldar E, Radulescu A, Niv Y \& Cohen JD (2012). Norepinephrine, neural gain, and "first one wins" network dynamics. Computational and Systems Neuroscience (CoSyNe).
+
+deBettencourt MT, Lee RF, Cohen JD, Norman KA \& Turk-Browne NB (2012). Real-time decoding and training of sustained attention. Society for Neuroscience Abstracts.
+
+Cohen JD, Lewis-Peacock JA \& Norman KA (2012). Neural evidence for the flexible use of working memory and episodic memory in prospective remembering. Society for Neuroscience Abstracts.
+
+Goldfarb S, Simen P, Caiceido C, Holmes P, Leonard NE \& Cohen JD (2011). Optimal performance and the LBA model. Abstracts of the Psychonomic Society.
+
+Wilson RC, Geana A, Myles-White J, Ludwig E \& Cohen JD (2011). Why the grass is greener on the other side: Behavioral evidence for an ambiguity bonus in human exploratory decision making. Society for Neuroscience Abstracts, 830.13.
+
+Tomlin D, Nedic A, Todd MT, Wilson RC, Prentice DA, Holmes P \& Cohen JD (2011). Group foraging task reveals separable influences of individual experience and social information. Society for Neuroscience Abstracts.
+
+Todd MT, Botvinick MM, Schwemmer MA, Cohen JD \& Dayan P (2011). Normative analysis of task switching. Society for Neuroscience Abstracts.
+
+Lewis-Peacock JA, Salesi MR, Cohen JD \& Norman KA (2011). Decoding the use of working memory and episodic memory in prospective remembering. Society for Neuroscience Abstracts, 829.04.
+
+Geana A, Wilson RC, White JM, Ludvig E \& Cohen JD. (2011). The Separate Roles of Reward Magnitude and Uncertainty in the Explore/Exploit Dilemma. Society for Neuroscience Abstracts, 830.10/XX40.
+
+Feng S, Schwemmer M \& Cohen JD (2011). Computational Constraints on Cognitive Control. Society for Neuroscience Abstracts.
+
+Wilson RC, Cohen JD \& Niv Y (2010). Neuroscience Abstracts, 907.12/KKK45. Inferring relevance in a changing world. Society for Neuroscience Abstracts, 907.12/KKK45.
+
+Tomlin D, Nedic A, Prentice DA, Holmes P \& Cohen JD (2010). Group foraging task reveals neuralsubstrates of social influence. Society for Neuroscience Abstracts, 403.9/LLL65.
+
+Todd MT, Niv Y \& Cohen JD (2010). Mental set representations in fMRI. Society for Neuroscience Abstracts, 603.8/KKK52.
+
+Getz SJ, Tomlin D, Nystrom LE, Cohen JD \& Conway ARA (2010). Executive control of intertemporal choice: Effects of cognitive load on impulsive decision-making. Abstracts of the Psychonomic Society, 3067.
+
+Gershman SJ, Cohen JD \& Niv Y (2010). Learning to selectively attend. CogSci 2010: Proceedings of the 32th Annual Meeting of the Cognitive Science Society.
+
+Eppinger B, Nystrom L \& Cohen JD. (2010). Age-related changes in reward sensitivity during decision-making and learning. Society for Neuroscience Abstracts, 911.2/LLL48.
+
+Tomlin D, Nedic A, Holmes P \& Cohen JD (2009). Neural and behavioral responses to social feedback during group decision-making. Society for Neuroscience Abstracts, 475.4/FF27.
+
+Simen PA, Nystrom LE, van Vugt M, Krueger P \& Cohen JD (2009). Event-related fMRI during slow decision making can reveal temporal structure in neural activity. Society for Neuroscience Abstracts, 576.9/FF111.
+
+Forster SE, Cho RY, Cohen JD \& Carter CS (2009). Effects of parametric manipulations of conflict on N2 amplitude and cognitive control adjustments. NeuroImage.
+
+Cho RY, Forster SE, Cohen JD \& Carter CS (2009). Impairments in prefrontal cortical gamma-band synchrony and cognitive control in first-episode schizophrenia. Neuroimage.
+
+Cho R, Cohen JD, Sacks A, Yen Y-T \& Carter CS (2009). Disturbances in Frontal Cortical Gamma Oscillations in Association with Genetic Liability for Schizophrenia. Abstracts of Panels and
+Posters, 48th Annual Meeting of the American College of Neuropsychopharmacology.
+
+Becker, T. M., Cho, R. Y., Cohen, J. D., Kerns, J. G. \& Carter, C. S. (2009). The association between impaired language production and prefrontal cortex goal maintenance deficits in medication-naive people with schizophrenia. NeuroImage, 47, S1, 189.
+
+Yu AJ \& Cohen JD (2008). Sequential Effects: Annoying Quirk or Adaptive Behavior? Computational
+and Systems Neuroscience, Abstract #III-58. http://cosyne.org/cosyne08/posters/
+
+Nedic A, Tomlin D, Holmes P, Prentice DA and Cohen JD (2008) A simple decision task in a social context: Preliminary experiments and a model. Proceedings of the 47th IEEE Conference on Decision and Control.
+
+van den Bos W, Li J, Lau T, McClure SM, Cohen JD \& Montague PR (2007). Social influences on bidding in common value auctions and the Winner’s Curse. Abstract at meeting of the Society for
+Neuroeconomics, Nantucket Beach, MA.
+
+Todd MT, Wong KF, \& Cohen JD (2007). Competition, gating, and learning: A new computational model of task switching. Society for Neuroscience Abstracts, Program No. 634.10.
+
+Simen PA \& Cohen JD (2007). A diffusion-based neural network model of interval timing and temporal discounting. Society for Neuroscience Abstracts, Program No. 637.13.
+
+Greene JD, Paxton JM, Nystrom LE \& Cohen JD (2007). Dissociation between affective and cognitive moral disapproval. Society for Neuroscience Abstracts, Program No. 126.4.
+
+D'Ardenne K, McClure SM, Nystrom LE, \& Cohen JD (2007). BOLD responses in the dopaminergic ventral tegmental area. Society for Neuroscience Abstracts, Program No. 704.21.
+
+McClure KD, McClure SM, Nystrom LE \& Cohen JD (2006) Functional MRI of midbrain dopamine nuclei. Neuroimage, 31, S1, 2796.
+
+McClure SM, Ericson KM, Laibson DI, Loewenstein G \& Cohen JD (2006) Time discounting for primary reward. Neuroimage, 31, S1, 2749.
+
+Detre GJ, Polyn SM, Moore CD, Natu VS, Singer BD, Cohen JD, Haxby JV \& Norman KA (2006). The Multi-Voxel Pattern Analysis (MVPA) toolbox. Neuroimage, 31, S1, 128.
+
+Snitz BE, Cho RY, Archer G, Cohen JD \& Carter CS (2005). Lateral and medial hypofrontality in first-episode psychosis: Diagnostic specificity to schizophrenia. Neuroimage, 26, S1, 1274.
+
+Simen PA, Holmes P \& Cohen J (2005). Threshold adaptation in decision making. Society for Neuroscience Abstracts, Program No. 768.15.
+
+Polyn SM, Detre G, Takerkart S, Natu V, Benharrosh M, Singer B, Cohen JD, Haxby JV \& Norman KA (2005). A Matlab-based toolbox to facilitate multi-voxel pattern classification of fMRI data. Neuroimage, 26, S1, 728.
+
+McClure, S.M., Laibson, D.I., Loewenstein, G., Ericson, K., McClure, K.D., Cohen, J.D. (2005) Neural mechanisms of time discounting for primary reward. Society for Neuroeconomics.
+
+Greene JD, Lowenberg K, Nystrom LE, Darley JM \& Cohen JD (2005). Saving lives versus keeping promises: An fMRI investigation of consequentialist and deontological moral judgment.
+Society for Neuroscience Abstracts, Program No. 12.7.
+
+Cohen JD, McClure SM, Gilzenrat MS \& Aston-Jones G (2005). Dopamine-norepinephrine interactions: Exploitation vs. Exploration. Neuropsychopharmacology, 30, S1, S28.
+
+Rilling JK, Sanfey AG, Aronson JA, Nystrom LE \& Cohen JD (2004). Neural correlates of theory of mind within interpersonal interactions. NeuroImage, 22S(1), TH129.
+
+Polyn SM, Cohen JD \& Norman KA (2004). Detecting distributed patterns in an fMRI study of free recall. Society for Neuroscience Abstracts, Program No. 79.14.
+
+McClure SM, Laibson DI, Loewenstein G \& Cohen JD (2004). Separate neural systems represent immediate and delayed rewards. Society for Neuroscience Abstracts, Program No. 548.1.
+
+Gilzenrat MS, Brown ET, Aston-Jones G \& Cohen JD (2004). Locus Coeruleus, adaptive gain, and the optimization of decision tasks. Society for Neuroscience Abstracts, Program No. 899.6.
+
+Dixon GE, Nitschke JB, Short SJ, Lakshmanan A, Carew ME, Anderle MJ, Schaefer HS, Johnstone T, Cohen JD, Kosslyn SM, Smith EE, Davidson RJ (2004). The neural correlates of anticipation: The functional neurobiology of gustatory expectancy in the human brain. Society for Neuroscience Abstracts, Program No. 179.10.
+
+D’Ardenne McClure K, McClure SM, Richter MC, Cohen JD, and Richter W (2004). Rest Matters: Kinetics of the BOLD response depend on inter-stimulus time. Society for Neuroscience Abstracts, Program No. 694.17.
+
+Wager TD, Smith EE, Sokolik A, Cohen JD, Rilling JK, Davidson RJ, Kosslyn S, Rose RM \& Casey KL (2003). Placebo reduces the BOLD fMRI response in the anticipation and experience of thermal pain. Neuroimage, 19(2), 84.
+
+Takerkart S, Benharrosh M, Cohen J \& Daubechies I (2003). Estimating spatially distributed patterns of brain activity in fMRI datasets by using ICA. Neuroimage, 19(2), 946.
+
+Rilling JK, Wager TS, Davidson RJ, Kosslyn SM, Rose R, Smith EE \& Cohen JD (2003). An fMRI investigation of the neural mechanisms of placebo analgesia. Neuroimage, 19(2), 504.
+
+Nieuwenhuis S, Holroyd CB, Yeung N, Nystrom LE, Cohen JD, Mars RB \& Coles MGH (2003). Neural correlates of reinforcement learning and error processing: A functional magnetic resonance imaging study. Society for Neuroscience Abstracts, Program No. 197.11.
+
+Greene JD, Nystrom LE, Engell AD, Darley JM \& Cohen JD (2003). Patterns of neural activity correlated with individual differences in moral judgment. Society for Neuroscience Abstracts, Program No. 443.3.
+
+Greene JD, Nystrom LE, Darley JM \& Cohen JD (2003). Neural activity correlated with outcome of moral decision. Cognitive Neuroscience Society  Annual Meeting Program, E81, p. 166.
+
+Gilzenrat MS, Cohen JD, Rajkowski J \& Aston-Jones G (2003). Pupil dynamics predict changes in task engagement mediated by locus coeruleus. Society for Neuroscience Abstracts, Program No. 515.19.
+
+Carter CS, Kerns J, Sohn M-H \& Cohen JD (2003). A conflict over conflict monitoring and the anterior cingulate cortex. Society for Neuroscience Abstracts, Program No. 343.12.
+
+Bogacz R, Moehlis, Brown E, Holmes P \& Cohen JD (2003). Neural mechanisms for decision optimization. Society for Neuroscience Abstracts, Program No. 197.6.
+
+Bishop SJ, Farah M, Fossella JA, Casey BJ \& Cohen JD (2003). The MAOA-LPR polymorphism and prefrontal cortical activation to emotional distractors. Neuroimage, 19(2), 6.
+
+Benharrosh M, Takerkart S, Cohen J, Daubechies I \& Richter W (2003). Using ICA on fMRI data: does independence matter? Neuroimage, 19(2), 778.
+
+Sanfey AG, Rilling JK, Aronson JA, Nystrom LE \& Cohen JD (2002). An investigation of the neural dynamics of fairness and unfairness? Society for Neuroscience Abstracts, Program No. 78.11.
+
+Rilling JK, Sanfey AG, Aronson JA, Nystrom LE \& Cohen JD (2002). Mapping the brain's response to reciprocated and unreciprocated social cooperation. Society for Neuroscience Abstracts, Program No. 78.10.
+
+Rajkowski J, Majczynski H, Clayton E, Cohen J \& Aston-Jones G (2002). Phasic activation of monkey locus coeruleus (LC) neurons with recognition of behaviorally significant stimuli. Society for Neuroscience Abstracts, Program No. 86.1.
+
+Polyn SM, Norman KA \& Cohen JD (2002). Connectionist modeling of source memory phenomena. Society for Neuroscience Abstracts, Program No. 582.5.
+
+Nystrom LE, Yeung NP, Kitazono MT \& Cohen JD (2002). Anterior cingulate activity: From conflict or motor planning? Society for Neuroscience Abstracts, Program No. 180.3.
+
+Clayton E, Rajkowski J, Cohen J \& Aston-Jones G (2002). The primate locus coeruleus and discrimination/decision-making in the eriksen flanker task. Society for Neuroscience Abstracts, Program No. 86.8.
+
+Aston-Jones G, Rajkowski J, Lu W, Zhu Y, Cohen JD \& Morecraft R (2002). Prominent projections from the orbital prefrontal cortex to the locus coeruleus (LC) in monkey. Society for Neuroscience Abstracts, Program No. 86.9.
+
+Yeung N, Nystrom L, Kitazono M \& Cohen J (2002). An fMRI study of switching attention between tasks. Neuroimage 16(2), 692.
+
+Carter CS, van Veen V, Holroyd C, Stenger VA \& Cohen JD (2002). Errors and conflict but not error feedback engage the anterior cingulate cortex during event-related fMRI: implications for performance monitoring in the human brain. Neuroimage 16(2), 1002.
+
+Yeung N \& Cohen JD (2001). The role of anterior cingulate in performance monitoring: response conflict and the error-related negativity. Society for Neuroscience Abstracts, 26, Program No. 849.6.
+
+Perlstein WM, Lageman SK, Cole MA, Jones VM, Demery J, Carter CS \& Cohen JD (2001). Working memory and inhibition: prefrontal mediation and dysfunction in schizophrenia. Society for Neuroscience Abstracts, 26, Program No. 886.3.
+
+Li T, Kroger JK, Kastner S \& Cohen JD (2001). The neural substrate of haptic working memory. Society for Neuroscience Abstracts, 26, Program No. 782.1.
+
+Gilzenrat MS, Holmes BD, Holmes PJ, Rajkowski J \& Cohen JD (2001). A modified Fitzhugh-Nagumo system simulates locus coeruleus-mediated regulation of cognitive performance. Society for Neuroscience Abstracts, 26, Program No. 851.14.
+
+Li TQ, Nystrom L \& Cohen JD (2001). Ultra-fast trial-based fMRI using amplitude modulated stimuli. Neuroimage.
+
+Li T-Q, Skare S \& Cohen JD (2001). White matter fiber tracking using the eigenvalue weighted average eigenvector. Proceedings of the International Society for Magnetic Resonance in Medicine, 9.
+
+Rajkowski J, Lu W, Zhu Y, Cohen JD \& Aston-Jones G (2000). Prominent projections from the anterior cingulate cortex to the locus coeruleus in rhesus monkey. Society for Neuroscience Abstracts, 26, 2230.
+
+Greene JD, Sommerville RB, Nystrom LE, Darley JM \& Cohen JD (2000). An fMRI investigation of emotion in moral judgment. Society for Neuroscience Abstracts, 26, 2022.
+
+Cho RY, Nystrom LE, Holmes P, Brown E, Casey BJ \& Cohen JD (2000). A connectionist model of conflict and control in a forced-choice task. Society for Neuroscience Abstracts. 26, 1317.
+
+Aston-Jones G \& Cohen JD (2000). Neuromodulation and Cognitive Function: Recent Studies of Noradrenergic Neurons in Behaving Monkeys. Abstracts of Panels and Posters, 39th Annual Meeting of the American College of Neuropsychopharmacology.
+
+van Veen V, Cohen JD, Botvinick M, Stenger VA \& Carter CS (2000). Conflict related activity and the anterior cingulate: An event-related fMRI analysis of stimulus vs. response based conflict. Journal of Cognitive Neuroscience, S114.
+
+Kroger JK, Nystrom LE, Li T-Q, Holmes BD \& Cohen JD (2000). Differential cortical responses to memory load and representational structure. Journal of Cognitive Neuroscience, S145.
+
+Wheeler ME, Sabb FW, Graziano MSA \& Cohen JD (1999). Imagined movement of real objects in space near the body differentially activates frontal and parietal cortex. Society for Neuroscience Abstracts, 25, 98.
+
+Carter CS, MacDonald III A, Botvinick MM, Stenger VA \& Cohen JD (1999). Anterior cingulate cortex and executive control: what is it really doing? Society for Neuroscience Abstracts, 25, 2168.
+
+Barch DM, Carter CS, Sabb FW, MacDonald III A, Noll DC, Braver TS \& Cohen JD (1999). Prefrontal cortex and context processing in medication naïve first episode patients with schizophrenia. Society for Neuroscience Abstracts, 25, 1289.
+
+McClelland JL, Pollock JA, Cohen JD, Fisher RN \& Abdulaziz T (1998). Tracking the human brain: An interactive multimedia presentation. Society for Neuroscience Abstracts.
+
+Chein JM, Noll DC, Cohen JD, Fissell K, Nystrom LE, Saab F, Fiez JA (1998). An fMRI study of verbal working memory: Effects of length, lexicality, and phonological similarity. Society for Neuroscience Abstracts.
+
+Berns GS \& Cohen JD (1998). Dissociating brain regions for novel learning from response competition using implicit sequence learning. Society for Neuroscience Abstracts.
+
+Usher M \& Cohen JD (1997). Interference-based capacity limitations in active memory. Abstracts of the Psychonomic Society, 2, 11.
+
+Silakov V, Rajkowski J, Ivanova S, Watanabe T, Cohen JD, Usher M \& Aston-Jones G (1997). Correlated impulse activities of locus coeruleus (LC) neurons in monkey: Dependency on level of task performance. Society for Neuroscience Abstracts, 23, 1587.
+
+Condray R, Steinhauer SR, Cohen JD, van Kammen DP, Kasparek A \& Kelley ME (1997). Effects of haloperidol on the event-related potential in schizophrenics. Schizophrenia Research, 24(1,2), 232.
+
+Casey BJ, Forman SD, Franzen PL, Badgaiyan RD, King SW, Braver TS, Cohen JD \& Noll DC (1997). Ventral and dorsolateral prefrontal activation as a function of target probability. NeuroImage, 5(4), S92.
+
+Casey BJ, Cohen JD, King SW, Franzen PL, Nystrom LE, Badgaiyan RD, Schubert AB \& Noll DC (1997). A developmental functional MRI study of cortical activation during a spatial working memory task. NeuroImage, 5(4), S69.
+
+Cohen JD, Nystrom LE, Sabb F \& Noll DC (1997). Tracking the dynamics of fMRI activation under manipulations of duration and intensity of working memory processes. Society for Neuroscience Abstracts, 23, 1678.
+
+Carter CS, Barch DM, Cohen JD \& Braver TS (1997). CNS catecholamines and cognitive dysfunction in schizophrenia. Schizophrenia Research, 24(1,2), 211.
+
+Carter CS, Mintun M \& Cohen JD (1997). Abnormal cortical physiology associated with selective attention dysfunction in schizophrenia. Schizophrenia Research, 24(1,2), 164.
+
+Carter CS, Barch DM \& Cohen JD (1997). Disturbed language processing: disorganization, and attentional impairment in schizophrenia. Schizophrenia Research, 24(1,2), 130.
+
+Braver TS, Cohen JD \& McClelland JL (1997). An integrated computational model of dopamine function in reinforcement learning and working memory. Society for Neuroscience Abstracts, 23, 775.
+
+Braver TS \& Cohen JD (1997). Driving subjects to distraction: Cognitive control, prefrontal cortex, and schizophrenia. Abstracts of the Psychonomic Society, 2, 23.
+
+Barch DM, Carter CS, Cohen JD \& Sabb F (1997). The effects of D-amphetamine on language function in schizophrenia. Society for Neuroscience Abstracts, 23, 1952.
+
+Barch DM, Carter CS, Braver TS \& Cohen JD (1997). The effects of d-amphetamine on working memory and language deficits in schizophrenia. Schizophrenia Research, 24(1,2), 129.
+
+Barch DM, Braver TS, Nystrom L, Noll DC \& Cohen JD (1997). Activation of prefrontal cortex by the representation and maintenance of context information. Schizophrenia Research, 24(1,2), 163.
+
+Cohen JD \& Usher M (1996). A neural network model of Stroop interference and facilitation effects in schizophrenia. Biological Psychiatry, 39, 568.
+
+Aston-Jones G, Kubiak P, Rajkowski J, Ivanova S \& Cohen J (1996). Enhancement of locus coeruleus (LC) neuronal responses to visual targets by preceding auditory distractors. Society for Neuroscience Abstracts, 22.
+
+Forman SD, Cohen JD, Braver TS \& Orr RJ (1995). Validation of functional magnetic resonance imaging: Application to schizophrenia research. Schizophrenia Research, 15(1-2), 82.
+
+Forman SD \& Cohen JD (1995). Modeling saccadic eye movements in schizophrenia: Insights into memory mechanisms. Schizophrenia Research, 15(1-2), 175.
+
+Cohen JD, Usher M, Servan-Schreiber D \& Aston-Jones G (1995). A computational model of the effects of locus coeruleus neuromodulation on attention. Biological Psychiatry, 37, 618.
+
+Cohen JD, Ganguli R, Carter C, Brar J, Nichols T, DeLeo M \& Mintun M (1995). Hypofrontality and working memory dysfunction in schizophrenia. Biological Psychiatry, 37, 633.
+
+Cohen JD \& O'Reilly RC (1995). A computational model of prefrontal cortical and hippocampal function, and their interaction in behavioral tasks. Schizophrenia Research, 15(1-2), 112.
+
+Carter CS, Barch D, Perlstein W., Baird J, Baker R, Cohen JD \& Schooler N (1995). A cognitive neuropsychological study of schizophrenia symptoms: Correlates of Stroop and semantic priming performance. Schizophrenia Research, 15(1-2), 111.
+
+Braver TS, Cohen JD, Jonides J, Smith EE, Awh E, Schumacher E, Lauber E \& Noll DC (1995). A parametric study of prefrontal cortex involvement in human working memory using functional MRI. Society for Neuroscience Abstracts, 21, 274.
+
+Braver TS, Cohen JD \& Servan-Schreiber D (1995). Neural network simulations of schizophrenic performance in a variant of the CPT-AX: A predicted double dissociation. Schizophrenia Research, 15(1-2), 110.
+
+Barch DB, Cohen JD, Servan-Schreiber D \& Ganguli R (1995). The stability and interrelationships of CPT-AX and Stroop performance in schizophrenia. Schizophrenia Research, 15(1-2), 108.
+
+Servan-Schreiber D, Noll D, Cohen JD, Beuger M, Olga T, Swanson D \& Mann JJ (1994). fMRI studies of limbic activation. Abstracts of Panels and Posters, 33th Annual Meeting of the American College of Neuropsychopharmacology.
+
+Huston T \& Cohen JD (1994). Stimulus-induced shifts of task attention. Abstracts of the Psychonomic Society, 35th Annual Meeting.
+
+Forman SD, Cohen JD, Noll DC, Mintun MA \& Casey BJ (1994). Within subject comparison of PET \& fMRI to visualize activation of prefrontal cortex (PFC). Society for Neuroscience Abstracts, 20.
+
+Forman SD, Cohen JD, Mintun MA \& Noll DC (1994). Improved assessment of significant change in functional magnetic resonance imaging (fMRI): Use of the contiguity threshold. Annual Meeting of
+the Society for Magnetic Resonance.
+
+Carter CS, Cohen JD \& Mintun M (1994). Interference, facilitation and strategy development in Stroop task performance: An 150H2O PET study. Abstracts of Panels and Posters, 33rd Annual Meeting of the American College of Neuropsychopharmacology.
+
+Noll DC, Schneider W \& Cohen JD (1993). Artifacts in functional MRI using conventional scanning (1993). Twelfth Annual Meeting of the Society of Magnetic Resonance in Medicine.
+
+Noll DC, Cohen JD, Forman SD, Schneider W \& Meyers CH (1993). Spiral k-space MRI of brain function. Twelfth Annual Meeting of the Society of Magnetic Resonance in Medicine.
+
+Cohen JD, Forman SD, Casey BJ \& Noll DC (1993). Spiral-scan imaging of dorsolateral prefrontal cortex during a working memory task. Twelfth Annual Meeting of the Society of Magnetic Resonance in Medicine.
+
+Casey BJ, Cohen JD, Noll DC, Forman SD \& Rapoport JL (1993). Activation of the anterior cingulate during the Stroop conflict paradigm using functional MRI. Society for Neuroscience Abstracts, 19, 1285, 1993.
+
+Noll DC, Meyer CH, Cohen JD \& Schneider W (1991). Spiral-scan imaging of cortical activation. 11th Annual Meeting of the Society of Magnetic Resonance Imaging.
+
+Halliday R, Callaway E, Naylor H, Herzig K, Yano L, Cohen JD \& Servan-Schreiber D (1991). Two empirical findings linked to neural network modeling: Amphetamine speeds reaction time (RT) but not P3. Yohimbine speeds P3 but not RT. Abstracts of Panels and Posters, 30th Annual Meeting of the American College of Neuropsychopharmacology.
+
+Cohen JD \& Servan-Schreiber D (1991). Computer simulation models of the relationship between disturbances of dopamine, prefrontal cortex and cognitive function in schizophrenia. Abstracts of Panels and Posters, 30th Annual Meeting of the American College of Neuropsychopharmacology.
+
+Cohen JD (1989). A network model of schizophrenic language deficits. Book of Abstracts, 142nd Annual Meeting of the American Psychiatric Association.
+    \smallskip
+
+
+%Manuscripts Under Review / In Prep
+\subsection*{5. Manuscripts Under Review / In Prepartation} \label{secPUBLICATIONS5}
+
+Dawes C, Segert S, Krishnamurthy K \& Cohen JD (under review). A group theoretic analysis of the symmetries underlying base addition and their learnability by neural networks.
+
+Geadah V, Arbelaiz J, Ritz H, Daw ND, Cohen JD \& Pillow JW (under review). System identification and inverse optimal control for partially observed discrete-time stochastic linear quadratic regulators.
+
+Giallanza T, Rogers TT \& Cohen JD. (under review). An integrated model of semantics and control, Part 2: Solving the similarity paradox through context inference. https://osf.io/preprints/psyarxiv/fxc87.
+
+Huang J, Cohen JD \& Busemeyer J (under review). A quantum model of arousal and cognitive control in decision making.
+
+Musslick S, Saxe AM, Hoskin AN, Sagiv Y, Reichman D, Petri G \& Cohen JD (under review). On the rational boundedness of cognitive control: Shared versus separated representations. https://psyarxiv.com/jkhdf.
+
+Nam AJ, Griffiths TL, Cohen JD \& Leslie S-J (under review). Understanding task representations in neural networks via Bayesian ablation. https://openreview.net/forum?id=SA8lLiWl8V.
+
+Nurisso M, Fernando J, Deshpandes R, Perotti A, Marjieh R, Frankland SM, Lewis RL, Webb TW, Campbell D, Vaccarino F, Cohen JD \& Petri G (under review). Bound by semanticity: universal laws governing the generalization-identification tradeoff. https://arxiv.org/abs/2506.14797.
+
+Pothukuchi RP, Lufkin L, Shen YJ, Simon A, Trevisan BE, Tu M, Yang M, Foxman B, Pothukuchi VS, Kyaw TH, Epping G, Jongkees B, Busemeyer J, Cohen JD \& Bhattacharjee A (under review). Quantum cognitive modeling: New applications and systems research directions. https://arxiv.org/abs/2309.00597.
+
+Pyle R, Musslick S, Cohen JD \& Patel AB (under review). A quantitative approach to predicting representational learning and performance in neural networks. https://arxiv.org/abs/2307.07575
+
+Ravi S, Musslick S, Hamin M, Willke TL \& Cohen JD (under review). Navigating the trade-off between multi-task learning and learning to multitask in deep neural networks. https://arxiv.org/abs/2007.10527.
+
+Ritz H, Jha A, Pillow JW, Daw ND \& Cohen JD. Active reconfiguration of neural task states. \href{https://www.biorxiv.org/content/10.1101/2024.09.29.615736v1}{biorxiv.org/615}
+
+Shenhav A, Musslick S, Botvinick MM \& Cohen JD (under review) Misdirected vigor: Differentiating
+the control of value from the value of control.
+
+Wilson RC, Wang S, Sadhegiyeh H \& Cohen JD (under review). Deep exploration as a unifying account of explore-exploit behavior. PsyArXiv: https://psyarxiv.com/uj85c.
+
+Dubey R \& Cohen JD (in preparation). Adapting to loss: A normative account of grief.
+
+Frankland SM, Webb TW, Lewis RL \& Cohen JD (in preparation). No coincidence, George: Processing limits in cognitive function reflect the curse of generalization. \href{https://www.researchgate.net/publication/389017061_No_Coincidence_George_Processing_Limits_in_Cognitive_Function_Reflect_the_Curse_of_Generalization}
+{https://www.researchgate.net/pub/389017061}
+
+Dulberg Z, Henselman-Petrusek G, Giallanza T, Musslick S \& Cohen JD (in preparation). Multitasking networks use multiaffine representations to direct flow of feature data.
+
+Jonkes BJ, Todd MT, Lloyd K, Dayan P \& Cohen JD (in preparation). When it pays to be quick: dissociating control over task preparation and speed-accuracy trade-off in task switching. https://psyarxiv.com/quhns.
+
+Momennejad I, Tomov M, Norman KA \& Cohen JD (in preparation). The strategic allocation of working memory and episodic memory in cognitive control: A neural network model of prospective memory.
+
+Rosendahl L \& Cohen JD (in preparation). A quantum framework for modeling cognitive control and arousal.
+
+Shvartsman M, Sundaram N, Srivasta V, \& Cohen JD (in preparation). A normative theory of decision making from multiple stimuli.
+
+    \newpage
+
+
+%%%TEACHING
+    \begin{center}
+{\fontsize{15pt}{16 pt}\selectfont \textbf{PROFESSSIONAL ACTIVITIES}}
+    \end{center}
+
+\section*{TEACHING:} \label{secTEACHING}
+    \smallskip
+
+%Courses
+\subsection*{1. Courses} \label{secTEACHING1}
+    \medskip
+
+1989-96 \hspace{0.3in} Introduction to Cognitive Psychology (undergraduate survey course)
+
+\hspace{0.81in} Department of Psychology, Carnegie Mellon University
+    \smallskip
+
+1989-96 \hspace{0.3in} Cognitive Neuroscience section of Cognitive Core (graduate survey course)
+
+\hspace{0.81in} Department of Psychology, Carnegie Mellon University
+    \smallskip
+
+1990-93 \hspace{0.3in} Co-coordinator, Fellowship Training Program in Schizophrenia Research
+
+\hspace{0.81in} Western Psychiatric Institute and Clinic, University of Pittsburgh
+    \smallskip
+
+1992-93 \hspace{0.3in} Research Methods in Cognitive Neuroscience (advanced undergraduate seminar)
+
+\hspace{0.81in} Department of Psychology, Carnegie Mellon University
+    \smallskip
+
+1992-93 \hspace{0.3in} Functional Neural Circuits (graduate and advanced undergraduate seminar)
+
+\hspace{0.81in} Department of Psychology, Carnegie Mellon University
+    \smallskip
+
+1994-95 \hspace{0.3in} Neural and Psychological Mechanisms of Working Memory (graduate and advanced
+
+\hspace{0.81in} undergraduate seminar)
+
+\hspace{0.81in} Department of Psychology, Carnegie Mellon University
+    \smallskip
+
+1996-97 \hspace{0.3in} Advanced Topics in Cognitive Neuroscience (graduate and advanced undergraduate seminar)
+
+\hspace{0.81in} Department of Psychology, Carnegie Mellon University
+    \smallskip
+
+1996-97 \hspace{0.3in} Biological and Psychological Mechanisms of Attention (graduate and advanced undergraduate
+
+\hspace{0.81in} seminar)
+
+\hspace{0.81in} Department of Psychology, Carnegie Mellon University; co-
+taught with Gary Aston-Jones.
+    \smallskip
+
+1999-00 \hspace{0.3in} Neural Bases of Cognitive Control (undergraduate course)
+
+\hspace{0.81in} Department of Psychology, Princeton University
+    \smallskip
+
+1999-01 \hspace{0.3in} Topics in Molecular and Cognitive Neuroscience (graduate seminar)
+
+\hspace{0.81in} Departments of Psychology and Molecular Biology, Princeton University
+    \smallskip
+
+1999-01 \hspace{0.3in} Introduction to Neural Networks (undergraduate course)
+
+\hspace{0.81in} Department of Psychology, Princeton University
+    \smallskip
+
+2001-02 \hspace{0.3in} Advanced Topics in Neural Network Models of Psychological Function (advanced
+
+\hspace{0.81in} undergraduate / graduate seminar)
+
+\hspace{0.81in} Department of Psychology, Princeton University
+    \smallskip
+
+2002-03 \hspace{0.3in} Statistical Methods in Psychological Research (advanced undergraduate / graduate course)
+
+\hspace{0.81in} Department of Psychology, Princeton University
+    \smallskip
+
+2004-07 \hspace{0.3in} Graduate Proseminar in Cognitive Psychology
+
+\hspace{0.81in} Department of Psychology, Princeton University
+    \smallskip
+
+2009-16 \hspace{0.3in} Core Course for Ph.D. Program in Neuroscience
+
+\hspace{0.81in} Princeton Neuroscience Institute, Princeton University
+    \smallskip
+
+2017 \hspace{0.48in} Introduction to Cognitive Psychology (undergraduate survey course, with laboratory
+
+\hspace{0.81in} component)
+
+\hspace{0.81in} Department of Psychology, Princeton University
+    \smallskip
+
+2018-20 \hspace{0.3in} Computational Models of Psychological Function (undergraduate course, with laboratory
+
+\hspace{0.81in} component)
+
+\hspace{0.81in} Princeton Neuroscience Institute and Department of Psychology, Princeton University
+    \smallskip
+
+2022 \hspace{0.51in} The Computational Basis of Natural Intelligence in the Human Brain (undergraduate seminar)
+
+\hspace{0.81in} Princeton Neuroscience Institute, Princeton University
+    \smallskip
+
+%Tutorials and Workshops
+\subsection*{2. Tutorials and Workshops} \label{secTEACHING2}
+    \medskip
+
+May, 1990-93 \hspace{0.25in} Cohen JD, Servan-Schreiber D. Course co-directors, A primer on neural modeling in
+
+\hspace{1.1in} psychiatry. 144-7th Annual Meetings of the American Psychiatric Society, New York.
+
+July, 1991 \hspace{0.44in} Invited faculty member. James S. McDonnell Summer Institute in Cognitive
+
+\hspace{1.1in} Neuroscience, Dartmouth College, Hanover.
+
+October, 1993 \hspace{0.2in} Applications of Functional MRI to Studies of Human Memory. Invited tutorial,
+
+\hspace{1.1in} Memory Disorders Research Society, Boston.
+
+November, 1993 \hspace{0.09in} Functional neuroimaging. Invited tutorial, Neural Information Processing Society,
+
+\hspace{1.1in} Boulder.
+
+August, 1996 \hspace{0.25in} Neuroimaging and Behavior. Invited workshop, XXVI International Congress of
+
+\hspace{1.1in} Psychology, Montreal.
+
+January, 1997 \hspace{0.23in} The Role of Neuromodulation in Cognition: Physiological and Computational Approaches.
+
+\hspace{1.1in} Panel organizer, 30th Winter Conference on Brain Research, Breckenridge, Colorado.
+
+July, 1997 \hspace{0.44in} Invited faculty member. James S. McDonnell Summer Institute in Cognitive
+
+\hspace{1.1in} Neuroscience, Dartmouth College, Hanover.
+
+September, 2000 \hspace{0.05in} International Workshop on Neural Bases of Executive Functions and Performance
+
+\hspace{1.1in} Monitoring, Jena, Germany.
+
+July, 2001 \hspace{0.44in} Invited faculty member. James S. McDonnell Summer Institute in Cognitive
+
+\hspace{1.1in} Neuroscience, Dartmouth College, Hanover.
+    \smallskip
+
+%Trainees
+\subsection*{3. Trainees} \label{secTEACHING3}
+    \smallskip
+
+%Graduate advisees
+{\fontsize{12pt}{16 pt}\selectfont \underline{Graduate advisees:}}
+    \smallskip
+
+Therese Huston, Ph.D. (1990-1995)
+
+CMU Department of Psychology
+
+Behavioral and computational modeling studies of selective attention
+
+Director, Center for Excellence in Teaching \& Learning, University of Seattle
+    \medskip
+
+Todd Braver, Ph.D. (1992- 97)
+
+CMU Department of Psychology
+
+Computational and neuroimaging studies of prefrontal cortex and cognitive control
+
+Professor of Psychology, Washington University, St. Louis
+    \medskip
+
+Matthew Botvinick, M.D., Ph.D. (1995-2001)
+
+CMU Department of Psychology
+
+Modeling and fMRI studies of the role of anterior cingulate cortex in conflict monitoring and control
+
+Professor of Psychology and Neuroscience, Princeton University
+    \medskip
+
+Mark Gilzenrat, Ph.D. (1996-2006)
+
+CMU Department of Psychology (1996-1998)
+
+Princeton Department of Psychology (1998-2006)
+
+Computational models and pupillometric studies of neuromodulatory influences on selective attention
+
+Software architect, Navaraga Corporation
+    \medskip
+
+Raymond Cho, M.D. (1999-2003)
+
+Department of Psychology, Princeton University
+
+Assistant Professor of Psychiatry, University of Pittsburgh
+    \medskip
+
+Eric Shea-Brown, Ph.D. (1999-2004)
+
+Program in Applied and Computational Mathematics, Princeton University
+
+Co-advisor with Philip Holmes
+
+Neural oscillators and integrators in the dynamics of decision tasks
+
+Associate Professor of Applied Mathematics, University of Washington, Seattle
+    \medskip
+
+Sean Polyn (2000-2005)
+
+Department of Psychology, Princeton University
+
+Computational modeling of context updating, reinforcement learning and dopamine function
+
+Associate Professor of Psychology and Psychiatry, Vanderbilt University
+    \medskip
+
+Aaron Schurger (2001-2008)
+
+Department of Psychology, Princeton University
+
+Electrophysiological and fMRI studies of perceptual awareness
+
+Associate Professor, Inserm-CEA
+    \medskip
+
+Agatha Lenartowicz (2002-2008)
+
+Department of Psychology, Princeton University
+
+Behavioral, electrophysiological and fMRI studies of task switching
+
+Postdoctoral Fellow, UCLA
+    \medskip
+
+Kimberly D’Ardenne McClure (2005-2008)
+
+Department of Chemistry, Princeton University
+
+fMRI studies of brainstem neuromodulatory nuclei
+
+Postdoctoral Fellow, Montague Lab, Virginia Tech
+    \medskip
+
+Susan Robison (2005-2009; co-advised with Ken Norman)
+
+Department of Chemistry, Princeton University
+
+Behavioral and fMRI studies of cognitive control and episodic memory
+    \medskip
+
+Emily Chakwin (2006-2008)
+
+Department of Psychology, Princeton University
+
+Behavioral and fMRI studies of moral reasoning
+    \medskip
+
+Michael Todd (2006-2012)
+
+Department of Psychology, Princeton University
+
+Computational modeling studies of cognitive control
+
+Data Scientist, Netflix
+    \medskip
+
+Adam Moore (2006-2011; co-advised with Andy Conway)
+
+Department of Psychology, Princeton University
+
+Behavioral and fMRI studies of moral reasoning
+    \medskip
+
+John White (2008-2013)
+
+Department of Psychology, Princeton University
+
+Behavioral and fMRI studies of economic decision making
+
+Data Scientist, Netflix
+    \medskip
+
+Sarah Getz (2008-2013; co-advised with Andy Conway)
+
+Department of Psychology, Princeton University
+
+Behavioral and fMRI studies of economic decision making
+    \medskip
+
+Andra Geana (2010-2016)
+
+Department of Psychology, Princeton University
+
+Behavioral and fMRI studies of exploration and exploitation in decision making
+
+Postdoctoral Fellow, Brown University
+    \medskip
+
+Jane Keung (2011-2016)
+
+Princeton Neuroscience Institute, Princeton University
+
+Behavioral and fMRI studies of prefrontal cortex and cognitive control
+
+Postdoctoral Fellow, University of Arizona
+    \medskip
+
+Yida Wang (2011-2016)
+
+Department of Computer Science, Princeton University
+
+Co-advisor with Kai Li and Nick Turk-Browne
+
+Full-correlation matrix analysis of fMRI data
+
+Applied Scientist, Amazon
+    \medskip
+
+Olga Lositsky (2012-2017)
+
+Princeton Neuroscience Institute, Princeton University
+
+Behavioral and fMRI studies of decision making
+
+Postdoctoral Fellow, Brown University
+    \medskip
+
+Gary Kane (2012-2018)
+
+Department of Psychology, Princeton University
+
+Behavioral and neurophysiological studies of foraging behavior and LC function in rodents
+
+Postdoctoral Fellow, Harvard University
+    \medskip
+
+Sachin Ravi (2014-2019)
+
+Department of Computer Science, Princeton University (Co-advisor with Kai Li)
+
+Meta-learning and controlled vs. automatic processing
+
+Machine Learning Research Engineer, Apple
+    \medskip
+
+Laura Bustamante (2014-2022)
+
+Princeton Neuroscience Institute, Princeton University
+
+Behavioral and fMRI studies of the cost of cognitive control
+
+Postdoctoral Fellow, Washington University
+    \medskip
+
+Sebastian Musslick (2014-2022)
+
+Princeton Neuroscience Institute, Princeton University
+
+Behavioral and fMRI studies of cognitive control
+
+Assistant Professor, Osnabrück University
+    \medskip
+
+Abigail Novick (2014-2022)
+
+Department of Psychology, Princeton University
+
+Behavioral and fMRI studies of representational sharing and multitasking
+    \medskip
+
+Lena Rosendahl (2016-2022)
+
+Department of Mechanical and Aerospace Engineering
+
+Co-advisor with Naomi Leonard
+
+Quantum probabilistic models of cognitive control
+
+Data Analyst, Mathematica
+    \medskip
+
+Mayank Agrawal (2017-2023)
+
+Department of Psychology, Princeton University
+
+Computational and Behavioral studies of learning and cognitive control
+    \medskip
+
+Zach Dulberg (2019-2025)
+
+Princeton Neuroscience Institute, Princeton University
+
+Learning mechanisms for acquiring representations that support generalization
+    \medskip
+
+Sreejan Kumar (2019-2025)
+
+Princeton Neuroscience Institute, Princeton University
+
+Neural mechanisms underlying learning, representation and reasoning
+    \medskip
+
+Simon Segert (2019-2024)
+
+Princeton Neuroscience Institute, Princeton University
+
+Neurally-plausible mechanisms of relational reasoning
+    \medskip
+
+Tyler Giallanza (2020-2025)
+
+Department of Psychology, Princeton University
+
+Neural mechanisms underlying learning, representation and processing of semantics
+    \medskip
+
+Samyak Gupta (2020-present)
+
+Department of Computer Science, Princeton University
+
+Co-advisor with Kai Li
+
+Compilation and efficient computational of heterogeneous cognitive models
+    \medskip
+
+Shanka Mondal (2020-present)
+
+Electrical and Computer Engineering, Princeton University
+
+Neural mechanisms underlying learning, representation and generalization
+    \medskip
+
+Declan Campbell (2022-present)
+
+Princeton Neuroscience Institute, Princeton University
+
+Computational models of human intelligence
+    \medskip
+
+Yukang Yang (2023-present)
+
+Electrical and Computer Engineering, Princeton University
+
+Computational models of human intelligence
+    \medskip
+
+Younes Strittmatter (2024-present)
+
+Department of Psychology, Princeton University
+
+Automated methods for scientific discovery
+    \medskip
+
+
+%Ph.D. Thesis Co-Advisor
+{\fontsize{12pt}{16 pt}\selectfont \underline{Ph.D. Thesis Co-Advisor:}}
+    \smallskip
+
+Cliona Golden (2004, Ingrid Daubechies), PACM, Princeton University
+    \smallskip
+
+Adi Livnat (2005, Simon Levin), Ecology and Evolutionary Biology, Princeton University
+    \smallskip
+
+Ilya Fischoff (2006, Daniel Rubenstein), Ecology and Evolutionary Biology, Princeton University
+    \smallskip
+
+Juan Gao (2007, Phil Holmes), Program in Applied and Computational Mathematics, Princeton University
+    \smallskip
+
+Yuan (Sophie) Liu (2007, Phil Holmes), Physics, Princeton University
+    \smallskip
+
+Caitlin Newberry (2007, Wolf Richter), Chemistry, Princeton University
+    \smallskip
+
+Phil Eckoff (2008, Phil Holmes), Program in Applied and Computational Mathematics, Princeton University
+
+Andrea Nedic (2011, Phil Holmes), Electrical Engineering, Princeton University
+    \smallskip
+
+Samuel Feng (Phil Holmes), Program in Applied and Computational Mathematics, Princeton University
+    \smallskip
+
+Stephanie Goldfarb (2013, Naomi Leonard), Program in Applied and Computational Mathematics, Princeton University
+    \smallskip
+
+Eran Eldar (2014, Yale Niv), Princeton Neuroscience Institute, Princeton University
+    \smallskip
+
+Paul Reverdy (2014, Naomi Leonard), Mechanical and Aerospace Engineering, Princeton University
+    \bigskip
+
+
+%Postdoctoral trainees
+{\fontsize{13pt}{16 pt}\selectfont \underline{Postdoctoral trainees:}}
+    \smallskip
+
+Steve Forman, M.D., Ph.D. (1992-1994)
+
+University of Pittsburgh Department of Psychiatry
+
+fMRI studies of prefrontal function
+
+Associate Professor of Psychiatry, University of Pittsburgh
+
+Medical Director of the Center for Treatment of Addictive Disorders, Pittsburgh VA
+    \medskip
+
+Marius Usher, Ph.D. (1993-1995)
+
+CMU Department of Psychology
+
+Computational models of catecholaminergic neuromodulation and selective attention
+
+Professor of Psychology and Neuroscience, Tel Aviv University
+    \medskip
+
+Deanna Barch, Ph.D. (1993-1995)
+
+University of Pittsburgh Department of Psychiatry
+
+Professor of Psychology and Radiology, Washington University, St. Louis
+    \medskip
+
+William Perlstein, Ph.D. (1993-1996)
+
+University of Pittsburgh Department of Psychiatry
+
+Electrophysiological and fMRI studies of working memory in schizophrenia
+
+Associate Professor of Clinical and Health Psychology and Psychiatry, University of Florida, Gainsville
+    \medskip
+
+Gregory Berns, M.D., Ph.D. (1995-1998)
+
+University of Pittsburgh Department of Psychiatry
+
+Functional neuroimaging studies of novelty detection
+
+Professor of Economics, Emory University
+    \medskip
+
+Randy Gobbel, Ph.D. (1997-1998)
+
+Carnegie Mellon University Department of Psychology
+
+Computational modeling studies of basal ganglia function in control of sequential action
+
+Computer Scientist, Artificial Intelligence Center, SRI International
+    \medskip
+
+James Kroger (1998-2001)
+
+Princeton University Department of Psychology
+
+FMRI studies of prefrontal cortex organization
+
+Professor of Psychology, New Mexico State University
+    \medskip
+
+Nicholas Yeung, Ph.D. (1999-2004)
+
+Princeton University Department of Psychology
+
+Modeling, ERP and fMRI studies of conflict monitoring and cognitive control
+
+University Lecturer in Experimental Psychology, University of Oxford
+    \medskip
+
+Gesine Dreisbach, Ph.D. (2000-2001)
+
+Princeton University Department of Psychology
+
+fMRI studies of task switching
+
+Professor of Psychology, University of Regensburg
+    \medskip
+
+Clay Holroyd, Ph.D. (2001-2004)
+
+Princeton University Department of Psychology
+
+Neural network modeling, ERP, and fMRI studies of performance monitoring and reinforcement learning
+
+Professor of Psychology, University of Victoria
+    \medskip
+
+James Rilling, Ph.D. (2001-2003)
+
+Center for the Study of Brain, Mind \& Behavior, Princeton University
+
+Neural mechanisms of economic decision making; neural mechanisms in placebo responding
+
+Associate Professor of Anthropology and Psychiatry and Behavioral Sciences, Emory University
+    \medskip
+
+Alan Sanfey, Ph.D. (2001-2003)
+
+Center for the Study of Brain, Mind \& Behavior, Princeton University
+
+Neural mechanisms of economic decision making; neural mechanisms in placebo responding
+
+Associate Professor of Psychology, University of Arizona
+
+Principal Investigator, Donders Institute for Brain, Cognition and Behavior, Radboud University
+    \medskip
+
+Rafal Bogacz, Ph.D. (2002-2004)
+
+Princeton University Department of Psychology
+
+Neural network modeling and ERP studies of task switching and performance monitoring
+
+Associate Professor of Clinical Neuroscience, University of Oxford
+    \medskip
+
+Sander Nieuwenhuis, Ph.D. (2002-2003)
+
+Princeton University Department of Psychology
+
+ERP studies and neural network modeling of performance monitoring, task switching and the attentional blink
+
+Assistant Professor, Cognitive Psychology Unit, Leiden University
+    \medskip
+
+Joshua Greene, Ph.D. (2001-2006)
+
+Princeton University Department of Psychology
+
+Neural bases of moral reasoning
+
+Professor of Psychology, Harvard University
+    \medskip
+
+Samuel McClure, Ph.D. (2003-2007)
+
+Princeton University Department of Psychology
+
+Neural network modeling and neuroimaging studies of reinforcement learning and decision making
+
+Assistant Professor of Psychology, Stanford University
+    \medskip
+
+Jean-Baptiste Pochon, Ph.D. (2003-2005)
+
+Princeton University Department of Psychology
+
+Neuroimaging studies of decision making, conflict monitoring and cognitive control
+
+Postdoctoral Fellow, L'Hôpital de la Salpêtrière in Paris
+    \medskip
+
+Patrick Simen, PhD. (2003-2007)
+
+Princeton University Program in Applied \& Computational Mathematics
+
+Computational modeling, mathematical analysis, behavioral and neuroimaging studies of decision making and cognitive control
+
+Assistant Professor, Oberlin College
+    \medskip
+
+Jason Chein, Ph.D. (2004-2005)
+
+Princeton University Department of Psychology
+
+Neuroimaging studies of prefrontal cortex organization and function
+
+Assistant Professor of Psychology, Temple University
+    \medskip
+
+Brent Field, Ph.D. (2004-2015)
+
+Center for Study of Brain, Mind and Behavior
+
+Center for Health and Well-Being, Woodrow Wilson School of Public Policy
+
+Behavioral and neuroimaging studies of attention and emotional regulation among meditation practitioners
+    \medskip
+
+Angela Yu, Ph.D. (2004-2008)
+
+Princeton University Department of Psychology
+
+Computational modeling and mathematical analysis studies of decision making and cognitive control
+
+Associate Professor of Cognitive Science, University of California, San Diego
+    \medskip
+
+Damon Tomlin, Ph.D. (2006-2013)
+
+Princeton University Department of Psychology and Princeton Neuroscience Institute
+
+Neuroimaging studies of economic and social decision making and cognitive control
+    \medskip
+
+KongFatt Wong-Lin, Ph.D. (2006-2009)
+
+Princeton University Department of Mechanical and Aerospace Engineering
+
+Computational modeling and mathematical analysis studies of decision making and cognitive control
+
+Lecturer, Ulster University
+    \medskip
+
+Yael Niv, Ph.D. (2007-2008)
+
+Princeton University Department of Psychology
+
+Neuroimaging and computational modeling studies of decision making and cognitive control
+
+Associate Professor of Psychology and Neuroscience, Princeton University
+    \medskip
+
+Benjamin Eppinger, Ph.D. (2007-2010)
+
+Princeton University Department of Psychology
+Center for Health and Well-Being, Woodrow Wilson School of Public Policy
+
+Neuroimaging studies of age-related differences in economic decision making and cognitive control
+
+Researcher, MPI for Human Development, Berlin
+    \medskip
+
+Marieke van Vugt, Ph.D. (2008-2010)
+
+Princeton University Department of Psychology
+
+Neuroimaging and computational modeling studies of decision making and cognitive control
+
+Assistant Professor, University of Groningen
+    \medskip
+
+Fuat Balci, Ph.D. (2008-2010)
+
+Princeton University Department of Psychology
+
+Theoretical and behavioral studies of interval timing and decision making
+
+Assistant Professor, Department of Psychology, Koc University, Istanbul
+    \medskip
+
+Robert Wilson, Ph.D. (2009-2014)
+
+Princeton University Department of Psychology and Princeton Neuroscience Institute
+
+Theoretical, behavioral and neuroimaging studies of cognitive control \& locus coeruleus function
+
+Assistant Professor, University of Arizona
+    \medskip
+
+Michael Schwemmer, Ph.D. (2010-2012)
+
+Princeton Neuroscience Institute
+
+Theoretical analyses of capacity constraints on cognitive control
+
+Postdoctoral Fellow, Mathematical Biosciences Institute, Ohio State University
+    \medskip
+
+Jarrod Lewis-Peacock, Ph.D. in Psychology, University of Wisconsin-Madison
+
+Princeton Neuroscience Institute (2011-2013; co-advised with Ken Norman)
+
+Neuroimaging studies of cognitive control and prospective memory
+
+Assistant Professor, University of Texas, Austin
+    \medskip
+
+Elliot Ludvig, Ph.D., Psychological and Brain Sciences, Duke University
+
+Princeton Neuroscience Institute (2011-2013)
+
+Theoretical model and behavioral studies of learning, memory and cognitive control
+
+Professor, University of Warwick
+    \medskip
+
+Amitai Shenhav, Ph.D. in Psychology, Harvard University
+
+CV Starr Fellow, PNI (2012-2016; co-advised with Matthew Botvinick)
+
+Theoretical and neuroimaging studies of the costs of cognitive control
+
+Associate Professor, Brown University
+    \medskip
+
+Aaron Bornstein, Ph.D. in Neuroscience, NYU
+
+Princeton Neuroscience Institute (2013-2019; co-advised with Ken Norman)
+
+Neuroimaging studies of episodic memory and decision making
+
+Assistant Professor, University of California, Irvine
+    \medskip
+
+Ida Momennajad, Ph.D.
+
+Princeton Neuroscience Institute (2013-2018; co-advised with Ken Norman \& Nathaniel Daw)
+
+Neuroimaging and theoretical modeling studies of prospective memory
+    \medskip
+
+Michael Shvartsman, Ph.D. in Cognitive Science, University of Michigan
+
+Princeton Neuroscience Institute (2014-2018)
+
+Theoretical analysis of decision making; Bayesian hierarchical analysis of neuroimaging data
+
+Occulus Research
+    \medskip
+
+Hasan Kayhan Ozcimder, Ph.D. in Mechanical Engineering, Boston University
+
+Princeton Neuroscience Institute (2015-2017; co-advised with Naomi Leonard)
+
+Mathematical modeling of capacity constraints in controlled (interactive parallel) processing
+
+Mathworks
+    \medskip
+
+Michael Lesnick, Ph.D in Applied Mathematics, Stanford University
+
+Princeton Neuroscience Institute (2016-2018)
+
+Tools for topological data analysis (TDA) and their application to neuroscientific data analysis
+
+Department of Mathematics, SUNY Albany
+    \medskip
+
+Biswadip Dey, Ph.D. in Mechanical Engineering, University of Maryland, College Park
+
+Princeton Neuroscience Institute (2015-present; co-advised with Naomi Leonard)
+
+Mathematical modeling of capacity constraints in controlled (interactive parallel) processing
+    \medskip
+
+Marius Cătălin Iordan, Ph.D. in Computer Science, Stanford University
+
+Princeton Neuroscience Institute (2016-present; co-advised with Daniel Osherson)
+
+Theoretical and neuroimaging studies of semantic representations and cognitive control
+    \medskip
+
+Simon Cullen, PhD. in Philosophy, Princeton University
+
+Princeton Neuroscience Institute (2017-2018)
+
+Theoretical and experimental studies of moral reasoning
+
+Assistant Professor, Carnegie Mellon University
+    \medskip
+
+Greg Henselman, Ph.D. in Applied Mathematics, University of Pennsylvania
+
+Princeton Neuroscience Institute (2017-present)
+
+Tools for topological data analysis (TDA) and their application to neuroscientific data analysis
+    \medskip
+
+Steven Frankland, Ph.D. in Psychology, Harvard University
+
+Princeton Neuroscience Institute (2017-2023)
+
+Neural network modeling of abstract reasoning
+
+Assistant Professor, Dartmouth University
+    \medskip
+
+Taylor Webb, Ph.D. in Psychology, Princeton University
+
+Princeton Neuroscience Institute (2018-2019)
+
+Neural network modeling of analogical reasoning
+    \medskip
+
+Bryant Jonkes. Ph.D. in Cognitive Psychology, Leiden University, the Netherlands
+
+Princeton Neuroscience Institute (2019-2020)
+
+Theoretical modeling and behavioral studies of the dynamics of cognitive control
+
+Assistant Professor in Cognitive Psychology Unit, Leiden University, the Netherlands
+    \medskip
+
+
+Javier Masis, Ph.D. in Psychology, Harvard University
+
+Princeton Neuroscience Institute (2020-present)
+
+
+Neural network modeling of learning and control
+    \medskip
+
+Kamesh Krishnamurthy, Ph.D. in Computational Neuroscience, University of Pennsylvania
+
+CV Starr Fellow, PNI and Center for the Physics of Biological Function Fellow (2018-present)
+
+Neural network models of symmetry discovery
+    \medskip
+
+Harrison Ritz, Ph.D. in Psychology, Brown University
+
+CV Starr Fellow, PNI (2022-present)
+
+Theoretical and neuroimaging studies of the dynamics of cognitive control
+    \medskip
+
+Andrew Nam, Ph.D. in Psychology, Stanford University
+
+Fellow in Natural and Artificial Minds, (2024-present)
+
+Computational models of human intelligence
+    \medskip
+
+
+%%%RESEARCH AND PROFESSIONAL ACTIVITIES
+\section*{RESEARCH AND PROFESSIONAL ACTIVITIES} \label{secRAPA}
+
+%Grants
+\subsection*{1. Grants} \label{secRAPA1}
+
+ Scientist Award Context Disturbance in Schizophrenia: Models and Measures
+PI 1987-92 MH00673
+NIMH P50 PI,
+1990-07 MH45156
+Project 4,7
+Cortical Circuitry and Cognition in Schizophrenia (Edward Stricker, PI) Project 4 (1990-96), Project 7 (1997-02): The Role of Prefrontal Cortex in the Cognitive Dysfunctions of Schizophrenia; Project ?? (2003-07): Neuroendophenotypes and the expression of illness liability in schizophrenia
+NIMH FIRST
+Award; RO1 Mechanisms of Context Processing in Schizophrenia
+PI 1991-2012 MH47073
+NIMH Program Project
+Toward Models of Normal and Disordered
+PI,
+1991-2002 MH47566
+Project 2,4
+Cognition (James L. McClelland, PI) Project 2 (1991-96): Neuromodulation and the Processing of Context in Schizophrenia; Project 4 (1997-02): Mechanisms of Cognitive Control
+NIMH P50 Co-
+Center for Functional Brain Imaging (Robert Moore & Mark Mintun, Co-PIs) Cognitive Studies Core
+1992-97 MH49815
+Direct.,
+Cognitive Core
+McDonnell
+Foundation
+Neural Bases of Rehearsal and Maintenance
+PI 1994-96 JSMF 94-32
+in Working Memory
+57 Table of Contents
+Jonathan D. Cohen Curriculum Vitae
+NSF CRI Computational and Statistical Methods for the Analysis of Neuroimaging Datasets
+PI 1995-96 IBN9418982
+NIMH RO1 fMRI Studies of Prefrontal Cortex PI 1996-2009 MH52864
+NIMH Program Project
+Toward Models of Normal and Disordered
+Cognition (James L. McClelland, PI)
+PI,
+Project 4
+1997-02 MH47566
+NIDA/HBP RO1 Advanced Methods for Neuroimaging Data Analysis
+PI 1997-99 DA11469
+NSF ESI Co-
+Tracking the Human Brain: An Interactive Planetarium Exposition (Bryan Rogers, PI)
+1997-99 ESI9705491
+Invest.
+NARSAD
+An fMRI Study of the Role of Anterior Cingulate in Working Memory Dysfunction in Schizophrenia
+PI 1997-99
+Independent Investigator Award
+NIMH RO1 Neurophysiological and Modeling Studies of Locus Coeruleus
+Co-PI 1998-2001 MH33194
+(Gary Aston-Jones, Co-PI)
+NSF MRI Acquisition of Core Equipment for Princeton Cognitive and Behavioral Neuroscience Initiative (Marcia Johnson and Charles Gross, Co-PIs)
+Co-PI 1998-2001 MRI/
+OSTI9871186
+NJCST New Jersey Brain Imaging Consortium: Acquisition of high field MRI scanner
+PI 1999
+NIMH/HBP RO1 Usability and Interoperability of Neuroimaging Software
+PI 2000-03 MH62006
+NIMH RO1 Co-
+Pathophysiology of Cognitive Disability in Schizophrenia (Cameron Carter, PI)
+2000-04 MH59883
+Invest.
+NIMH P50 Conte Center for Neuroscience Research:
+PI 2000-10 MH62196
+Cognitive and Neural Mechanisms of Conflict and Control
+Seaver Institute Neural Economics: Understanding the brain mechanisms underlying cognitive-emotional interactions in decision making
+PI 2001-02
+NIDA R21 Co-
+Hyperscan: Simultaneous fMRI Across the Internet (Emory University; Greg Berns, PI)
+2001-03 DA014883
+Invest.
+MacArthur
+Foundation
+Neural Bases of Placebo Effect and the
+Expectation of Pain
+PI 2001-03
+NIMH P50 PI
+2002-07 MH64445
+Project 4
+IBSC: Toward a Neurobiologically Constrained Framework for Modeling Human Cognition (James L. McClelland, PI). Project 4: Mechanisms of Cognitive Control
+NIMH RO1 Co-
+New Wavelet-Based and Source Separation Methods for fMRI (Ingrid Daubechies, PI)
+2002-07 MH067204
+Invest.
+NIMH T32 Training Program in Quantitative Neuroscience PI 2002-
+MH65214
+NJCST present
+Center for Molecular and Biomolecular
+Co-
+2002-09
+Imaging (Warren Warren, PI)
+Invest.
+58 Table of Contents
+Jonathan D. Cohen Curriculum Vitae
+DURIP NSF BCS NIDA RO1 NIDA T90 MURI MURI Computing Environment for Computational Modeling of Brain Functions
+PI 2003 ONR
+Co-
+Social Cognitive Neuroscience of Category- based Responses (Susan Fiske, PI)
+2004-05
+Invest.
+Neural Mechanisms and Social Influence in
+PI 2006-11 DA022564
+Delay Discounting and Impulsive Behavior
+Training Program in Quantitative and Computational Neuroscience (David Tank, Co-PI)
+Co-PI 2006-11 DA022770
+Co-
+2006-11 AFOSR
+Invest.
+Dynamic Decision Making in Complex Task Environments: Principles and Neural Mechanisms (James L. McClelland, PI)
+Co-
+Behavioral Dynamics in the Cooperative Control of Mixed Human/Robotic Teams
+2006-11 AFOSR
+Invest.
+(John Baillieul, PI)
+DURIP A Second Generation Flexible Computing Environment for Computational Modeling of Brain Function and Neuroimaging Data Analysis
+PI 2008 AFOSR
+NCRR Expansion of a Computing Facility for fMRI and Neuroimaging Analysis
+PI 2008 RR023532
+NSF MRI Acquisition of High Performance Compute Cluster for Multivariate Realtime.
+PI 2012 BCS1229597
+John Templeton Foundation Toward a Scientific Understanding of the Human Capacity for Cognitive Control
+PI 2012-2022
+Intel Corporation Advanced Methods for Realtime Analysis of Human Brain Imaging Data
+PI 2014-2019
+Templeton World Charity System-Level Modeling of Intelligent Behavior PI 2018-2020 Beyond Turing
+NIH CTSA Co-
+New Jersey Alliance for Clinical and Translational Science
+2019-2024 UL1
+Invest.
+TR003017
+NIH R21 PsyNeuLink: A Block Modeling Environment for Cognitive Neuroscience
+PI 2019-2021 MH117548
+NSF
+Convergence Accellerator —
+A Standardized Model Description Format for Accelerating Convergence in Neuroscience, Cognitive Science, Machine Learning and Beyond
+PI 2020-2021 Approved
+Track D
+DURIP A Balanced, shared Computational Resource for Multidisciplinary Neuroscience Research
+PI 2020 AWD1006863
+Vannevar Bush
+Toward a Brain-Inspired Model of the Flexibility and Autonomy of Human Behavior
+PI 2021-2026 N00014-22-1-
+Faculty Fellowship
+2002
+
+
+%Invited Lectureships
+\subsection*{2. Invited Lectureships} \label{secRAPA2}
+
+American Association for the Advancement of Science (2002)
+
+American Association of Directors of Psychiatry Residency Training (AADPRT), Annual Meeting, Schein Lecture (2012)
+
+American College of Neuropsychopharmacology, Panels (1994, 1995, 1997, 1998, 1999, 2005)
+
+American Economic Association, Symposia (2003, 2005, 2006)
+
+American Psychological Association, Distinguished Scientific Contribution Award Lecture (2010)
+
+American Psychological Society (1994, 1998)
+
+ARVO (2000)
+
+Association for Research in Nervous and Mental Disease, Annual Conference Special Lecture (2006)
+
+Association for Psychological Science, William James Award Public Address (2018)
+
+Attention and Performance XV, XVIII (1992, 1998)
+
+Baylor College of Medicine, Neuroscience Colloquium (1999); Keynote speaker, Annual Neuroscience Retreat and Rush and Helen Record Forum (2008)
+
+Beckman Institute for Advanced Science and Technology, University of Illinois, Smith, Hinchman \& Grills Distinguished Lecture (2003)
+
+Behavioral Neurology Society, Keynote Address (1998)
+
+Biological Psychiatry Society, Presidential Symposium (2002, 2008)
+
+Boston University, Department of Cognitive and Neural Systems Colloquium (2001)
+
+Brandeis University, Department of Biology, Colloquium (1997, 2003)
+
+Brown University, Shlossberg Colloquium (2017)
+
+California Institute of Technology 2nd Annual Chen Center Distinguished Lecture (2018)
+
+Cambridge University and the Royal Society, Symposium on Executive and Cognitive Functions of Prefrontal Cortex (1996)
+
+Cardiff University, Cardiff Cognitive Neuroscience Seminar Series (2005)
+Carmel Conference XV (1997)
+
+Carnegie Mellon University, Psychology Department Colloquium (1994, 2009)
+
+CENTAI, Turin (2023), Navigating the Research Frontier of AI and Complexity
+
+Cognitive Neuroscience Society (1995, 1996, 2000, 2002, 2006)
+
+Cognitive Neuroscience Treatment Research to Improve Cognition in Schizophrenia Meeting, Invited Talk (2007)
+
+Cold Spring Harbor Laboratory, Computational and Systems Neuroscience Workshop (2004)
+
+College de France, Colloque de Rentrée, Invited Talk (2007)
+
+Columbia Presbyterian Hospital, Joseph Zubin Memorial Fund Award Lecture (1994)
+
+Columbia University, College of Physicians and Surgeons,
+Department of Psychiatry, Grand Rounds (1990)
+
+Columbia University, College of Physicians and Surgeons,
+Department of Economics, Cognition and Decision Seminar Series (2016)
+
+Computational Psychiatry 2017 Keynote Address (2017)
+
+Computational Psychiatry 2018 Keynote Address (2018)
+
+Cornell Medical School, Sackler Institute Colloquium (2002)
+
+CUNY, Department of Psychology Colloquium (2000)
+
+DARPA ISAT Toward Optimal Learning Workshop, Invited Address (2014)
+
+Defense Basic Research Exchange Forum (2023)
+
+Dynamical Systems in Neuroscience, Annual Meeting (1999)
+
+Eden Institute Foundation, Lecture Series Fellow (2001)
+
+Emory School of Medicine, Department of Psychiatry, Grand Rounds (1999)
+
+Ellison Medical Foundation, Workshop of the Biological Assessment of Mental Processes (2006)
+
+Eunice Kennedy Shriver Center for Developmental Cognitive Neuroscience, Colloquium (2000)
+
+FENS and The Brain Prize, Brain Conference on New Insights into Psychiatric Disorders through Computational, Biological and Developmental Approaches, Keynote Address (2016)
+
+Florida State University, Department of Psychology, Colloquium (1998)
+
+Frankfurt Institute for Advanced Studies, Ernst Strüngmann Forum (2007)
+
+Future Science Prize Ceremony and Future Forum Science Symposium Keynote Address (2018)
+
+Harvard University, Department of Psychology, Colloquium (1996, 2002)
+
+Harvard University, Department of Economics, Labor Economics Seminar (2003)
+
+Human Brain Project, Annual Conference (1998, 1999)
+
+Indiana University, William Lowe Bryan Memorial Lecture on Cognitive Science (1992)
+
+Institute for Advanced Studies, Department of Mathematics, Symposium (2003)
+
+Institute of Psychiatry, King’s College, London, Paul Janssen Lecture (2010)
+
+Intel Corporation Annual Developers’ Conference, Keynote Address (2016)
+
+Intel Corporation, 2018 Consumer Electronics Show Spotlight Presentation (2018)
+
+Intel Corporation Technology Strategy and Leadership Meeting: Outsider Perspective (2018)
+
+Intel Labs Open Innovation Leadership Forum, Invited Address (2015)
+
+Intel Labs, Mini-Symposium: The Mind’s Eye Project (2016)
+
+Interface 95 - The 27th Symposium on the Interface: Computing Science and Statistics (1995)
+
+International Conference on Cognitive and Neural Systems, 10th Annual Meeting (2006), Invited Address
+
+International Conference on Cognitive Neuroscience, Keynote Address (1996)
+
+International Congress on Schizophrenia Research (1997), Invited Address
+
+International Meeting on Fully Three-Dimensional Image Reconstruction in Radiology and Nuclear Medicine (1997)
+
+International Neuropsychological Society (1992), Invited Address
+
+James S. McDonnell Summer Institute in Cognitive Neuroscience (1995, 1997, 2001)
+
+Japanese Neuropsychological Association, Keynote Address (1997)
+
+Jena International Workshop on Executive Functions and the Brain (2000)
+
+Kern Medina Seminar on Humanities and Science for State and Federal Judges (2014)
+
+Lehigh University, Annual Neuroscience Retreat, Keynote Address (2015)
+
+Library of Congress / NIMH Annual Decade of the Brain Public Program (1999)
+
+Max Planck Institute for Human Cognitive and Brain Sciences, Leipzig, Distinguished Guest Lecture Series (2011)
+
+McGill University, Department of Psychiatry, Grand Rounds (1991)
+
+Memory Disorders Research Society (1994, 1997, 1999)
+
+Mind-Life Institute / M.I.T. (2003)
+
+National Foundation for Functional Brain Imaging 1st Annual Meeting (1999)
+
+New York Academy of Medicine, Annual Salmon Lecture (2006)
+
+New York Academy of Sciences, Imaging Discussion Group Meeting (2005)
+
+NIDA, Invited Seminar (2011)
+
+NINDS, Cognitive Neuroscience Section, Grand Rounds (1993)
+
+NIMH, St. Elizabeth's Hospital, Grand Rounds (1997)
+
+NIMH Extramural program, Colloquia and Workshops (1999, 2000, 2001)
+
+NIMH Intramural program, Neuroscience Colloquium (1999)
+
+Nordic Center of Excellence and the Stockholm Brain Institute, Invited Talk (2007)
+
+Northern California Psychiatric Society, Award Address (1986)
+
+Northwestern University, Department of Psychology, Colloquium (1998)
+
+NYU, Departments of Psychology and Neuroscience, Colloquia (1999, 2000)
+
+Ohio State University, Mathematical Biosciences Institute Workshop on Systems Level Modeling (2002)
+
+President’s Council on Bioethics (2004)
+
+Princeton Conference on Cerebral Vascular Disease (1994)
+
+Princeton Plasma Physics Laboratory, Colloquium (2004)
+
+Princeton University, Department of Psychology, Colloquium (1996)
+
+Princeton University, Council on Science and Technology Public Lecture Series (2000)
+
+Psychonomic Society, Invited Symposium Lectures (1996, 2002)
+
+Queens College, CUNY, Annual Neuropsychology Symposium, Keynote Address (2007)
+
+Reinforcement Learning and Decision Making, First Annual Meeting, Invited Address (2013)
+
+Research Society on Alcoholism, Plenary Address (2002)
+
+Rockefeller University, Neuroscience Colloquium (1999)
+
+Rotman Research Institute, 10th Annual Conference on the Frontal Lobes (2000)
+
+Royal Society, UK, Mental Processes in the Human Brain (2006)
+
+Rutgers University, Department of Psychology \& Center for Molecular and Behavioral Neuroscience Colloquium (1999, 2000)
+
+Rutgers University Brain Health Institute, Invited Colloquium Address (2015)
+
+Sierra Ventures 13th Annual CXO Summit Keynote Address (2018)
+
+Simons Foundation SFARI Annual Scientific Meeting Keynote Address (2018)
+
+SISA, Trieste Encounters in Cognition (1992)
+
+Smithsonian Institute Public Lecture Series (1999)
+
+Society for Psychophysiological Research, Invited Address (2006)
+
+Society for Research on Psychopathology (1993)
+
+Stanford University, Neurobiology Department, Frontiers in Neuroscience Lecture Series (2009)
+
+Templeton Foundation, Annual Members Meeting Keynote Address (2016)
+
+Templeton World Charities Fund Diverse Intelligences Grantee Meeting (2018)
+
+TPG Annual Retreat, Featured Speaker (2007)
+
+University of California, Berkeley, Helen Wills Neuroscience Institute Inaugural Lecture (2000)
+
+University of California, Berkeley, Neuroscience Student Seminar Series (2010, 2016)
+
+University of California, Davis, Keynote Address, Opening of Brain Imaging Center (2005)
+
+University of California, Davis, Department of Psychiatry Grand Rounds (2005)
+
+University of California, San Francisco, Department of Psychiatry Grand Rounds (2001)
+
+University College London and Welcome Functional Imaging Laboratory (1997, 2000)
+
+University of Colorado Boulder, Department of Psychology, Symposium (1997, 2002)
+
+University of Colorado Boulder, Determinants of Executive Function \& Dysfunction Conference (2013)
+
+University of Illinois, Program in Neuroscience, Colloquium (1998)
+
+University of Michigan, Departments of Psychology and Psychiatry Colloquia (1994, 2000)
+
+University of Michigan, Marshall Weinberg Cognitive Science Symposium (2013)
+
+University of Maryland, Psychiatric Research Center, 25th Anniversary Symposium (2002)
+
+University of Maryland, Cognitive Science Colloquium (2016)
+
+University of Medicine and Dentistry of New Jersey, Graduate Program in Physiology and Neurobiology, Special Lecture (1999)
+
+University of Medicine and Dentistry of New Jersey, Dept. of Neurology Grand Rounds (2002)
+
+University of North Carolina at Greensboro, Kendon Smith Annual Lecture Series (2004)
+
+University of Oregon, Institute of Cognitive and Decision Sciences, Symposia (1990, 1996)
+
+University of Pennsylvania, Department of Psychology, Cognitive Science Program, and Institute for Neural Sciences Colloquia (1996, 2001)
+
+University of Pennsylvania, Institute of Neurological Sciences, James M. Sprague Annual Lecture (2006)
+
+University of Pennsylvania and Philadelphia Psychoanalytic Center, Evening Program (2006)
+
+University of Rochester, Department of Brain and Cognitive Sciences, Colloquium (2006)
+
+University of Texas Austin, Cognitive Neuroscience \& Imaging Research Center Seminar, Invited talk (2016)
+
+University of Texas Southwestern Medical Center, Dept. of Psychiatry, Colloquium (2003)
+
+University of Vermont, Department of Psychiatry, Grand Rounds (1992)
+
+University of Waterloo, Centre for Theoretical Neuroscience, 5th Annual Brain Day (2011)
+
+University of Waterloo, Neuroscience Colloquium Series (2021)
+
+University of Wisconsin, Department of Psychology, Colloquium (1987, 2002)
+
+University of Wisconsin Medical School, 5th Annual Symposium on Emotion (1999)
+
+Vanderbilt University, Annual Neuroscience Retreat Keynote Address (2001)
+
+Vanderbilt University, Stroopfest (2002)
+
+Virginia Tech Carilion Research Institute Maury Strauss Distinguished Public Lecture (2018)
+
+Washington University, Department of Psychiatry, Grand Rounds (2003)
+
+Winter Conference on Brain Research (1993, 1996, 1997, 1998)
+
+Workshop on Neural Modeling of Brain and Cognitive Disorders (1995, 1998)
+
+Yale University School of Medicine, Department of Neurobiology, Colloquium (2002)
+
+Yale University School of Medicine, Department of Psychiatry, Abraham Ribicoff Annual Lecture (2004)
+
+
+%Other research-related activities
+\subsection*{3. Other research-related activities} \label{secRAPA3}
+    \smallskip
+
+%Patents and Licenses
+\subsubsection*{\underline{Patents and Licenses}} \label{secPaL}
+    \smallskip
+
+Title: ARTICLES AND METHODS FOR QUANTUM SCHEDULING, U.S. Provisional application 63/689,480 filed 8/29/25 and PCT/US2025/044232 application filed 8/30/25.
+
+
+%Advisory Boards and Councils
+\subsubsection*{\underline{Advisory Boards and Councils}} \label{secABaC}
+    \smallskip
+
+Allegheny County Neuropsychiatric Survey, Executive Advisory Board (1996-1998)
+
+University of Michigan, Department of Psychology, External Advisory Board (1997)
+
+National Alliance for Research on Schizophrenia \& Depression (NARSAD), Scientific Council (1998-present)
+
+NIMH Board of Scientific Counselors, Advisory Panel on Intramural Research Program (1999)
+
+Yale-New Haven VAMC Schizophrenia Research Center, Scientific Advisory Board (1999)
+
+International Organization of Human Brain Mapping, Governing Council (1998-2002), Treasurer (2000-2001), Chair of Neuroinformatics Committee (1998-2001), Chair, Nominations Committee (2001)
+
+National Foundation for Functional Brain Imaging, Advisory Board (1999-2004)
+
+Center for Magnetic Resonance Research, University of Minnesota, Advisory Board (2000)
+
+Harvard Initiative in Systems Neuroscience, Advisory Board (2000)
+
+American Psychiatric Association / NIMH DSM-V Workgroup on Neuroscience (2000-2002)
+
+NIMH Workgroup on Strategic Plan for Mood Disorders (2000-2002)
+
+International Association for the Study of Attention and Performance, Advisory Council (2001-present)
+
+University of Pennsylvania NIMH Silvio O. Conte Center for Neuroscience Research, “The Neurobiology of Stimulus Encoding in Schizophrenia,” External Advisory Board (2003, 2008)
+
+Harvard University, Department of Psychology, External Review Committee (2003)
+
+NIMH Measurement and Treatment Development Activities on Cognition in Schizophrenia (MATRICS), Neurocognition Committee (2002-2006)
+
+Council of Princeton University, Executive Committee (2004-2005)
+
+National Advisory Mental Health Council (NAMHC) (2004-2008)
+
+The Society for Neuroeconomics, Board of Directors (2004-2005)
+
+Gatsby Computational Neuroscience Unit, UCL, Quinquennial Review Panel (2005)
+
+National Advisory Mental Health Council Workgroup on MRI Safety (2005-2007)
+
+Brookhaven National Laboratory, Science and Technology Steering Committee (2005-2014)
+
+Institute for Advanced Studies, Princeton, Decadal Visiting Committee for School of Social Sciences (2007)
+
+National Advisory Mental Health Council Workgroup on Neuroscience Training (2007-2008)
+
+University of Colorado, Boulder NIMH Interdisciplinary Behavioral Science Center, “Executive Function and Dysfunction,” External Advisory Board (2009)
+
+Johns Hopkins University, Psychological Brain Sciences Department and Mind Brain Institute External Review Committee (2011)
+
+Princeton University, Research Computing Advisory Council, Member (2011-present)
+
+Harvard University, Mind, Brain and Behavior Initiative, External Review Committee (2013)
+
+Ecole Normale Supérieure, Scientific Advisory Committee of the Département d'Etudes Cognitives (2014-present)
+
+National Academy of Medicine, Forum on Neuroscience (2015-2023)
+
+Yale University, Wu Tsai Institute, External Advisory Board (2022-present)
+
+Max Planck Society, Appointment Commission for MPI for Human Cognitive and Brain Sciences, Member (2024-present)
+
+Princeton University, Senior Advisor for Computing and Data, Office of the Dean for Research (2025-present)
+
+
+%Editorial Boards
+\subsubsection*{\underline{Editorial Boards}} \label{secEB}
+    \smallskip
+
+\textit{American Journal of Psychiatry,} Consulting Editor (2001-2006)
+
+\textit{Biological Psychiatry,} Board of Editors (1999-2009)
+
+\textit{Brain Research,} Senior Editor for Computational Neuroscience (2005-2010)
+
+\textit{Cognitive Neuropsychology,} Advisory editor (1997-2002)
+
+\textit{Journal of Experimental Psychology: General,} Consulting Editor (1996-2005)
+
+\textit{Journal of Neurophysiology} (2003-2004)
+
+\textit{Neuroimage,} Board of Editors (2002-2003)
+
+\textit{Neuroinformatics,} Board of Editors (2002-present)
+
+\textit{Neuropsychopharmacology,} Board of Editors (1999-2008)
+
+\textit{Neuroscience,} Board of Editors (1999-2003)
+
+\textit{NMR in Biomedicine,} Board of Editors (2003-2006)
+
+\textit{Proceedings of the Royal Society, Biological Sciences,} Board of Editors (2003-2008)
+
+\textit{Science,} Board of Reviewing Editors (1998-2014)
+
+\textit{Trends in Cognitive Science,} Advisory Editorial Board (2004-present)
+
+\textit{Computational Psychiatry,} Editorial Board (2014-present)
+
+
+%Grant Review
+\subsubsection*{\underline{Grant Review}} \label{secGR}
+    \smallskip
+
+Integrative Cognitive Functional Neuroscience Study Section, NIH
+
+Clinical Psychopathology Study Section, NIMH
+
+Human Development and Aging Study Section, NIH
+
+Human Frontier Science Program
+
+Medical Research Council (MRC), UK
+
+National Center for Research Resources, NIH
+
+NIMH Intramural Research Program, NIH
+
+NSF Review Panel
+
+Wellcome Trust
+
+
+%Conference Organization
+\subsubsection*{\underline{Conference Organization}} \label{secCO}
+    \smallskip
+
+New Directions in Health Care and Education Annual Colloquium. University of Pennsylvania Medical School, May, 1980. Founder and Co-organizer.
+
+25th Annual Carnegie Symposium on Cognition: Scientific Approaches to the Question of Consciousness. Carnegie Mellon University, May, 1993. Co-organizer.
+
+Center for Neuroscience and Mental Disorders bi-annual workshop: Cognitive Neuroscience Approaches to Schizophrenia. University of Pittsburgh, May, 1994. Organizer.
+
+International Congress on Schizophrenia Research. Colorado Springs, April, 1997. Program Consultant.
+
+Society for Research in Psychopathology. Palm Springs, October, 1997. Program Committee.
+
+Neural Processes \& Economics Workshop, Woodrow Wilson School, Princeton University, 2000. Co-organizer.
+
+Organization for Human Brain Mapping, New York City, 2003, Chair, Local Organizing Committee.
+
+Computational Cognitive Neuroscience Conference, Co-Founder (with Randall O’Reilly); 2005-2008, Program Committee.
+
+
+%Membership in Professional Organizations
+\subsubsection*{\underline{Membership in Professional Organizations}} \label{secMiPO}
+    \smallskip
+
+American Academy of Arts and Sciences
+
+American Association for the Advancement of Science
+
+American Psychological Society
+
+Cognitive Science Society
+
+Psychonomic Society
+
+Society for Neuroscience
+
+
+%Software Development
+\subsubsection*{\underline{Software Development}} \label{secSD}
+    \smallskip
+
+\href{https://en.wikipedia.org/wiki/PsyScope}{PsyScope} \cite{cohen1993psyscope}: Designer and Co-Producer with Brian MacWhinney, Psychology, Carnegie Mellon University — this is a graphical, interactive program for the design and implementation of cognitive experimental tasks on Macintosh computers. It provides the ability to present stimuli in text, graphic, and acoustic form, and can be used to record manual or voice responses with millisecond accuracy. It incorporates a fully general scripting language, as well as a graphic interface, and is extensible through the use of plug-and-play add-on modules. PsyScope was originally designed for Mac OS prior to and through System 9. It was independently ported to MacOS X, and continues to be supported by the community, freely available, and widely used (with over 3,000 downloads) for experimental research and as a teaching instrument in research centers throughout the world. The design of PsyScope also provided one of the foundations for E-Prime, a PC/Windows-based commercially supported package that was developed in collaboration with Psychology Software Tools (PST) Inc. and is also in
+widespread use.
+    \smallskip
+
+\href{http://BrainIAK.org}{Brain Image Analysis Kit} \cite{kumar2021brainiak}: Project Co-Director, with Ted Willke, Brain Inspired Computing Lab, Intel Labs; Ken Norman, Neuroscience and Psychology, Princeton; and Nicholas Turk-Browne, Psychology, Yale University — this is a Python-based, open source software package, developed in collaboration with Intel Labs, that supports the application of advanced methods from machine learning and multivariate statistics to the analysis of neuroimaging data. It is tightly integrated with \href{http://scikit-learn.org/}{SciKit-Learn}, and includes modules for Full Correlation Matrix Analysis (FCMA; Wang et al. 2015), Multi-voxel Pattern Analysis (MVPA), a suite of methods for Shared Response Modeling (SRM) (including hyper alignment and Inter-Subject Functional Correlation [IFSC]), Topographic Factor Analysis (TFA), and Bayesian-derived methods for Representational Similarity Analysis (RSA). Within the first year and a half of its development it has attracted over 9,000 downloads.
+    \smallskip
+
+\href{https://github.com/brainiak/rt-cloud}{RT-Cloud} \cite{wallace2022rtcloud}: Project Co-Director, with Ken Norman, Princeton Neuroscience Institute. This is an open-source software package, integrated into the BrainIAK environment, that makes it easier to build and deploy real-time fMRI experiments. The framework provides a coordination hub between the experimenter’s script, a subject feedback script, the scanner data, and experiment control. It streams scanner data (in real-time) to an experimenter’s script and forwards the results for use in subject feedback (optionally using tools like PsychoPy, jsPsych, or PsychToolbox). It provides a web-based user interface that allows for starting and stopping runs, changing settings, and viewing output. It can be configured to run in the cloud, on a cluster, or in the control room. This framework is under active development with funding from NIMH to further extend its capabilities, including support for standards such as \href{https://bids.neuroimaging.io}{BIDS} and \href{https://openneuro.org}{OpenNeuro}.
+    \smallskip
+
+\href{http://psyneulink.org}{PsyNeuLink}: Designer and Lead Developer, with Abhishek Bhattacharjee, Computer Science, Yale University and Amitai Shenhav, Brain and Cognitive Sciences, Brown University; and support from Templeton World Charitable Foundation and NIMH — this is a "block modeling environment" designed for use by neuroscientists, psychologists, computational psychiatrists and others interested in building system-level models of the computational mechanisms underlying brain function and its expression in psychological processes and behavior, and in exploring their relationship to developments in research on machine learning and artificial intelligence. It allows components to be constructed that implement various, possibly disparate functions, at potentially different levels of analysis and/or timescale of operation, and integrate these into a coherent modeling environment that can be used to simulate and study their interaction. PsyNeuLink is written in Python, is open source, and meant to be extended. Its goal is to provide an environment for implementing models that are expressed in a concise and easy to read form, and that can be executed, shared, compared, and integrated with one another. PsyNeuLink maintains a publicly accessible library of its components and models, to which users can contribute, providing a common repository for model-sharing in a manner paralleling data-sharing efforts in empirical research.
+    \smallskip
+
+\href{https://sites.google.com/view/sweetpea-ai/}{SweetPea} \cite{musslick2022sweetpea}: Co-Designer, with Matthew Flatt and Vivek Srikumar, Computer Science, University of Utah — this is an experimental design environment that simplifies and standardizes the format in which experimental factors are expressed and combined, and used to generate balanced samples of valid trial sequences. As experimental designs in psychology and neuroscience — as well as the theories they are designed to test — become more complex, the ability to insure appropriately balanced sampling of relevant experimental and control conditions becomes increasingly difficult, and designs that do so increasingly difficult to express and/or interpret, which poses challenges to reliability and/or reproducibility of results. Similar problems arise in computational modeling, where uncontrolled or poorly understood differences in the inputs to a simulation can confound interpretations of its behavior, just as it does empirical data. SweetPea addresses this problem by providing a declarative language for expressing a design— in terms of factors (experimental variables), levels (values for those variable to be sampled), crossings among factors, and constraints on trial sequences (e.g., number or types of repeats). The design is then translated into a form (currently, conjunctive normal form) that can be sampled using a SAT solver, to insure that valid trial sequences are sampled in a balanced fashion.
+    \smallskip
+
+\href{https://modeci.github.io/Website/}{ModECI (Model Exchange and Convergence Initiative)} \cite{gleeson2023integrating}: Lead Developer with Padraig Gleason, Neuroscience, Physiology and Pharmacology, University of College London and NeuroML; in collaboration with Abhishek Bhattacharjee, Computer Science, Yale University; Sharon Crook, Arizona State University and NeuroML, Ted Willke, Brain Inspired Computing Lab, Intel Labs; and support from the \href{https://www.nsf.gov/od/oia/convergence-accelerator/}{NSF Convergence Accelerator Program} — this project seeks to accelerate the convergence of progress in the brain, cognitive and computer sciences by facilitating the exchange of computational models through the development of a standardized \href{https://github.com/ModECI/MDF}{model description format} that expresses models in the form of a computational graph in which each node is a computational component and edges specify connections between them that determine the flow of computation. The format is implemented in serialized forms (e.g., JSON, YAML) that allows the exchange of models in machine-readable form among a broad range of existing environments — from biologically detailed ones (e.g., \href{https://neuroml.org}{NeuroML}, \href{https://grey.colorado.edu/emergent/index.php/Main_Page}{Emergent}, and \href{https://www.nengo.ai}{Nengo}) and system-level level packages (such as \href{http://psyneulink.org}{PsyNeuLink}) to abstract symbol processing environments used in cognitive science (such as \href{http://act-r.psy.cmu.edu}{ACT-R}) and neural network modeling ones served by the \href{https://onnx.ai}{ONNX} standard used in the machine learning community (e.g., \href{https://pytorch.org}{PyTorch} and \href{https://www.tensorflow.org}{TensorFlow}).
+
+
+
+
+\end{document}
