@@ -24,6 +24,14 @@
 \newrobustcmd*{\mkbibdesc}[1]{%
   \number\numexpr\csuse{entrycount:\therefsection}+1-#1\relax}
 
+\renewbibmacro*{author}{%
+  \printnames{author}%
+  \setunit{\addspace}%
+  \printfield{year}%
+}
+\DeclareFieldFormat{year}{\mkbibparens{#1}}
+
+
 \setlength\bibitemsep{3pt} % Adjust spacing between bibliography entries
 
 % Required for loading bibliography, sortingentries
