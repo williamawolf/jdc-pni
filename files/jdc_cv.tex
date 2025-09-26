@@ -9,8 +9,23 @@
 \usepackage{xcolor} % Required for font colors
 \usepackage{parskip} % Required for line spacing
 
+
 %\usepackage[backend=biber]{biblatex} % Required for loading bibliography, sorting entries
-\usepackage[backend=biber, sorting=ydnt, maxbibnames=99, maxcitenames=3, ]{biblatex}
+\usepackage[backend=biber, sorting=ydnt, style=numeric, maxbibnames=99, maxcitenames=3, ]{biblatex}
+%\usepackage[backend=biber, sorting=ydnt, maxbibnames=99, maxcitenames=3, ]{biblatex}
+
+% Count total number of entries in each reference section
+% (Uses macros provided by biblatex/etoolbox)
+\AtDataInput{%
+  \csnumgdef{entrycount:\therefsection}{\csuse{entrycount:\therefsection}+1}}
+
+% Print labelnumber as: total_in_refsection + 1 - actual_labelnumber
+\DeclareFieldFormat{labelnumber}{\mkbibdesc{#1}}
+\newrobustcmd*{\mkbibdesc}[1]{%
+  \number\numexpr\csuse{entrycount:\therefsection}+1-#1\relax}
+
+\setlength\bibitemsep{3pt} % Adjust spacing between bibliography entries
+
 % Required for loading bibliography, sortingentries
 % Load bibliography
 %\bibliography{jdc_refs}
@@ -24,8 +39,6 @@
             urlcolor=gray, % set color for url links
             citecolor=gray} % set color for citation links
 \urlstyle{same} % keep url text formatting same as normal text
-
-
 
 % Set margins
 \usepackage[left=1in,
@@ -667,7 +680,7 @@ Posters, 48th Annual Meeting of the American College of Neuropsychopharmacology.
 Becker, T. M., Cho, R. Y., Cohen, J. D., Kerns, J. G. \& Carter, C. S. (2009). The association between impaired language production and prefrontal cortex goal maintenance deficits in medication-naive people with schizophrenia. NeuroImage, 47, S1, 189.
 
 Yu AJ \& Cohen JD (2008). Sequential Effects: Annoying Quirk or Adaptive Behavior? Computational
-and Systems Neuroscience, Abstract #III-58. http://cosyne.org/cosyne08/posters/
+and Systems Neuroscience, Abstract \#III-58. http://cosyne.org/cosyne08/posters/
 
 Nedic A, Tomlin D, Holmes P, Prentice DA and Cohen JD (2008) A simple decision task in a social context: Preliminary experiments and a model. Proceedings of the 47th IEEE Conference on Decision and Control.
 
@@ -871,8 +884,7 @@ Cohen JD (1989). A network model of schizophrenic language deficits. Book of Abs
 %Manuscripts Under Review / In Prep
 \subsection*{5. Manuscripts Under Review / In Prepartation} \label{secPUBLICATIONS5}
 
-Conklin HC, Hosking T, Yi-Chern T, Cohen JD, Leslie S-J, Griffiths TL, Bartolo M & Goldfarb-Tarrant S (under review).
-Learning is forgetting: LLMS as lossy compression.
+Conklin HC, Hosking T, Yi-Chern T, Cohen JD, Leslie S-J, Griffiths TL, Bartolo M \& Goldfarb-Tarrant S (under review). Learningis forgetting: LLMS as lossy compression.
 
 Dawes C, Segert S, Krishnamurthy K \& Cohen JD (under review). A group theoretic analysis of the symmetries underlying base addition and their learnability by neural networks.
 
@@ -880,7 +892,7 @@ Geadah V, Arbelaiz J, Ritz H, Daw ND, Cohen JD \& Pillow JW (under review). Syst
 
 Giallanza T, Rogers TT \& Cohen JD (under review). An integrated model of semantics and control, Part 2: Solving the similarity paradox through context inference. https://osf.io/preprints/psyarxiv/fxc87.
 
-Haputhanthrige U, Campbell ID, Cohen JD & Webb TW (under review).  Binding Visual Features Point by Point.
+Haputhanthrige U, Campbell ID, Cohen JD \& Webb TW (under review). Binding Visual Features Point by Point.
 
 Huang J, Cohen JD \& Busemeyer J (under review). A quantum model of arousal and cognitive control in decision making.
 
@@ -1884,7 +1896,7 @@ PI,
 Project 2,4
 Cognition (James L. McClelland, PI) Project 2 (1991-96): Neuromodulation and the Processing of Context in Schizophrenia; Project 4 (1997-02): Mechanisms of Cognitive Control
 NIMH P50 Co-
-Center for Functional Brain Imaging (Robert Moore & Mark Mintun, Co-PIs) Cognitive Studies Core
+Center for Functional Brain Imaging (Robert Moore \& Mark Mintun, Co-PIs) Cognitive Studies Core
 1992-97 MH49815
 Direct.,
 Cognitive Core
