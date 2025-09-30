@@ -24,6 +24,14 @@
 \newrobustcmd*{\mkbibdesc}[1]{%
   \number\numexpr\csuse{entrycount:\therefsection}+1-#1\relax}
 
+\renewbibmacro*{author}{%
+  \printnames{author}%
+  \setunit{\addspace}%
+  \printfield{year}%
+}
+\DeclareFieldFormat{year}{\mkbibparens{#1}}
+
+
 \setlength\bibitemsep{3pt} % Adjust spacing between bibliography entries
 
 % Required for loading bibliography, sortingentries
@@ -71,11 +79,14 @@
 
 {\fontsize{14pt}{16 pt}\selectfont \textit{\textbf{Curriculum Vitae}}}
 
-\emph{(hyperlinks are in \textcolor{gray}{gray})}
+    \medskip
+    \textit{\today}
     \bigskip
 
 % TABLE OF CONTENTS
 \section*{Table of Contents} \label{secTOC}
+    \vspace{-8pt}
+    \emph{(hyperlinks are in \textcolor{gray}{gray})}
     \end{center}
     \medskip
 
