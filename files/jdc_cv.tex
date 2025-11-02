@@ -12,7 +12,25 @@
 
 %\usepackage[backend=biber]{biblatex} % Required for loading bibliography, sorting entries
 \usepackage[backend=biber, sorting=ydnt, style=numeric, maxbibnames=99, maxcitenames=3, ]{biblatex}
-%\usepackage[backend=biber, sorting=ydnt, maxbibnames=99, maxcitenames=3, ]{biblatex}
+
+% Get rid of "In:" before journal titles in numeric style:
+\renewbibmacro{in:}{%
+  \ifentrytype{article}{}%
+  {\printtext{\bibstring{in}\intitlepunct}}%
+}
+
+% Get rid of quotes around article titles in numeric style:
+\DeclareFieldFormat[article,inbook,incollection,inproceedings,patent,thesis,unpublished]{title}{#1}
+\DeclareFieldFormat[article,inbook,incollection,inproceedings,patent,thesis,unpublished]{citetitle}{#1}
+
+% Get rid of year after issue in numeric style:
+\renewbibmacro*{issue+date}
+    {\iffieldundef{issue} {} {\printfield{issue}\setunit*{\addspace}}}
+
+% ATTEMPT AT NUMBER CITES WITH APA BIB STYLE:
+%\usepackage[backend=biber, sorting=ydnt, citestyle=numeric, bibstyle=apa, maxbibnames=99, maxcitenames=3, ]{biblatex}
+%\DeclareFieldFormat{labelnumberwidth}{\\mkbibbrackets{#1}}
+%\DeclareFieldFormat{shorthandwidth}{\\mkbibbrackets{#1}}
 
 % Count total number of entries in each reference section
 % (Uses macros provided by biblatex/etoolbox)
