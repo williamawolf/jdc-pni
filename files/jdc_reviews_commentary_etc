@@ -1,0 +1,595 @@
+@incollection{Musslick2024meta,
+  author    = {Musslick, Sarah and Cohen, Jonathan D. and Goschke, Thomas},
+  title     = {Meta-control},
+  booktitle = {Reference Module in Neuroscience and Biobehavioral Psychology},
+  publisher = {Elsevier},
+  year      = {2024},
+  doi       = {10.1016/B978-0-12-820480-1.00058-9}
+}
+
+@article{Baru2021enabling,
+  author    = {Baru, Chaitanya and Pozmantier, Maya and Altintas, Ilkay and Baek, Seungwon and Cohen, Jonathan and Condon, Laura and Fanti, Giuseppe and Foster, Ian and Jackson, Edward and Lall, Upmanu and Landman, Bennett and Li, Haifeng and Marin, Carole and Lopez, Blanca M. and Metaxas, Dimitris and Olsen, Brian and Page, Gregory and Shang, Jishang and Turkan, Yusuf and Zhang, Peng},
+  title     = {Enabling AI Innovation via Data and Model Sharing: An Overview of the NSF Convergence Accelerator Track D},
+  journal   = {AI Magazine},
+  year      = {2021}
+}
+
+@incollection{Cohen2017cognitive,
+  author    = {Cohen, Jonathan D.},
+  title     = {Cognitive Control: Core Constructs and Current Considerations},
+  editor    = {Egner, Tobias},
+  booktitle = {The Wiley Handbook of Cognitive Control},
+  publisher = {John Wiley \& Sons},
+  address   = {Chichester, West Sussex, UK},
+  year      = {2017}
+}
+
+@misc{Cohen2016graphtheoretic,
+  author  = {Cohen, Jonathan D. and Dey, Bidisha and Griffiths, Thomas and Musslick, Sarah and Ozcimder, Kursat and Reichman, Daniel and Shinkar, Igor and Wagner, Tobias},
+  title   = {A graph-theoretic approach to multitasking},
+  year    = {2016},
+  archiveprefix = {arXiv},
+  eprint  = {1611.02400}
+}
+
+@incollection{Cohen2016fmri,
+  author    = {Cohen, Jonathan D.},
+  title     = {Functional MRI (fMRI): A window into the working brain},
+  editor    = {Kagel, John and Roth, Alvin},
+  booktitle = {Handbook of Experimental Economics},
+  year      = {2016}
+}
+
+@inproceedings{Wang2015optimizing,
+  author    = {Wang, Yao and Anderson, Mark and Cohen, Jonathan D. and Heinecke, Axel and Li, Kun and Satish, Nadathur and Sundaram, Neela and Turk-Browne, Nicholas B. and Willke, Thomas},
+  title     = {Optimizing full correlation matrix analysis of fMRI data on Intel Xeon Phi coprocessors},
+  booktitle = {SC '15: Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis},
+  pages     = {1--11},
+  year      = {2015},
+  address   = {Austin, TX},
+  doi       = {10.1145/2807591.2807631}
+}
+
+@misc{Keung2015influence,
+  author  = {Keung, W. and Osherson, D. and Cohen, Jonathan D.},
+  title   = {Influence of cognitive control on semantic representation},
+  year    = {2015},
+  url     = {https://www.biorxiv.org/content/10.1101/067553v1}
+}
+
+@incollection{OReilly2013limited,
+  author    = {O'Reilly, Randall C. and Petrov, Alexander A. and Cohen, Jonathan D. and Lebiere, Christian and Herd, Seth A. and Kriete, Thomas and Symons, John},
+  title     = {How limited systematicity emerges: A computational cognitive neuroscience approach},
+  booktitle = {The architecture of cognition: Rethinking fodor and Pylyshyn's systematicity challenge},
+  year      = {2013}
+}
+
+@incollection{McGuire2013mental,
+  author    = {McGuire, Joseph T. and Cohen, Jonathan D. and Botvinick, Matthew M.},
+  title     = {Mental Effort},
+  editor    = {Pashler, Harold},
+  booktitle = {Encyclopedia of the Mind},
+  publisher = {Sage Publications},
+  address   = {Thousand Oaks, CA},
+  year      = {2013}
+}
+
+@incollection{Hyman2012mood,
+  author    = {Hyman, Steven E. and Cohen, Jonathan D.},
+  title     = {Disorders of mood and anxiety},
+  editor    = {Kandel, Eric R. and Schwartz, James H. and Jessell, Thomas M.},
+  booktitle = {Principles of Neural Science V},
+  publisher = {McGraw-Hill},
+  address   = {New York},
+  year      = {2012}
+}
+
+@incollection{Hyman2012schizophrenia,
+  author    = {Hyman, Steven E. and Cohen, Jonathan D.},
+  title     = {Disorders of thought and volition: Schizophrenia},
+  editor    = {Kandel, Eric R. and Schwartz, James H. and Jessell, Thomas M.},
+  booktitle = {Principles of Neural Science V},
+  publisher = {McGraw-Hill},
+  address   = {New York},
+  year      = {2012}
+}
+
+@article{Yeung2011errors,
+  author    = {Yeung, Nick and Cohen, Jonathan D. and Botvinick, Matthew M.},
+  title     = {Errors of interpretation and modeling: A reply to Grinband et al.},
+  journal   = {NeuroImage},
+  volume    = {57},
+  number    = {2},
+  pages     = {316--319},
+  year      = {2011}
+}
+
+@incollection{Holmes2010physics,
+  author    = {Holmes, Philip and Eckhoff, Philip and Wong-Lin, Katherine and Bogacz, Rafal and Zacksenhouse, Miran and Cohen, Jonathan D.},
+  title     = {The physics of decision making: stochastic differential equations as models for neural dynamics and evidence accumulation in cortical circuits},
+  booktitle = {XVIth International Congress on Mathematical Physics},
+  pages     = {123--142},
+  year      = {2010}
+}
+
+@incollection{Simen2008optimal,
+  author    = {Simen, Paul and Holmes, Philip and Cohen, Jonathan D.},
+  title     = {On the neural implementation of optimal decisions},
+  editor    = {Morsella, Ezequiel and Bargh, John A. and Gollwitzer, Peter M.},
+  booktitle = {Oxford Handbook of Human Action},
+  pages     = {534--549},
+  publisher = {Oxford University Press},
+  address   = {Oxford, UK},
+  year      = {2008}
+}
+
+@incollection{Keysers2008strategies,
+  author    = {Keysers, Christian and Boyd, Robert and Cohen, Jonathan and Donald, Merlin and G{\"u}th, Werner and Johnson, Eric and Kurzban, Robert and Schooler, Lael and Schooler, Jonathan and Spelke, Elizabeth and Trommersh{\"a}user, Jens},
+  title     = {Explicit and implicit strategies in decision making},
+  editor    = {Engel, Christian and Singer, Wolf},
+  booktitle = {Str{\"u}ngmann Forum Report: Better than Conscious? Decision Making, the Human Mind, and Implications},
+  pages     = {225--258},
+  publisher = {MIT Press},
+  address   = {Cambridge, MA},
+  year      = {2008}
+}
+
+```bibtex
+@article{Cohen2008cognitive,
+  author    = {Cohen, Jonathan D. and Insel, Thomas R.},
+  title     = {Cognitive neuroscience and schizophrenia: Translational research in need of a translator},
+  journal   = {Biological Psychiatry},
+  volume    = {64},
+  number    = {1},
+  pages     = {2--3},
+  year      = {2008}
+}
+
+@incollection{McClure2007conflict,
+  author    = {McClure, Samuel M. and Botvinick, Matthew M. and Yeung, Nick and Greene, Joshua D. and Cohen, Jonathan D.},
+  title     = {Conflict monitoring in cognition-emotion competition},
+  editor    = {Gross, James J.},
+  booktitle = {Handbook of Emotion Regulation},
+  publisher = {Guilford Press},
+  address   = {New York},
+  year      = {2007}
+}
+
+@incollection{AstonJones2007locus,
+  author    = {Aston-Jones, Gary S. and Iba, Mary and Clayton, Eric and Rajkowski, Jan and Cohen, Jonathan},
+  title     = {The locus coeruleus and regulation of behavioral flexibility and attention: Clinical implications},
+  editor    = {Ordway, Gary A. and Schwartz, Martha A. and Frazer, Alan},
+  booktitle = {Brain Norepinephrine: Neurobiology and Therapeutics},
+  publisher = {Cambridge University Press},
+  address   = {Cambridge, UK},
+  pages     = {196--235},
+  year      = {2007}
+}
+
+@techreport{Holroyd2006internalizing,
+  author  = {Holroyd, Clay B. and Yeung, Nick and Coles, Michael G. H. and Cohen, Jonathan D.},
+  title   = {Internalizing representations of correct behavior from feedback},
+  institution = {Princeton University},
+  number  = {06-02},
+  year    = {2006}
+}
+
+@article{Holmes2005letter,
+  author  = {Holmes, Philip J. and Bogacz, Rafal and Cohen, Jonathan D. and Gold, Joshua I.},
+  title   = {Letter to the Editor, in response to Hunter PW (2004), Connections, context, and community: Abraham Wald and the sequential probability ratio test},
+  journal = {Mathematical Intelligencer},
+  volume  = {27},
+  number  = {1},
+  pages   = {4--5},
+  year    = {2005}
+}
+
+@article{Cohen2005decision,
+  author  = {Cohen, Jonathan D. and Aston-Jones, Gary},
+  title   = {Cognitive neuroscience: Decision amid uncertainty},
+  journal = {Nature},
+  volume  = {436},
+  number  = {7050},
+  pages   = {471--472},
+  year    = {2005}
+}
+
+@article{Sanfey2004knowing,
+  author  = {Sanfey, Alan G. and Cohen, Jonathan D.},
+  title   = {Is knowing always feeling?},
+  journal = {Proceedings of the National Academy of Sciences of the United States of America},
+  volume  = {101},
+  number  = {48},
+  pages   = {16709--16710},
+  year    = {2004}
+}
+
+@inproceedings{Holmes2004optimal,
+  author    = {Holmes, Philip and Brown, Ethan and Moehlis, Jeff and Bogacz, Rafal and Gao, Jian and Hu, Pei and Aston-Jones, Gary and Clayton, Eric and Rajkowski, Jan and Cohen, Jonathan D.},
+  title     = {Optimal decisions: From neural spikes, through stochastic differential equations, to behavior},
+  booktitle = {Proceedings of the International Symposium on Nonlinear Theory and its Applications (NOLTA2004)},
+  year      = {2004}
+}
+
+@incollection{Cohen2004systemslevel,
+  author    = {Cohen, Jonathan D. and Aston-Jones, Gary and Gilzenrat, Mark S.},
+  title     = {A systems-level perspective on attention and cognitive control: Guided activation, adaptive gating, conflict monitoring, and exploitation vs. exploration},
+  editor    = {Posner, Michael I.},
+  booktitle = {Cognitive Neuroscience of Attention},
+  publisher = {Guilford Press},
+  address   = {New York},
+  pages     = {71--90},
+  year      = {2004}
+}
+
+@incollection{Carter2004bridging,
+  author    = {Carter, Cameron S. and Kerns, Joseph G. and Cohen, Jonathan D.},
+  title     = {Cognitive neuroscience: Bridging thinking and feeling to the brain, and its implications for psychiatry},
+  editor    = {Charney, Dennis S. and Nestler, Eric J.},
+  booktitle = {Neurobiology of Mental Illness},
+  publisher = {Oxford University Press},
+  address   = {Oxford},
+  year      = {2004}
+}
+
+@incollection{Botvinick2004conflict,
+  author    = {Botvinick, Matthew and Braver, Todd S. and Yeung, Nick and Carter, Cameron S. and Cohen, Jonathan D.},
+  title     = {Conflict monitoring: Computational and empirical studies},
+  editor    = {Posner, Michael I.},
+  booktitle = {Cognitive Neuroscience of Attention},
+  publisher = {Guilford Press},
+  address   = {New York},
+  year      = {2004}
+}
+
+@article{Paus2003special,
+  author    = {Paus, Tom{\'a}{\v s} and Haxby, James V. and Cohen, Jonathan D.},
+  title     = {Special Issue},
+  journal   = {NeuroImage},
+  year      = {2003}
+}
+
+@techreport{Nieuwenhuis2003computational,
+  author  = {Nieuwenhuis, Sander and Yeung, Nick and Cohen, Jonathan D.},
+  title   = {A computational simulation of electrophysiological markers of anterior cingulate function in a go/nogo task},
+  institution = {Princeton University},
+  number  = {CSBMB. 03.1},
+  address = {Princeton NJ},
+  year    = {2003}
+}
+
+@incollection{Cohen2002context,
+  author    = {Cohen, Jonathan D. and Servan-Schreiber, David},
+  title     = {Context, cortex and schizophrenia: A connectionist approach to behavior and biology in schizophrenia},
+  editor    = {Polk, Thad A. and Seifert, Colleen M.},
+  booktitle = {Cognitive Modeling},
+  publisher = {MIT Press},
+  address   = {Cambridge},
+  year      = {2002}
+}
+
+@article{Cohen2002reward,
+  author    = {Cohen, Jonathan D. and Blum, Kenneth I.},
+  title     = {Overview: Reward and decision. Introduction to special issue},
+  journal   = {Neuron},
+  volume    = {36},
+  number    = {2},
+  pages     = {193--198},
+  year      = {2002}
+}
+
+@incollection{Cohen2002inhibition,
+  author    = {Cohen, Jonathan D.},
+  title     = {Inhibition and control},
+  editor    = {Bloom, Floyd E. and Beal, M. Flint and Kupfer, David J.},
+  booktitle = {The Dana Guide To Brain Health},
+  publisher = {Free Press},
+  address   = {New York},
+  pages     = {185--189},
+  year      = {2002}
+}
+
+@incollection{Cohen2002neural,
+  author    = {Cohen, Jonathan D.},
+  title     = {Neural network models of prefrontal cortex and cognitive control},
+  editor    = {Grafman, Jordan},
+  booktitle = {Handbook of Neuropsychology, 2nd Edition, Vol. 7: The Frontal Lobes},
+  publisher = {Elsevier},
+  address   = {New York},
+  pages     = {195--213},
+  year      = {2002}
+}
+
+@techreport{Bogacz2002parameterization,
+  author  = {Bogacz, Rafal and Cohen, Jonathan D.},
+  title   = {Parameterization of connectionist models},
+  institution = {Princeton University},
+  number  = {CSBMB.Conte.02.1},
+  address = {Princeton NJ},
+  year    = {2002}
+}
+
+@incollection{AstonJones2002role,
+  author    = {Aston-Jones, Gary and Rajkowski, Jan and Cohen, Jonathan D.},
+  title     = {Role of the locus coeruleus-norepinephrine system in attention and behavioral flexibility},
+  editor    = {Nagatsu, Toshiharu and Nabeshima, Tsutomu and McCarty, Richard and Goldstein, David},
+  booktitle = {Catecholamine Research: From Molecular Insights to Clinical Medicine},
+  publisher = {Kluwer Academic/Plenum Publishing},
+  address   = {New York},
+  pages     = {357--361},
+  year      = {2002}
+}
+
+@article{Cohen2001face,
+  author    = {Cohen, Jonathan D. and Tong, Frank},
+  title     = {The face of controversy: Modular vs. distributed representations in the brain},
+  journal   = {Science},
+  volume    = {293},
+  pages     = {2405--2407},
+  year      = {2001}
+}
+
+@article{Cohen2000anterior,
+  author  = {Cohen, Jonathan D. and Botvinick, Matthew M. and Carter, Cameron S.},
+  title   = {Anterior cingulate and prefrontal cortex: who's in control?},
+  journal = {Nature Neuroscience},
+  volume  = {3},
+  number  = {5},
+  pages   = {421--423},
+  year    = {2000}
+}
+
+@article{Cohen2000special,
+  author  = {Cohen, Jonathan D.},
+  title   = {Special Issue: Functional topography of prefrontal cortex},
+  journal = {NeuroImage},
+  volume  = {11},
+  pages   = {378--379},
+  year    = {2000}
+}
+
+@incollection{AstonJones2000locus,
+  author    = {Aston-Jones, Gary and Rajkowski, Jan and Cohen, Jonathan},
+  title     = {Locus coeruleus and regulation of behavioral flexibility and attention},
+  booktitle = {Progress in Brain Research},
+  year      = {2000}
+}
+
+@article{Carter1999contribution,
+  author  = {Carter, Cameron S. and Botvinick, Matthew M. and Cohen, Jonathan D.},
+  title   = {The contribution of the anterior cingulate cortex to executive processes in cognition},
+  journal = {Reviews in the Neurosciences},
+  volume  = {10},
+  pages   = {49--57},
+  year    = {1999}
+}
+
+@incollection{Usher1999short,
+  author    = {Usher, Marius and Cohen, Jonathan D.},
+  title     = {Short term memory and selection processes in a frontal-lobe model},
+  editor    = {Heinke, Dietmar and Humphries, G. W. and Olsen, Anders},
+  booktitle = {Connectionist Models in Cognitive Neuroscience},
+  publisher = {Springer-Verlag},
+  year      = {1999}
+}
+
+@incollection{OReilly1999biologically,
+  author    = {O'Reilly, Randall C. and Braver, Todd S. and Cohen, Jonathan D.},
+  title     = {A biologically-based neural network model of working memory},
+  editor    = {Shah, Pamela and Miyake, Akira},
+  booktitle = {Models of Working Memory},
+  publisher = {Cambridge University Press},
+  pages     = {375--411},
+  year      = {1999}
+}
+
+@incollection{Braver1999dopamineDisorders,
+  author    = {Braver, Todd S. and Cohen, Jonathan D.},
+  title     = {Dopamine, cognitive control, and schizophrenia: The gating model},
+  editor    = {Reggia, James and Ruppin, Eytan and Glanzman, Dan},
+  booktitle = {Disorders of Brain, Behavior and Cognition: The Neurocomputational Perspective},
+  publisher = {Elsevier},
+  year      = {1999}
+}
+
+@article{Braver1999dopamineProgress,
+  author  = {Braver, Todd S. and Cohen, Jonathan D.},
+  title   = {Dopamine, cognitive control, and schizophrenia: The gating model},
+  journal = {Progress in Brain Research},
+  volume  = {121},
+  pages   = {327--349},
+  year    = {1999}
+}
+
+@techreport{Braver1999mechanisms,
+  author  = {Braver, Todd S. and Barch, Deanna M. and Cohen, Jonathan D.},
+  title   = {Mechanisms of cognitive control: Active memory, inhibition, and the prefrontal cortex},
+  institution = {Carnegie Mellon University},
+  number  = {PDP.CNS.99.1},
+  address = {Pittsburgh PA},
+  year    = {1999}
+}
+
+@techreport{Botvinick1998toward,
+  author  = {Botvinick, Matthew M. and Braver, Todd S. and Carter, Cameron S. and Barch, Deanna M. and Cohen, Jonathan D.},
+  title   = {Toward a non-homuncular account of control: Cognitive neuroscientific evidence for conflict monitoring},
+  institution = {Carnegie Mellon University},
+  number  = {PDP.CNS.98.1},
+  address = {Pittsburgh PA},
+  year    = {1998}
+}
+
+@incollection{AstonJones1998neuromodulation,
+  author    = {Aston-Jones, Gary and Rajkowski, Jan and Kubiak, Paul and Ivanova, S. and Usher, Marius and Cohen, Jonathan D.},
+  title     = {Neuromodulation and cognitive performance: Recent studies of noradrenergic locus coeruleus neurons in behaving monkeys},
+  editor    = {Goldstein, David and Eisenhofer, Graeme and McCarty, Richard},
+  booktitle = {Catecholamines: Bridging Basic Science with Clinical Medicine (Advances in Pharmacology, Vol. 42)},
+  publisher = {Academic Press},
+  address   = {New York},
+  pages     = {755--759},
+  year      = {1998}
+}
+
+@article{Cohen1997response,
+  author  = {Cohen, Jonathan D. and Smith, Edward E.},
+  title   = {Response to Owen AM, Tuning in to the temporal dynamics of brain activation using functional magnetic resonance imaging (fMRI)},
+  journal = {Trends in Cognitive Sciences},
+  volume  = {1},
+  pages   = {125},
+  year    = {1997}
+}
+
+@incollection{Cohen1997science,
+  author    = {Cohen, Jonathan D. and Schooler, Jonathan W.},
+  title     = {Science and sentience: Some questions regarding the scientific investigation of consciousness},
+  editor    = {Cohen, Jonathan D. and Schooler, Jonathan W.},
+  booktitle = {Scientific Approaches to Consciousness: 25th Carnegie Symposium on Cognition},
+  publisher = {Lawrence Erlbaum Associates},
+  address   = {New Jersey},
+  year      = {1997}
+}
+
+@article{Cohen1997reply,
+  author  = {Cohen, Jonathan D. and Dunbar, Kevin O. and Barch, Deanna M. and Braver, Todd S.},
+  title   = {Reply to Schooler et al: Issues concerning relative speed of processing hypotheses, schizophrenic performance deficits, and prefrontal function in the Stroop task},
+  journal = {Journal of Experimental Psychology: General},
+  volume  = {126},
+  pages   = {37--41},
+  year    = {1997}
+}
+
+@incollection{Cohen1997dimensions,
+  author    = {Cohen, Jonathan D.},
+  title     = {Dimensions of consciousness: A commentary on Kinsbourne and Hobson},
+  editor    = {Cohen, Jonathan D. and Schooler, Jonathan W.},
+  booktitle = {Scientific Approaches to Consciousness: 25th Carnegie Symposium on Cognition},
+  publisher = {Lawrence Erlbaum Associates},
+  address   = {New Jersey},
+  year      = {1997}
+}
+
+@article{Cohen1997brain,
+  author  = {Cohen, Jonathan D.},
+  title   = {Brain Terrain},
+  journal = {Nature},
+  volume  = {389},
+  pages   = {142},
+  year    = {1997}
+}
+
+@incollection{ServanSchreiber1996dopamine,
+  author    = {Servan-Schreiber, David and Cohen, Jonathan D.},
+  title     = {Dopamine, frontal cortex, and schizophrenia: Model and data},
+  editor    = {Reggia, James A. and Ruppin, Eytan and Berndt, Rita S.},
+  booktitle = {Neural Modeling of Brain and Cognitive Disorders},
+  publisher = {World Scientific Publishing Co.},
+  address   = {Singapore},
+  year      = {1996}
+}
+
+@incollection{Keshavan1996magnetic,
+  author    = {Keshavan, Matcheri S. and Cohen, Jonathan D.},
+  title     = {Magnetic resonance spectroscopy and functional MRI},
+  editor    = {Lewis, S. and Higgins, N.},
+  booktitle = {Brain Imaging in Psychiatry},
+  publisher = {Blackwell Science, Ltd.},
+  address   = {Oxford, UK},
+  year      = {1996}
+}
+
+@incollection{Cohen1996preliminary,
+  author    = {Cohen, Jonathan D. and O'Reilly, Randall C.},
+  title     = {A preliminary theory of the interactions between prefrontal cortex and hippocampus that contribute to planning and prospective memory},
+  editor    = {Brandimonte, Maria and Einstein, Giles O. and McDaniel, Mark A.},
+  booktitle = {Prospective Memory: Theory and Applications},
+  publisher = {Erlbaum},
+  address   = {Hillsdale, NJ},
+  pages     = {267--295},
+  year      = {1996}
+}
+
+@incollection{Casey1996functional,
+  author    = {Casey, B. J. and Cohen, Jonathan D. and Noll, Douglas and Schneider, Walter and Giedd, Jay and Rapoport, Judith L.},
+  title     = {Functional magnetic resonance imaging: Studies of Cognition},
+  editor    = {Bigler, Erin D.},
+  booktitle = {Handbook of Human Brain Function, Neuroimaging II: Clinical Applications},
+  publisher = {Plenum Press},
+  address   = {New York},
+  year      = {1996}
+}
+
+@techreport{Usher1995computational,
+  author  = {Usher, Marius and Cohen, Jonathan D. and Servan-Schreiber, David and Rajkowski, Jan and Kubiak, Paul and Aston-Jones, Gary},
+  title   = {A computational model of locus coeruleus function and its influence on cognitive performance},
+  institution = {Carnegie Mellon University},
+  number  = {PDP.CNS.95.1},
+  address = {Pittsburgh PA},
+  year    = {1995}
+}
+
+@techreport{Cohen1993disengaging,
+  author  = {Cohen, Jonathan D. and Romero, R. and Servan-Schreiber, David and Farah, Martha J.},
+  title   = {Disengaging from the disengage function: The relation of macrostructure to microstructure in parietal attentional deficits},
+  institution = {Carnegie Mellon University},
+  number  = {PDP.CNS.93.2},
+  address = {Pittsburgh PA},
+  year    = {1993}
+}
+
+@techreport{Cohen1993activation,
+  author  = {Cohen, Jonathan D. and Forman, Stephen D. and Braver, Todd S. and Casey, B. J. and Servan-Schreiber, David and Noll, Douglas C.},
+  title   = {Activation of prefrontal cortex in a non-spatial working memory task with functional MRI},
+  institution = {Carnegie Mellon University},
+  number  = {PDP.CNS.93.3},
+  address = {Pittsburgh PA},
+  year    = {1993}
+}
+
+@incollection{Cohen1992fabric,
+  author    = {Cohen, Jonathan D. and Servan-Schreiber, David and Targ, Elly and Spiegel, David},
+  title     = {The fabric of thought disorder: A cognitive neuroscience approach to disturbances in the processing of context in schizophrenia},
+  editor    = {Stein, Dan and Young, Jeffrey},
+  booktitle = {Cognitive Science and Clinical Disorders},
+  publisher = {Academic Press},
+  address   = {NY},
+  year      = {1992}
+}
+
+@article{ServanSchreiber1992issue,
+  author    = {Servan-Schreiber, David and Cohen, Jonathan D.},
+  title     = {Issue Editors, Neural network models in Psychiatry},
+  journal   = {Psychiatric Annals},
+  volume    = {22},
+  number    = {3},
+  year      = {1992}
+}
+
+@article{ServanSchreiber1992neural,
+  author    = {Servan-Schreiber, David and Cohen, Jonathan D.},
+  title     = {A neural network model of catecholaminergic modulation of behavior},
+  journal   = {Psychiatric Annals},
+  volume    = {22},
+  number    = {3},
+  pages     = {125--130},
+  year      = {1992}
+}
+
+@article{Cohen1992introduction,
+  author    = {Cohen, Jonathan D. and Servan-Schreiber, David},
+  title     = {Introduction to neural networks in psychiatry},
+  journal   = {Psychiatric Annals},
+  volume    = {22},
+  number    = {3},
+  pages     = {113--118},
+  year      = {1992}
+}
+
+@incollection{Baars1992caveats,
+  author    = {Baars, Bernard J. and Cohen, Jonathan D. and Bower, Gordon H. and Berry, John W.},
+  title     = {Some caveats on testing the Freudian slip hypothesis: Problems in systematic replication},
+  editor    = {Baars, Bernard J.},
+  booktitle = {Experimental slips and human error, Exploring the architecture of volition},
+  publisher = {Plenum Press},
+  address   = {New York},
+  year      = {1992}
+}
