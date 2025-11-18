@@ -1,0 +1,2329 @@
+@inproceedings{Campbell2024humanlike,
+  author    = {Campbell, Devin and Kumar, Suman and Giallanza, Thomas and Cohen, Jonathan D. and Griffiths, Thomas L.},
+  title     = {Human-like geometric abstraction in large pre-trained neural networks},
+  booktitle = {International Conference on Learning and Representation (ICLR) 2024, Workshop on Representational Alignment},
+  year      = {2024},
+  url       = {https://openreview.net/forum?id=h15aZUyxjw}
+}
+
+@article{Bustamante2024reduced,
+  author    = {Bustamante, Laura and Grunevski, Steven and Solis, Justin and Lee, Jeongho and Daw, Nathaniel and Cohen, Jonathan and Barch, Deanna and Konova, Anna},
+  title     = {Reduced food craving induction response associated with behavioral apathy and cognitive function symptoms of major depression},
+  journal   = {Society for Research in Psychopathology Annual Meeting Abstract},
+  year      = {2024},
+  note      = {Abstract}
+}
+
+@inproceedings{Giallanza2023adapting,
+  author    = {Giallanza, Thomas and Campbell, Devin and Cohen, Jonathan D.},
+  title     = {Adapting to a changing environment with controlled retrieval of episodic memories},
+  booktitle = {Fourth Annual Symposium on the Mathematics of Neuroscience},
+  year      = {2023}
+}
+
+@inproceedings{Campbell2023unraveling,
+  author    = {Campbell, Devin and Kumar, Suman and Giallanza, Thomas and Cohen, Jonathan D. and Griffiths, Thomas L.},
+  title     = {Unraveling geometric reasoning: A neural network model of regularity biases},
+  booktitle = {International Symposium on the Mathematics of Neuroscience},
+  year      = {2023},
+  note      = {Spotlight talk}
+}
+
+@article{Bustamante2023anxiety,
+  author    = {Bustamante, Laura A. and Fahey, Megan P. and Solis, Justin and Oshinowo, Tai and Tong, Emily and Lee, Jeongho R. and Burton, Aaron R. and Grahek, Ivana and Shenhav, Amit and Barch, Deanna M. and Daw, Nathaniel D. and Konova, Anna B. and Cohen, Jonathan D.},
+  title     = {Anxiety in major depression associated with increased willingness to exert cognitive, but not physical effort},
+  journal   = {Society for Biological Psychiatry Abstract},
+  year      = {2023},
+  note      = {Abstract}
+}
+
+@inproceedings{Bustamante2023quantifying,
+  author    = {Bustamante, Laura and Bogdanov, Mikhail and Solis, Justin and Oshinowo, Tai and Sheldon, Spencer and Devine, Sarah and Lee, Jeongho and Tong, Emily and Burton, Aaron and Grahek, Ivana and Fahey, Megan P. and Konova, Anna and Otto, Randall and Barch, Deanna and Shenhav, Amit and Cohen, Jonathan and Daw, Nathaniel},
+  title     = {Quantifying individual differences in cognitive and physical effort cost with the Effort Foraging Task; applications in large online, clinical depression, and transcranial direct stimulation studies},
+  booktitle = {International conference on Motivational and Cognitive Control},
+  year      = {2023}
+}
+
+@inproceedings{Jongkees2022mechanisticNVP,
+  author    = {Jongkees, Bryant J. and Musslick, Sarah and Cohen, Jonathan D.},
+  title     = {A mechanistic account of the stability-flexibility trade-off},
+  booktitle = {The NVP Spring Conference on Cognition, Brain, and Behaviour of the Dutch Psychonomic Society},
+  year      = {2022},
+  note      = {Conference Abstract}
+}
+
+@inproceedings{Jongkees2022mechanisticESCOP,
+  author    = {Jongkees, Bryant J. and Musslick, Sarah and Cohen, Jonathan D.},
+  title     = {A mechanistic account of the stability-flexibility trade-off},
+  booktitle = {The 22nd Conference of the European Society for Cognitive Psychology (ESCOP)},
+  year      = {2022},
+  note      = {Conference Abstract}
+}
+
+@inproceedings{Kumar2020metalearning,
+  author    = {Kumar, Suman and Dasgupta, Ishita and Cohen, Jonathan D. and Daw, Nathaniel and Griffiths, Thomas},
+  title     = {Meta-Learning of compositional task-distributions in humans and machines},
+  booktitle = {MetaLearn 2020, NeurIPS Workshop},
+  year      = {2020}
+}
+
+@inproceedings{Dulberg2020learning,
+  author    = {Dulberg, Zachary and Cohen, Jonathan D.},
+  title     = {Learning canonical transformations},
+  booktitle = {BabyMind 2020, NeurIPS Workshop},
+  year      = {2020}
+}
+
+@inproceedings{Willke2019comparison,
+  author    = {Willke, Thomas L. and Yoo, Sean B. M. and Capot\u{a}, Mihaela and Musslick, Sarah and Hayden, Benjamin Y. and Cohen, Jonathan D.},
+  title     = {A Comparison of non-human primate and deep reinforcement learning agent performance in a virtual pursuit-avoidance task},
+  booktitle = {RLDM 2019: Proceedings of the Multi-disciplinary Conference on Reinforcement Learning and Decision Making},
+  year      = {2019},
+  note      = {Preprint available at \url{https://www.biorxiv.org/content/10.1101/567545v2}}
+}
+
+@inproceedings{HenselmanPetrusek2019geometry,
+  author    = {Henselman-Petrusek, Gabriel and Segert, Samuel and Keller, Ben and Tepper, Michael and Cohen, Jonathan D.},
+  title     = {Geometry of Shared Representations},
+  booktitle = {CCN 2019: Proceedings of the Annual Conference on Cognitive Computational Neuroscience},
+  year      = {2019},
+  doi       = {10.32470/CCN.2019.1418-0}
+}
+
+@inproceedings{Ebitz2019exploration,
+  author    = {Ebitz, Brandon and Cohen, Jonathan D. and Buschman, Timothy and Moore, Tirin and Hayden, Benjamin},
+  title     = {Exploration via disrupted sensorimotor control dynamics},
+  booktitle = {Computational and Systems Neuroscience (CoSyNe)},
+  year      = {2019}
+}
+
+@inproceedings{Beukers2019working,
+  author    = {Beukers, Alice and Norman, Kenneth A. and Cohen, Jonathan D.},
+  title     = {Working with episodic memory: The n-back task},
+  booktitle = {CCN 2019: Proceedings of the Annual Conference on Cognitive Computational Neuroscience},
+  year      = {2019}
+}
+
+@inproceedings{Agrawal2019rational,
+  author    = {Agrawal, Mihir and Mattar, Marcelo G. and Daw, Nathaniel D. and Cohen, Jonathan D.},
+  title     = {Rational arbitration of hippocampal replay},
+  booktitle = {CCN 2019: Proceedings of the Annual Conference on Cognitive Computational Neuroscience},
+  year      = {2019}
+}
+
+@inproceedings{Wilson2018deep,
+  author    = {Wilson, Robert C. and Cohen, Jonathan D.},
+  title     = {Deep exploration explains the tradeoff between directed and random exploration},
+  booktitle = {Society for Neuroscience Abstracts},
+  year      = {2018}
+}
+
+@inproceedings{Shvartsman2018matrixAISTATS,
+  author    = {Shvartsman, Meir and Sundaram, Neela and Aoi, Masataka and Charles, Alistair and Willke, Thomas and Cohen, Jonathan D.},
+  title     = {Matrix-normal models for fMRI analysis},
+  booktitle = {Proceedings of the International Conference on Artificial Intelligence and Statistics (AISTATS)},
+  year      = {2018}
+}
+
+@inproceedings{Shvartsman2018matrixCoSyNe,
+  author    = {Shvartsman, Meir and Charles, Alistair and Cohen, Jonathan D. and Aoi, Masataka and Sundaram, Neela and Wilke, Thomas},
+  title     = {Matrix-normal models for fMRI analysis},
+  booktitle = {Computational and Systems Neuroscience (CoSyNe)},
+  year      = {2018}
+}
+
+@inproceedings{Novick2018struggle,
+  author    = {Novick, Anna and Musslick, Sarah and Iordan, Marius and Cohen, Jonathan D.},
+  title     = {Why we struggle to multitask: Converging evidence from computational modeling, human behavior, and neuroimaging},
+  booktitle = {Society for Neuroscience Abstracts},
+  year      = {2018}
+}
+
+@inproceedings{Musslick2018estimating,
+  author    = {Musslick, Sarah and Cohen, Jonathan D. and Shenhav, Amit},
+  title     = {Estimating the costs of cognitive control: Theoretical validation and potential pitfalls},
+  booktitle = {Society for Neuroscience Abstracts},
+  year      = {2018}
+}
+
+@inproceedings{Kane2018anterior,
+  author    = {Kane, Greg and James, Michael and Shenhav, Amit and Wilson, Robert C. and Daw, Nathaniel and Aston-Jones, Gary and Cohen, Jonathan D.},
+  title     = {Does the anterior cingulate contribute to foraging decisions?},
+  booktitle = {Computational and Systems Neuroscience (CoSyNe)},
+  year      = {2018}
+}
+
+@inproceedings{Iordan2018closed,
+  author    = {Iordan, Marius C. and Ritvo, Victoria J. H. and Norman, Kenneth A. and Turk-Browne, Nicholas B. and Cohen, Jonathan D.},
+  title     = {Using closed loop real-time fMRI neurofeedback to induce neural plasticity and influence perceptual similarity},
+  booktitle = {Society for Neuroscience Abstracts},
+  year      = {2018}
+}
+
+@inproceedings{Bustamante2018learning,
+  author    = {Bustamante, Laura A. and Lieder, Fred and Musslick, Sarah and Shenhav, Amit and Cohen, Jonathan D.},
+  title     = {Learning to overexert cognitive control in the Stroop task},
+  booktitle = {CCN 2018: Proceedings of the Annual Conference on Cognitive Computational Neuroscience},
+  year      = {2018}
+}
+
+@inproceedings{Bustamante2018cost,
+  author    = {Bustamante, Laura A. and Burton, Aaron R. and Baker, Amy L. and Shenhav, Amit L. and Daw, Nathaniel D. and Cohen, Jonathan D.},
+  title     = {The cost of cognitive control and the balance of random versus directed exploration},
+  booktitle = {Society for Neuroscience Abstracts},
+  year      = {2018}
+}
+
+@inproceedings{Suo2017realtime,
+  author    = {Suo, Dan C. and Hutchinson, Joshua B. and deBettencourt, Matthew and Mennen, Alexander and Wang, Yaohui and Willke, Thomas and Turk-Browne, Nicholas B. and Norman, Kenneth A. and Cohen, Jonathan D. and Li, Kai},
+  title     = {Real-time fMRI analysis in the cloud},
+  booktitle = {Society for Neuroscience Abstracts},
+  year      = {2017}
+}
+
+@inproceedings{Novick2017drift,
+  author    = {Novick, Anna S. and Bornstein, Anat M. and Norman, Kenneth A. and Cohen, Jonathan D.},
+  title     = {Drift diffusion modeling of interactions between episodic and working memory},
+  booktitle = {Society for Neuroscience Abstracts},
+  year      = {2017}
+}
+
+@inproceedings{Musslick2017constraints,
+  author    = {Musslick, Sarah and Jang, Seo G. and Panichello, Matt and Bustamante, Laura and Shenhav, Amit and Cohen, Jonathan D.},
+  title     = {Constraints associated with cognitive control and the stability-flexibility dilemma},
+  booktitle = {Society for Neuroscience Abstracts},
+  year      = {2017}
+}
+
+@inproceedings{Iordan2017inducing,
+  author    = {Iordan, Marius C. and Ritvo, Victoria J. H. and Norman, Kenneth A. and Turk-Browne, Nicholas B. and Cohen, Jonathan D.},
+  title     = {Inducing neural plasticity and perceptual similarity via real-time fMRI neurofeedback},
+  booktitle = {Society for Neuroscience Abstracts},
+  year      = {2017}
+}
+
+@inproceedings{Ebitz2017mechanisms,
+  author    = {Ebitz, Brandon R. and Cohen, Jonathan D. and Buschman, Timothy},
+  title     = {Mechanisms for generating flexibility in a changing world},
+  booktitle = {Society for Neuroscience Abstracts},
+  year      = {2017}
+}
+
+@inproceedings{Cohen2017using,
+  author    = {Cohen, Jonathan D. and Lesnick, Michael and Keller, Ben and Baldassano, Chris and Schapiro, Anna and Ellis, Christopher},
+  title     = {Using realistic, synthetic fMRI data to validate Topological Data Analysis as a tool for fMRI},
+  booktitle = {Society for Neuroscience Abstracts},
+  year      = {2017}
+}
+
+@inproceedings{Cherkaev2017sweetpea,
+  author    = {Cherkaev, Arsen and Musslick, Sarah and Cohen, Jonathan D. and Srikumar, Vivek and Flatt, Matthew},
+  title     = {SweetPea: A Language for Designing Experiments},
+  booktitle = {The 45th Symposium on Principles of Programming Languages (POPL)},
+  year      = {2017}
+}
+
+@inproceedings{Capota2017brain,
+  author    = {Capot\u{a}, Mihaela and Willke, Thomas L. and Norman, Kenneth A. and Cohen, Jonathan D. and Turk-Browne, Nicholas B.},
+  title     = {Brain imaging analysis kit: Advanced fMRI analysis at scale},
+  booktitle = {Society for Neuroscience Abstracts},
+  year      = {2017}
+}
+
+@inproceedings{Wang2016realtime,
+  author    = {Wang, Yaohui and Keller, Ben and Capota, Mihaela and Anderson, Michael J. and Sundaram, Neela and Cohen, Jonathan D. and Li, Kai and Turk-Browne, Nicholas B. and Willke, Thomas L.},
+  title     = {Real-time full correlation matrix analysis of fMRI data},
+  booktitle = {BigD237: 2016 IEEE International Conference on Big Data},
+  year      = {2016}
+}
+
+@inproceedings{Wilson2016unifying,
+  author    = {Wilson, Robert C. and Cohen, Jonathan D.},
+  title     = {A unifying theory of explore-exploit decisions},
+  booktitle = {Computational and Systems Neuroscience (CoSyNe)},
+  year      = {2016}
+}
+
+@inproceedings{Wang2016blink,
+  author    = {Wang, Shirley and Cohen, Jonathan D. and Wilson, Robert C.},
+  title     = {Blink different! Blink rate reflects individual differences in directed exploration},
+  booktitle = {Computational and Systems Neuroscience (CoSyNe)},
+  year      = {2016}
+}
+
+@inproceedings{Novick2016blast,
+  author    = {Novick, Anna S. and Bornstein, Anat M. and Norman, Kenneth A. and Cohen, Jonathan D.},
+  title     = {Blast from the past: Episodic memory supports working memory maintenance},
+  booktitle = {Society for Neuroscience Abstracts},
+  year      = {2016}
+}
+
+@inproceedings{Musslick2016multitasking,
+  author    = {Musslick, Sarah and Dey, Bidisha and {\"O}zcimder, Kursat and Patwary, Mostofa and Krieger, Peter and Willke, Thomas L. and Cohen, Jonathan D.},
+  title     = {Multitasking capacity versus efficiency of representation in neural network architectures},
+  booktitle = {Society for Neuroscience Abstracts, Nanosymposium},
+  year      = {2016}
+}
+
+@inproceedings{Momennejad2016strategic,
+  author    = {Momennejad, Ida and Tomov, Miroslav and Norman, Kenneth A. and Cohen, Jonathan D.},
+  title     = {The strategic allocation of working memory and episodic memory in prospective remembering: A neural network model},
+  booktitle = {Society for Neuroscience Abstracts},
+  year      = {2016}
+}
+
+@inproceedings{Lositsky2016adaptive,
+  author    = {Lositsky, Oleg and Wilson, Robert C. and Shvartsman, Meir and Cohen, Jonathan D.},
+  title     = {Adaptive task representations in context-based decision making},
+  booktitle = {Society for Neuroscience Abstracts},
+  year      = {2016}
+}
+
+@misc{Cohen2016graphtheoretic2,
+  author  = {Cohen, Jonathan D. and Dey, Bidisha and Griffiths, Thomas and Musslick, Sarah and {\"O}zcimder, Kursat and Reichman, Daniel and Shinkar, Igor and Wagner, Tobias},
+  title   = {A graph-theoretic approach to multitasking},
+  year    = {2016},
+  archiveprefix = {arXiv},
+  eprint  = {1611.02400}
+}
+
+@inproceedings{Wang2015full,
+  author    = {Wang, Yaohui and Anderson, Michael and Cohen, Jonathan D. and Heinecke, Axel and Li, Kun and Satish, Nadathur and Sundaram, Neela and Turk-Browne, Nicholas B. and Willke, Thomas L.},
+  title     = {Full correlation matrix analysis of fMRI data on Intel{\textregistered} Xeon Phi{\texttrademark} coprocessors},
+  booktitle = {Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis},
+  pages     = {23},
+  year      = {2015},
+  organization = {ACM}
+}
+
+@inproceedings{Novick2015refresh,
+  author    = {Novick, Anna S. and Bornstein, Anat M. and Norman, Kenneth A. and Cohen, Jonathan D.},
+  title     = {Refresh my memory: Context information from episodic memory affects working memory maintenance},
+  booktitle = {Society for Neuroscience Abstracts},
+  year      = {2015}
+}
+
+@inproceedings{Lositsky2015drift,
+  author    = {Lositsky, Oleg and Wilson, Robert C. and Shvartsman, Meir and Cohen, Jonathan D.},
+  title     = {A drift diffusion model of proactive and reactive control in a context-dependent two-alternative forced choice task},
+  booktitle = {RLDM 2015: Proceedings of the Multi-disciplinary Conference on Reinforcement Learning and Decision Making},
+  year      = {2015}
+}
+
+@inproceedings{Krueger2015strategies,
+  author    = {Krueger, Peter and Wilson, Robert C. and Cohen, Jonathan D.},
+  title     = {Strategies for exploration in the domain of losses},
+  booktitle = {Computational and Systems Neuroscience (CoSyNe)},
+  year      = {2015}
+}
+
+@misc{Keung2015influenceBioRxiv,
+  author  = {Keung, W. and Osherson, Daniel and Cohen, Jonathan D.},
+  title   = {Influence of cognitive control on semantic representation},
+  year    = {2015},
+  url     = {https://www.biorxiv.org/content/10.1101/067553v1}
+}
+
+@inproceedings{Keung2015influenceCosyne,
+  author    = {Keung, W. and Osherson, Daniel and Cohen, Jonathan D.},
+  title     = {Influence of cognitive control on semantic representation: seeing things under a different light},
+  booktitle = {Computational and Systems Neuroscience (CoSyNe)},
+  year      = {2015}
+}
+
+@inproceedings{Kane2015examining,
+  author    = {Kane, Greg A. and Vazey, Elena M. and Wilson, Robert C. and Shenhav, Amit and Daw, Nathaniel and Aston-Jones, Gary and Cohen, Jonathan D.},
+  title     = {Examining the Role of the Locus Coeruleus in Foraging and Exploration},
+  booktitle = {Society for Neuroscience Abstracts},
+  year      = {2015}
+}
+
+@inproceedings{Wilson2014tradeoff,
+  author    = {Wilson, Robert C. and Cohen, Jonathan D.},
+  title     = {Humans tradeoff information seeking and randomness in explore-exploit decisions},
+  booktitle = {Society for Neuroscience Abstracts},
+  year      = {2014}
+}
+
+@inproceedings{Momennejad2014imagine,
+  author    = {Momennejad, Ida and Cohen, Jonathan D. and Norman, Kenneth A.},
+  title     = {Imagine the future! How does episodic simulation enhance prospective memory?},
+  booktitle = {Society for Neuroscience Abstracts},
+  year      = {2014}
+}
+
+@inproceedings{Geana2014risk,
+  author    = {Geana, Adina and Wilson, Robert C. and Cohen, Jonathan D.},
+  title     = {Risk, ambiguity and decision horizon in human exploration: A Wheel of Fortune task},
+  booktitle = {Society for Neuroscience Abstracts},
+  year      = {2014}
+}
+
+@inproceedings{Wilson2013adaptive,
+  author    = {Wilson, Robert C. and White, Justin M. and Cohen, Jonathan D.},
+  title     = {The role of adaptive decision noise in exploration},
+  booktitle = {Society for Neuroscience Abstracts},
+  year      = {2013}
+}
+
+@inproceedings{Shenhav2013decision,
+  author    = {Shenhav, Amit and Botvinick, Matthew M. and Cohen, Jonathan D.},
+  title     = {Decision costs may explain dACC activity in a "foraging" context},
+  booktitle = {Society for Neuroscience Abstracts},
+  year      = {2013}
+}
+
+@article{Wang2013what,
+  author    = {Wang, Yaohui and Li, Kai and Charikar, Moses and Cohen, Jonathan D. and Turk-Browne, Nicholas B.},
+  title     = {What you find depends on how you look: Category selectivity in frontal cortex revealed by whole-brain correlation analysis},
+  journal   = {Journal of Vision Sciences},
+  year      = {2013}
+}
+
+@article{deBettencourt2013externalizing,
+  author    = {deBettencourt, Matthew T. and Lee, Robert F. and Cohen, Jonathan D. and Norman, Kenneth A. and Turk-Browne, Nicholas B.},
+  title     = {Externalizing internal states with real-time neurofeedback to train visual attention},
+  journal   = {Journal of Vision Sciences},
+  year      = {2013}
+}
+
+@inproceedings{Tomlin2012group,
+  author    = {Tomlin, Derek and Nedi\'{c}, Aniceta and Wilson, Robert C. and Holmes, Philip and Cohen, Jonathan D.},
+  title     = {Group foraging task reveals separable influences of individual experience and social information},
+  booktitle = {Society for Neuroscience Abstracts},
+  year      = {2012}
+}
+
+@inproceedings{Eldar2012norepinephrine,
+  author    = {Eldar, Eran and Radulescu, Angela and Niv, Yael and Cohen, Jonathan D.},
+  title     = {Norepinephrine, neural gain, and "first one wins" network dynamics},
+  booktitle = {Computational and Systems Neuroscience (CoSyNe)},
+  year      = {2012}
+}
+
+@inproceedings{deBettencourt2012realtime,
+  author    = {deBettencourt, Matthew T. and Lee, Robert F. and Cohen, Jonathan D. and Norman, Kenneth A. and Turk-Browne, Nicholas B.},
+  title     = {Real-time decoding and training of sustained attention},
+  booktitle = {Society for Neuroscience Abstracts},
+  year      = {2012}
+}
+
+@inproceedings{Cohen2012neural,
+  author    = {Cohen, Jonathan D. and Lewis-Peacock, Joanna A. and Norman, Kenneth A.},
+  title     = {Neural evidence for the flexible use of working memory and episodic memory in prospective remembering},
+  booktitle = {Society for Neuroscience Abstracts},
+  year      = {2012}
+}
+
+@inproceedings{Goldfarb2011optimal,
+  author    = {Goldfarb, Shimon and Simen, Paul and Caiceido, Carolina and Holmes, Philip and Leonard, Naomi E. and Cohen, Jonathan D.},
+  title     = {Optimal performance and the LBA model},
+  booktitle = {Abstracts of the Psychonomic Society},
+  year      = {2011}
+}
+
+@inproceedings{Wilson2011why,
+  author    = {Wilson, Robert C. and Geana, Adina and Myles-White, Justin and Ludwig, Elizabeth and Cohen, Jonathan D.},
+  title     = {Why the grass is greener on the other side: Behavioral evidence for an ambiguity bonus in human exploratory decision making},
+  booktitle = {Society for Neuroscience Abstracts},
+  number    = {830.13},
+  year      = {2011}
+}
+
+@inproceedings{Tomlin2011group,
+  author    = {Tomlin, Derek and Nedi\'{c}, Aniceta and Todd, Matthew T. and Wilson, Robert C. and Prentice, Deborah A. and Holmes, Philip and Cohen, Jonathan D.},
+  title     = {Group foraging task reveals separable influences of individual experience and social information},
+  booktitle = {Society for Neuroscience Abstracts},
+  year      = {2011}
+}
+
+@inproceedings{Todd2011normative,
+  author    = {Todd, Matthew T. and Botvinick, Matthew M. and Schwemmer, Mark A. and Cohen, Jonathan D. and Dayan, Peter},
+  title     = {Normative analysis of task switching},
+  booktitle = {Society for Neuroscience Abstracts},
+  year      = {2011}
+}
+
+@inproceedings{LewisPeacock2011decoding,
+  author    = {Lewis-Peacock, Joanna A. and Salesi, Meagan R. and Cohen, Jonathan D. and Norman, Kenneth A.},
+  title     = {Decoding the use of working memory and episodic memory in prospective remembering},
+  booktitle = {Society for Neuroscience Abstracts},
+  number    = {829.04},
+  year      = {2011}
+}
+
+@inproceedings{Geana2011separate,
+  author    = {Geana, Adina and Wilson, Robert C. and White, Justin M. and Ludvig, Elliot and Cohen, Jonathan D.},
+  title     = {The Separate Roles of Reward Magnitude and Uncertainty in the Explore/Exploit Dilemma},
+  booktitle = {Society for Neuroscience Abstracts},
+  number    = {830.10/XX40},
+  year      = {2011}
+}
+
+@inproceedings{Feng2011computational,
+  author    = {Feng, Sophia and Schwemmer, Mark and Cohen, Jonathan D.},
+  title     = {Computational Constraints on Cognitive Control},
+  booktitle = {Society for Neuroscience Abstracts},
+  year      = {2011}
+}
+
+@inproceedings{Wilson2010inferring,
+  author    = {Wilson, Robert C. and Cohen, Jonathan D. and Niv, Yael},
+  title     = {Inferring relevance in a changing world},
+  booktitle = {Society for Neuroscience Abstracts},
+  number    = {907.12/KKK45},
+  year      = {2010}
+}
+
+@inproceedings{Tomlin2010group,
+  author    = {Tomlin, Derek and Nedi\'{c}, Aniceta and Prentice, Deborah A. and Holmes, Philip and Cohen, Jonathan D.},
+  title     = {Group foraging task reveals neural substrates of social influence},
+  booktitle = {Society for Neuroscience Abstracts},
+  number    = {403.9/LLL65},
+  year      = {2010}
+}
+
+@inproceedings{Todd2010mental,
+  author    = {Todd, Matthew T. and Niv, Yael and Cohen, Jonathan D.},
+  title     = {Mental set representations in fMRI},
+  booktitle = {Society for Neuroscience Abstracts},
+  number    = {603.8/KKK52},
+  year      = {2010}
+}
+
+@inproceedings{Getz2010executive,
+  author    = {Getz, Samuel J. and Tomlin, Derek and Nystrom, Leigh E. and Cohen, Jonathan D. and Conway, Andrew R. A.},
+  title     = {Executive control of intertemporal choice: Effects of cognitive load on impulsive decision-making},
+  booktitle = {Abstracts of the Psychonomic Society},
+  year      = {2010},
+  note      = {Abstract 3067}
+}
+
+@inproceedings{Gershman2010learning,
+  author    = {Gershman, Samuel J. and Cohen, Jonathan D. and Niv, Yael},
+  title     = {Learning to selectively attend},
+  booktitle = {CogSci 2010: Proceedings of the 32nd Annual Meeting of the Cognitive Science Society},
+  year      = {2010}
+}
+
+@inproceedings{Eppinger2010agerelated,
+  author    = {Eppinger, Benedikt and Nystrom, Leigh and Cohen, Jonathan D.},
+  title     = {Age-related changes in reward sensitivity during decision-making and learning},
+  booktitle = {Society for Neuroscience Abstracts},
+  number    = {911.2/LLL48},
+  year      = {2010}
+}
+
+@inproceedings{Tomlin2009neural,
+  author    = {Tomlin, Derek and Nedi\'{c}, Aniceta and Holmes, Philip and Cohen, Jonathan D.},
+  title     = {Neural and behavioral responses to social feedback during group decision-making},
+  booktitle = {Society for Neuroscience Abstracts},
+  number    = {475.4/FF27},
+  year      = {2009}
+}
+
+@inproceedings{Simen2009eventrelated,
+  author    = {Simen, Paul A. and Nystrom, Leigh E. and van Vugt, Maarten and Krueger, Peter and Cohen, Jonathan D.},
+  title     = {Event-related fMRI during slow decision making can reveal temporal structure in neural activity},
+  booktitle = {Society for Neuroscience Abstracts},
+  number    = {576.9/FF111},
+  year      = {2009}
+}
+
+@article{Forster2009effects,
+  author  = {Forster, Sophie E. and Cho, Raymond Y. and Cohen, Jonathan D. and Carter, Cameron S.},
+  title   = {Effects of parametric manipulations of conflict on N2 amplitude and cognitive control adjustments},
+  journal = {NeuroImage},
+  year    = {2009}
+}
+
+@article{Cho2009impairments,
+  author  = {Cho, Raymond Y. and Forster, Sophie E. and Cohen, Jonathan D. and Carter, Cameron S.},
+  title   = {Impairments in prefrontal cortical gamma-band synchrony and cognitive control in first-episode schizophrenia},
+  journal = {Neuroimage},
+  year    = {2009}
+}
+
+@inproceedings{Cho2009disturbances,
+  author    = {Cho, Raymond and Cohen, Jonathan D. and Sacks, Amanda and Yen, Yi-Ting and Carter, Cameron S.},
+  title     = {Disturbances in Frontal Cortical Gamma Oscillations in Association with Genetic Liability for Schizophrenia},
+  booktitle = {Abstracts of Panels and Posters, 48th Annual Meeting of the American College of Neuropsychopharmacology},
+  year      = {2009}
+}
+
+@article{Becker2009association,
+  author  = {Becker, Thomas M. and Cho, Raymond Y. and Cohen, Jonathan D. and Kerns, Joseph G. and Carter, Cameron S.},
+  title   = {The association between impaired language production and prefrontal cortex goal maintenance deficits in medication-naive people with schizophrenia},
+  journal = {NeuroImage},
+  volume  = {47},
+  number  = {S1},
+  pages   = {189},
+  year    = {2009}
+}
+
+@inproceedings{Yu2008sequential,
+  author    = {Yu, Angela J. and Cohen, Jonathan D.},
+  title     = {Sequential Effects: Annoying Quirk or Adaptive Behavior?},
+  booktitle = {Computational and Systems Neuroscience},
+  number    = {Abstract III-58},
+  year      = {2008},
+  url       = {http://cosyne.org/cosyne08/posters/}
+}
+
+@inproceedings{Nedic2008simple,
+  author    = {Nedi\'{c}, Aniceta and Tomlin, Derek and Holmes, Philip and Prentice, Deborah A. and Cohen, Jonathan D.},
+  title     = {A simple decision task in a social context: Preliminary experiments and a model},
+  booktitle = {Proceedings of the 47th IEEE Conference on Decision and Control},
+  year      = {2008}
+}
+
+@inproceedings{vanDenBos2007social,
+  author    = {van den Bos, Wouter and Li, Jing and Lau, Theodore and McClure, Samuel M. and Cohen, Jonathan D. and Montague, P. Read},
+  title     = {Social influences on bidding in common value auctions and the Winner's Curse},
+  booktitle = {Abstract at meeting of the Society for Neuroeconomics},
+  address   = {Nantucket Beach, MA},
+  year      = {2007}
+}
+
+@inproceedings{Todd2007competition,
+  author    = {Todd, Matthew T. and Wong, K. F. and Cohen, Jonathan D.},
+  title     = {Competition, gating, and learning: A new computational model of task switching},
+  booktitle = {Society for Neuroscience Abstracts},
+  number    = {634.10},
+  year      = {2007}
+}
+
+@inproceedings{Simen2007diffusionbased,
+  author    = {Simen, Paul A. and Cohen, Jonathan D.},
+  title     = {A diffusion-based neural network model of interval timing and temporal discounting},
+  booktitle = {Society for Neuroscience Abstracts},
+  number    = {637.13},
+  year      = {2007}
+}
+
+@inproceedings{Greene2007dissociation,
+  author    = {Greene, Joshua D. and Paxton, Joseph M. and Nystrom, Leigh E. and Cohen, Jonathan D.},
+  title     = {Dissociation between affective and cognitive moral disapproval},
+  booktitle = {Society for Neuroscience Abstracts},
+  number    = {126.4},
+  year      = {2007}
+}
+
+@inproceedings{DArdenne2007bold,
+  author    = {D'Ardenne, Kristine and McClure, Samuel M. and Nystrom, Leigh E. and Cohen, Jonathan D.},
+  title     = {BOLD responses in the dopaminergic ventral tegmental area},
+  booktitle = {Society for Neuroscience Abstracts},
+  number    = {704.21},
+  year      = {2007}
+}
+
+@article{McClure2006functional,
+  author  = {McClure, Kristine D. and McClure, Samuel M. and Nystrom, Leigh E. and Cohen, Jonathan D.},
+  title   = {Functional MRI of midbrain dopamine nuclei},
+  journal = {Neuroimage},
+  volume  = {31},
+  number  = {S1},
+  pages   = {2796},
+  year    = {2006}
+}
+
+@article{McClure2006time,
+  author  = {McClure, Samuel M. and Ericson, Karen M. and Laibson, David I. and Loewenstein, George and Cohen, Jonathan D.},
+  title   = {Time discounting for primary reward},
+  journal = {Neuroimage},
+  volume  = {31},
+  number  = {S1},
+  pages   = {2749},
+  year    = {2006}
+}
+
+@article{Detre2006multivoxel,
+  author  = {Detre, Greg J. and Polyn, Sean M. and Moore, Christopher D. and Natu, V. S. and Singer, Beth D. and Cohen, Jonathan D. and Haxby, James V. and Norman, Kenneth A.},
+  title   = {The Multi-Voxel Pattern Analysis (MVPA) toolbox},
+  journal = {Neuroimage},
+  volume  = {31},
+  number  = {S1},
+  pages   = {128},
+  year    = {2006}
+}
+
+@article{Snitz2005lateral,
+  author  = {Snitz, Beth E. and Cho, Raymond Y. and Archer, Greg and Cohen, Jonathan D. and Carter, Cameron S.},
+  title   = {Lateral and medial hypofrontality in first-episode psychosis: Diagnostic specificity to schizophrenia},
+  journal = {Neuroimage},
+  volume  = {26},
+  number  = {S1},
+  pages   = {1274},
+  year    = {2005}
+}
+
+@inproceedings{Simen2005threshold,
+  author    = {Simen, Paul A. and Holmes, Philip and Cohen, Jonathan},
+  title     = {Threshold adaptation in decision making},
+  booktitle = {Society for Neuroscience Abstracts},
+  number    = {768.15},
+  year      = {2005}
+}
+
+@incollection{Musslick2024meta,
+  author    = {Musslick, Sarah and Cohen, Jonathan D. and Goschke, Thomas},
+  title     = {Meta-control},
+  booktitle = {Reference Module in Neuroscience and Biobehavioral Psychology},
+  publisher = {Elsevier},
+  year      = {2024},
+  doi       = {10.1016/B978-0-12-820480-1.00058-9}
+}
+
+@article{Baru2021enabling,
+  author    = {Baru, Chaitanya and Pozmantier, Maya and Altintas, Ilkay and Baek, Seungwon and Cohen, Jonathan and Condon, Laura and Fanti, Giuseppe and Foster, Ian and Jackson, Edward and Lall, Upmanu and Landman, Bennett and Li, Haifeng and Marin, Carole and Lopez, Blanca M. and Metaxas, Dimitris and Olsen, Brian and Page, Gregory and Shang, Jishang and Turkan, Yusuf and Zhang, Peng},
+  title     = {Enabling AI Innovation via Data and Model Sharing: An Overview of the NSF Convergence Accelerator Track D},
+  journal   = {AI Magazine},
+  year      = {2021}
+}
+
+@incollection{Cohen2017cognitive,
+  author    = {Cohen, Jonathan D.},
+  title     = {Cognitive Control: Core Constructs and Current Considerations},
+  editor    = {Egner, Tobias},
+  booktitle = {The Wiley Handbook of Cognitive Control},
+  publisher = {John Wiley \& Sons},
+  address   = {Chichester, West Sussex, UK},
+  year      = {2017}
+}
+
+@misc{Cohen2016graphtheoretic,
+  author  = {Cohen, Jonathan D. and Dey, Bidisha and Griffiths, Thomas and Musslick, Sarah and Ozcimder, Kursat and Reichman, Daniel and Shinkar, Igor and Wagner, Tobias},
+  title   = {A graph-theoretic approach to multitasking},
+  year    = {2016},
+  archiveprefix = {arXiv},
+  eprint  = {1611.02400}
+}
+
+@incollection{Cohen2016fmri,
+  author    = {Cohen, Jonathan D.},
+  title     = {Functional MRI (fMRI): A window into the working brain},
+  editor    = {Kagel, John and Roth, Alvin},
+  booktitle = {Handbook of Experimental Economics},
+  year      = {2016}
+}
+
+@inproceedings{Wang2015optimizing,
+  author    = {Wang, Yao and Anderson, Mark and Cohen, Jonathan D. and Heinecke, Axel and Li, Kun and Satish, Nadathur and Sundaram, Neela and Turk-Browne, Nicholas B. and Willke, Thomas},
+  title     = {Optimizing full correlation matrix analysis of fMRI data on Intel Xeon Phi coprocessors},
+  booktitle = {SC '15: Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis},
+  pages     = {1--11},
+  year      = {2015},
+  address   = {Austin, TX},
+  doi       = {10.1145/2807591.2807631}
+}
+
+@misc{Keung2015influence,
+  author  = {Keung, W. and Osherson, D. and Cohen, Jonathan D.},
+  title   = {Influence of cognitive control on semantic representation},
+  year    = {2015},
+  url     = {https://www.biorxiv.org/content/10.1101/067553v1}
+}
+
+@incollection{OReilly2013limited,
+  author    = {O'Reilly, Randall C. and Petrov, Alexander A. and Cohen, Jonathan D. and Lebiere, Christian and Herd, Seth A. and Kriete, Thomas and Symons, John},
+  title     = {How limited systematicity emerges: A computational cognitive neuroscience approach},
+  booktitle = {The architecture of cognition: Rethinking fodor and Pylyshyn's systematicity challenge},
+  year      = {2013}
+}
+
+@incollection{McGuire2013mental,
+  author    = {McGuire, Joseph T. and Cohen, Jonathan D. and Botvinick, Matthew M.},
+  title     = {Mental Effort},
+  editor    = {Pashler, Harold},
+  booktitle = {Encyclopedia of the Mind},
+  publisher = {Sage Publications},
+  address   = {Thousand Oaks, CA},
+  year      = {2013}
+}
+
+@incollection{Hyman2012mood,
+  author    = {Hyman, Steven E. and Cohen, Jonathan D.},
+  title     = {Disorders of mood and anxiety},
+  editor    = {Kandel, Eric R. and Schwartz, James H. and Jessell, Thomas M.},
+  booktitle = {Principles of Neural Science V},
+  publisher = {McGraw-Hill},
+  address   = {New York},
+  year      = {2012}
+}
+
+@incollection{Hyman2012schizophrenia,
+  author    = {Hyman, Steven E. and Cohen, Jonathan D.},
+  title     = {Disorders of thought and volition: Schizophrenia},
+  editor    = {Kandel, Eric R. and Schwartz, James H. and Jessell, Thomas M.},
+  booktitle = {Principles of Neural Science V},
+  publisher = {McGraw-Hill},
+  address   = {New York},
+  year      = {2012}
+}
+
+@article{Yeung2011errors,
+  author    = {Yeung, Nick and Cohen, Jonathan D. and Botvinick, Matthew M.},
+  title     = {Errors of interpretation and modeling: A reply to Grinband et al.},
+  journal   = {NeuroImage},
+  volume    = {57},
+  number    = {2},
+  pages     = {316--319},
+  year      = {2011}
+}
+
+@incollection{Holmes2010physics,
+  author    = {Holmes, Philip and Eckhoff, Philip and Wong-Lin, Katherine and Bogacz, Rafal and Zacksenhouse, Miran and Cohen, Jonathan D.},
+  title     = {The physics of decision making: stochastic differential equations as models for neural dynamics and evidence accumulation in cortical circuits},
+  booktitle = {XVIth International Congress on Mathematical Physics},
+  pages     = {123--142},
+  year      = {2010}
+}
+
+@incollection{Simen2008optimal,
+  author    = {Simen, Paul and Holmes, Philip and Cohen, Jonathan D.},
+  title     = {On the neural implementation of optimal decisions},
+  editor    = {Morsella, Ezequiel and Bargh, John A. and Gollwitzer, Peter M.},
+  booktitle = {Oxford Handbook of Human Action},
+  pages     = {534--549},
+  publisher = {Oxford University Press},
+  address   = {Oxford, UK},
+  year      = {2008}
+}
+
+@incollection{Keysers2008strategies,
+  author    = {Keysers, Christian and Boyd, Robert and Cohen, Jonathan and Donald, Merlin and G{\"u}th, Werner and Johnson, Eric and Kurzban, Robert and Schooler, Lael and Schooler, Jonathan and Spelke, Elizabeth and Trommersh{\"a}user, Jens},
+  title     = {Explicit and implicit strategies in decision making},
+  editor    = {Engel, Christian and Singer, Wolf},
+  booktitle = {Str{\"u}ngmann Forum Report: Better than Conscious? Decision Making, the Human Mind, and Implications},
+  pages     = {225--258},
+  publisher = {MIT Press},
+  address   = {Cambridge, MA},
+  year      = {2008}
+}
+
+@article{Cohen2008cognitive,
+  author    = {Cohen, Jonathan D. and Insel, Thomas R.},
+  title     = {Cognitive neuroscience and schizophrenia: Translational research in need of a translator},
+  journal   = {Biological Psychiatry},
+  volume    = {64},
+  number    = {1},
+  pages     = {2--3},
+  year      = {2008}
+}
+
+@incollection{McClure2007conflict,
+  author    = {McClure, Samuel M. and Botvinick, Matthew M. and Yeung, Nick and Greene, Joshua D. and Cohen, Jonathan D.},
+  title     = {Conflict monitoring in cognition-emotion competition},
+  editor    = {Gross, James J.},
+  booktitle = {Handbook of Emotion Regulation},
+  publisher = {Guilford Press},
+  address   = {New York},
+  year      = {2007}
+}
+
+@incollection{AstonJones2007locus,
+  author    = {Aston-Jones, Gary S. and Iba, Mary and Clayton, Eric and Rajkowski, Jan and Cohen, Jonathan},
+  title     = {The locus coeruleus and regulation of behavioral flexibility and attention: Clinical implications},
+  editor    = {Ordway, Gary A. and Schwartz, Martha A. and Frazer, Alan},
+  booktitle = {Brain Norepinephrine: Neurobiology and Therapeutics},
+  publisher = {Cambridge University Press},
+  address   = {Cambridge, UK},
+  pages     = {196--235},
+  year      = {2007}
+}
+
+@techreport{Holroyd2006internalizing,
+  author  = {Holroyd, Clay B. and Yeung, Nick and Coles, Michael G. H. and Cohen, Jonathan D.},
+  title   = {Internalizing representations of correct behavior from feedback},
+  institution = {Princeton University},
+  number  = {06-02},
+  year    = {2006}
+}
+
+@article{Holmes2005letter,
+  author  = {Holmes, Philip J. and Bogacz, Rafal and Cohen, Jonathan D. and Gold, Joshua I.},
+  title   = {Letter to the Editor, in response to Hunter PW (2004), Connections, context, and community: Abraham Wald and the sequential probability ratio test},
+  journal = {Mathematical Intelligencer},
+  volume  = {27},
+  number  = {1},
+  pages   = {4--5},
+  year    = {2005}
+}
+
+@article{Cohen2005decision,
+  author  = {Cohen, Jonathan D. and Aston-Jones, Gary},
+  title   = {Cognitive neuroscience: Decision amid uncertainty},
+  journal = {Nature},
+  volume  = {436},
+  number  = {7050},
+  pages   = {471--472},
+  year    = {2005}
+}
+
+@article{Sanfey2004knowing,
+  author  = {Sanfey, Alan G. and Cohen, Jonathan D.},
+  title   = {Is knowing always feeling?},
+  journal = {Proceedings of the National Academy of Sciences of the United States of America},
+  volume  = {101},
+  number  = {48},
+  pages   = {16709--16710},
+  year    = {2004}
+}
+
+@inproceedings{Holmes2004optimal,
+  author    = {Holmes, Philip and Brown, Ethan and Moehlis, Jeff and Bogacz, Rafal and Gao, Jian and Hu, Pei and Aston-Jones, Gary and Clayton, Eric and Rajkowski, Jan and Cohen, Jonathan D.},
+  title     = {Optimal decisions: From neural spikes, through stochastic differential equations, to behavior},
+  booktitle = {Proceedings of the International Symposium on Nonlinear Theory and its Applications (NOLTA2004)},
+  year      = {2004}
+}
+
+@incollection{Cohen2004systemslevel,
+  author    = {Cohen, Jonathan D. and Aston-Jones, Gary and Gilzenrat, Mark S.},
+  title     = {A systems-level perspective on attention and cognitive control: Guided activation, adaptive gating, conflict monitoring, and exploitation vs. exploration},
+  editor    = {Posner, Michael I.},
+  booktitle = {Cognitive Neuroscience of Attention},
+  publisher = {Guilford Press},
+  address   = {New York},
+  pages     = {71--90},
+  year      = {2004}
+}
+
+@incollection{Carter2004bridging,
+  author    = {Carter, Cameron S. and Kerns, Joseph G. and Cohen, Jonathan D.},
+  title     = {Cognitive neuroscience: Bridging thinking and feeling to the brain, and its implications for psychiatry},
+  editor    = {Charney, Dennis S. and Nestler, Eric J.},
+  booktitle = {Neurobiology of Mental Illness},
+  publisher = {Oxford University Press},
+  address   = {Oxford},
+  year      = {2004}
+}
+
+@incollection{Botvinick2004conflict,
+  author    = {Botvinick, Matthew and Braver, Todd S. and Yeung, Nick and Carter, Cameron S. and Cohen, Jonathan D.},
+  title     = {Conflict monitoring: Computational and empirical studies},
+  editor    = {Posner, Michael I.},
+  booktitle = {Cognitive Neuroscience of Attention},
+  publisher = {Guilford Press},
+  address   = {New York},
+  year      = {2004}
+}
+
+@article{Paus2003special,
+  author    = {Paus, Tom{\'a}{\v s} and Haxby, James V. and Cohen, Jonathan D.},
+  title     = {Special Issue},
+  journal   = {NeuroImage},
+  year      = {2003}
+}
+
+@techreport{Nieuwenhuis2003computational,
+  author  = {Nieuwenhuis, Sander and Yeung, Nick and Cohen, Jonathan D.},
+  title   = {A computational simulation of electrophysiological markers of anterior cingulate function in a go/nogo task},
+  institution = {Princeton University},
+  number  = {CSBMB. 03.1},
+  address = {Princeton NJ},
+  year    = {2003}
+}
+
+@incollection{Cohen2002context,
+  author    = {Cohen, Jonathan D. and Servan-Schreiber, David},
+  title     = {Context, cortex and schizophrenia: A connectionist approach to behavior and biology in schizophrenia},
+  editor    = {Polk, Thad A. and Seifert, Colleen M.},
+  booktitle = {Cognitive Modeling},
+  publisher = {MIT Press},
+  address   = {Cambridge},
+  year      = {2002}
+}
+
+@article{Cohen2002reward,
+  author    = {Cohen, Jonathan D. and Blum, Kenneth I.},
+  title     = {Overview: Reward and decision. Introduction to special issue},
+  journal   = {Neuron},
+  volume    = {36},
+  number    = {2},
+  pages     = {193--198},
+  year      = {2002}
+}
+
+@incollection{Cohen2002inhibition,
+  author    = {Cohen, Jonathan D.},
+  title     = {Inhibition and control},
+  editor    = {Bloom, Floyd E. and Beal, M. Flint and Kupfer, David J.},
+  booktitle = {The Dana Guide To Brain Health},
+  publisher = {Free Press},
+  address   = {New York},
+  pages     = {185--189},
+  year      = {2002}
+}
+
+@incollection{Cohen2002neural,
+  author    = {Cohen, Jonathan D.},
+  title     = {Neural network models of prefrontal cortex and cognitive control},
+  editor    = {Grafman, Jordan},
+  booktitle = {Handbook of Neuropsychology, 2nd Edition, Vol. 7: The Frontal Lobes},
+  publisher = {Elsevier},
+  address   = {New York},
+  pages     = {195--213},
+  year      = {2002}
+}
+
+@techreport{Bogacz2002parameterization,
+  author  = {Bogacz, Rafal and Cohen, Jonathan D.},
+  title   = {Parameterization of connectionist models},
+  institution = {Princeton University},
+  number  = {CSBMB.Conte.02.1},
+  address = {Princeton NJ},
+  year    = {2002}
+}
+
+@incollection{AstonJones2002role,
+  author    = {Aston-Jones, Gary and Rajkowski, Jan and Cohen, Jonathan D.},
+  title     = {Role of the locus coeruleus-norepinephrine system in attention and behavioral flexibility},
+  editor    = {Nagatsu, Toshiharu and Nabeshima, Tsutomu and McCarty, Richard and Goldstein, David},
+  booktitle = {Catecholamine Research: From Molecular Insights to Clinical Medicine},
+  publisher = {Kluwer Academic/Plenum Publishing},
+  address   = {New York},
+  pages     = {357--361},
+  year      = {2002}
+}
+
+@article{Cohen2001face,
+  author    = {Cohen, Jonathan D. and Tong, Frank},
+  title     = {The face of controversy: Modular vs. distributed representations in the brain},
+  journal   = {Science},
+  volume    = {293},
+  pages     = {2405--2407},
+  year      = {2001}
+}
+
+@article{Cohen2000anterior,
+  author  = {Cohen, Jonathan D. and Botvinick, Matthew M. and Carter, Cameron S.},
+  title   = {Anterior cingulate and prefrontal cortex: who's in control?},
+  journal = {Nature Neuroscience},
+  volume  = {3},
+  number  = {5},
+  pages   = {421--423},
+  year    = {2000}
+}
+
+@article{Cohen2000special,
+  author  = {Cohen, Jonathan D.},
+  title   = {Special Issue: Functional topography of prefrontal cortex},
+  journal = {NeuroImage},
+  volume  = {11},
+  pages   = {378--379},
+  year    = {2000}
+}
+
+@incollection{AstonJones2000locus,
+  author    = {Aston-Jones, Gary and Rajkowski, Jan and Cohen, Jonathan},
+  title     = {Locus coeruleus and regulation of behavioral flexibility and attention},
+  booktitle = {Progress in Brain Research},
+  year      = {2000}
+}
+
+@article{Carter1999contribution,
+  author  = {Carter, Cameron S. and Botvinick, Matthew M. and Cohen, Jonathan D.},
+  title   = {The contribution of the anterior cingulate cortex to executive processes in cognition},
+  journal = {Reviews in the Neurosciences},
+  volume  = {10},
+  pages   = {49--57},
+  year    = {1999}
+}
+
+@incollection{Usher1999short,
+  author    = {Usher, Marius and Cohen, Jonathan D.},
+  title     = {Short term memory and selection processes in a frontal-lobe model},
+  editor    = {Heinke, Dietmar and Humphries, G. W. and Olsen, Anders},
+  booktitle = {Connectionist Models in Cognitive Neuroscience},
+  publisher = {Springer-Verlag},
+  year      = {1999}
+}
+
+@incollection{OReilly1999biologically,
+  author    = {O'Reilly, Randall C. and Braver, Todd S. and Cohen, Jonathan D.},
+  title     = {A biologically-based neural network model of working memory},
+  editor    = {Shah, Pamela and Miyake, Akira},
+  booktitle = {Models of Working Memory},
+  publisher = {Cambridge University Press},
+  pages     = {375--411},
+  year      = {1999}
+}
+
+@incollection{Braver1999dopamineDisorders,
+  author    = {Braver, Todd S. and Cohen, Jonathan D.},
+  title     = {Dopamine, cognitive control, and schizophrenia: The gating model},
+  editor    = {Reggia, James and Ruppin, Eytan and Glanzman, Dan},
+  booktitle = {Disorders of Brain, Behavior and Cognition: The Neurocomputational Perspective},
+  publisher = {Elsevier},
+  year      = {1999}
+}
+
+@article{Braver1999dopamineProgress,
+  author  = {Braver, Todd S. and Cohen, Jonathan D.},
+  title   = {Dopamine, cognitive control, and schizophrenia: The gating model},
+  journal = {Progress in Brain Research},
+  volume  = {121},
+  pages   = {327--349},
+  year    = {1999}
+}
+
+@techreport{Braver1999mechanisms,
+  author  = {Braver, Todd S. and Barch, Deanna M. and Cohen, Jonathan D.},
+  title   = {Mechanisms of cognitive control: Active memory, inhibition, and the prefrontal cortex},
+  institution = {Carnegie Mellon University},
+  number  = {PDP.CNS.99.1},
+  address = {Pittsburgh PA},
+  year    = {1999}
+}
+
+@techreport{Botvinick1998toward,
+  author  = {Botvinick, Matthew M. and Braver, Todd S. and Carter, Cameron S. and Barch, Deanna M. and Cohen, Jonathan D.},
+  title   = {Toward a non-homuncular account of control: Cognitive neuroscientific evidence for conflict monitoring},
+  institution = {Carnegie Mellon University},
+  number  = {PDP.CNS.98.1},
+  address = {Pittsburgh PA},
+  year    = {1998}
+}
+
+@incollection{AstonJones1998neuromodulation,
+  author    = {Aston-Jones, Gary and Rajkowski, Jan and Kubiak, Paul and Ivanova, S. and Usher, Marius and Cohen, Jonathan D.},
+  title     = {Neuromodulation and cognitive performance: Recent studies of noradrenergic locus coeruleus neurons in behaving monkeys},
+  editor    = {Goldstein, David and Eisenhofer, Graeme and McCarty, Richard},
+  booktitle = {Catecholamines: Bridging Basic Science with Clinical Medicine (Advances in Pharmacology, Vol. 42)},
+  publisher = {Academic Press},
+  address   = {New York},
+  pages     = {755--759},
+  year      = {1998}
+}
+
+@article{Cohen1997response,
+  author  = {Cohen, Jonathan D. and Smith, Edward E.},
+  title   = {Response to Owen AM, Tuning in to the temporal dynamics of brain activation using functional magnetic resonance imaging (fMRI)},
+  journal = {Trends in Cognitive Sciences},
+  volume  = {1},
+  pages   = {125},
+  year    = {1997}
+}
+
+@incollection{Cohen1997science,
+  author    = {Cohen, Jonathan D. and Schooler, Jonathan W.},
+  title     = {Science and sentience: Some questions regarding the scientific investigation of consciousness},
+  editor    = {Cohen, Jonathan D. and Schooler, Jonathan W.},
+  booktitle = {Scientific Approaches to Consciousness: 25th Carnegie Symposium on Cognition},
+  publisher = {Lawrence Erlbaum Associates},
+  address   = {New Jersey},
+  year      = {1997}
+}
+
+@article{Cohen1997reply,
+  author  = {Cohen, Jonathan D. and Dunbar, Kevin O. and Barch, Deanna M. and Braver, Todd S.},
+  title   = {Reply to Schooler et al: Issues concerning relative speed of processing hypotheses, schizophrenic performance deficits, and prefrontal function in the Stroop task},
+  journal = {Journal of Experimental Psychology: General},
+  volume  = {126},
+  pages   = {37--41},
+  year    = {1997}
+}
+
+@incollection{Cohen1997dimensions,
+  author    = {Cohen, Jonathan D.},
+  title     = {Dimensions of consciousness: A commentary on Kinsbourne and Hobson},
+  editor    = {Cohen, Jonathan D. and Schooler, Jonathan W.},
+  booktitle = {Scientific Approaches to Consciousness: 25th Carnegie Symposium on Cognition},
+  publisher = {Lawrence Erlbaum Associates},
+  address   = {New Jersey},
+  year      = {1997}
+}
+
+@article{Cohen1997brain,
+  author  = {Cohen, Jonathan D.},
+  title   = {Brain Terrain},
+  journal = {Nature},
+  volume  = {389},
+  pages   = {142},
+  year    = {1997}
+}
+
+@incollection{ServanSchreiber1996dopamine,
+  author    = {Servan-Schreiber, David and Cohen, Jonathan D.},
+  title     = {Dopamine, frontal cortex, and schizophrenia: Model and data},
+  editor    = {Reggia, James A. and Ruppin, Eytan and Berndt, Rita S.},
+  booktitle = {Neural Modeling of Brain and Cognitive Disorders},
+  publisher = {World Scientific Publishing Co.},
+  address   = {Singapore},
+  year      = {1996}
+}
+
+@incollection{Keshavan1996magnetic,
+  author    = {Keshavan, Matcheri S. and Cohen, Jonathan D.},
+  title     = {Magnetic resonance spectroscopy and functional MRI},
+  editor    = {Lewis, S. and Higgins, N.},
+  booktitle = {Brain Imaging in Psychiatry},
+  publisher = {Blackwell Science, Ltd.},
+  address   = {Oxford, UK},
+  year      = {1996}
+}
+
+@incollection{Cohen1996preliminary,
+  author    = {Cohen, Jonathan D. and O'Reilly, Randall C.},
+  title     = {A preliminary theory of the interactions between prefrontal cortex and hippocampus that contribute to planning and prospective memory},
+  editor    = {Brandimonte, Maria and Einstein, Giles O. and McDaniel, Mark A.},
+  booktitle = {Prospective Memory: Theory and Applications},
+  publisher = {Erlbaum},
+  address   = {Hillsdale, NJ},
+  pages     = {267--295},
+  year      = {1996}
+}
+
+@incollection{Casey1996functional,
+  author    = {Casey, B. J. and Cohen, Jonathan D. and Noll, Douglas and Schneider, Walter and Giedd, Jay and Rapoport, Judith L.},
+  title     = {Functional magnetic resonance imaging: Studies of Cognition},
+  editor    = {Bigler, Erin D.},
+  booktitle = {Handbook of Human Brain Function, Neuroimaging II: Clinical Applications},
+  publisher = {Plenum Press},
+  address   = {New York},
+  year      = {1996}
+}
+
+@techreport{Usher1995computational,
+  author  = {Usher, Marius and Cohen, Jonathan D. and Servan-Schreiber, David and Rajkowski, Jan and Kubiak, Paul and Aston-Jones, Gary},
+  title   = {A computational model of locus coeruleus function and its influence on cognitive performance},
+  institution = {Carnegie Mellon University},
+  number  = {PDP.CNS.95.1},
+  address = {Pittsburgh PA},
+  year    = {1995}
+}
+
+@techreport{Cohen1993disengaging,
+  author  = {Cohen, Jonathan D. and Romero, R. and Servan-Schreiber, David and Farah, Martha J.},
+  title   = {Disengaging from the disengage function: The relation of macrostructure to microstructure in parietal attentional deficits},
+  institution = {Carnegie Mellon University},
+  number  = {PDP.CNS.93.2},
+  address = {Pittsburgh PA},
+  year    = {1993}
+}
+
+@techreport{Cohen1993activation,
+  author  = {Cohen, Jonathan D. and Forman, Stephen D. and Braver, Todd S. and Casey, B. J. and Servan-Schreiber, David and Noll, Douglas C.},
+  title   = {Activation of prefrontal cortex in a non-spatial working memory task with functional MRI},
+  institution = {Carnegie Mellon University},
+  number  = {PDP.CNS.93.3},
+  address = {Pittsburgh PA},
+  year    = {1993}
+}
+
+@incollection{Cohen1992fabric,
+  author    = {Cohen, Jonathan D. and Servan-Schreiber, David and Targ, Elly and Spiegel, David},
+  title     = {The fabric of thought disorder: A cognitive neuroscience approach to disturbances in the processing of context in schizophrenia},
+  editor    = {Stein, Dan and Young, Jeffrey},
+  booktitle = {Cognitive Science and Clinical Disorders},
+  publisher = {Academic Press},
+  address   = {NY},
+  year      = {1992}
+}
+
+@article{ServanSchreiber1992issue,
+  author    = {Servan-Schreiber, David and Cohen, Jonathan D.},
+  title     = {Issue Editors, Neural network models in Psychiatry},
+  journal   = {Psychiatric Annals},
+  volume    = {22},
+  number    = {3},
+  year      = {1992}
+}
+
+@article{ServanSchreiber1992neural,
+  author    = {Servan-Schreiber, David and Cohen, Jonathan D.},
+  title     = {A neural network model of catecholaminergic modulation of behavior},
+  journal   = {Psychiatric Annals},
+  volume    = {22},
+  number    = {3},
+  pages     = {125--130},
+  year      = {1992}
+}
+
+@article{Cohen1992introduction,
+  author    = {Cohen, Jonathan D. and Servan-Schreiber, David},
+  title     = {Introduction to neural networks in psychiatry},
+  journal   = {Psychiatric Annals},
+  volume    = {22},
+  number    = {3},
+  pages     = {113--118},
+  year      = {1992}
+}
+
+@incollection{Baars1992caveats,
+  author    = {Baars, Bernard J. and Cohen, Jonathan D. and Bower, Gordon H. and Berry, John W.},
+  title     = {Some caveats on testing the Freudian slip hypothesis: Problems in systematic replication},
+  editor    = {Baars, Bernard J.},
+  booktitle = {Experimental slips and human error, Exploring the architecture of volition},
+  publisher = {Plenum Press},
+  address   = {New York},
+  year      = {1992}
+}
+
+
+@inproceedings{Wilson2014tradeoff,
+  author    = {Wilson, Robert C. and Cohen, Jonathan D.},
+  title     = {Humans tradeoff information seeking and randomness in explore-exploit decisions},
+  booktitle = {Society for Neuroscience Abstracts},
+  year      = {2014}
+}
+
+@inproceedings{Momennejad2014imagine,
+  author    = {Momennejad, Ida and Cohen, Jonathan D. and Norman, Kenneth A.},
+  title     = {Imagine the future! How does episodic simulation enhance prospective memory?},
+  booktitle = {Society for Neuroscience Abstracts},
+  year      = {2014}
+}
+
+@inproceedings{Geana2014risk,
+  author    = {Geana, Adina and Wilson, Robert C. and Cohen, Jonathan D.},
+  title     = {Risk, ambiguity and decision horizon in human exploration: A Wheel of Fortune task},
+  booktitle = {Society for Neuroscience Abstracts},
+  year      = {2014}
+}
+
+@inproceedings{Wilson2013adaptive,
+  author    = {Wilson, Robert C. and White, Justin M. and Cohen, Jonathan D.},
+  title     = {The role of adaptive decision noise in exploration},
+  booktitle = {Society for Neuroscience Abstracts},
+  year      = {2013}
+}
+
+@inproceedings{Shenhav2013decision,
+  author    = {Shenhav, Amit and Botvinick, Matthew M. and Cohen, Jonathan D.},
+  title     = {Decision costs may explain dACC activity in a "foraging" context},
+  booktitle = {Society for Neuroscience Abstracts},
+  year      = {2013}
+}
+
+@article{Wang2013what,
+  author    = {Wang, Yaohui and Li, Kai and Charikar, Moses and Cohen, Jonathan D. and Turk-Browne, Nicholas B.},
+  title     = {What you find depends on how you look: Category selectivity in frontal cortex revealed by whole-brain correlation analysis},
+  journal   = {Journal of Vision Sciences},
+  year      = {2013}
+}
+
+@article{deBettencourt2013externalizing,
+  author    = {deBettencourt, Matthew T. and Lee, Robert F. and Cohen, Jonathan D. and Norman, Kenneth A. and Turk-Browne, Nicholas B.},
+  title     = {Externalizing internal states with real-time neurofeedback to train visual attention},
+  journal   = {Journal of Vision Sciences},
+  year      = {2013}
+}
+
+@inproceedings{Tomlin2012group,
+  author    = {Tomlin, Derek and Nedi\'{c}, Aniceta and Wilson, Robert C. and Holmes, Philip and Cohen, Jonathan D.},
+  title     = {Group foraging task reveals separable influences of individual experience and social information},
+  booktitle = {Society for Neuroscience Abstracts},
+  year      = {2012}
+}
+
+@inproceedings{Eldar2012norepinephrine,
+  author    = {Eldar, Eran and Radulescu, Angela and Niv, Yael and Cohen, Jonathan D.},
+  title     = {Norepinephrine, neural gain, and "first one wins" network dynamics},
+  booktitle = {Computational and Systems Neuroscience (CoSyNe)},
+  year      = {2012}
+}
+
+@inproceedings{deBettencourt2012realtime,
+  author    = {deBettencourt, Matthew T. and Lee, Robert F. and Cohen, Jonathan D. and Norman, Kenneth A. and Turk-Browne, Nicholas B.},
+  title     = {Real-time decoding and training of sustained attention},
+  booktitle = {Society for Neuroscience Abstracts},
+  year      = {2012}
+}
+
+@inproceedings{Cohen2012neural,
+  author    = {Cohen, Jonathan D. and Lewis-Peacock, Joanna A. and Norman, Kenneth A.},
+  title     = {Neural evidence for the flexible use of working memory and episodic memory in prospective remembering},
+  booktitle = {Society for Neuroscience Abstracts},
+  year      = {2012}
+}
+
+@inproceedings{Goldfarb2011optimal,
+  author    = {Goldfarb, Shimon and Simen, Paul and Caiceido, Carolina and Holmes, Philip and Leonard, Naomi E. and Cohen, Jonathan D.},
+  title     = {Optimal performance and the LBA model},
+  booktitle = {Abstracts of the Psychonomic Society},
+  year      = {2011}
+}
+
+@inproceedings{Wilson2011why,
+  author    = {Wilson, Robert C. and Geana, Adina and Myles-White, Justin and Ludwig, Elizabeth and Cohen, Jonathan D.},
+  title     = {Why the grass is greener on the other side: Behavioral evidence for an ambiguity bonus in human exploratory decision making},
+  booktitle = {Society for Neuroscience Abstracts},
+  number    = {830.13},
+  year      = {2011}
+}
+
+@inproceedings{Tomlin2011group,
+  author    = {Tomlin, Derek and Nedi\'{c}, Aniceta and Todd, Matthew T. and Wilson, Robert C. and Prentice, Deborah A. and Holmes, Philip and Cohen, Jonathan D.},
+  title     = {Group foraging task reveals separable influences of individual experience and social information},
+  booktitle = {Society for Neuroscience Abstracts},
+  year      = {2011}
+}
+
+@inproceedings{Todd2011normative,
+  author    = {Todd, Matthew T. and Botvinick, Matthew M. and Schwemmer, Mark A. and Cohen, Jonathan D. and Dayan, Peter},
+  title     = {Normative analysis of task switching},
+  booktitle = {Society for Neuroscience Abstracts},
+  year      = {2011}
+}
+
+@inproceedings{LewisPeacock2011decoding,
+  author    = {Lewis-Peacock, Joanna A. and Salesi, Meagan R. and Cohen, Jonathan D. and Norman, Kenneth A.},
+  title     = {Decoding the use of working memory and episodic memory in prospective remembering},
+  booktitle = {Society for Neuroscience Abstracts},
+  number    = {829.04},
+  year      = {2011}
+}
+
+@inproceedings{Geana2011separate,
+  author    = {Geana, Adina and Wilson, Robert C. and White, Justin M. and Ludvig, Elliot and Cohen, Jonathan D.},
+  title     = {The Separate Roles of Reward Magnitude and Uncertainty in the Explore/Exploit Dilemma},
+  booktitle = {Society for Neuroscience Abstracts},
+  number    = {830.10/XX40},
+  year      = {2011}
+}
+
+@inproceedings{Feng2011computational,
+  author    = {Feng, Sophia and Schwemmer, Mark and Cohen, Jonathan D.},
+  title     = {Computational Constraints on Cognitive Control},
+  booktitle = {Society for Neuroscience Abstracts},
+  year      = {2011}
+}
+
+@inproceedings{Wilson2010inferring,
+  author    = {Wilson, Robert C. and Cohen, Jonathan D. and Niv, Yael},
+  title     = {Inferring relevance in a changing world},
+  booktitle = {Society for Neuroscience Abstracts},
+  number    = {907.12/KKK45},
+  year      = {2010}
+}
+
+@inproceedings{Tomlin2010group,
+  author    = {Tomlin, Derek and Nedi\'{c}, Aniceta and Prentice, Deborah A. and Holmes, Philip and Cohen, Jonathan D.},
+  title     = {Group foraging task reveals neural substrates of social influence},
+  booktitle = {Society for Neuroscience Abstracts},
+  number    = {403.9/LLL65},
+  year      = {2010}
+}
+
+@inproceedings{Todd2010mental,
+  author    = {Todd, Matthew T. and Niv, Yael and Cohen, Jonathan D.},
+  title     = {Mental set representations in fMRI},
+  booktitle = {Society for Neuroscience Abstracts},
+  number    = {603.8/KKK52},
+  year      = {2010}
+}
+
+@inproceedings{Getz2010executive,
+  author    = {Getz, Samuel J. and Tomlin, Derek and Nystrom, Leigh E. and Cohen, Jonathan D. and Conway, Andrew R. A.},
+  title     = {Executive control of intertemporal choice: Effects of cognitive load on impulsive decision-making},
+  booktitle = {Abstracts of the Psychonomic Society},
+  year      = {2010},
+  note      = {Abstract 3067}
+}
+
+@inproceedings{Gershman2010learning,
+  author    = {Gershman, Samuel J. and Cohen, Jonathan D. and Niv, Yael},
+  title     = {Learning to selectively attend},
+  booktitle = {CogSci 2010: Proceedings of the 32nd Annual Meeting of the Cognitive Science Society},
+  year      = {2010}
+}
+
+@inproceedings{Eppinger2010agerelated,
+  author    = {Eppinger, Benedikt and Nystrom, Leigh and Cohen, Jonathan D.},
+  title     = {Age-related changes in reward sensitivity during decision-making and learning},
+  booktitle = {Society for Neuroscience Abstracts},
+  number    = {911.2/LLL48},
+  year      = {2010}
+}
+
+@inproceedings{Tomlin2009neural,
+  author    = {Tomlin, Derek and Nedi\'{c}, Aniceta and Holmes, Philip and Cohen, Jonathan D.},
+  title     = {Neural and behavioral responses to social feedback during group decision-making},
+  booktitle = {Society for Neuroscience Abstracts},
+  number    = {475.4/FF27},
+  year      = {2009}
+}
+
+@inproceedings{Simen2009eventrelated,
+  author    = {Simen, Paul A. and Nystrom, Leigh E. and van Vugt, Maarten and Krueger, Peter and Cohen, Jonathan D.},
+  title     = {Event-related fMRI during slow decision making can reveal temporal structure in neural activity},
+  booktitle = {Society for Neuroscience Abstracts},
+  number    = {576.9/FF111},
+  year      = {2009}
+}
+
+@article{Forster2009effects,
+  author  = {Forster, Sophie E. and Cho, Raymond Y. and Cohen, Jonathan D. and Carter, Cameron S.},
+  title   = {Effects of parametric manipulations of conflict on N2 amplitude and cognitive control adjustments},
+  journal = {NeuroImage},
+  year    = {2009}
+}
+
+@article{Cho2009impairments,
+  author  = {Cho, Raymond Y. and Forster, Sophie E. and Cohen, Jonathan D. and Carter, Cameron S.},
+  title   = {Impairments in prefrontal cortical gamma-band synchrony and cognitive control in first-episode schizophrenia},
+  journal = {Neuroimage},
+  year    = {2009}
+}
+
+@inproceedings{Cho2009disturbances,
+  author    = {Cho, Raymond and Cohen, Jonathan D. and Sacks, Amanda and Yen, Yi-Ting and Carter, Cameron S.},
+  title     = {Disturbances in Frontal Cortical Gamma Oscillations in Association with Genetic Liability for Schizophrenia},
+  booktitle = {Abstracts of Panels and Posters, 48th Annual Meeting of the American College of Neuropsychopharmacology},
+  year      = {2009}
+}
+
+@article{Becker2009association,
+  author  = {Becker, Thomas M. and Cho, Raymond Y. and Cohen, Jonathan D. and Kerns, Joseph G. and Carter, Cameron S.},
+  title   = {The association between impaired language production and prefrontal cortex goal maintenance deficits in medication-naive people with schizophrenia},
+  journal = {NeuroImage},
+  volume  = {47},
+  number  = {S1},
+  pages   = {189},
+  year    = {2009}
+}
+
+@inproceedings{Yu2008sequential,
+  author    = {Yu, Angela J. and Cohen, Jonathan D.},
+  title     = {Sequential Effects: Annoying Quirk or Adaptive Behavior?},
+  booktitle = {Computational and Systems Neuroscience},
+  number    = {Abstract III-58},
+  year      = {2008},
+  url       = {http://cosyne.org/cosyne08/posters/}
+}
+
+@inproceedings{Nedic2008simple,
+  author    = {Nedi\'{c}, Aniceta and Tomlin, Derek and Holmes, Philip and Prentice, Deborah A. and Cohen, Jonathan D.},
+  title     = {A simple decision task in a social context: Preliminary experiments and a model},
+  booktitle = {Proceedings of the 47th IEEE Conference on Decision and Control},
+  year      = {2008}
+}
+
+@inproceedings{vanDenBos2007social,
+  author    = {van den Bos, Wouter and Li, Jing and Lau, Theodore and McClure, Samuel M. and Cohen, Jonathan D. and Montague, P. Read},
+  title     = {Social influences on bidding in common value auctions and the Winner's Curse},
+  booktitle = {Abstract at meeting of the Society for Neuroeconomics},
+  address   = {Nantucket Beach, MA},
+  year      = {2007}
+}
+
+@inproceedings{Todd2007competition,
+  author    = {Todd, Matthew T. and Wong, K. F. and Cohen, Jonathan D.},
+  title     = {Competition, gating, and learning: A new computational model of task switching},
+  booktitle = {Society for Neuroscience Abstracts},
+  number    = {634.10},
+  year      = {2007}
+}
+
+@inproceedings{Simen2007diffusionbased,
+  author    = {Simen, Paul A. and Cohen, Jonathan D.},
+  title     = {A diffusion-based neural network model of interval timing and temporal discounting},
+  booktitle = {Society for Neuroscience Abstracts},
+  number    = {637.13},
+  year      = {2007}
+}
+
+@inproceedings{Greene2007dissociation,
+  author    = {Greene, Joshua D. and Paxton, Joseph M. and Nystrom, Leigh E. and Cohen, Jonathan D.},
+  title     = {Dissociation between affective and cognitive moral disapproval},
+  booktitle = {Society for Neuroscience Abstracts},
+  number    = {126.4},
+  year      = {2007}
+}
+
+@inproceedings{DArdenne2007bold,
+  author    = {D'Ardenne, Kristine and McClure, Samuel M. and Nystrom, Leigh E. and Cohen, Jonathan D.},
+  title     = {BOLD responses in the dopaminergic ventral tegmental area},
+  booktitle = {Society for Neuroscience Abstracts},
+  number    = {704.21},
+  year      = {2007}
+}
+
+@article{McClure2006functional,
+  author  = {McClure, Kristine D. and McClure, Samuel M. and Nystrom, Leigh E. and Cohen, Jonathan D.},
+  title   = {Functional MRI of midbrain dopamine nuclei},
+  journal = {Neuroimage},
+  volume  = {31},
+  number  = {S1},
+  pages   = {2796},
+  year    = {2006}
+}
+
+@article{McClure2006time,
+  author  = {McClure, Samuel M. and Ericson, Karen M. and Laibson, David I. and Loewenstein, George and Cohen, Jonathan D.},
+  title   = {Time discounting for primary reward},
+  journal = {Neuroimage},
+  volume  = {31},
+  number  = {S1},
+  pages   = {2749},
+  year    = {2006}
+}
+
+@article{Detre2006multivoxel,
+  author  = {Detre, Greg J. and Polyn, Sean M. and Moore, Christopher D. and Natu, V. S. and Singer, Beth D. and Cohen, Jonathan D. and Haxby, James V. and Norman, Kenneth A.},
+  title   = {The Multi-Voxel Pattern Analysis (MVPA) toolbox},
+  journal = {Neuroimage},
+  volume  = {31},
+  number  = {S1},
+  pages   = {128},
+  year    = {2006}
+}
+
+@article{Snitz2005lateral,
+  author  = {Snitz, Beth E. and Cho, Raymond Y. and Archer, Greg and Cohen, Jonathan D. and Carter, Cameron S.},
+  title   = {Lateral and medial hypofrontality in first-episode psychosis: Diagnostic specificity to schizophrenia},
+  journal = {Neuroimage},
+  volume  = {26},
+  number  = {S1},
+  pages   = {1274},
+  year    = {2005}
+}
+
+@inproceedings{Simen2005threshold,
+  author    = {Simen, Paul A. and Holmes, Philip and Cohen, Jonathan},
+  title     = {Threshold adaptation in decision making},
+  booktitle = {Society for Neuroscience Abstracts},
+  number    = {768.15},
+  year      = {2005}
+}
+
+@article{Polyn2005matlab,
+  author  = {Polyn, Sean M. and Detre, Greg J. and Takerkart, S. and Natu, V. and Benharrosh, M. and Singer, Beth and Cohen, Jonathan D. and Haxby, James V. and Norman, Kenneth A.},
+  title   = {A Matlab-based toolbox to facilitate multi-voxel pattern classification of fMRI data},
+  journal = {Neuroimage},
+  volume  = {26},
+  number  = {S1},
+  pages   = {728},
+  year    = {2005}
+}
+
+@inproceedings{McClure2005neural,
+  author    = {McClure, Samuel M. and Laibson, David I. and Loewenstein, George and Ericson, Karen and McClure, Kristine D. and Cohen, Jonathan D.},
+  title     = {Neural mechanisms of time discounting for primary reward},
+  booktitle = {Society for Neuroeconomics},
+  year      = {2005}
+}
+
+@inproceedings{Greene2005saving,
+  author    = {Greene, Joshua D. and Lowenberg, K. and Nystrom, Leigh E. and Darley, John M. and Cohen, Jonathan D.},
+  title     = {Saving lives versus keeping promises: An fMRI investigation of consequentialist and deontological moral judgment},
+  booktitle = {Society for Neuroscience Abstracts},
+  number    = {12.7},
+  year      = {2005}
+}
+
+@article{Cohen2005dopaminemorepinephrine,
+  author  = {Cohen, Jonathan D. and McClure, Samuel M. and Gilzenrat, Mark S. and Aston-Jones, Gary},
+  title   = {Dopamine-norepinephrine interactions: Exploitation vs. Exploration},
+  journal = {Neuropsychopharmacology},
+  volume  = {30},
+  number  = {S1},
+  pages   = {S28},
+  year    = {2005}
+}
+
+@article{Rilling2004neural,
+  author  = {Rilling, James K. and Sanfey, Alan G. and Aronson, Jennifer A. and Nystrom, Leigh E. and Cohen, Jonathan D.},
+  title   = {Neural correlates of theory of mind within interpersonal interactions},
+  journal = {NeuroImage},
+  volume  = {22},
+  number  = {S1},
+  pages   = {TH129},
+  year    = {2004}
+}
+
+@inproceedings{Polyn2004detecting,
+  author    = {Polyn, Sean M. and Cohen, Jonathan D. and Norman, Kenneth A.},
+  title     = {Detecting distributed patterns in an fMRI study of free recall},
+  booktitle = {Society for Neuroscience Abstracts},
+  number    = {79.14},
+  year      = {2004}
+}
+
+@inproceedings{McClure2004separate,
+  author    = {McClure, Samuel M. and Laibson, David I. and Loewenstein, George and Cohen, Jonathan D.},
+  title     = {Separate neural systems represent immediate and delayed rewards},
+  booktitle = {Society for Neuroscience Abstracts},
+  number    = {548.1},
+  year      = {2004}
+}
+
+@inproceedings{Gilzenrat2004locus,
+  author    = {Gilzenrat, Mark S. and Brown, Ethan T. and Aston-Jones, Gary and Cohen, Jonathan D.},
+  title     = {Locus Coeruleus, adaptive gain, and the optimization of decision tasks},
+  booktitle = {Society for Neuroscience Abstracts},
+  number    = {899.6},
+  year      = {2004}
+}
+
+@inproceedings{Dixon2004neural,
+  author    = {Dixon, G. E. and Nitschke, J. B. and Short, S. J. and Lakshmanan, A. and Carew, M. E. and Anderle, M. J. and Schaefer, H. S. and Johnstone, T. and Cohen, Jonathan D. and Kosslyn, Stephen M. and Smith, Edward E. and Davidson, Richard J.},
+  title     = {The neural correlates of anticipation: The functional neurobiology of gustatory expectancy in the human brain},
+  booktitle = {Society for Neuroscience Abstracts},
+  number    = {179.10},
+  year      = {2004}
+}
+
+@inproceedings{DArdenne2004rest,
+  author    = {D'Ardenne, K. and McClure, K. and McClure, S. M. and Richter, M. C. and Cohen, Jonathan D. and Richter, W.},
+  title     = {Rest Matters: Kinetics of the BOLD response depend on inter-stimulus time},
+  booktitle = {Society for Neuroscience Abstracts},
+  number    = {694.17},
+  year      = {2004}
+}
+
+@article{Wager2003placebo,
+  author  = {Wager, Tor D. and Smith, Edward E. and Sokolik, A. and Cohen, Jonathan D. and Rilling, James K. and Davidson, Richard J. and Kosslyn, Stephen and Rose, R. M. and Casey, Kenneth L.},
+  title   = {Placebo reduces the BOLD fMRI response in the anticipation and experience of thermal pain},
+  journal = {Neuroimage},
+  volume  = {19},
+  number  = {2},
+  pages   = {84},
+  year    = {2003}
+}
+
+@article{Takerkart2003estimating,
+  author  = {Takerkart, S. and Benharrosh, M. and Cohen, Jonathan D. and Daubechies, I.},
+  title   = {Estimating spatially distributed patterns of brain activity in fMRI datasets by using ICA},
+  journal = {Neuroimage},
+  volume  = {19},
+  number  = {2},
+  pages   = {946},
+  year    = {2003}
+}
+
+@article{Rilling2003fmri,
+  author  = {Rilling, James K. and Wager, Tor S. and Davidson, Richard J. and Kosslyn, Stephen M. and Rose, R. M. and Smith, Edward E. and Cohen, Jonathan D.},
+  title   = {An fMRI investigation of the neural mechanisms of placebo analgesia},
+  journal = {Neuroimage},
+  volume  = {19},
+  number  = {2},
+  pages   = {504},
+  year    = {2003}
+}
+
+@inproceedings{Nieuwenhuis2003neural,
+  author    = {Nieuwenhuis, Sander and Holroyd, Clay B. and Yeung, Nick and Nystrom, Leigh E. and Cohen, Jonathan D. and Mars, R. B. and Coles, Michael G. H.},
+  title     = {Neural correlates of reinforcement learning and error processing: A functional magnetic resonance imaging study},
+  booktitle = {Society for Neuroscience Abstracts},
+  number    = {197.11},
+  year      = {2003}
+}
+
+@inproceedings{Greene2003patterns,
+  author    = {Greene, Joshua D. and Nystrom, Leigh E. and Engell, Adam D. and Darley, John M. and Cohen, Jonathan D.},
+  title     = {Patterns of neural activity correlated with individual differences in moral judgment},
+  booktitle = {Society for Neuroscience Abstracts},
+  number    = {443.3},
+  year      = {2003}
+}
+
+@inproceedings{Greene2003neural,
+  author    = {Greene, Joshua D. and Nystrom, Leigh E. and Darley, John M. and Cohen, Jonathan D.},
+  title     = {Neural activity correlated with outcome of moral decision},
+  booktitle = {Cognitive Neuroscience Society Annual Meeting Program},
+  pages     = {E81, p. 166},
+  year      = {2003}
+}
+
+@inproceedings{Gilzenrat2003pupil,
+  author    = {Gilzenrat, Mark S. and Cohen, Jonathan D. and Rajkowski, Jan and Aston-Jones, Gary},
+  title     = {Pupil dynamics predict changes in task engagement mediated by locus coeruleus},
+  booktitle = {Society for Neuroscience Abstracts},
+  number    = {515.19},
+  year      = {2003}
+}
+
+@inproceedings{Carter2003conflict,
+  author    = {Carter, Cameron S. and Kerns, Joseph and Sohn, M.-H. and Cohen, Jonathan D.},
+  title     = {A conflict over conflict monitoring and the anterior cingulate cortex},
+  booktitle = {Society for Neuroscience Abstracts},
+  number    = {343.12},
+  year      = {2003}
+}
+
+@inproceedings{Bogacz2003neural,
+  author    = {Bogacz, Rafal and Moehlis, J. and Brown, E. and Holmes, Philip and Cohen, Jonathan D.},
+  title     = {Neural mechanisms for decision optimization},
+  booktitle = {Society for Neuroscience Abstracts},
+  number    = {197.6},
+  year      = {2003}
+}
+
+@article{Bishop2003maoa,
+  author  = {Bishop, Sonia J. and Farah, Martha and Fossella, John A. and Casey, B. J. and Cohen, Jonathan D.},
+  title   = {The MAOA-LPR polymorphism and prefrontal cortical activation to emotional distractors},
+  journal = {Neuroimage},
+  volume  = {19},
+  number  = {2},
+  pages   = {6},
+  year    = {2003}
+}
+
+@article{Benharrosh2003using,
+  author  = {Benharrosh, M. and Takerkart, S. and Cohen, Jonathan D. and Daubechies, I. and Richter, W.},
+  title   = {Using ICA on fMRI data: does independence matter?},
+  journal = {Neuroimage},
+  volume  = {19},
+  number  = {2},
+  pages   = {778},
+  year    = {2003}
+}
+
+@inproceedings{Sanfey2002investigation,
+  author    = {Sanfey, Alan G. and Rilling, James K. and Aronson, Jennifer A. and Nystrom, Leigh E. and Cohen, Jonathan D.},
+  title     = {An investigation of the neural dynamics of fairness and unfairness?},
+  booktitle = {Society for Neuroscience Abstracts},
+  number    = {78.11},
+  year      = {2002}
+}
+
+@inproceedings{Rilling2002mapping,
+  author    = {Rilling, James K. and Sanfey, Alan G. and Aronson, Jennifer A. and Nystrom, Leigh E. and Cohen, Jonathan D.},
+  title     = {Mapping the brain’s response to reciprocated and unreciprocated social cooperation},
+  booktitle = {Society for Neuroscience Abstracts},
+  number    = {78.10},
+  year      = {2002}
+}
+
+@inproceedings{Rajkowski2002phasic,
+  author    = {Rajkowski, Jan and Majczynski, H. and Clayton, Eric and Cohen, Jonathan and Aston-Jones, Gary},
+  title     = {Phasic activation of monkey locus coeruleus (LC) neurons with recognition of behaviorally significant stimuli},
+  booktitle = {Society for Neuroscience Abstracts},
+  number    = {86.1},
+  year      = {2002}
+}
+
+@inproceedings{Polyn2002connectionist,
+  author    = {Polyn, Sean M. and Norman, Kenneth A. and Cohen, Jonathan D.},
+  title     = {Connectionist modeling of source memory phenomena},
+  booktitle = {Society for Neuroscience Abstracts},
+  number    = {582.5},
+  year      = {2002}
+}
+
+@inproceedings{Nystrom2002anterior,
+  author    = {Nystrom, Leigh E. and Yeung, Nick P. and Kitazono, M. T. and Cohen, Jonathan D.},
+  title     = {Anterior cingulate activity: From conflict or motor planning?},
+  booktitle = {Society for Neuroscience Abstracts},
+  number    = {180.3},
+  year      = {2002}
+}
+
+@inproceedings{Clayton2002primate,
+  author    = {Clayton, Eric and Rajkowski, Jan and Cohen, Jonathan and Aston-Jones, Gary},
+  title     = {The primate locus coeruleus and discrimination/decision-making in the eriksen flanker task},
+  booktitle = {Society for Neuroscience Abstracts},
+  number    = {86.8},
+  year      = {2002}
+}
+
+@inproceedings{AstonJones2002prominent,
+  author    = {Aston-Jones, Gary and Rajkowski, Jan and Lu, W. and Zhu, Y. and Cohen, Jonathan D. and Morecraft, R.},
+  title     = {Prominent projections from the orbital prefrontal cortex to the locus coeruleus (LC) in monkey},
+  booktitle = {Society for Neuroscience Abstracts},
+  number    = {86.9},
+  year      = {2002}
+}
+
+@article{Yeung2002fmri,
+  author  = {Yeung, Nick and Nystrom, Leigh and Kitazono, M. and Cohen, Jonathan},
+  title   = {An fMRI study of switching attention between tasks},
+  journal = {Neuroimage},
+  volume  = {16},
+  number  = {2},
+  pages   = {692},
+  year    = {2002}
+}
+
+@article{Carter2002errors,
+  author  = {Carter, Cameron S. and van Veen, V. and Holroyd, Clay and Stenger, V. A. and Cohen, Jonathan D.},
+  title   = {Errors and conflict but not error feedback engage the anterior cingulate cortex during event-related fMRI: implications for performance monitoring in the human brain},
+  journal = {Neuroimage},
+  volume  = {16},
+  number  = {2},
+  pages   = {1002},
+  year    = {2002}
+}
+
+@inproceedings{Yeung2001role,
+  author    = {Yeung, Nick and Cohen, Jonathan D.},
+  title     = {The role of anterior cingulate in performance monitoring: response conflict and the error-related negativity},
+  booktitle = {Society for Neuroscience Abstracts},
+  volume    = {26},
+  number    = {849.6},
+  year      = {2001}
+}
+
+@inproceedings{Perlstein2001working,
+  author    = {Perlstein, William M. and Lageman, S. K. and Cole, M. A. and Jones, V. M. and Demery, J. and Carter, Cameron S. and Cohen, Jonathan D.},
+  title     = {Working memory and inhibition: prefrontal mediation and dysfunction in schizophrenia},
+  booktitle = {Society for Neuroscience Abstracts},
+  volume    = {26},
+  number    = {886.3},
+  year      = {2001}
+}
+
+@inproceedings{Li2001neural,
+  author    = {Li, T. and Kroger, J. K. and Kastner, S. and Cohen, Jonathan D.},
+  title     = {The neural substrate of haptic working memory},
+  booktitle = {Society for Neuroscience Abstracts},
+  volume    = {26},
+  number    = {782.1},
+  year      = {2001}
+}
+
+@inproceedings{Gilzenrat2001modified,
+  author    = {Gilzenrat, Mark S. and Holmes, B. D. and Holmes, Philip J. and Rajkowski, Jan and Cohen, Jonathan D.},
+  title     = {A modified Fitzhugh-Nagumo system simulates locus coeruleus-mediated regulation of cognitive performance},
+  booktitle = {Society for Neuroscience Abstracts},
+  volume    = {26},
+  number    = {851.14},
+  year      = {2001}
+}
+
+@article{Li2001ultrafast,
+  author  = {Li, T. Q. and Nystrom, Leigh and Cohen, Jonathan D.},
+  title   = {Ultra-fast trial-based fMRI using amplitude modulated stimuli},
+  journal = {Neuroimage},
+  year    = {2001}
+}
+
+@inproceedings{Li2001white,
+  author    = {Li, T.-Q. and Skare, S. and Cohen, Jonathan D.},
+  title     = {White matter fiber tracking using the eigenvalue weighted average eigenvector},
+  booktitle = {Proceedings of the International Society for Magnetic Resonance in Medicine},
+  volume    = {9},
+  year      = {2001}
+}
+
+@inproceedings{Rajkowski2000prominent,
+  author    = {Rajkowski, Jan and Lu, W. and Zhu, Y. and Cohen, Jonathan D. and Aston-Jones, Gary},
+  title     = {Prominent projections from the anterior cingulate cortex to the locus coeruleus in rhesus monkey},
+  booktitle = {Society for Neuroscience Abstracts},
+  volume    = {26},
+  pages     = {2230},
+  year      = {2000}
+}
+
+@inproceedings{Greene2000fmri,
+  author    = {Greene, Joshua D. and Sommerville, R. B. and Nystrom, Leigh E. and Darley, John M. and Cohen, Jonathan D.},
+  title     = {An fMRI investigation of emotion in moral judgment},
+  booktitle = {Society for Neuroscience Abstracts},
+  volume    = {26},
+  pages     = {2022},
+  year      = {2000}
+}
+
+@inproceedings{Cho2000connectionist,
+  author    = {Cho, Raymond Y. and Nystrom, Leigh E. and Holmes, Philip and Brown, Ethan and Casey, B. J. and Cohen, Jonathan D.},
+  title     = {A connectionist model of conflict and control in a forced-choice task},
+  booktitle = {Society for Neuroscience Abstracts},
+  volume    = {26},
+  pages     = {1317},
+  year      = {2000}
+}
+
+@inproceedings{AstonJones2000neuromodulation,
+  author    = {Aston-Jones, Gary and Cohen, Jonathan D.},
+  title     = {Neuromodulation and Cognitive Function: Recent Studies of Noradrenergic Neurons in Behaving Monkeys},
+  booktitle = {Abstracts of Panels and Posters, 39th Annual Meeting of the American College of Neuropsychopharmacology},
+  year      = {2000}
+}
+
+@article{vanVeen2000conflict,
+  author  = {van Veen, Vincent and Cohen, Jonathan D. and Botvinick, Matthew M. and Stenger, V. A. and Carter, Cameron S.},
+  title   = {Conflict related activity and the anterior cingulate: An event-related fMRI analysis of stimulus vs. response based conflict},
+  journal = {Journal of Cognitive Neuroscience},
+  pages   = {S114},
+  year    = {2020} % Assuming 2000 based on previous entries, but S114 might be supplement/abstract issue page.
+}
+
+@article{Kroger2000differential,
+  author  = {Kroger, Jens K. and Nystrom, Leigh E. and Li, T.-Q. and Holmes, B. D. and Cohen, Jonathan D.},
+  title   = {Differential cortical responses to memory load and representational structure},
+  journal = {Journal of Cognitive Neuroscience},
+  pages   = {S145},
+  year    = {2000}
+}
+
+@inproceedings{Wheeler1999imagined,
+  author    = {Wheeler, M. E. and Sabb, F. W. and Graziano, M. S. A. and Cohen, Jonathan D.},
+  title     = {Imagined movement of real objects in space near the body differentially activates frontal and parietal cortex},
+  booktitle = {Society for Neuroscience Abstracts},
+  volume    = {25},
+  pages     = {98},
+  year      = {1999}
+}
+
+@inproceedings{Carter1999anterior,
+  author    = {Carter, Cameron S. and MacDonald III, Angus and Botvinick, Matthew M. and Stenger, V. A. and Cohen, Jonathan D.},
+  title     = {Anterior cingulate cortex and executive control: what is it really doing?},
+  booktitle = {Society for Neuroscience Abstracts},
+  volume    = {25},
+  pages     = {2168},
+  year      = {1999}
+}
+
+@inproceedings{Barch1999prefrontal,
+  author    = {Barch, Deanna M. and Carter, Cameron S. and Sabb, Fred W. and MacDonald III, Angus and Noll, Douglas C. and Braver, Todd S. and Cohen, Jonathan D.},
+  title     = {Prefrontal cortex and context processing in medication na{\"{i}}ve first episode patients with schizophrenia},
+  booktitle = {Society for Neuroscience Abstracts},
+  volume    = {25},
+  pages     = {1289},
+  year      = {1999}
+}
+
+@inproceedings{McClelland1998tracking,
+  author    = {McClelland, James L. and Pollock, J. A. and Cohen, Jonathan D. and Fisher, R. N. and Abdulaziz, T.},
+  title     = {Tracking the human brain: An interactive multimedia presentation},
+  booktitle = {Society for Neuroscience Abstracts},
+  year      = {1998}
+}
+
+@inproceedings{Chein1998fmri,
+  author    = {Chein, Jason M. and Noll, Douglas C. and Cohen, Jonathan D. and Fissell, K. and Nystrom, Leigh E. and Saab, F. and Fiez, Jeffrey A.},
+  title     = {An fMRI study of verbal working memory: Effects of length, lexicality, and phonological similarity},
+  booktitle = {Society for Neuroscience Abstracts},
+  year      = {1998}
+}
+
+@inproceedings{Berns1998dissociating,
+  author    = {Berns, Gregory S. and Cohen, Jonathan D.},
+  title     = {Dissociating brain regions for novel learning from response competition using implicit sequence learning},
+  booktitle = {Society for Neuroscience Abstracts},
+  year      = {1998}
+}
+
+@inproceedings{Usher1997interferencebased,
+  author    = {Usher, Marius and Cohen, Jonathan D.},
+  title     = {Interference-based capacity limitations in active memory},
+  booktitle = {Abstracts of the Psychonomic Society},
+  volume    = {2},
+  pages     = {11},
+  year      = {1997}
+}
+
+@inproceedings{Silakov1997correlated,
+  author    = {Silakov, V. and Rajkowski, Jan and Ivanova, S. and Watanabe, T. and Cohen, Jonathan D. and Usher, Marius and Aston-Jones, Gary},
+  title     = {Correlated impulse activities of locus coeruleus (LC) neurons in monkey: Dependency on level of task performance},
+  booktitle = {Society for Neuroscience Abstracts},
+  volume    = {23},
+  pages     = {1587},
+  year      = {1997}
+}
+
+@article{Condray1997effects,
+  author  = {Condray, Rachel and Steinhauer, Sharon R. and Cohen, Jonathan D. and van Kammen, Daniel P. and Kasparek, A. and Kelley, M. E.},
+  title   = {Effects of haloperidol on the event-related potential in schizophrenics},
+  journal = {Schizophrenia Research},
+  volume  = {24},
+  number  = {1,2},
+  pages   = {232},
+  year    = {1997}
+}
+
+@article{Casey1997ventral,
+  author  = {Casey, B. J. and Forman, Stephen D. and Franzen, P. L. and Badgaiyan, R. D. and King, S. W. and Braver, Todd S. and Cohen, Jonathan D. and Noll, Douglas C.},
+  title   = {Ventral and dorsolateral prefrontal activation as a function of target probability},
+  journal = {NeuroImage},
+  volume  = {5},
+  number  = {4},
+  pages   = {S92},
+  year    = {1997}
+}
+
+@article{Casey1997developmental,
+  author  = {Casey, B. J. and Cohen, Jonathan D. and King, S. W. and Franzen, P. L. and Nystrom, Leigh E. and Badgaiyan, R. D. and Schubert, A. B. and Noll, Douglas C.},
+  title   = {A developmental functional MRI study of cortical activation during a spatial working memory task},
+  journal = {NeuroImage},
+  volume  = {5},
+  number  = {4},
+  pages   = {S69},
+  year    = {1997}
+}
+
+@inproceedings{Cohen1997tracking,
+  author    = {Cohen, Jonathan D. and Nystrom, Leigh E. and Sabb, F. and Noll, Douglas C.},
+  title     = {Tracking the dynamics of fMRI activation under manipulations of duration and intensity of working memory processes},
+  booktitle = {Society for Neuroscience Abstracts},
+  volume    = {23},
+  pages     = {1678},
+  year      = {1997}
+}
+
+@article{Carter1997cnscatecholamines,
+  author  = {Carter, Cameron S. and Barch, Deanna M. and Cohen, Jonathan D. and Braver, Todd S.},
+  title   = {CNS catecholamines and cognitive dysfunction in schizophrenia},
+  journal = {Schizophrenia Research},
+  volume  = {24},
+  number  = {1,2},
+  pages   = {211},
+  year    = {1997}
+}
+
+@article{Carter1997abnormal,
+  author  = {Carter, Cameron S. and Mintun, Mark and Cohen, Jonathan D.},
+  title   = {Abnormal cortical physiology associated with selective attention dysfunction in schizophrenia},
+  journal = {Schizophrenia Research},
+  volume  = {24},
+  number  = {1,2},
+  pages   = {164},
+  year    = {1997}
+}
+
+@article{Carter1997disturbed,
+  author  = {Carter, Cameron S. and Barch, Deanna M. and Cohen, Jonathan D.},
+  title   = {Disturbed language processing: disorganization, and attentional impairment in schizophrenia},
+  journal = {Schizophrenia Research},
+  volume  = {24},
+  number  = {1,2},
+  pages   = {130},
+  year    = {1997}
+}
+
+@inproceedings{Braver1997integrated,
+  author    = {Braver, Todd S. and Cohen, Jonathan D. and McClelland, James L.},
+  title     = {An integrated computational model of dopamine function in reinforcement learning and working memory},
+  booktitle = {Society for Neuroscience Abstracts},
+  volume    = {23},
+  pages     = {775},
+  year      = {1997}
+}
+
+@inproceedings{Braver1997driving,
+  author    = {Braver, Todd S. and Cohen, Jonathan D.},
+  title     = {Driving subjects to distraction: Cognitive control, prefrontal cortex, and schizophrenia},
+  booktitle = {Abstracts of the Psychonomic Society},
+  volume    = {2},
+  pages     = {23},
+  year      = {1997}
+}
+
+@inproceedings{Barch1997effects,
+  author    = {Barch, Deanna M. and Carter, Cameron S. and Cohen, Jonathan D. and Sabb, Fred W.},
+  title     = {The effects of D-amphetamine on language function in schizophrenia},
+  booktitle = {Society for Neuroscience Abstracts},
+  volume    = {23},
+  pages     = {1952},
+  year      = {1997}
+}
+
+@article{Barch1997effectsDamp,
+  author  = {Barch, Deanna M. and Carter, Cameron S. and Braver, Todd S. and Cohen, Jonathan D.},
+  title   = {The effects of d-amphetamine on working memory and language deficits in schizophrenia},
+  journal = {Schizophrenia Research},
+  volume  = {24},
+  number  = {1,2},
+  pages   = {129},
+  year    = {1997}
+}
+
+@article{Barch1997activation,
+  author  = {Barch, Deanna M. and Braver, Todd S. and Nystrom, Leigh and Noll, Douglas C. and Cohen, Jonathan D.},
+  title   = {Activation of prefrontal cortex by the representation and maintenance of context information},
+  journal = {Schizophrenia Research},
+  volume  = {24},
+  number  = {1,2},
+  pages   = {163},
+  year    = {1997}
+}
+
+@article{Cohen1996neural,
+  author  = {Cohen, Jonathan D. and Usher, Marius},
+  title   = {A neural network model of Stroop interference and facilitation effects in schizophrenia},
+  journal = {Biological Psychiatry},
+  volume  = {39},
+  pages   = {568},
+  year    = {1996}
+}
+
+@inproceedings{AstonJones1996enhancement,
+  author    = {Aston-Jones, Gary and Kubiak, P. and Rajkowski, Jan and Ivanova, S. and Cohen, Jonathan},
+  title     = {Enhancement of locus coeruleus (LC) neuronal responses to visual targets by preceding auditory distractors},
+  booktitle = {Society for Neuroscience Abstracts},
+  volume    = {22},
+  year      = {1996}
+}
+
+@article{Forman1995validation,
+  author  = {Forman, Stephen D. and Cohen, Jonathan D. and Braver, Todd S. and Orr, R. J.},
+  title   = {Validation of functional magnetic resonance imaging: Application to schizophrenia research},
+  journal = {Schizophrenia Research},
+  volume  = {15},
+  number  = {1-2},
+  pages   = {82},
+  year    = {1995}
+}
+
+@article{Forman1995modeling,
+  author  = {Forman, Stephen D. and Cohen, Jonathan D.},
+  title   = {Modeling saccadic eye movements in schizophrenia: Insights into memory mechanisms},
+  journal = {Schizophrenia Research},
+  volume  = {15},
+  number  = {1-2},
+  pages   = {175},
+  year    = {1995}
+}
+
+@article{Cohen1995computational,
+  author  = {Cohen, Jonathan D. and Usher, Marius and Servan-Schreiber, David and Aston-Jones, Gary},
+  title   = {A computational model of the effects of locus coeruleus neuromodulation on attention},
+  journal = {Biological Psychiatry},
+  volume  = {37},
+  pages   = {618},
+  year    = {1995}
+}
+
+@article{Cohen1995hypofrontality,
+  author  = {Cohen, Jonathan D. and Ganguli, R. and Carter, Cameron and Brar, J. and Nichols, T. and DeLeo, M. and Mintun, M.},
+  title   = {Hypofrontality and working memory dysfunction in schizophrenia},
+  journal = {Biological Psychiatry},
+  volume  = {37},
+  pages   = {633},
+  year    = {1995}
+}
+
+@article{Cohen1995computationalModel,
+  author  = {Cohen, Jonathan D. and O'Reilly, Randall C.},
+  title   = {A computational model of prefrontal cortical and hippocampal function, and their interaction in behavioral tasks},
+  journal = {Schizophrenia Research},
+  volume  = {15},
+  number  = {1-2},
+  pages   = {112},
+  year    = {1995}
+}
+
+@article{Carter1995cognitive,
+  author  = {Carter, Cameron S. and Barch, Deanna and Perlstein, William and Baird, J. and Baker, R. and Cohen, Jonathan D. and Schooler, N.},
+  title   = {A cognitive neuropsychological study of schizophrenia symptoms: Correlates of Stroop and semantic priming performance},
+  journal = {Schizophrenia Research},
+  volume  = {15},
+  number  = {1-2},
+  pages   = {111},
+  year    = {1995}
+}
+
+@inproceedings{Braver1995parametric,
+  author    = {Braver, Todd S. and Cohen, Jonathan D. and Jonides, John and Smith, Edward E. and Awh, Edward and Schumacher, E. and Lauber, E. and Noll, Douglas C.},
+  title     = {A parametric study of prefrontal cortex involvement in human working memory using functional MRI},
+  booktitle = {Society for Neuroscience Abstracts},
+  volume    = {21},
+  pages     = {274},
+  year      = {1995}
+}
+
+@article{Braver1995neural,
+  author  = {Braver, Todd S. and Cohen, Jonathan D. and Servan-Schreiber, David},
+  title   = {Neural network simulations of schizophrenic performance in a variant of the CPT-AX: A predicted double dissociation},
+  journal = {Schizophrenia Research},
+  volume  = {15},
+  number  = {1-2},
+  pages   = {110},
+  year    = {1995}
+}
+
+@article{Barch1995stability,
+  author  = {Barch, Deanna D. and Cohen, Jonathan D. and Servan-Schreiber, David and Ganguli, R.},
+  title   = {The stability and interrelationships of CPT-AX and Stroop performance in schizophrenia},
+  journal = {Schizophrenia Research},
+  volume  = {15},
+  number  = {1-2},
+  pages   = {108},
+  year    = {1995}
+}
+
+@inproceedings{ServanSchreiber1994fmri,
+  author    = {Servan-Schreiber, David and Noll, Douglas and Cohen, Jonathan D. and Beuger, M. and Olga, T. and Swanson, D. and Mann, J. J.},
+  title     = {fMRI studies of limbic activation},
+  booktitle = {Abstracts of Panels and Posters, 33rd Annual Meeting of the American College of Neuropsychopharmacology},
+  year      = {1994}
+}
+
+@inproceedings{Huston1994stimulusinduced,
+  author    = {Huston, T. and Cohen, Jonathan D.},
+  title     = {Stimulus-induced shifts of task attention},
+  booktitle = {Abstracts of the Psychonomic Society, 35th Annual Meeting},
+  year      = {1994}
+}
+
+@inproceedings{Forman1994within,
+  author    = {Forman, Stephen D. and Cohen, Jonathan D. and Noll, Douglas C. and Mintun, Mark A. and Casey, B. J.},
+  title     = {Within subject comparison of PET \& fMRI to visualize activation of prefrontal cortex (PFC)},
+  booktitle = {Society for Neuroscience Abstracts},
+  volume    = {20},
+  year      = {1994}
+}
+
+@inproceedings{Forman1994improved,
+  author    = {Forman, Stephen D. and Cohen, Jonathan D. and Mintun, Mark A. and Noll, Douglas C.},
+  title     = {Improved assessment of significant change in functional magnetic resonance imaging (fMRI): Use of the contiguity threshold},
+  booktitle = {Annual Meeting of the Society for Magnetic Resonance},
+  year      = {1994}
+}
+
+@inproceedings{Carter1994interference,
+  author    = {Carter, Cameron S. and Cohen, Jonathan D. and Mintun, M.},
+  title     = {Interference, facilitation and strategy development in Stroop task performance: An $^{15}\text{O}\text{H}_2\text{O}$ PET study},
+  booktitle = {Abstracts of Panels and Posters, 33rd Annual Meeting of the American College of Neuropsychopharmacology},
+  year      = {1994}
+}
+
+@inproceedings{Noll1993artifacts,
+  author    = {Noll, Douglas C. and Schneider, Walter and Cohen, Jonathan D.},
+  title     = {Artifacts in functional MRI using conventional scanning (1993)},
+  booktitle = {Twelfth Annual Meeting of the Society of Magnetic Resonance in Medicine},
+  year      = {1993}
+}
+
+@inproceedings{Noll1993spiral,
+  author    = {Noll, Douglas C. and Cohen, Jonathan D. and Forman, Stephen D. and Schneider, Walter and Meyers, C. H.},
+  title     = {Spiral k-space MRI of brain function},
+  booktitle = {Twelfth Annual Meeting of the Society of Magnetic Resonance in Medicine},
+  year      = {1993}
+}
+
+@inproceedings{Cohen1993spiralscan,
+  author    = {Cohen, Jonathan D. and Forman, Stephen D. and Casey, B. J. and Noll, Douglas C.},
+  title     = {Spiral-scan imaging of dorsolateral prefrontal cortex during a working memory task},
+  booktitle = {Twelfth Annual Meeting of the Society of Magnetic Resonance in Medicine},
+  year      = {1993}
+}
+
+@inproceedings{Casey1993activation,
+  author    = {Casey, B. J. and Cohen, Jonathan D. and Noll, Douglas C. and Forman, Stephen D. and Rapoport, Judith L.},
+  title     = {Activation of the anterior cingulate during the Stroop conflict paradigm using functional MRI},
+  booktitle = {Society for Neuroscience Abstracts},
+  volume    = {19},
+  pages     = {1285},
+  year      = {1993}
+}
+
+@inproceedings{Noll1991spiralscan,
+  author    = {Noll, Douglas C. and Meyer, Charles H. and Cohen, Jonathan D. and Schneider, Walter},
+  title     = {Spiral-scan imaging of cortical activation},
+  booktitle = {11th Annual Meeting of the Society of Magnetic Resonance Imaging},
+  year      = {1991}
+}
+
+@inproceedings{Halliday1991two,
+  author    = {Halliday, R. and Callaway, E. and Naylor, H. and Herzig, K. and Yano, L. and Cohen, Jonathan D. and Servan-Schreiber, David},
+  title     = {Two empirical findings linked to neural network modeling: Amphetamine speeds reaction time (RT) but not P3. Yohimbine speeds P3 but not RT.},
+  booktitle = {Abstracts of Panels and Posters, 30th Annual Meeting of the American College of Neuropsychopharmacology},
+  year      = {1991}
+}
+
+@inproceedings{Cohen1991computer,
+  author    = {Cohen, Jonathan D. and Servan-Schreiber, David},
+  title     = {Computer simulation models of the relationship between disturbances of dopamine, prefrontal cortex and cognitive function in schizophrenia},
+  booktitle = {Abstracts of Panels and Posters, 30th Annual Meeting of the American College of Neuropsychopharmacology},
+  year      = {1991}
+}
+
+@inproceedings{Cohen1989network,
+  author    = {Cohen, Jonathan D.},
+  title     = {A network model of schizophrenic language deficits},
+  booktitle = {Book of Abstracts, 142nd Annual Meeting of the American Psychiatric Association},
+  year      = {1989}
+}
