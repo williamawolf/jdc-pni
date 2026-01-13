@@ -64,6 +64,18 @@
 \addbibresource{jdc_under-review_in-prep.bib} % The filename of the under review and in prep bibliography
 % load in each bib file 
 
+% Create a filter that checks which file an entry belongs to
+\DeclareIndexLabelFormat{default}{#1}
+\def\ifentryinbib#1#2#3{%
+  \ifboolexpr{ test {\ifstrequal{\thefield{bibresource}}{#1}} }
+  {#2}{#3}}
+
+% To handle multiple printed bibliography sections later on
+\defbibcheck{peerreviewed}{\ifentryinbib{jdc_refs.bib}{}{\skipentry}}
+\defbibcheck{reviews}{\ifentryinbib{jdc_reviews_commentary_etc.bib}{}{\skipentry}}
+\defbibcheck{books}{\ifentryinbib{jdc_books.bib}{}{\skipentry}}
+\defbibcheck{abstracts}{\ifentryinbib{jdc_published_abstracts.bib}{}{\skipentry}}
+\defbibcheck{preprints}{\ifentryinbib{jdc_under-review_in-prep.bib}{}{\skipentry}}
 
 
 % Hyperlink globals
@@ -182,7 +194,7 @@ Reports}
 \section*{SUMMARY} \label{secSUMMARY}
     \end{center}
     
-\begin{refsection}
+%\begin{refsection}
 I am a cognitive neuroscientist, with over three decades of research experience in computational and mathematical modeling as well as empirical studies of human brain function and behavior, focusing on the neural mechanisms responsible for cognitive control and human intelligence, and how our growing understanding of these can be brought to bear in the design of computational architectures with more human-like cognitive capabilities. My work lies at the points of contact between neuroscience, psychology, computer science and mathematics, as well as behavioral economics and psychiatry, and involves collaborations with investigators in each of these fields. I also have considerable experience in the coordination and administration of scientific research, as one of the two founding Co-Directors of the \href{https://pni.princeton.edu}{Princeton Neuroscience Institute}, leading multi-institutional projects (NIHM Conte Center; Templeton Center Grant; NSF Convergence Accelerator grant; PNI-Intel Labs collaboration), and a number of open source \hyperref[secSD]{software development projects}.
 
 \textit{\textbf{Theoretical contributions.}} Some of the contributions that have emerged from the theoretical work of my colleagues and I are: the first computationally-explicit models of how cognitive control may be implemented in the brain \cite{cohen1990control} and the role of prefrontal cortex in control \cite{miller2001integrative}; the role of dopaminergic function in the gating and updating of information in prefrontal cortex \cite{servan-schreiber1990network}\cite{nystrom2000working}, noradrenergic regulation of the explore/exploit tradeoff \cite{usher1999role}\cite{aston-jones2005integrative}\cite{cohen2007stayorgo}, and the interaction of these modulatory systems in adaptive regulation of exploration in reinforcement learning \cite{mcclure2005exploration}; how these mechanisms may be disturbed in psychiatric disorders \cite{cohen1992context}\cite{cohen1999context}\cite{macdonald2005specificity}; the role of anterior cingulate cortex in performance monitoring \cite{botvinick2001conflict}\cite{yeung2004neural}\cite{shenhav2014anterior} and the optimal allocation of control \cite{shenhav2013expected}\cite{shenhav2017toward}; mathematical analysis of optimal control of simple decision making processes \cite{bogacz2006physics}\cite{simen2009reward}; normative approaches to understanding capacity constraints associated with working memory \cite{usher2001neural}\cite{todd2008learning} and cognitive control \cite{feng2014multitasking}\cite{musslick2021rationalizing}\cite{rand2017cyclical}; and how the brain regulates the balance between flexible control-dependent and efficient automatic processing \cite{sagiv2018efficiency}. Increasingly, our work has come to focus on how these mechanisms contribute to higher cognitive functions and human intelligence, such as the control of memory, planning, and abstract reasoning \cite{frankland2019extracting}\cite{agrawal2021temporal}\cite{beukers2021activity}\cite{ho2022people}, including ways in which the human brain achieves the flexibility of symbolic forms of computation \cite{rougier2005prefrontal}\cite{kriete2013indirection}\cite{webb2021emergent}\cite{segert2022maximum} while preserving the efficiency of computation in neural networks, and how this can be used to inform research in machine learning and artificial intelligence \cite{kumar2022using}\cite{gleeson2023integrating}\cite{altabaa2024abstractors}.
@@ -195,7 +207,7 @@ regulatory functions of control) and anterior cingulate cortex (monitoring and e
 \cite{carter1998anterior}\cite{botvinick1999conflict}\cite{macdonald2000dissociating}\cite{kerns2004anterior}; and
 the role of the locus coeruleus / norepinephrine system in regulating the explore-exploit tradeoff
 \cite{gilzenrat2010pupil}\cite{kane2017increased}. We have also made influential contributions to advances in quantitative methods in cognitive neuroscience, including: the introduction of cluster size correction into the analysis of fMRI data \cite{casey1998reproducibility}; the use of fMRI to directly study midbrain neuromodulatory nuclei \cite{dardenne2008bold}; the design of systems for realtime fMRI analysis \cite{forman1995improved}\cite{wallace2022rt-cloud} and closed-loop feedback designs \cite{debettencourt2015closed-loop}\cite{mennen2021cloudbased}; and whole brain, full correlation analysis of fMRI data and its use in realtime analysis \cite{wang2015full}. Finally, I have lead or co-lead several large software development projects, including: \href{https://en.wikipedia.org/wiki/PsyScope}{PsyScope} \cite{cohen1993psyscope}, the first graphical environment for the design and execution of cognitive behavioral experiments; \href{http://BrainIAK.org}{BrainIAK} \cite{kumar2021brainiak}\cite{wallace2022rt-cloud} (in collaboration with Intel Labs), an open-source, python-based toolbox for the implementation and optimization of advanced methods of brain image analysis; \href{https://psyneuln.deptcpanel.princeton.edu/}{PsyNeuLink}, an open-source, python-based environment for the design and exchange of computational models of brain and cognitive function; \href{https://sites.google.com/view/sweetpea-ai/}{SweetPea} \cite{musslick2022sweetpea}, a framework for specifying empirical experimental designs and machine learning training environments using factorial structure, and generating maximally unbiased sampling of trials; and a \href{https://modeci.github.io/Website/}{model description format} \cite{gleeson2023integrating} for expressing models of brain and cognitive function as computational graphs in machine readable form for exchange across modeling environments.
-\end{refsection}
+%\end{refsection}
 
     \newpage
 
@@ -415,10 +427,10 @@ Division 3 of the American Psychological Association
     
 %Peer-Reviewed Articles and Competitively-Reviewed Conference Papers
 \subsection*{1. Peer-Reviewed Articles and Competitively-Reviewed Conference Papers} \label{secPUBLICATIONS1}
-\begin{refsection}[jdc_refs.bib]
+%\begin{refsection}[jdc_refs.bib]
     \nocite{*}
-    \printbibliography[heading=none]
-\end{refsection}
+    \printbibliography[heading=none, check=peerreviewed]
+%\end{refsection}
 %\nocite{*} % Read in all citations in jdc_refs.bib
 %\printbibliography[heading = none]% Print full bibliography
 %\printbibliography[heading = none, bibresource={jdc_refs.bib}] % Print Peer-Reviewed bibliography
@@ -427,40 +439,40 @@ Division 3 of the American Psychological Association
 
 % Invited Reviews, Commentary, Chapters, Edited Volumes, Techinical Reports
 \subsection*{2. Invited Reviews, Commentary, Chapters, Edited Volumes, Technical Reports} \label{secPUBLICATIONS2}
-\begin{refsection}[jdc_reviews_commentary_etc.bib]
-    \nocite{*} % This pulls every entry from jdc_reviews_commentary_etc.bib
-    \printbibliography[heading=none]
-\end{refsection}
+%\begin{refsection}[jdc_reviews_commentary_etc.bib]
+%    \nocite{*} % This pulls every entry from jdc_reviews_commentary_etc.bib
+\printbibliography[heading=none, check=reviews]
+%\end{refsection}
 % \printbibliography[heading = none, bibresource={jdc_reviews_commentary_etc.bib}] % Print Reviews, Commentary, etc. bibliography
     \smallskip
     
 
 % Books
 \subsection*{3. Books} \label{secPUBLICATIONS3}
-\begin{refsection}[jdc_books.bib]
-    \nocite{*} % This pulls every entry from jdc_books.bib
-    \printbibliography[heading=none]
-\end{refsection}
+%\begin{refsection}[jdc_books.bib]
+%    \nocite{*} % This pulls every entry from jdc_books.bib
+    \printbibliography[heading=none, check=books]
+%\end{refsection}
 % \printbibliography[heading = none, bibresource={jdc_books.bib}] % Print Books bibliography
     \smallskip
 
 
 % Published Abstracts
 \subsection*{4. Published Abstracts } \label{secPUBLICATIONS4}
-\begin{refsection}[jdc_published_abstracts.bib]
-    \nocite{*} % This pulls every entry from jdc_published_abstracts.bib
-    \printbibliography[heading=none]
-\end{refsection}
+%\begin{refsection}[jdc_published_abstracts.bib]
+%    \nocite{*} % This pulls every entry from jdc_published_abstracts.bib
+    \printbibliography[heading=none, check=abstracts]
+%\end{refsection}
 % \printbibliography[heading = none, bibresource={jdc_published_abstracts.bib}] % Print Published Abstracts bibliography
     \smallskip
 
 
 %M anuscripts Under Review / In Prep
 \subsection*{5. Preprints: Manuscripts Under Review / In Prepartation} \label{secPUBLICATIONS5}
-\begin{refsection}[jdc_under-review_in-prep.bib]
-    \nocite{*} % This pulls every entry from jdc_under-review_in-prep.bib
-    \printbibliography[heading=none]
-\end{refsection}
+%\begin{refsection}[jdc_under-review_in-prep.bib]
+%    \nocite{*} % This pulls every entry from jdc_under-review_in-prep.bib
+    \printbibliography[heading=none, check=preprints]
+%\end{refsection}
 % \printbibliography[heading = none, bibresource={jdc_under-review_in-prep.bib}] % Print Manuscripts Under Review/In Prepartation bibliography
   
     \newpage
