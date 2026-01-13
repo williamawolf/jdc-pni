@@ -61,7 +61,7 @@
 \addbibresource{jdc_books.bib} % The filename of the books bibliography
 \addbibresource{jdc_published_abstracts.bib} % The filename of the published abstracts bibliography
 \addbibresource{jdc_reviews_commentary_etc.bib} % The filename of thereviews, commentary, technical reports, chapters bibliography
-\addbibresource{jdc_under-review_in-prep.bib} % The filename of the under review and in prep bibliography
+\addbibresource{jdc-under-review-in-prep.bib} % The filename of the under review and in prep bibliography
 % load in each bib file 
 
 % Create a filter that checks which file an entry belongs to
@@ -75,7 +75,7 @@
 \defbibcheck{reviews}{\ifentryinbib{jdc_reviews_commentary_etc.bib}{}{\skipentry}}
 \defbibcheck{books}{\ifentryinbib{jdc_books.bib}{}{\skipentry}}
 \defbibcheck{abstracts}{\ifentryinbib{jdc_published_abstracts.bib}{}{\skipentry}}
-\defbibcheck{preprints}{\ifentryinbib{jdc_under-review_in-prep.bib}{}{\skipentry}}
+\defbibcheck{preprints}{\ifentryinbib{jdc-under-review-in-prep.bib}{}{\skipentry}}
 
 
 % Hyperlink globals
