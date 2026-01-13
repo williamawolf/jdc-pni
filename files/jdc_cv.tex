@@ -56,6 +56,7 @@
 % Load bibliography
 %\bibliography{jdc_refs}
 %\bibliographystyle{biblatex} % Use the BibTex style for formatting the bibliography
+\usepackage[backend=biber, style=authoryear]{biblatex}
 \addbibresource{jdc_refs.bib} % The filename of the bibliography
 \addbibresource{jdc_books.bib} % The filename of the books bibliography
 \addbibresource{jdc_published_abstracts.bib} % The filename of the published abstracts bibliography
@@ -421,29 +422,41 @@ Division 3 of the American Psychological Association
 
 % Invited Reviews, Commentary, Chapters, Edited Volumes, Techinical Reports
 \subsection*{2. Invited Reviews, Commentary, Chapters, Edited Volumes, Technical Reports} \label{secPUBLICATIONS2}
-
-\printbibliography[heading = none, bibresource={jdc_reviews_commentary_etc.bib}] % Print Reviews, Commentary, etc. bibliography
+\begin{refsection}[jdc_reviews_commentary_etc.bib]
+    \nocite{*} % This pulls every entry from jdc_reviews_commentary_etc.bib
+    \printbibliography[heading=none]
+\end{refsection}
+% \printbibliography[heading = none, bibresource={jdc_reviews_commentary_etc.bib}] % Print Reviews, Commentary, etc. bibliography
     \smallskip
     
 
 % Books
 \subsection*{3. Books} \label{secPUBLICATIONS3}
-
-\printbibliography[heading = none, bibresource={jdc_books.bib}] % Print Books bibliography
+\begin{refsection}[jdc_books.bib]
+    \nocite{*} % This pulls every entry from jdc_books.bib
+    \printbibliography[heading=none]
+\end{refsection}
+% \printbibliography[heading = none, bibresource={jdc_books.bib}] % Print Books bibliography
     \smallskip
 
 
 % Published Abstracts
 \subsection*{4. Published Abstracts } \label{secPUBLICATIONS4}
-
-\printbibliography[heading = none, bibresource={jdc_published_abstracts.bib}] % Print Published Abstracts bibliography
+\begin{refsection}[jdc_published_abstracts.bib]
+    \nocite{*} % This pulls every entry from jdc_published_abstracts.bib
+    \printbibliography[heading=none]
+\end{refsection}
+% \printbibliography[heading = none, bibresource={jdc_published_abstracts.bib}] % Print Published Abstracts bibliography
     \smallskip
 
 
 %M anuscripts Under Review / In Prep
 \subsection*{5. Preprints: Manuscripts Under Review / In Prepartation} \label{secPUBLICATIONS5}
-
-\printbibliography[heading = none, bibresource={jdc_under-review_in-prep.bib}] % Print Manuscripts Under Review/In Prepartation bibliography
+\begin{refsection}[jdc_under-review_in-prep.bib]
+    \nocite{*} % This pulls every entry from jdc_under-review_in-prep.bib
+    \printbibliography[heading=none]
+\end{refsection}
+% \printbibliography[heading = none, bibresource={jdc_under-review_in-prep.bib}] % Print Manuscripts Under Review/In Prepartation bibliography
   
     \newpage
 
