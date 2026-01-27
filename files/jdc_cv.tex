@@ -52,17 +52,13 @@
 
 \setlength\bibitemsep{3pt} % Adjust spacing between bibliography entries
 
-% Required for loading bibliography, sortingentries
 % Load bibliography
-%\bibliography{jdc_refs}
-%\bibliographystyle{biblatex} % Use the BibTex style for formatting the bibliography
-%\usepackage[backend=biber, style=authoryear]{biblatex}
 \addbibresource{jdc_refs.bib} % The filename of the bibliography
 \addbibresource{jdc_books.bib} % The filename of the books bibliography
 \addbibresource{jdc_published_abstracts.bib} % The filename of the published abstracts bibliography
 \addbibresource{jdc_reviews_commentary_etc.bib} % The filename of thereviews, commentary, technical reports, chapters bibliography
 \addbibresource{jdc-under-review-in-prep.bib} % The filename of the under review and in prep bibliography
-% load in each bib file 
+
 
 % Create a filter that checks which file an entry belongs to
 \DeclareIndexLabelFormat{default}{#1}
@@ -70,7 +66,7 @@
   \ifboolexpr{ test {\ifstrequal{\thefield{bibresource}}{#1}} }
   {#2}{#3}}
 
-% To handle multiple printed bibliography sections later on
+% To enable multiple simultaneously printed bibliography subsections in Publications
 \defbibcheck{peerreviewed}{\ifentryinbib{jdc_refs.bib}{}{\skipentry}}
 \defbibcheck{reviews}{\ifentryinbib{jdc_reviews_commentary_etc.bib}{}{\skipentry}}
 \defbibcheck{books}{\ifentryinbib{jdc_books.bib}{}{\skipentry}}
@@ -430,10 +426,6 @@ Division 3 of the American Psychological Association
 %\begin{refsection}[jdc_refs.bib]
     \nocite{*}
     \printbibliography[heading=none, check=peerreviewed]
-%\end{refsection}
-%\nocite{*} % Read in all citations in jdc_refs.bib
-%\printbibliography[heading = none]% Print full bibliography
-%\printbibliography[heading = none, bibresource={jdc_refs.bib}] % Print Peer-Reviewed bibliography
     \medskip
     
 
@@ -442,8 +434,6 @@ Division 3 of the American Psychological Association
 %\begin{refsection}[jdc_reviews_commentary_etc.bib]
 %    \nocite{*} % This pulls every entry from jdc_reviews_commentary_etc.bib
 \printbibliography[heading=none, check=reviews]
-%\end{refsection}
-% \printbibliography[heading = none, bibresource={jdc_reviews_commentary_etc.bib}] % Print Reviews, Commentary, etc. bibliography
     \smallskip
     
 
@@ -452,8 +442,6 @@ Division 3 of the American Psychological Association
 %\begin{refsection}[jdc_books.bib]
 %    \nocite{*} % This pulls every entry from jdc_books.bib
     \printbibliography[heading=none, check=books]
-%\end{refsection}
-% \printbibliography[heading = none, bibresource={jdc_books.bib}] % Print Books bibliography
     \smallskip
 
 
@@ -462,18 +450,14 @@ Division 3 of the American Psychological Association
 %\begin{refsection}[jdc_published_abstracts.bib]
 %    \nocite{*} % This pulls every entry from jdc_published_abstracts.bib
     \printbibliography[heading=none, check=abstracts]
-%\end{refsection}
-% \printbibliography[heading = none, bibresource={jdc_published_abstracts.bib}] % Print Published Abstracts bibliography
     \smallskip
 
 
-%M anuscripts Under Review / In Prep
+%Manuscripts Under Review / In Prep
 \subsection*{5. Preprints: Manuscripts Under Review / In Prepartation} \label{secPUBLICATIONS5}
 %\begin{refsection}[jdc_under-review_in-prep.bib]
 %    \nocite{*} % This pulls every entry from jdc_under-review_in-prep.bib
     \printbibliography[heading=none, check=preprints]
-%\end{refsection}
-% \printbibliography[heading = none, bibresource={jdc_under-review_in-prep.bib}] % Print Manuscripts Under Review/In Prepartation bibliography
   
     \newpage
 
