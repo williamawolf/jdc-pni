@@ -1,6 +1,6 @@
 %% Preamble
 
-\documentclass[10 pt]{article}
+\documentclass[10pt]{article}
 
 \usepackage{graphicx} % Required for inserting images
 %\usepackage{geometry} % Required for margins, called later
@@ -8,6 +8,7 @@
 \usepackage{hyperref} % Required for hyperlinking within document
 \usepackage{xcolor} % Required for font colors
 \usepackage{parskip} % Required for line spacing
+\usepackage{amsmath} % Required for mathematical typesetting
 
 
 %\usepackage[backend=biber]{biblatex} % Required for loading bibliography, sorting entries
@@ -52,26 +53,26 @@
 
 \setlength\bibitemsep{3pt} % Adjust spacing between bibliography entries
 
-% Load bibliography
-\addbibresource{jdc_refs.bib} % The filename of the bibliography
-\addbibresource{jdc_books.bib} % The filename of the books bibliography
-\addbibresource{jdc_published_abstracts.bib} % The filename of the published abstracts bibliography
-\addbibresource{jdc_reviews_commentary_etc.bib} % The filename of thereviews, commentary, technical reports, chapters bibliography
-\addbibresource{jdc-under-review-in-prep.bib} % The filename of the under review and in prep bibliography
+% Load bibliography resources
+\addbibresource{jdc_refs.bib} % Filename of the peer-reviewed articles and competitively-reviewed conference papers bibliography
+\addbibresource{jdc_books.bib} % Filename of the books bibliography
+\addbibresource{jdc_published_abstracts.bib} % Filename of the published abstracts bibliography
+\addbibresource{jdc_reviews_commentary_etc.bib} % Filename of the reviews, commentary, technical reports, chapters bibliography
+\addbibresource{jdc-under-review-in-prep.bib} % Filename of the under review and in prep bibliography
 
 
-% Create a filter that checks which file an entry belongs to
+% OLD: Create a filter that checks which file an entry belongs to
 %\DeclareIndexLabelFormat{default}{#1}
 %\def\ifentryinbib#1#2#3{%
 %  \ifboolexpr{ test {\ifstrequal{\thefield{bibresource}}{#1}} }
 %  {#2}{#3}}
 
-% To enable multiple simultaneously printed bibliography subsections in Publications
-\defbibcheck{peerreviewed}{\ifentryinbib{jdc_refs.bib}{}{\skipentry}}
-\defbibcheck{reviews}{\ifentryinbib{jdc_reviews_commentary_etc.bib}{}{\skipentry}}
-\defbibcheck{books}{\ifentryinbib{jdc_books.bib}{}{\skipentry}}
-\defbibcheck{abstracts}{\ifentryinbib{jdc_published_abstracts.bib}{}{\skipentry}}
-\defbibcheck{preprints}{\ifentryinbib{jdc-under-review-in-prep.bib}{}{\skipentry}}
+% OLD: To enable multiple simultaneously printed bibliography subsections in Publications
+%\defbibcheck{peerreviewed}{\ifentryinbib{jdc_refs.bib}{}{\skipentry}}
+%\defbibcheck{reviews}{\ifentryinbib{jdc_reviews_commentary_etc.bib}{}{\skipentry}}
+%\defbibcheck{books}{\ifentryinbib{jdc_books.bib}{}{\skipentry}}
+%\defbibcheck{abstracts}{\ifentryinbib{jdc_published_abstracts.bib}{}{\skipentry}}
+%\defbibcheck{preprints}{\ifentryinbib{jdc-under-review-in-prep.bib}{}{\skipentry}}
 
 
 % Hyperlink globals
